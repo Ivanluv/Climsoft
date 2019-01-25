@@ -3,9 +3,7 @@
     Protected bFirstLoad As Boolean = True
     'Stores fields for the table entry
     Protected lstFields As New List(Of String)
-    'Boolean to check if record is updating
-    'Set to True by default
-    Public bUpdating As Boolean = True
+    Public bUpdating As Boolean = True    'Boolean Flag to check if record is updating. Set to True by default
     Public bPopulating As Boolean = False
 
     Public Overrides Sub PopulateControl()
@@ -44,22 +42,16 @@
     End Sub
 
     Private Sub InnerControlValueChanged(sender As Object, e As EventArgs)
-        'TODO update the user entered value to the data table
-
+        Dim ucr As ucrValueView
         If TypeOf sender Is ucrValueView Then
             If Not bPopulating Then
-                DirectCast(sender, ucrValueView).SetValueToDataTable(dtbRecords)
+                ucr = DirectCast(sender, ucrValueView)
+                'If ucr.ValidateValue() Then
+                '    ucr.SetValueToDataTable(dtbRecords)
+                'End If
+                ucr.SetValueToDataTable(dtbRecords)
             End If
 
-
-            ' Dim ucr As ucrValueView = DirectCast(sender, ucrValueView)
-            'If dtbRecords.Rows.Count = 1 Then
-            '    dtbRecords.Rows(0).Item(ucr.FieldName) = ucr.GetValue
-            'ElseIf dtbRecords.Rows.Count > 1 Then
-            '    'TODO
-            'Else
-            '    'TODO
-            'End If
         End If
 
     End Sub
@@ -71,6 +63,7 @@
     Private Sub GoToNextChildControl(sender As Object, e As KeyEventArgs)
         If e.KeyCode = Keys.Enter Then
             If TypeOf sender Is ucrValueView Then
+                'on enter only go next if what has been typed in is valid
                 If DirectCast(sender, ucrValueView).ValidateValue() Then
                     Me.SelectNextControl(sender, True, True, True, True)
                 End If
@@ -80,6 +73,21 @@
         End If
 
     End Sub
+
+    Public Overrides Function ValidateValue() As Boolean
+        Dim ucr As ucrValueView
+        For Each ctr As Control In Controls
+            If TypeOf ctr Is ucrValueView Then
+                ucr = DirectCast(ctr, ucrValueView)
+                'TODO. What should we do for controls without field names
+                If Not String.IsNullOrEmpty(ucr.FieldName) AndAlso Not ucr.ValidateValue() Then
+                    ctr.Focus()
+                    Return False
+                End If
+            End If
+        Next
+        Return True
+    End Function
 
     Public Function InsertRecord() As Boolean
         Return clsDataDefinition.Save(dtbRecords)

@@ -7,12 +7,19 @@
     ' Used when wanting to update several controls without linked controls updating inbetween.
     Public bSuppressChangedEvents As Boolean = False
 
+    Protected clValidColor As Color = Color.White 'used to set the default back color to show when the value input is  valid 
+    Protected clInValidColor As Color = Color.Red 'used to set the default back color to show when the value input is invalid 
+    Public bValidate As Boolean = True
+    Public bValidateSilently As Boolean = True
+    Public bValidateEmpty As Boolean = False
+    Protected strValidationType As String = "none"
+
     Public Property FieldName() As String
         Get
-            Return Tag
+            Return Me.Tag
         End Get
         Set(value As String)
-            Tag = value
+            Me.Tag = value
         End Set
     End Property
 
@@ -40,7 +47,7 @@
         Dim lstTemp As New List(Of Object)
         Dim lstDistinct As New List(Of Object)
 
-        If FieldName = "" Then
+        If String.IsNullOrEmpty(FieldName) Then
             SetValue(Nothing)
         Else
             If dtbValues.Rows.Count = 1 Then
@@ -65,11 +72,15 @@
         Dim lstTemp As New List(Of Object)
         Dim lstDistinct As New List(Of Object)
 
-        If FieldName = "" Then
+        If String.IsNullOrEmpty(FieldName) Then
             'TODO?
         Else
             If dtbValues.Rows.Count = 1 Then
-                dtbValues.Rows(0).Item(FieldName) = GetValue()
+                If ValidateValue() Then
+                    dtbValues.Rows(0).Item(FieldName) = If(IsNothing(GetValue()), DBNull.Value, GetValue())
+                Else
+                    dtbValues.Rows(0).Item(FieldName) = DBNull.Value
+                End If
             ElseIf dtbValues.Rows.Count > 1 Then
                 'TODO
             Else
@@ -100,16 +111,52 @@
     End Function
 
     Public Overridable Sub AddFieldstoList(lstFields As List(Of String))
-        lstFields.Add(FieldName)
+        If Not String.IsNullOrEmpty(FieldName) Then
+            lstFields.Add(FieldName)
+        End If
     End Sub
 
     Public Overridable Sub AddEventValueChangedHandle(ehSub As evtValueChangedEventHandler)
-        AddHandler evtValueChanged, ehSub
+        If Not String.IsNullOrEmpty(FieldName) Then
+            AddHandler evtValueChanged, ehSub
+        End If
     End Sub
 
     Public Sub SetUpControlInParent(lstFields As List(Of String), ehSub As evtValueChangedEventHandler)
         AddFieldstoList(lstFields)
         AddEventValueChangedHandle(ehSub)
+    End Sub
+
+    ''' <summary>
+    ''' Sets the back colour of the control
+    ''' </summary>
+    ''' <param name="backColor"></param>
+    Public Overridable Sub SetBackColor(backColor As Color)
+    End Sub
+
+    ''' <summary>
+    ''' Sets the default back color for when this control has a valid value
+    ''' </summary>
+    ''' <param name="backColor"></param>
+    Public Sub SetValidColor(backColor As Color)
+        clValidColor = backColor
+    End Sub
+
+    Public Function GetValidColor() As Color
+        Return clValidColor
+    End Function
+
+    Public Sub SetInValidColor(backColor As Color)
+        clInValidColor = backColor
+    End Sub
+
+    Public Function GetInValidColor() As Color
+        Return clInValidColor
+    End Function
+
+    'TODO. Rethink how to override the Focus function
+    Public Overridable Sub GetFocus()
+        Me.Focus()
     End Sub
 
 End Class
