@@ -22,6 +22,7 @@ Partial Class frmAWSstations
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmAWSstations))
         Me.lblSequencerGuidelines = New System.Windows.Forms.Label()
         Me.btnHelp = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
@@ -34,63 +35,44 @@ Partial Class frmAWSstations
         'lblSequencerGuidelines
         '
         Me.lblSequencerGuidelines.ForeColor = System.Drawing.Color.Red
-        Me.lblSequencerGuidelines.Location = New System.Drawing.Point(66, 22)
+        resources.ApplyResources(Me.lblSequencerGuidelines, "lblSequencerGuidelines")
         Me.lblSequencerGuidelines.Name = "lblSequencerGuidelines"
-        Me.lblSequencerGuidelines.Size = New System.Drawing.Size(419, 45)
-        Me.lblSequencerGuidelines.TabIndex = 22
-        Me.lblSequencerGuidelines.Text = "Replace these AWS stations with your own. You can add a new record or delete an e" & _
-    "xisiting record if required."
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(355, 319)
+        resources.ApplyResources(Me.btnHelp, "btnHelp")
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(75, 23)
-        Me.btnHelp.TabIndex = 21
-        Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(103, 319)
+        resources.ApplyResources(Me.btnDelete, "btnDelete")
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 20
-        Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(187, 319)
+        resources.ApplyResources(Me.btnUpdate, "btnUpdate")
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
-        Me.btnUpdate.TabIndex = 19
-        Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(271, 319)
+        resources.ApplyResources(Me.btnClose, "btnClose")
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(75, 23)
-        Me.btnClose.TabIndex = 18
-        Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(57, 81)
+        resources.ApplyResources(Me.DataGridView1, "DataGridView1")
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(428, 215)
-        Me.DataGridView1.TabIndex = 17
         '
         'frmAWSstations
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(554, 365)
         Me.Controls.Add(Me.lblSequencerGuidelines)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.btnDelete)
@@ -100,7 +82,6 @@ Partial Class frmAWSstations
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmAWSstations"
-        Me.Text = "AWS Stations"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

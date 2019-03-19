@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblYYYY.Text" xml:space="preserve">
+    <value>Ano:</value>
+  </data>
+  <data name="cmdSend.Text" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="grpBinaryMessage.Text" xml:space="preserve">
+    <value>Mensagem binária</value>
+  </data>
+  <data name="lblBBB.Text" xml:space="preserve">
+    <value>BBB</value>
+  </data>
+  <data name="lblStation.Text" xml:space="preserve">
+    <value>Estação</value>
+  </data>
+  <data name="lblHH.Text" xml:space="preserve">
+    <value>Hora:</value>
+  </data>
+  <data name="lblDD.Text" xml:space="preserve">
+    <value>Dia:</value>
+  </data>
+  <data name="lblMM.Text" xml:space="preserve">
+    <value>Mês:</value>
+  </data>
+  <data name="grpObsHeaders.Text" xml:space="preserve">
+    <value>Observação cabeçalhos</value>
+  </data>
+  <data name="lblEncodedFile.Text" xml:space="preserve">
+    <value>Arquivo de mensagem codificada</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="cmdViewDecsriptors.Text" xml:space="preserve">
+    <value>Descritores de exibição</value>
+  </data>
+  <data name="cmdEncode.Text" xml:space="preserve">
+    <value>Codificar</value>
+  </data>
+  <data name="TabProcess.Text" xml:space="preserve">
+    <value>Processando</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="lblConfirmPassword.Text" xml:space="preserve">
+    <value>Confirmar Senha</value>
+  </data>
+  <data name="lblPassword.Text" xml:space="preserve">
+    <value>Palavra-passe</value>
+  </data>
+  <data name="lblLogin.Text" xml:space="preserve">
+    <value>Nome do usuário</value>
+  </data>
+  <data name="lblFolder.Text" xml:space="preserve">
+    <value>Pasta de entrada</value>
+  </data>
+  <data name="lblTransferMode.Text" xml:space="preserve">
+    <value>Modo de FTP</value>
+  </data>
+  <data name="lblServer.Text" xml:space="preserve">
+    <value>Nome/endereço do servidor</value>
+  </data>
+  <data name="grpMsgSwitch.Text" xml:space="preserve">
+    <value>Detalhes de interruptor de mensagem</value>
+  </data>
+  <data name="lblHeader.Text" xml:space="preserve">
+    <value>Cabeçalho da mensagem </value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Cabeçalhos</value>
+  </data>
+  <data name="lblInternationalDataSubCategory.Text" xml:space="preserve">
+    <value>Internacional de dados Sub categoria 
+</value>
+  </data>
+  <data name="cmdUpadate.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="lblLocalTableVersionNumber.Text" xml:space="preserve">
+    <value>Número de versão de tabelas locais</value>
+  </data>
+  <data name="lblMastersTableVersionNumber.Text" xml:space="preserve">
+    <value>Número da versão da tabela mestres</value>
+  </data>
+  <data name="cmdNew.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="lblLocalDataSubCateory.Text" xml:space="preserve">
+    <value>Subcategoria dados locais</value>
+  </data>
+  <data name="lblDataCategory.Text" xml:space="preserve">
+    <value>Categoria de dados 
+</value>
+  </data>
+  <data name="lblOptionalSectionInclusion.Text" xml:space="preserve">
+    <value>Inclusão da seção opcional</value>
+  </data>
+  <data name="lblUpdateSequenceNumber.Text" xml:space="preserve">
+    <value>Número de sequência de atualização</value>
+  </data>
+  <data name="lblOriginatingGeneratingSubCentre.Text" xml:space="preserve">
+    <value>Origem/gerando sub centro</value>
+  </data>
+  <data name="lblOriginatingOriginatingCentre.Text" xml:space="preserve">
+    <value>Centro de origem/gerando</value>
+  </data>
+  <data name="lblBUFREditionNumber.Text" xml:space="preserve">
+    <value>Edição BUFR número</value>
+  </data>
+  <data name="grpIndicators.Text" xml:space="preserve">
+    <value>Indicadores </value>
+  </data>
+  <data name="lblBinaryBox.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="TabSettings.Text" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="TabHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TDCF BUFR codificação</value>
+  </data>
+</root>

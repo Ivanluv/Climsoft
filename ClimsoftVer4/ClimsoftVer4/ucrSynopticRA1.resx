@@ -117,4 +117,2695 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Val_Elem046Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Val_Elem046Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 340</value>
+  </data>
+  <data name="Val_Elem046Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="Val_Elem046Label.TabIndex" type="System.Int32, mscorlib">
+    <value>747</value>
+  </data>
+  <data name="Val_Elem046Label.Text" xml:space="preserve">
+    <value>Insolation</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem046Label.Name" xml:space="preserve">
+    <value>Val_Elem046Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem046Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem046Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem046Label.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="Val_Elem174Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem174Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 268</value>
+  </data>
+  <data name="Val_Elem174Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="Val_Elem174Label.TabIndex" type="System.Int32, mscorlib">
+    <value>746</value>
+  </data>
+  <data name="Val_Elem174Label.Text" xml:space="preserve">
+    <value>Precip-3Hr</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem174Label.Name" xml:space="preserve">
+    <value>Val_Elem174Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem174Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem174Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem174Label.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="Val_Elem005Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem005Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 244</value>
+  </data>
+  <data name="Val_Elem005Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="Val_Elem005Label.TabIndex" type="System.Int32, mscorlib">
+    <value>745</value>
+  </data>
+  <data name="Val_Elem005Label.Text" xml:space="preserve">
+    <value>Precip-24Hr</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem005Label.Name" xml:space="preserve">
+    <value>Val_Elem005Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem005Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem005Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem005Label.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="Val_Elem132Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem132Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 220</value>
+  </data>
+  <data name="Val_Elem132Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="Val_Elem132Label.TabIndex" type="System.Int32, mscorlib">
+    <value>743</value>
+  </data>
+  <data name="Val_Elem132Label.Text" xml:space="preserve">
+    <value>SSS-1Hr</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem132Label.Name" xml:space="preserve">
+    <value>Val_Elem132Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem132Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem132Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem132Label.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="Val_Elem084Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem084Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 196</value>
+  </data>
+  <data name="Val_Elem084Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="Val_Elem084Label.TabIndex" type="System.Int32, mscorlib">
+    <value>740</value>
+  </data>
+  <data name="Val_Elem084Label.Text" xml:space="preserve">
+    <value>SSS-24Hr</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem084Label.Name" xml:space="preserve">
+    <value>Val_Elem084Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem084Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem084Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem084Label.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="Val_Elem018Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem018Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 170</value>
+  </data>
+  <data name="Val_Elem018Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="Val_Elem018Label.TabIndex" type="System.Int32, mscorlib">
+    <value>739</value>
+  </data>
+  <data name="Val_Elem018Label.Text" xml:space="preserve">
+    <value>Evaporation</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem018Label.Name" xml:space="preserve">
+    <value>Val_Elem018Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem018Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem018Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem018Label.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="Val_Elem099Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem099Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 148</value>
+  </data>
+  <data name="Val_Elem099Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="Val_Elem099Label.TabIndex" type="System.Int32, mscorlib">
+    <value>738</value>
+  </data>
+  <data name="Val_Elem099Label.Text" xml:space="preserve">
+    <value>Grass Min Temp</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem099Label.Name" xml:space="preserve">
+    <value>Val_Elem099Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem099Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem099Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem099Label.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="Val_Elem003Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem003Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 123</value>
+  </data>
+  <data name="Val_Elem003Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="Val_Elem003Label.TabIndex" type="System.Int32, mscorlib">
+    <value>737</value>
+  </data>
+  <data name="Val_Elem003Label.Text" xml:space="preserve">
+    <value>Tmin</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem003Label.Name" xml:space="preserve">
+    <value>Val_Elem003Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem003Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem003Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem003Label.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="Val_Elem002Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem002Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 99</value>
+  </data>
+  <data name="Val_Elem002Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="Val_Elem002Label.TabIndex" type="System.Int32, mscorlib">
+    <value>736</value>
+  </data>
+  <data name="Val_Elem002Label.Text" xml:space="preserve">
+    <value>Tmax</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem002Label.Name" xml:space="preserve">
+    <value>Val_Elem002Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem002Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem002Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem002Label.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="Val_Elem130Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem130Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 386</value>
+  </data>
+  <data name="Val_Elem130Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="Val_Elem130Label.TabIndex" type="System.Int32, mscorlib">
+    <value>733</value>
+  </data>
+  <data name="Val_Elem130Label.Text" xml:space="preserve">
+    <value>Cloud Ht Lvl4-Hshs4</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem130Label.Name" xml:space="preserve">
+    <value>Val_Elem130Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem130Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem130Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem130Label.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="Val_Elem129Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem129Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 363</value>
+  </data>
+  <data name="Val_Elem129Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="Val_Elem129Label.TabIndex" type="System.Int32, mscorlib">
+    <value>732</value>
+  </data>
+  <data name="Val_Elem129Label.Text" xml:space="preserve">
+    <value>Cloud Type Lvl4-C4</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem129Label.Name" xml:space="preserve">
+    <value>Val_Elem129Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem129Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem129Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem129Label.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="Val_Elem128Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem128Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 339</value>
+  </data>
+  <data name="Val_Elem128Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="Val_Elem128Label.TabIndex" type="System.Int32, mscorlib">
+    <value>731</value>
+  </data>
+  <data name="Val_Elem128Label.Text" xml:space="preserve">
+    <value>Cloud Amt Lvl4-N4</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem128Label.Name" xml:space="preserve">
+    <value>Val_Elem128Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem128Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem128Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem128Label.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="Val_Elem131Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem131Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 316</value>
+  </data>
+  <data name="Val_Elem131Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="Val_Elem131Label.TabIndex" type="System.Int32, mscorlib">
+    <value>730</value>
+  </data>
+  <data name="Val_Elem131Label.Text" xml:space="preserve">
+    <value>Vertical Significance 4</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem131Label.Name" xml:space="preserve">
+    <value>Val_Elem131Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem131Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem131Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem131Label.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="Val_Elem126Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem126Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 292</value>
+  </data>
+  <data name="Val_Elem126Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="Val_Elem126Label.TabIndex" type="System.Int32, mscorlib">
+    <value>729</value>
+  </data>
+  <data name="Val_Elem126Label.Text" xml:space="preserve">
+    <value>Cloud Ht Lvl3-HsHs3</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem126Label.Name" xml:space="preserve">
+    <value>Val_Elem126Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem126Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem126Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem126Label.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="Val_Elem125Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem125Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 266</value>
+  </data>
+  <data name="Val_Elem125Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="Val_Elem125Label.TabIndex" type="System.Int32, mscorlib">
+    <value>728</value>
+  </data>
+  <data name="Val_Elem125Label.Text" xml:space="preserve">
+    <value>Cloud Type Lvl3-C3</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem125Label.Name" xml:space="preserve">
+    <value>Val_Elem125Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem125Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem125Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem125Label.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="Val_Elem124Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem124Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 243</value>
+  </data>
+  <data name="Val_Elem124Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="Val_Elem124Label.TabIndex" type="System.Int32, mscorlib">
+    <value>727</value>
+  </data>
+  <data name="Val_Elem124Label.Text" xml:space="preserve">
+    <value>Cloud Amt Lvl3-N3</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem124Label.Name" xml:space="preserve">
+    <value>Val_Elem124Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem124Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem124Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem124Label.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="Val_Elem127Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem127Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 218</value>
+  </data>
+  <data name="Val_Elem127Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="Val_Elem127Label.TabIndex" type="System.Int32, mscorlib">
+    <value>726</value>
+  </data>
+  <data name="Val_Elem127Label.Text" xml:space="preserve">
+    <value>Vertical Significant 3</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem127Label.Name" xml:space="preserve">
+    <value>Val_Elem127Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem127Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem127Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem127Label.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="Val_Elem122Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem122Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 194</value>
+  </data>
+  <data name="Val_Elem122Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="Val_Elem122Label.TabIndex" type="System.Int32, mscorlib">
+    <value>725</value>
+  </data>
+  <data name="Val_Elem122Label.Text" xml:space="preserve">
+    <value>Cloud Ht Lvl2-HsHs2</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem122Label.Name" xml:space="preserve">
+    <value>Val_Elem122Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem122Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem122Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem122Label.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="Val_Elem121Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem121Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 172</value>
+  </data>
+  <data name="Val_Elem121Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="Val_Elem121Label.TabIndex" type="System.Int32, mscorlib">
+    <value>724</value>
+  </data>
+  <data name="Val_Elem121Label.Text" xml:space="preserve">
+    <value>Cloud Type Lv2-C2</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem121Label.Name" xml:space="preserve">
+    <value>Val_Elem121Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem121Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem121Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem121Label.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="Val_Elem120Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem120Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 147</value>
+  </data>
+  <data name="Val_Elem120Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="Val_Elem120Label.TabIndex" type="System.Int32, mscorlib">
+    <value>723</value>
+  </data>
+  <data name="Val_Elem120Label.Text" xml:space="preserve">
+    <value>Cloud Amt Lvl2-N2</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem120Label.Name" xml:space="preserve">
+    <value>Val_Elem120Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem120Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem120Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem120Label.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="Val_Elem123Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem123Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 123</value>
+  </data>
+  <data name="Val_Elem123Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="Val_Elem123Label.TabIndex" type="System.Int32, mscorlib">
+    <value>722</value>
+  </data>
+  <data name="Val_Elem123Label.Text" xml:space="preserve">
+    <value>Vertical Significance 2</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem123Label.Name" xml:space="preserve">
+    <value>Val_Elem123Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem123Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem123Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem123Label.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="Val_Elem118Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem118Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 98</value>
+  </data>
+  <data name="Val_Elem118Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="Val_Elem118Label.TabIndex" type="System.Int32, mscorlib">
+    <value>721</value>
+  </data>
+  <data name="Val_Elem118Label.Text" xml:space="preserve">
+    <value>Cloud Ht Lvl1-HsHs1</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem118Label.Name" xml:space="preserve">
+    <value>Val_Elem118Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem118Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem118Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem118Label.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="Val_Elem117Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem117Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 73</value>
+  </data>
+  <data name="Val_Elem117Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="Val_Elem117Label.TabIndex" type="System.Int32, mscorlib">
+    <value>720</value>
+  </data>
+  <data name="Val_Elem117Label.Text" xml:space="preserve">
+    <value>Cloud Type Lvl1-C1</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem117Label.Name" xml:space="preserve">
+    <value>Val_Elem117Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem117Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem117Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem117Label.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="Val_Elem116Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem116Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 51</value>
+  </data>
+  <data name="Val_Elem116Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="Val_Elem116Label.TabIndex" type="System.Int32, mscorlib">
+    <value>719</value>
+  </data>
+  <data name="Val_Elem116Label.Text" xml:space="preserve">
+    <value>Cloud Amt Lvl1-N1</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem116Label.Name" xml:space="preserve">
+    <value>Val_Elem116Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem116Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem116Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem116Label.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="Val_Elem119Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem119Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 28</value>
+  </data>
+  <data name="Val_Elem119Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="Val_Elem119Label.TabIndex" type="System.Int32, mscorlib">
+    <value>799</value>
+  </data>
+  <data name="Val_Elem119Label.Text" xml:space="preserve">
+    <value>Vertical Significance1</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem119Label.Name" xml:space="preserve">
+    <value>Val_Elem119Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem119Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem119Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem119Label.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="Val_Elem180Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem180Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 459</value>
+  </data>
+  <data name="Val_Elem180Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 13</value>
+  </data>
+  <data name="Val_Elem180Label.TabIndex" type="System.Int32, mscorlib">
+    <value>796</value>
+  </data>
+  <data name="Val_Elem180Label.Text" xml:space="preserve">
+    <value>High Lvl Clouds Type-CH</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem180Label.Name" xml:space="preserve">
+    <value>Val_Elem180Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem180Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem180Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem180Label.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="Val_Elem179Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem179Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 436</value>
+  </data>
+  <data name="Val_Elem179Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 13</value>
+  </data>
+  <data name="Val_Elem179Label.TabIndex" type="System.Int32, mscorlib">
+    <value>793</value>
+  </data>
+  <data name="Val_Elem179Label.Text" xml:space="preserve">
+    <value>Medium Lvl Clouds Type-CM</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem179Label.Name" xml:space="preserve">
+    <value>Val_Elem179Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem179Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem179Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem179Label.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="Val_Elem178Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem178Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 413</value>
+  </data>
+  <data name="Val_Elem178Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
+  </data>
+  <data name="Val_Elem178Label.TabIndex" type="System.Int32, mscorlib">
+    <value>790</value>
+  </data>
+  <data name="Val_Elem178Label.Text" xml:space="preserve">
+    <value>Low Lvl Clouds Type-CL</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem178Label.Name" xml:space="preserve">
+    <value>Val_Elem178Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem178Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem178Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem178Label.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="Val_Elem177Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem177Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 388</value>
+  </data>
+  <data name="Val_Elem177Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 13</value>
+  </data>
+  <data name="Val_Elem177Label.TabIndex" type="System.Int32, mscorlib">
+    <value>787</value>
+  </data>
+  <data name="Val_Elem177Label.Text" xml:space="preserve">
+    <value>Low Lvl Clouds Amt-Nh</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem177Label.Name" xml:space="preserve">
+    <value>Val_Elem177Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem177Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem177Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem177Label.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="Val_Elem115Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem115Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 364</value>
+  </data>
+  <data name="Val_Elem115Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="Val_Elem115Label.TabIndex" type="System.Int32, mscorlib">
+    <value>784</value>
+  </data>
+  <data name="Val_Elem115Label.Text" xml:space="preserve">
+    <value>Vertical Significance</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem115Label.Name" xml:space="preserve">
+    <value>Val_Elem115Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem115Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem115Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem115Label.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="Val_Elem193Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem193Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 76</value>
+  </data>
+  <data name="Val_Elem193Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="Val_Elem193Label.TabIndex" type="System.Int32, mscorlib">
+    <value>781</value>
+  </data>
+  <data name="Val_Elem193Label.Text" xml:space="preserve">
+    <value>PastWx2</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem193Label.Name" xml:space="preserve">
+    <value>Val_Elem193Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem193Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem193Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem193Label.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="Val_Elem197Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem197Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 53</value>
+  </data>
+  <data name="Val_Elem197Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="Val_Elem197Label.TabIndex" type="System.Int32, mscorlib">
+    <value>778</value>
+  </data>
+  <data name="Val_Elem197Label.Text" xml:space="preserve">
+    <value>PastWx1</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem197Label.Name" xml:space="preserve">
+    <value>Val_Elem197Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem197Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem197Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem197Label.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="Val_Elem167Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem167Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 28</value>
+  </data>
+  <data name="Val_Elem167Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="Val_Elem167Label.TabIndex" type="System.Int32, mscorlib">
+    <value>744</value>
+  </data>
+  <data name="Val_Elem167Label.Text" xml:space="preserve">
+    <value>PresentWx</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem167Label.Name" xml:space="preserve">
+    <value>Val_Elem167Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem167Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem167Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem167Label.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="Val_Elem111Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem111Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 316</value>
+  </data>
+  <data name="Val_Elem111Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="Val_Elem111Label.TabIndex" type="System.Int32, mscorlib">
+    <value>742</value>
+  </data>
+  <data name="Val_Elem111Label.Text" xml:space="preserve">
+    <value>Wind Speed -fff</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem111Label.Name" xml:space="preserve">
+    <value>Val_Elem111Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem111Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem111Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem111Label.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="Val_Elem112Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem112Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 291</value>
+  </data>
+  <data name="Val_Elem112Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="Val_Elem112Label.TabIndex" type="System.Int32, mscorlib">
+    <value>741</value>
+  </data>
+  <data name="Val_Elem112Label.Text" xml:space="preserve">
+    <value>Wind Direction-dd</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem112Label.Name" xml:space="preserve">
+    <value>Val_Elem112Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem112Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem112Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem112Label.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="Val_Elem114Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem114Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 339</value>
+  </data>
+  <data name="Val_Elem114Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="Val_Elem114Label.TabIndex" type="System.Int32, mscorlib">
+    <value>735</value>
+  </data>
+  <data name="Val_Elem114Label.Text" xml:space="preserve">
+    <value>Total Cloud Cover- N</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem114Label.Name" xml:space="preserve">
+    <value>Val_Elem114Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem114Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem114Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem114Label.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="Val_Elem110Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem110Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 291</value>
+  </data>
+  <data name="Val_Elem110Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="Val_Elem110Label.TabIndex" type="System.Int32, mscorlib">
+    <value>734</value>
+  </data>
+  <data name="Val_Elem110Label.Text" xml:space="preserve">
+    <value>Horizontal Visibility-VV</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem110Label.Name" xml:space="preserve">
+    <value>Val_Elem110Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem110Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem110Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem110Label.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="Val_Elem176Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem176Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 315</value>
+  </data>
+  <data name="Val_Elem176Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="Val_Elem176Label.TabIndex" type="System.Int32, mscorlib">
+    <value>765</value>
+  </data>
+  <data name="Val_Elem176Label.Text" xml:space="preserve">
+    <value>Low Cloud Hght-h</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem176Label.Name" xml:space="preserve">
+    <value>Val_Elem176Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem176Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem176Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem176Label.ZOrder" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="Val_Elem105Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem105Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 266</value>
+  </data>
+  <data name="Val_Elem105Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="Val_Elem105Label.TabIndex" type="System.Int32, mscorlib">
+    <value>762</value>
+  </data>
+  <data name="Val_Elem105Label.Text" xml:space="preserve">
+    <value>Relative Humidity-U</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem105Label.Name" xml:space="preserve">
+    <value>Val_Elem105Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem105Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem105Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem105Label.ZOrder" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="Val_Elem103Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem103Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 242</value>
+  </data>
+  <data name="Val_Elem103Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 13</value>
+  </data>
+  <data name="Val_Elem103Label.TabIndex" type="System.Int32, mscorlib">
+    <value>760</value>
+  </data>
+  <data name="Val_Elem103Label.Text" xml:space="preserve">
+    <value>DewPoint Temp-TdTdTd</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem103Label.Name" xml:space="preserve">
+    <value>Val_Elem103Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem103Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem103Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem103Label.ZOrder" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="Val_Elem102Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem102Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 218</value>
+  </data>
+  <data name="Val_Elem102Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 13</value>
+  </data>
+  <data name="Val_Elem102Label.TabIndex" type="System.Int32, mscorlib">
+    <value>759</value>
+  </data>
+  <data name="Val_Elem102Label.Text" xml:space="preserve">
+    <value>Wetbulb Temp-TwTwTw</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem102Label.Name" xml:space="preserve">
+    <value>Val_Elem102Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem102Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem102Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem102Label.ZOrder" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="Val_Elem101Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem101Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 196</value>
+  </data>
+  <data name="Val_Elem101Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="Val_Elem101Label.TabIndex" type="System.Int32, mscorlib">
+    <value>758</value>
+  </data>
+  <data name="Val_Elem101Label.Text" xml:space="preserve">
+    <value>DryBulb Temp-TTT</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem101Label.Name" xml:space="preserve">
+    <value>Val_Elem101Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem101Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem101Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem101Label.ZOrder" xml:space="preserve">
+    <value>96</value>
+  </data>
+  <data name="Val_Elem196Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem196Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 171</value>
+  </data>
+  <data name="Val_Elem196Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
+  </data>
+  <data name="Val_Elem196Label.TabIndex" type="System.Int32, mscorlib">
+    <value>755</value>
+  </data>
+  <data name="Val_Elem196Label.Text" xml:space="preserve">
+    <value>Geopotential Height-hhh</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem196Label.Name" xml:space="preserve">
+    <value>Val_Elem196Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem196Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem196Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem196Label.ZOrder" xml:space="preserve">
+    <value>97</value>
+  </data>
+  <data name="Val_Elem301Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem301Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 146</value>
+  </data>
+  <data name="Val_Elem301Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 13</value>
+  </data>
+  <data name="Val_Elem301Label.TabIndex" type="System.Int32, mscorlib">
+    <value>752</value>
+  </data>
+  <data name="Val_Elem301Label.Text" xml:space="preserve">
+    <value>Standard Pressure Level -a</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem301Label.Name" xml:space="preserve">
+    <value>Val_Elem301Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem301Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem301Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem301Label.ZOrder" xml:space="preserve">
+    <value>98</value>
+  </data>
+  <data name="Val_Elem399Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem399Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 123</value>
+  </data>
+  <data name="Val_Elem399Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 13</value>
+  </data>
+  <data name="Val_Elem399Label.TabIndex" type="System.Int32, mscorlib">
+    <value>750</value>
+  </data>
+  <data name="Val_Elem399Label.Text" xml:space="preserve">
+    <value>24hr Pessure Change-P24</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem399Label.Name" xml:space="preserve">
+    <value>Val_Elem399Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem399Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem399Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem399Label.ZOrder" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="Val_Elem814Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem814Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 99</value>
+  </data>
+  <data name="Val_Elem814Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 13</value>
+  </data>
+  <data name="Val_Elem814Label.TabIndex" type="System.Int32, mscorlib">
+    <value>749</value>
+  </data>
+  <data name="Val_Elem814Label.Text" xml:space="preserve">
+    <value>3hr Pressure Characteristic</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem814Label.Name" xml:space="preserve">
+    <value>Val_Elem814Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem814Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem814Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem814Label.ZOrder" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Val_Elem400Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem400Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 77</value>
+  </data>
+  <data name="Val_Elem400Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 13</value>
+  </data>
+  <data name="Val_Elem400Label.TabIndex" type="System.Int32, mscorlib">
+    <value>748</value>
+  </data>
+  <data name="Val_Elem400Label.Text" xml:space="preserve">
+    <value>3hr Pessure Change-P3</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem400Label.Name" xml:space="preserve">
+    <value>Val_Elem400Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem400Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem400Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem400Label.ZOrder" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Val_Elem107Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem107Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 52</value>
+  </data>
+  <data name="Val_Elem107Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 13</value>
+  </data>
+  <data name="Val_Elem107Label.TabIndex" type="System.Int32, mscorlib">
+    <value>821</value>
+  </data>
+  <data name="Val_Elem107Label.Text" xml:space="preserve">
+    <value>Pressure Reduced to MSL-P</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem107Label.Name" xml:space="preserve">
+    <value>Val_Elem107Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem107Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem107Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem107Label.ZOrder" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Val_Elem106Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Val_Elem106Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Val_Elem106Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 27</value>
+  </data>
+  <data name="Val_Elem106Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="Val_Elem106Label.TabIndex" type="System.Int32, mscorlib">
+    <value>820</value>
+  </data>
+  <data name="Val_Elem106Label.Text" xml:space="preserve">
+    <value>Station Level Pressure-Po</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem106Label.Name" xml:space="preserve">
+    <value>Val_Elem106Label</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem106Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem106Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Val_Elem106Label.ZOrder" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="ucrVFPStationLevelPressure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ucrVFPStationLevelPressure.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPStationLevelPressure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPStationLevelPressure.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPStationLevelPressure.Name" xml:space="preserve">
+    <value>ucrVFPStationLevelPressure</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPStationLevelPressure.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPStationLevelPressure.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPStationLevelPressure.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="ucrVFPHighLvlCloudsType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 454</value>
+  </data>
+  <data name="ucrVFPHighLvlCloudsType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPHighLvlCloudsType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPHighLvlCloudsType.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPHighLvlCloudsType.Name" xml:space="preserve">
+    <value>ucrVFPHighLvlCloudsType</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPHighLvlCloudsType.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPHighLvlCloudsType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPHighLvlCloudsType.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="ucrVFPMediumLvlClouds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 430</value>
+  </data>
+  <data name="ucrVFPMediumLvlClouds.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPMediumLvlClouds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPMediumLvlClouds.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPMediumLvlClouds.Name" xml:space="preserve">
+    <value>ucrVFPMediumLvlClouds</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPMediumLvlClouds.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPMediumLvlClouds.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPMediumLvlClouds.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="ucrVFPLowLvlCloudsType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 406</value>
+  </data>
+  <data name="ucrVFPLowLvlCloudsType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPLowLvlCloudsType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPLowLvlCloudsType.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowLvlCloudsType.Name" xml:space="preserve">
+    <value>ucrVFPLowLvlCloudsType</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowLvlCloudsType.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowLvlCloudsType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowLvlCloudsType.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="ucrVFPLowLvlCloudsAmt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 382</value>
+  </data>
+  <data name="ucrVFPLowLvlCloudsAmt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPLowLvlCloudsAmt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPLowLvlCloudsAmt.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowLvlCloudsAmt.Name" xml:space="preserve">
+    <value>ucrVFPLowLvlCloudsAmt</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowLvlCloudsAmt.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowLvlCloudsAmt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowLvlCloudsAmt.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 358</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance.Name" xml:space="preserve">
+    <value>ucrVFPVerticalSignificance</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="ucrVFPTotalCloudCover.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 334</value>
+  </data>
+  <data name="ucrVFPTotalCloudCover.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPTotalCloudCover.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPTotalCloudCover.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTotalCloudCover.Name" xml:space="preserve">
+    <value>ucrVFPTotalCloudCover</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTotalCloudCover.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTotalCloudCover.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTotalCloudCover.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="ucrVFPLowCloudHght.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 310</value>
+  </data>
+  <data name="ucrVFPLowCloudHght.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPLowCloudHght.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPLowCloudHght.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowCloudHght.Name" xml:space="preserve">
+    <value>ucrVFPLowCloudHght</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowCloudHght.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowCloudHght.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPLowCloudHght.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="ucrVFPHorizontalVisibilty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 286</value>
+  </data>
+  <data name="ucrVFPHorizontalVisibilty.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPHorizontalVisibilty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPHorizontalVisibilty.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPHorizontalVisibilty.Name" xml:space="preserve">
+    <value>ucrVFPHorizontalVisibilty</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPHorizontalVisibilty.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPHorizontalVisibilty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPHorizontalVisibilty.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="ucrVFPRelativeHumidity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 262</value>
+  </data>
+  <data name="ucrVFPRelativeHumidity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPRelativeHumidity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPRelativeHumidity.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPRelativeHumidity.Name" xml:space="preserve">
+    <value>ucrVFPRelativeHumidity</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPRelativeHumidity.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPRelativeHumidity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPRelativeHumidity.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="ucrVFPDewPointTemp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 238</value>
+  </data>
+  <data name="ucrVFPDewPointTemp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPDewPointTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPDewPointTemp.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPDewPointTemp.Name" xml:space="preserve">
+    <value>ucrVFPDewPointTemp</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPDewPointTemp.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPDewPointTemp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPDewPointTemp.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="ucrVFPWetBulbTemp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 214</value>
+  </data>
+  <data name="ucrVFPWetBulbTemp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPWetBulbTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPWetBulbTemp.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWetBulbTemp.Name" xml:space="preserve">
+    <value>ucrVFPWetBulbTemp</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWetBulbTemp.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWetBulbTemp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWetBulbTemp.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="ucrVFPDryBulbTemp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 190</value>
+  </data>
+  <data name="ucrVFPDryBulbTemp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPDryBulbTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPDryBulbTemp.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPDryBulbTemp.Name" xml:space="preserve">
+    <value>ucrVFPDryBulbTemp</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPDryBulbTemp.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPDryBulbTemp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPDryBulbTemp.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="ucrVFPGeopotentialHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 166</value>
+  </data>
+  <data name="ucrVFPGeopotentialHeight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPGeopotentialHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPGeopotentialHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPGeopotentialHeight.Name" xml:space="preserve">
+    <value>ucrVFPGeopotentialHeight</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPGeopotentialHeight.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPGeopotentialHeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPGeopotentialHeight.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="ucrVFPStandardPressureLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 142</value>
+  </data>
+  <data name="ucrVFPStandardPressureLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPStandardPressureLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPStandardPressureLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPStandardPressureLevel.Name" xml:space="preserve">
+    <value>ucrVFPStandardPressureLevel</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPStandardPressureLevel.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPStandardPressureLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPStandardPressureLevel.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="ucrVFP24HrPressureChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 118</value>
+  </data>
+  <data name="ucrVFP24HrPressureChange.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFP24HrPressureChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFP24HrPressureChange.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP24HrPressureChange.Name" xml:space="preserve">
+    <value>ucrVFP24HrPressureChange</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP24HrPressureChange.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP24HrPressureChange.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP24HrPressureChange.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="ucrVFP3hrPressureCharacteristic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 94</value>
+  </data>
+  <data name="ucrVFP3hrPressureCharacteristic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFP3hrPressureCharacteristic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFP3hrPressureCharacteristic.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP3hrPressureCharacteristic.Name" xml:space="preserve">
+    <value>ucrVFP3hrPressureCharacteristic</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP3hrPressureCharacteristic.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP3hrPressureCharacteristic.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP3hrPressureCharacteristic.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="ucrVFP3hrPressureChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 70</value>
+  </data>
+  <data name="ucrVFP3hrPressureChange.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFP3hrPressureChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFP3hrPressureChange.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP3hrPressureChange.Name" xml:space="preserve">
+    <value>ucrVFP3hrPressureChange</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP3hrPressureChange.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP3hrPressureChange.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFP3hrPressureChange.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="ucrVFPPressureReduced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 46</value>
+  </data>
+  <data name="ucrVFPPressureReduced.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPPressureReduced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPPressureReduced.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPressureReduced.Name" xml:space="preserve">
+    <value>ucrVFPPressureReduced</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPressureReduced.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPressureReduced.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPressureReduced.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvlC4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 358</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvlC4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvlC4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvlC4.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvlC4.Name" xml:space="preserve">
+    <value>ucrVFPCloudTypeLvlC4</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvlC4.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvlC4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvlC4.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl4HsHs4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 382</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl4HsHs4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl4HsHs4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl4HsHs4.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl4HsHs4.Name" xml:space="preserve">
+    <value>ucrVFPCloudHtLvl4HsHs4</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl4HsHs4.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl4HsHs4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl4HsHs4.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="ucrVFPInsolation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 334</value>
+  </data>
+  <data name="ucrVFPInsolation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPInsolation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPInsolation.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPInsolation.Name" xml:space="preserve">
+    <value>ucrVFPInsolation</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPInsolation.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPInsolation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPInsolation.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="ucrVFPWindSpeedfff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 310</value>
+  </data>
+  <data name="ucrVFPWindSpeedfff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPWindSpeedfff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPWindSpeedfff.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWindSpeedfff.Name" xml:space="preserve">
+    <value>ucrVFPWindSpeedfff</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWindSpeedfff.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWindSpeedfff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWindSpeedfff.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="ucrVFPWindDirectiondd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 286</value>
+  </data>
+  <data name="ucrVFPWindDirectiondd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPWindDirectiondd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPWindDirectiondd.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWindDirectiondd.Name" xml:space="preserve">
+    <value>ucrVFPWindDirectiondd</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWindDirectiondd.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWindDirectiondd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPWindDirectiondd.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="ucrVFPPrecip3Hr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 262</value>
+  </data>
+  <data name="ucrVFPPrecip3Hr.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPPrecip3Hr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPPrecip3Hr.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPrecip3Hr.Name" xml:space="preserve">
+    <value>ucrVFPPrecip3Hr</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPrecip3Hr.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPrecip3Hr.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPrecip3Hr.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="ucrVFPPrecip24Hr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 238</value>
+  </data>
+  <data name="ucrVFPPrecip24Hr.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPPrecip24Hr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPPrecip24Hr.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPrecip24Hr.Name" xml:space="preserve">
+    <value>ucrVFPPrecip24Hr</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPrecip24Hr.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPrecip24Hr.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPrecip24Hr.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="ucrVFPSss1Hr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 214</value>
+  </data>
+  <data name="ucrVFPSss1Hr.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPSss1Hr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPSss1Hr.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPSss1Hr.Name" xml:space="preserve">
+    <value>ucrVFPSss1Hr</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPSss1Hr.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPSss1Hr.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPSss1Hr.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="ucrVFPSss24Hr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 190</value>
+  </data>
+  <data name="ucrVFPSss24Hr.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPSss24Hr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPSss24Hr.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPSss24Hr.Name" xml:space="preserve">
+    <value>ucrVFPSss24Hr</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPSss24Hr.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPSss24Hr.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPSss24Hr.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="ucrVFPEvaporation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 166</value>
+  </data>
+  <data name="ucrVFPEvaporation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPEvaporation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPEvaporation.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPEvaporation.Name" xml:space="preserve">
+    <value>ucrVFPEvaporation</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPEvaporation.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPEvaporation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPEvaporation.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="ucrVFPGrassMinTemp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 143</value>
+  </data>
+  <data name="ucrVFPGrassMinTemp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPGrassMinTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPGrassMinTemp.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPGrassMinTemp.Name" xml:space="preserve">
+    <value>ucrVFPGrassMinTemp</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPGrassMinTemp.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPGrassMinTemp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPGrassMinTemp.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="ucrVFPTmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 118</value>
+  </data>
+  <data name="ucrVFPTmin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPTmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPTmin.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTmin.Name" xml:space="preserve">
+    <value>ucrVFPTmin</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTmin.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTmin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTmin.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="ucrVFPTmax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 94</value>
+  </data>
+  <data name="ucrVFPTmax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPTmax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPTmax.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTmax.Name" xml:space="preserve">
+    <value>ucrVFPTmax</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTmax.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTmax.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPTmax.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="ucrVFPPastWx2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 70</value>
+  </data>
+  <data name="ucrVFPPastWx2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPPastWx2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPPastWx2.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPastWx2.Name" xml:space="preserve">
+    <value>ucrVFPPastWx2</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPastWx2.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPastWx2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPastWx2.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="ucrVFPPastWx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 46</value>
+  </data>
+  <data name="ucrVFPPastWx1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPPastWx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPPastWx1.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPastWx1.Name" xml:space="preserve">
+    <value>ucrVFPPastWx1</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPastWx1.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPastWx1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPastWx1.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ucrVFPPresentWx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 22</value>
+  </data>
+  <data name="ucrVFPPresentWx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPPresentWx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPPresentWx.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPresentWx.Name" xml:space="preserve">
+    <value>ucrVFPPresentWx</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPresentWx.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPresentWx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPPresentWx.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 310</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance4.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance4.Name" xml:space="preserve">
+    <value>ucrVFPVerticalSignificance4</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance4.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance4.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl4N4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 334</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl4N4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl4N4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl4N4.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl4N4.Name" xml:space="preserve">
+    <value>ucrVFPCloudAmtLvl4N4</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl4N4.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl4N4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl4N4.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl2H2Hs2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 190</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl2H2Hs2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl2H2Hs2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl2H2Hs2.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl2H2Hs2.Name" xml:space="preserve">
+    <value>ucrVFPCloudHtLvl2H2Hs2</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl2H2Hs2.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl2H2Hs2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl2H2Hs2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="ucrVFPCloudTypeLv2C2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 166</value>
+  </data>
+  <data name="ucrVFPCloudTypeLv2C2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudTypeLv2C2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudTypeLv2C2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLv2C2.Name" xml:space="preserve">
+    <value>ucrVFPCloudTypeLv2C2</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLv2C2.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLv2C2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLv2C2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl2N2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 142</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl2N2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl2N2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl2N2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl2N2.Name" xml:space="preserve">
+    <value>ucrVFPCloudAmtLvl2N2</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl2N2.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl2N2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl2N2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 118</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance2.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance2.Name" xml:space="preserve">
+    <value>ucrVFPVerticalSignificance2</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance2.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl1HsHs1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 94</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl1HsHs1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl1HsHs1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudHtLvl1HsHs1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl1HsHs1.Name" xml:space="preserve">
+    <value>ucrVFPCloudHtLvl1HsHs1</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl1HsHs1.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl1HsHs1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvl1HsHs1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvl1C1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 70</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvl1C1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvl1C1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvl1C1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvl1C1.Name" xml:space="preserve">
+    <value>ucrVFPCloudTypeLvl1C1</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvl1C1.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvl1C1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvl1C1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl1N1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 46</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl1N1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl1N1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl1N1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl1N1.Name" xml:space="preserve">
+    <value>ucrVFPCloudAmtLvl1N1</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl1N1.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl1N1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl1N1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 22</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPVerticalSignificance1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance1.Name" xml:space="preserve">
+    <value>ucrVFPVerticalSignificance1</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance1.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificance1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl3N3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 238</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl3N3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl3N3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudAmtLvl3N3.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl3N3.Name" xml:space="preserve">
+    <value>ucrVFPCloudAmtLvl3N3</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl3N3.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl3N3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudAmtLvl3N3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ucrVFPCloudHtLvlHsHs3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 286</value>
+  </data>
+  <data name="ucrVFPCloudHtLvlHsHs3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudHtLvlHsHs3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudHtLvlHsHs3.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvlHsHs3.Name" xml:space="preserve">
+    <value>ucrVFPCloudHtLvlHsHs3</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvlHsHs3.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvlHsHs3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudHtLvlHsHs3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ucrVFPVerticalSignificant3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 213</value>
+  </data>
+  <data name="ucrVFPVerticalSignificant3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPVerticalSignificant3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPVerticalSignificant3.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificant3.Name" xml:space="preserve">
+    <value>ucrVFPVerticalSignificant3</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificant3.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificant3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPVerticalSignificant3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvl3C3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 262</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvl3C3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvl3C3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="ucrVFPCloudTypeLvl3C3.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvl3C3.Name" xml:space="preserve">
+    <value>ucrVFPCloudTypeLvl3C3</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvl3C3.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvl3C3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucrVFPCloudTypeLvl3C3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 6</value>
+  </data>
+  <data name="lblValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lblValue.TabIndex" type="System.Int32, mscorlib">
+    <value>822</value>
+  </data>
+  <data name="lblValue.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="&gt;&gt;lblValue.Name" xml:space="preserve">
+    <value>lblValue</value>
+  </data>
+  <data name="&gt;&gt;lblValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblValue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblFlag.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 6</value>
+  </data>
+  <data name="lblFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lblFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>823</value>
+  </data>
+  <data name="lblFlag.Text" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="&gt;&gt;lblFlag.Name" xml:space="preserve">
+    <value>lblFlag</value>
+  </data>
+  <data name="&gt;&gt;lblFlag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFlag.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFlag.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblValueTwo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValueTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 6</value>
+  </data>
+  <data name="lblValueTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lblValueTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>824</value>
+  </data>
+  <data name="lblValueTwo.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="&gt;&gt;lblValueTwo.Name" xml:space="preserve">
+    <value>lblValueTwo</value>
+  </data>
+  <data name="&gt;&gt;lblValueTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValueTwo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblValueTwo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFlagTwo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFlagTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 6</value>
+  </data>
+  <data name="lblFlagTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lblFlagTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>825</value>
+  </data>
+  <data name="lblFlagTwo.Text" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="&gt;&gt;lblFlagTwo.Name" xml:space="preserve">
+    <value>lblFlagTwo</value>
+  </data>
+  <data name="&gt;&gt;lblFlagTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFlagTwo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFlagTwo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblValueThree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValueThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 6</value>
+  </data>
+  <data name="lblValueThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lblValueThree.TabIndex" type="System.Int32, mscorlib">
+    <value>826</value>
+  </data>
+  <data name="lblValueThree.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="&gt;&gt;lblValueThree.Name" xml:space="preserve">
+    <value>lblValueThree</value>
+  </data>
+  <data name="&gt;&gt;lblValueThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValueThree.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblValueThree.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblFlagThree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFlagThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>761, 6</value>
+  </data>
+  <data name="lblFlagThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lblFlagThree.TabIndex" type="System.Int32, mscorlib">
+    <value>827</value>
+  </data>
+  <data name="lblFlagThree.Text" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="&gt;&gt;lblFlagThree.Name" xml:space="preserve">
+    <value>lblFlagThree</value>
+  </data>
+  <data name="&gt;&gt;lblFlagThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFlagThree.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFlagThree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>885, 480</value>
+  </data>
+  <data name="&gt;&gt;dtbRecords.Name" xml:space="preserve">
+    <value>dtbRecords</value>
+  </data>
+  <data name="&gt;&gt;dtbRecords.Type" xml:space="preserve">
+    <value>System.Data.DataTable, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucrSynopticRA1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrBaseDataLink, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
 </root>

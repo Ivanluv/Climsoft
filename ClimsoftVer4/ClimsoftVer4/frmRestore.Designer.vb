@@ -22,6 +22,7 @@ Partial Class frmRestore
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmRestore))
         Me.btnHelp = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.btnOK = New System.Windows.Forms.Button()
@@ -33,75 +34,51 @@ Partial Class frmRestore
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(316, 134)
+        resources.ApplyResources(Me.btnHelp, "btnHelp")
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(75, 23)
-        Me.btnHelp.TabIndex = 15
         Me.btnHelp.Tag = "btnHelp"
-        Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(221, 134)
+        resources.ApplyResources(Me.btnCancel, "btnCancel")
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(75, 23)
-        Me.btnCancel.TabIndex = 14
         Me.btnCancel.Tag = "btnCancel"
-        Me.btnCancel.Text = "Close"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
         'btnOK
         '
-        Me.btnOK.Enabled = False
-        Me.btnOK.Location = New System.Drawing.Point(126, 134)
+        resources.ApplyResources(Me.btnOK, "btnOK")
         Me.btnOK.Name = "btnOK"
-        Me.btnOK.Size = New System.Drawing.Size(75, 23)
-        Me.btnOK.TabIndex = 13
         Me.btnOK.Tag = "btnOk"
-        Me.btnOK.Text = "Restore"
         Me.btnOK.UseVisualStyleBackColor = True
         '
         'btnBrowse
         '
-        Me.btnBrowse.Location = New System.Drawing.Point(407, 81)
+        resources.ApplyResources(Me.btnBrowse, "btnBrowse")
         Me.btnBrowse.Name = "btnBrowse"
-        Me.btnBrowse.Size = New System.Drawing.Size(65, 23)
-        Me.btnBrowse.TabIndex = 12
-        Me.btnBrowse.Text = "Browse"
         Me.btnBrowse.UseVisualStyleBackColor = True
         '
         'lblBackupFolder
         '
-        Me.lblBackupFolder.AutoSize = True
-        Me.lblBackupFolder.Location = New System.Drawing.Point(41, 86)
+        resources.ApplyResources(Me.lblBackupFolder, "lblBackupFolder")
         Me.lblBackupFolder.Name = "lblBackupFolder"
-        Me.lblBackupFolder.Size = New System.Drawing.Size(79, 13)
-        Me.lblBackupFolder.TabIndex = 11
-        Me.lblBackupFolder.Text = "Backup Folder:"
         '
         'txtBackupFolder
         '
-        Me.txtBackupFolder.Location = New System.Drawing.Point(126, 83)
+        resources.ApplyResources(Me.txtBackupFolder, "txtBackupFolder")
         Me.txtBackupFolder.Name = "txtBackupFolder"
-        Me.txtBackupFolder.Size = New System.Drawing.Size(266, 20)
-        Me.txtBackupFolder.TabIndex = 10
         '
         'lblDataIngestionProgress
         '
-        Me.lblDataIngestionProgress.AutoSize = True
+        resources.ApplyResources(Me.lblDataIngestionProgress, "lblDataIngestionProgress")
         Me.lblDataIngestionProgress.ForeColor = System.Drawing.Color.Red
-        Me.lblDataIngestionProgress.Location = New System.Drawing.Point(126, 31)
         Me.lblDataIngestionProgress.Name = "lblDataIngestionProgress"
-        Me.lblDataIngestionProgress.Size = New System.Drawing.Size(224, 13)
-        Me.lblDataIngestionProgress.TabIndex = 16
-        Me.lblDataIngestionProgress.Text = "Import data from individual station backup files"
         '
         'frmRestore
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(513, 182)
         Me.Controls.Add(Me.lblDataIngestionProgress)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.btnCancel)
@@ -112,7 +89,6 @@ Partial Class frmRestore
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmRestore"
-        Me.Text = "Restore from CSV backup files"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

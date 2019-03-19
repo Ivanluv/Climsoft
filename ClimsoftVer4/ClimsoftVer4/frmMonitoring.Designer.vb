@@ -22,6 +22,7 @@ Partial Class frmMonitoring
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMonitoring))
         Me.TabMonitoring = New System.Windows.Forms.TabControl()
         Me.TabUsrRecords = New System.Windows.Forms.TabPage()
         Me.grpUsers = New System.Windows.Forms.GroupBox()
@@ -100,21 +101,15 @@ Partial Class frmMonitoring
         Me.TabMonitoring.Controls.Add(Me.TabPerformance)
         Me.TabMonitoring.Controls.Add(Me.TabEntryVerify)
         Me.TabMonitoring.Controls.Add(Me.TabSettings)
-        Me.TabMonitoring.Location = New System.Drawing.Point(9, 12)
+        resources.ApplyResources(Me.TabMonitoring, "TabMonitoring")
         Me.TabMonitoring.Name = "TabMonitoring"
         Me.TabMonitoring.SelectedIndex = 0
-        Me.TabMonitoring.Size = New System.Drawing.Size(673, 200)
-        Me.TabMonitoring.TabIndex = 0
         '
         'TabUsrRecords
         '
         Me.TabUsrRecords.Controls.Add(Me.grpUsers)
-        Me.TabUsrRecords.Location = New System.Drawing.Point(4, 22)
+        resources.ApplyResources(Me.TabUsrRecords, "TabUsrRecords")
         Me.TabUsrRecords.Name = "TabUsrRecords"
-        Me.TabUsrRecords.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabUsrRecords.Size = New System.Drawing.Size(665, 174)
-        Me.TabUsrRecords.TabIndex = 0
-        Me.TabUsrRecords.Text = "Users Records"
         Me.TabUsrRecords.UseVisualStyleBackColor = True
         '
         'grpUsers
@@ -127,95 +122,62 @@ Partial Class frmMonitoring
         Me.grpUsers.Controls.Add(Me.cboUser)
         Me.grpUsers.Controls.Add(Me.optAll)
         Me.grpUsers.Controls.Add(Me.optUsers)
-        Me.grpUsers.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpUsers.Location = New System.Drawing.Point(13, 18)
+        resources.ApplyResources(Me.grpUsers, "grpUsers")
         Me.grpUsers.Name = "grpUsers"
-        Me.grpUsers.Size = New System.Drawing.Size(631, 142)
-        Me.grpUsers.TabIndex = 0
         Me.grpUsers.TabStop = False
-        Me.grpUsers.Text = "Users Records"
         '
         'cmdView
         '
-        Me.cmdView.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.cmdView, "cmdView")
         Me.cmdView.ForeColor = System.Drawing.Color.Black
-        Me.cmdView.Location = New System.Drawing.Point(252, 108)
         Me.cmdView.Name = "cmdView"
-        Me.cmdView.Size = New System.Drawing.Size(103, 28)
-        Me.cmdView.TabIndex = 10
-        Me.cmdView.Text = "View Records"
         Me.cmdView.UseVisualStyleBackColor = True
         '
         'lblEndDate
         '
-        Me.lblEndDate.AutoSize = True
-        Me.lblEndDate.Location = New System.Drawing.Point(373, 68)
+        resources.ApplyResources(Me.lblEndDate, "lblEndDate")
         Me.lblEndDate.Name = "lblEndDate"
-        Me.lblEndDate.Size = New System.Drawing.Size(58, 15)
-        Me.lblEndDate.TabIndex = 7
-        Me.lblEndDate.Text = "End Date"
         '
         'lblStartDate
         '
-        Me.lblStartDate.AutoSize = True
-        Me.lblStartDate.Location = New System.Drawing.Point(371, 27)
+        resources.ApplyResources(Me.lblStartDate, "lblStartDate")
         Me.lblStartDate.Name = "lblStartDate"
-        Me.lblStartDate.Size = New System.Drawing.Size(61, 15)
-        Me.lblStartDate.TabIndex = 6
-        Me.lblStartDate.Text = "Start Date"
         '
         'DateTimeEnd
         '
-        Me.DateTimeEnd.Location = New System.Drawing.Point(434, 65)
+        resources.ApplyResources(Me.DateTimeEnd, "DateTimeEnd")
         Me.DateTimeEnd.Name = "DateTimeEnd"
-        Me.DateTimeEnd.Size = New System.Drawing.Size(155, 21)
-        Me.DateTimeEnd.TabIndex = 5
         '
         'DateTimeStart
         '
-        Me.DateTimeStart.Location = New System.Drawing.Point(434, 24)
+        resources.ApplyResources(Me.DateTimeStart, "DateTimeStart")
         Me.DateTimeStart.Name = "DateTimeStart"
-        Me.DateTimeStart.Size = New System.Drawing.Size(155, 21)
-        Me.DateTimeStart.TabIndex = 4
         '
         'cboUser
         '
         Me.cboUser.FormattingEnabled = True
-        Me.cboUser.Location = New System.Drawing.Point(87, 25)
+        resources.ApplyResources(Me.cboUser, "cboUser")
         Me.cboUser.Name = "cboUser"
-        Me.cboUser.Size = New System.Drawing.Size(149, 23)
-        Me.cboUser.TabIndex = 3
         '
         'optAll
         '
-        Me.optAll.AutoSize = True
-        Me.optAll.Location = New System.Drawing.Point(30, 68)
+        resources.ApplyResources(Me.optAll, "optAll")
         Me.optAll.Name = "optAll"
-        Me.optAll.Size = New System.Drawing.Size(73, 19)
-        Me.optAll.TabIndex = 2
-        Me.optAll.Text = "All Users"
         Me.optAll.UseVisualStyleBackColor = True
         '
         'optUsers
         '
-        Me.optUsers.AutoSize = True
+        resources.ApplyResources(Me.optUsers, "optUsers")
         Me.optUsers.Checked = True
-        Me.optUsers.Location = New System.Drawing.Point(30, 27)
         Me.optUsers.Name = "optUsers"
-        Me.optUsers.Size = New System.Drawing.Size(51, 19)
-        Me.optUsers.TabIndex = 1
         Me.optUsers.TabStop = True
-        Me.optUsers.Text = "User"
         Me.optUsers.UseVisualStyleBackColor = True
         '
         'TabPerformance
         '
         Me.TabPerformance.Controls.Add(Me.grpPerformance)
-        Me.TabPerformance.Location = New System.Drawing.Point(4, 22)
+        resources.ApplyResources(Me.TabPerformance, "TabPerformance")
         Me.TabPerformance.Name = "TabPerformance"
-        Me.TabPerformance.Size = New System.Drawing.Size(665, 174)
-        Me.TabPerformance.TabIndex = 2
-        Me.TabPerformance.Text = "Performance Monitoring"
         Me.TabPerformance.UseVisualStyleBackColor = True
         '
         'grpPerformance
@@ -233,21 +195,14 @@ Partial Class frmMonitoring
         Me.grpPerformance.Controls.Add(Me.cboMonth)
         Me.grpPerformance.Controls.Add(Me.optRange)
         Me.grpPerformance.Controls.Add(Me.OptMonthly)
-        Me.grpPerformance.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpPerformance.Location = New System.Drawing.Point(11, 13)
+        resources.ApplyResources(Me.grpPerformance, "grpPerformance")
         Me.grpPerformance.Name = "grpPerformance"
-        Me.grpPerformance.Size = New System.Drawing.Size(651, 158)
-        Me.grpPerformance.TabIndex = 2
         Me.grpPerformance.TabStop = False
-        Me.grpPerformance.Text = "Users Performance Monitoring"
         '
         'cmdSave1
         '
-        Me.cmdSave1.Location = New System.Drawing.Point(333, 130)
+        resources.ApplyResources(Me.cmdSave1, "cmdSave1")
         Me.cmdSave1.Name = "cmdSave1"
-        Me.cmdSave1.Size = New System.Drawing.Size(97, 22)
-        Me.cmdSave1.TabIndex = 20
-        Me.cmdSave1.Text = "Save Output"
         Me.cmdSave1.UseVisualStyleBackColor = True
         '
         'DataGridPerform
@@ -256,119 +211,77 @@ Partial Class frmMonitoring
         Me.DataGridPerform.BackgroundColor = System.Drawing.SystemColors.ButtonFace
         Me.DataGridPerform.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridPerform.GridColor = System.Drawing.SystemColors.ButtonFace
-        Me.DataGridPerform.Location = New System.Drawing.Point(635, 11)
+        resources.ApplyResources(Me.DataGridPerform, "DataGridPerform")
         Me.DataGridPerform.Name = "DataGridPerform"
-        Me.DataGridPerform.Size = New System.Drawing.Size(10, 141)
-        Me.DataGridPerform.TabIndex = 19
-        Me.DataGridPerform.Visible = False
         '
         'cmdRetrieve
         '
-        Me.cmdRetrieve.Location = New System.Drawing.Point(140, 130)
+        resources.ApplyResources(Me.cmdRetrieve, "cmdRetrieve")
         Me.cmdRetrieve.Name = "cmdRetrieve"
-        Me.cmdRetrieve.Size = New System.Drawing.Size(155, 22)
-        Me.cmdRetrieve.TabIndex = 18
-        Me.cmdRetrieve.Text = "Compute Performance"
         Me.cmdRetrieve.UseVisualStyleBackColor = True
         '
         'lblYear
         '
-        Me.lblYear.AutoSize = True
-        Me.lblYear.Location = New System.Drawing.Point(285, 34)
+        resources.ApplyResources(Me.lblYear, "lblYear")
         Me.lblYear.Name = "lblYear"
-        Me.lblYear.Size = New System.Drawing.Size(32, 15)
-        Me.lblYear.TabIndex = 17
-        Me.lblYear.Text = "Year"
         '
         'txtYear
         '
-        Me.txtYear.Location = New System.Drawing.Point(323, 31)
+        resources.ApplyResources(Me.txtYear, "txtYear")
         Me.txtYear.Name = "txtYear"
-        Me.txtYear.Size = New System.Drawing.Size(58, 21)
-        Me.txtYear.TabIndex = 16
         '
         'lblMonth
         '
-        Me.lblMonth.AutoSize = True
-        Me.lblMonth.Location = New System.Drawing.Point(126, 34)
+        resources.ApplyResources(Me.lblMonth, "lblMonth")
         Me.lblMonth.Name = "lblMonth"
-        Me.lblMonth.Size = New System.Drawing.Size(42, 15)
-        Me.lblMonth.TabIndex = 15
-        Me.lblMonth.Text = "Month"
         '
         'lblTo1
         '
-        Me.lblTo1.AutoSize = True
-        Me.lblTo1.Location = New System.Drawing.Point(353, 80)
+        resources.ApplyResources(Me.lblTo1, "lblTo1")
         Me.lblTo1.Name = "lblTo1"
-        Me.lblTo1.Size = New System.Drawing.Size(21, 15)
-        Me.lblTo1.TabIndex = 14
-        Me.lblTo1.Text = "To"
         '
         'lblFrom1
         '
-        Me.lblFrom1.AutoSize = True
-        Me.lblFrom1.Location = New System.Drawing.Point(126, 77)
+        resources.ApplyResources(Me.lblFrom1, "lblFrom1")
         Me.lblFrom1.Name = "lblFrom1"
-        Me.lblFrom1.Size = New System.Drawing.Size(36, 15)
-        Me.lblFrom1.TabIndex = 13
-        Me.lblFrom1.Text = "From"
         '
         'dtTo
         '
-        Me.dtTo.Location = New System.Drawing.Point(380, 77)
+        resources.ApplyResources(Me.dtTo, "dtTo")
         Me.dtTo.Name = "dtTo"
-        Me.dtTo.Size = New System.Drawing.Size(158, 21)
-        Me.dtTo.TabIndex = 12
         '
         'dtFrom
         '
-        Me.dtFrom.Location = New System.Drawing.Point(168, 74)
+        resources.ApplyResources(Me.dtFrom, "dtFrom")
         Me.dtFrom.Name = "dtFrom"
-        Me.dtFrom.Size = New System.Drawing.Size(158, 21)
-        Me.dtFrom.TabIndex = 11
         Me.dtFrom.Value = New Date(2018, 6, 21, 16, 47, 50, 0)
         '
         'cboMonth
         '
         Me.cboMonth.FormattingEnabled = True
-        Me.cboMonth.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"})
-        Me.cboMonth.Location = New System.Drawing.Point(168, 30)
+        Me.cboMonth.Items.AddRange(New Object() {resources.GetString("cboMonth.Items"), resources.GetString("cboMonth.Items1"), resources.GetString("cboMonth.Items2"), resources.GetString("cboMonth.Items3"), resources.GetString("cboMonth.Items4"), resources.GetString("cboMonth.Items5"), resources.GetString("cboMonth.Items6"), resources.GetString("cboMonth.Items7"), resources.GetString("cboMonth.Items8"), resources.GetString("cboMonth.Items9"), resources.GetString("cboMonth.Items10"), resources.GetString("cboMonth.Items11")})
+        resources.ApplyResources(Me.cboMonth, "cboMonth")
         Me.cboMonth.Name = "cboMonth"
-        Me.cboMonth.Size = New System.Drawing.Size(51, 23)
-        Me.cboMonth.TabIndex = 10
         '
         'optRange
         '
-        Me.optRange.AutoSize = True
-        Me.optRange.Location = New System.Drawing.Point(40, 77)
+        resources.ApplyResources(Me.optRange, "optRange")
         Me.optRange.Name = "optRange"
-        Me.optRange.Size = New System.Drawing.Size(62, 19)
-        Me.optRange.TabIndex = 9
-        Me.optRange.Text = "Range"
         Me.optRange.UseVisualStyleBackColor = True
         '
         'OptMonthly
         '
-        Me.OptMonthly.AutoSize = True
+        resources.ApplyResources(Me.OptMonthly, "OptMonthly")
         Me.OptMonthly.Checked = True
-        Me.OptMonthly.Location = New System.Drawing.Point(40, 32)
         Me.OptMonthly.Name = "OptMonthly"
-        Me.OptMonthly.Size = New System.Drawing.Size(68, 19)
-        Me.OptMonthly.TabIndex = 8
         Me.OptMonthly.TabStop = True
-        Me.OptMonthly.Text = "Monthly"
         Me.OptMonthly.UseVisualStyleBackColor = True
         '
         'TabEntryVerify
         '
         Me.TabEntryVerify.Controls.Add(Me.grpVerify)
-        Me.TabEntryVerify.Location = New System.Drawing.Point(4, 22)
+        resources.ApplyResources(Me.TabEntryVerify, "TabEntryVerify")
         Me.TabEntryVerify.Name = "TabEntryVerify"
-        Me.TabEntryVerify.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabEntryVerify.Size = New System.Drawing.Size(665, 174)
-        Me.TabEntryVerify.TabIndex = 1
-        Me.TabEntryVerify.Text = "Double Key Entry Verification"
         Me.TabEntryVerify.UseVisualStyleBackColor = True
         '
         'grpVerify
@@ -387,169 +300,109 @@ Partial Class frmMonitoring
         Me.grpVerify.Controls.Add(Me.lblTo)
         Me.grpVerify.Controls.Add(Me.lblFrom)
         Me.grpVerify.Controls.Add(Me.cboForms)
-        Me.grpVerify.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpVerify.Location = New System.Drawing.Point(9, 20)
+        resources.ApplyResources(Me.grpVerify, "grpVerify")
         Me.grpVerify.Name = "grpVerify"
-        Me.grpVerify.Size = New System.Drawing.Size(641, 148)
-        Me.grpVerify.TabIndex = 1
         Me.grpVerify.TabStop = False
-        Me.grpVerify.Text = "Double Key Entry Verification"
         '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.optNotVerified)
         Me.GroupBox2.Controls.Add(Me.optVerified)
-        Me.GroupBox2.Location = New System.Drawing.Point(438, 15)
+        resources.ApplyResources(Me.GroupBox2, "GroupBox2")
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(176, 81)
-        Me.GroupBox2.TabIndex = 33
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Selection Type"
         '
         'optNotVerified
         '
-        Me.optNotVerified.AutoSize = True
+        resources.ApplyResources(Me.optNotVerified, "optNotVerified")
         Me.optNotVerified.Checked = True
-        Me.optNotVerified.Location = New System.Drawing.Point(10, 22)
         Me.optNotVerified.Name = "optNotVerified"
-        Me.optNotVerified.Size = New System.Drawing.Size(143, 19)
-        Me.optNotVerified.TabIndex = 1
         Me.optNotVerified.TabStop = True
-        Me.optNotVerified.Text = "NOT Verified Records"
         Me.optNotVerified.UseVisualStyleBackColor = True
         '
         'optVerified
         '
-        Me.optVerified.AutoSize = True
-        Me.optVerified.Location = New System.Drawing.Point(10, 47)
+        resources.ApplyResources(Me.optVerified, "optVerified")
         Me.optVerified.Name = "optVerified"
-        Me.optVerified.Size = New System.Drawing.Size(115, 19)
-        Me.optVerified.TabIndex = 0
-        Me.optVerified.Text = "Verified Records"
         Me.optVerified.UseVisualStyleBackColor = True
         '
         'cmdSave
         '
-        Me.cmdSave.Location = New System.Drawing.Point(552, 114)
+        resources.ApplyResources(Me.cmdSave, "cmdSave")
         Me.cmdSave.Name = "cmdSave"
-        Me.cmdSave.Size = New System.Drawing.Size(63, 25)
-        Me.cmdSave.TabIndex = 32
-        Me.cmdSave.Text = "Save"
         Me.cmdSave.UseVisualStyleBackColor = True
         '
         'cmdExtarct
         '
-        Me.cmdExtarct.Location = New System.Drawing.Point(453, 114)
+        resources.ApplyResources(Me.cmdExtarct, "cmdExtarct")
         Me.cmdExtarct.Name = "cmdExtarct"
-        Me.cmdExtarct.Size = New System.Drawing.Size(63, 25)
-        Me.cmdExtarct.TabIndex = 31
-        Me.cmdExtarct.Text = "Retrieve"
         Me.cmdExtarct.UseVisualStyleBackColor = True
         '
         'txtYear2
         '
-        Me.txtYear2.Location = New System.Drawing.Point(194, 113)
+        resources.ApplyResources(Me.txtYear2, "txtYear2")
         Me.txtYear2.Name = "txtYear2"
-        Me.txtYear2.Size = New System.Drawing.Size(42, 21)
-        Me.txtYear2.TabIndex = 30
         '
         'txtYear1
         '
-        Me.txtYear1.Location = New System.Drawing.Point(194, 78)
+        resources.ApplyResources(Me.txtYear1, "txtYear1")
         Me.txtYear1.Name = "txtYear1"
-        Me.txtYear1.Size = New System.Drawing.Size(42, 21)
-        Me.txtYear1.TabIndex = 29
         '
         'txtMonth2
         '
-        Me.txtMonth2.Location = New System.Drawing.Point(332, 113)
+        resources.ApplyResources(Me.txtMonth2, "txtMonth2")
         Me.txtMonth2.Name = "txtMonth2"
-        Me.txtMonth2.Size = New System.Drawing.Size(28, 21)
-        Me.txtMonth2.TabIndex = 28
-        Me.txtMonth2.Text = "12"
         '
         'txtMonth1
         '
-        Me.txtMonth1.Location = New System.Drawing.Point(332, 78)
+        resources.ApplyResources(Me.txtMonth1, "txtMonth1")
         Me.txtMonth1.Name = "txtMonth1"
-        Me.txtMonth1.Size = New System.Drawing.Size(28, 21)
-        Me.txtMonth1.TabIndex = 27
-        Me.txtMonth1.Text = "1"
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(253, 116)
+        resources.ApplyResources(Me.Label2, "Label2")
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(67, 15)
-        Me.Label2.TabIndex = 26
-        Me.Label2.Text = "End Month"
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(127, 116)
+        resources.ApplyResources(Me.Label1, "Label1")
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(57, 15)
-        Me.Label1.TabIndex = 25
-        Me.Label1.Text = "End Year"
         '
         'optKeyEntryForm
         '
-        Me.optKeyEntryForm.AutoSize = True
+        resources.ApplyResources(Me.optKeyEntryForm, "optKeyEntryForm")
         Me.optKeyEntryForm.Checked = True
-        Me.optKeyEntryForm.Location = New System.Drawing.Point(29, 28)
         Me.optKeyEntryForm.Name = "optKeyEntryForm"
-        Me.optKeyEntryForm.Size = New System.Drawing.Size(107, 19)
-        Me.optKeyEntryForm.TabIndex = 24
         Me.optKeyEntryForm.TabStop = True
-        Me.optKeyEntryForm.Text = "Key Entry Form"
         Me.optKeyEntryForm.UseVisualStyleBackColor = True
         '
         'optAllForms
         '
-        Me.optAllForms.AutoSize = True
-        Me.optAllForms.Location = New System.Drawing.Point(29, 56)
+        resources.ApplyResources(Me.optAllForms, "optAllForms")
         Me.optAllForms.Name = "optAllForms"
-        Me.optAllForms.Size = New System.Drawing.Size(76, 19)
-        Me.optAllForms.TabIndex = 23
-        Me.optAllForms.Text = "All Forms"
         Me.optAllForms.UseVisualStyleBackColor = True
         '
         'lblTo
         '
-        Me.lblTo.AutoSize = True
-        Me.lblTo.Location = New System.Drawing.Point(253, 81)
+        resources.ApplyResources(Me.lblTo, "lblTo")
         Me.lblTo.Name = "lblTo"
-        Me.lblTo.Size = New System.Drawing.Size(77, 15)
-        Me.lblTo.TabIndex = 21
-        Me.lblTo.Text = "Begin Month"
         '
         'lblFrom
         '
-        Me.lblFrom.AutoSize = True
-        Me.lblFrom.Location = New System.Drawing.Point(127, 81)
+        resources.ApplyResources(Me.lblFrom, "lblFrom")
         Me.lblFrom.Name = "lblFrom"
-        Me.lblFrom.Size = New System.Drawing.Size(67, 15)
-        Me.lblFrom.TabIndex = 20
-        Me.lblFrom.Text = "Begin Year"
         '
         'cboForms
         '
         Me.cboForms.FormattingEnabled = True
-        Me.cboForms.Location = New System.Drawing.Point(137, 26)
+        resources.ApplyResources(Me.cboForms, "cboForms")
         Me.cboForms.Name = "cboForms"
-        Me.cboForms.Size = New System.Drawing.Size(230, 23)
-        Me.cboForms.TabIndex = 16
         '
         'TabSettings
         '
         Me.TabSettings.Controls.Add(Me.grpSettings)
-        Me.TabSettings.Location = New System.Drawing.Point(4, 22)
+        resources.ApplyResources(Me.TabSettings, "TabSettings")
         Me.TabSettings.Name = "TabSettings"
-        Me.TabSettings.Size = New System.Drawing.Size(665, 174)
-        Me.TabSettings.TabIndex = 3
-        Me.TabSettings.Text = "Settings"
         Me.TabSettings.UseVisualStyleBackColor = True
         '
         'grpSettings
@@ -561,72 +414,44 @@ Partial Class frmMonitoring
         Me.grpSettings.Controls.Add(Me.cmdUpdate)
         Me.grpSettings.Controls.Add(Me.cmdretrieve1)
         Me.grpSettings.Controls.Add(Me.DataGridSettings)
-        Me.grpSettings.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpSettings.Location = New System.Drawing.Point(8, 3)
+        resources.ApplyResources(Me.grpSettings, "grpSettings")
         Me.grpSettings.Name = "grpSettings"
-        Me.grpSettings.Size = New System.Drawing.Size(654, 168)
-        Me.grpSettings.TabIndex = 2
         Me.grpSettings.TabStop = False
-        Me.grpSettings.Text = "Settings"
         '
         'lblDoubleEntryMode
         '
-        Me.lblDoubleEntryMode.AutoSize = True
-        Me.lblDoubleEntryMode.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDoubleEntryMode.Location = New System.Drawing.Point(29, 101)
+        resources.ApplyResources(Me.lblDoubleEntryMode, "lblDoubleEntryMode")
         Me.lblDoubleEntryMode.Name = "lblDoubleEntryMode"
-        Me.lblDoubleEntryMode.Size = New System.Drawing.Size(116, 13)
-        Me.lblDoubleEntryMode.TabIndex = 15
-        Me.lblDoubleEntryMode.Text = "1 for Double Key Entry "
         '
         'lblSingleEntryMode
         '
-        Me.lblSingleEntryMode.AutoSize = True
-        Me.lblSingleEntryMode.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSingleEntryMode.Location = New System.Drawing.Point(29, 84)
+        resources.ApplyResources(Me.lblSingleEntryMode, "lblSingleEntryMode")
         Me.lblSingleEntryMode.Name = "lblSingleEntryMode"
-        Me.lblSingleEntryMode.Size = New System.Drawing.Size(116, 13)
-        Me.lblSingleEntryMode.TabIndex = 14
-        Me.lblSingleEntryMode.Text = "0 for Single Data Entry "
         '
         'RadioButton1
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(7, 64)
+        resources.ApplyResources(Me.RadioButton1, "RadioButton1")
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(116, 19)
-        Me.RadioButton1.TabIndex = 6
-        Me.RadioButton1.Text = "Data Entry Mode"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'optTargets
         '
-        Me.optTargets.AutoSize = True
+        resources.ApplyResources(Me.optTargets, "optTargets")
         Me.optTargets.Checked = True
-        Me.optTargets.Location = New System.Drawing.Point(6, 30)
         Me.optTargets.Name = "optTargets"
-        Me.optTargets.Size = New System.Drawing.Size(115, 19)
-        Me.optTargets.TabIndex = 5
         Me.optTargets.TabStop = True
-        Me.optTargets.Text = "Targets Records"
         Me.optTargets.UseVisualStyleBackColor = True
         '
         'cmdUpdate
         '
-        Me.cmdUpdate.Location = New System.Drawing.Point(98, 136)
+        resources.ApplyResources(Me.cmdUpdate, "cmdUpdate")
         Me.cmdUpdate.Name = "cmdUpdate"
-        Me.cmdUpdate.Size = New System.Drawing.Size(56, 25)
-        Me.cmdUpdate.TabIndex = 2
-        Me.cmdUpdate.Text = "Update"
         Me.cmdUpdate.UseVisualStyleBackColor = True
         '
         'cmdretrieve1
         '
-        Me.cmdretrieve1.Location = New System.Drawing.Point(18, 137)
+        resources.ApplyResources(Me.cmdretrieve1, "cmdretrieve1")
         Me.cmdretrieve1.Name = "cmdretrieve1"
-        Me.cmdretrieve1.Size = New System.Drawing.Size(56, 25)
-        Me.cmdretrieve1.TabIndex = 1
-        Me.cmdretrieve1.Text = "View"
         Me.cmdretrieve1.UseVisualStyleBackColor = True
         '
         'DataGridSettings
@@ -634,63 +459,43 @@ Partial Class frmMonitoring
         Me.DataGridSettings.AllowUserToOrderColumns = True
         Me.DataGridSettings.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridSettings.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter
-        Me.DataGridSettings.Location = New System.Drawing.Point(200, 11)
+        resources.ApplyResources(Me.DataGridSettings, "DataGridSettings")
         Me.DataGridSettings.Name = "DataGridSettings"
-        Me.DataGridSettings.Size = New System.Drawing.Size(448, 151)
-        Me.DataGridSettings.TabIndex = 0
         '
         'ListViewRecs
         '
         Me.ListViewRecs.GridLines = True
-        Me.ListViewRecs.Location = New System.Drawing.Point(9, 234)
+        resources.ApplyResources(Me.ListViewRecs, "ListViewRecs")
         Me.ListViewRecs.Name = "ListViewRecs"
-        Me.ListViewRecs.Size = New System.Drawing.Size(670, 321)
-        Me.ListViewRecs.TabIndex = 10
         Me.ListViewRecs.UseCompatibleStateImageBehavior = False
         Me.ListViewRecs.View = System.Windows.Forms.View.Details
         '
         'lblRecords
         '
-        Me.lblRecords.AutoSize = True
-        Me.lblRecords.Location = New System.Drawing.Point(290, 218)
+        resources.ApplyResources(Me.lblRecords, "lblRecords")
         Me.lblRecords.Name = "lblRecords"
-        Me.lblRecords.Size = New System.Drawing.Size(89, 13)
-        Me.lblRecords.TabIndex = 11
-        Me.lblRecords.Text = "Total Records  = "
         '
         'lblTrecs
         '
-        Me.lblTrecs.AutoSize = True
-        Me.lblTrecs.Location = New System.Drawing.Point(377, 219)
+        resources.ApplyResources(Me.lblTrecs, "lblTrecs")
         Me.lblTrecs.Name = "lblTrecs"
-        Me.lblTrecs.Size = New System.Drawing.Size(13, 13)
-        Me.lblTrecs.TabIndex = 12
-        Me.lblTrecs.Text = "0"
-        Me.lblTrecs.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'cmdClose
         '
-        Me.cmdClose.Location = New System.Drawing.Point(9, 210)
+        resources.ApplyResources(Me.cmdClose, "cmdClose")
         Me.cmdClose.Name = "cmdClose"
-        Me.cmdClose.Size = New System.Drawing.Size(78, 23)
-        Me.cmdClose.TabIndex = 13
-        Me.cmdClose.Text = "Close"
         Me.cmdClose.UseVisualStyleBackColor = True
         '
         'cmdHelp
         '
-        Me.cmdHelp.Location = New System.Drawing.Point(600, 210)
+        resources.ApplyResources(Me.cmdHelp, "cmdHelp")
         Me.cmdHelp.Name = "cmdHelp"
-        Me.cmdHelp.Size = New System.Drawing.Size(78, 23)
-        Me.cmdHelp.TabIndex = 14
-        Me.cmdHelp.Text = "Help"
         Me.cmdHelp.UseVisualStyleBackColor = True
         '
         'frmMonitoring
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(692, 559)
         Me.Controls.Add(Me.cmdHelp)
         Me.Controls.Add(Me.cmdClose)
         Me.Controls.Add(Me.lblTrecs)
@@ -698,7 +503,6 @@ Partial Class frmMonitoring
         Me.Controls.Add(Me.ListViewRecs)
         Me.Controls.Add(Me.TabMonitoring)
         Me.Name = "frmMonitoring"
-        Me.Text = "Operations Monitoring"
         Me.TabMonitoring.ResumeLayout(False)
         Me.TabUsrRecords.ResumeLayout(False)
         Me.grpUsers.ResumeLayout(False)

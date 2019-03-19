@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="YyyyLabel.Text" xml:space="preserve">
+    <value>Ano:</value>
+  </data>
+  <data name="btnUpload.Text" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Sequencer</value>
+  </data>
+  <data name="txtSequencer.Text" xml:space="preserve">
+    <value>seq_month_day_element</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Estação</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Dia:</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Mês:</value>
+  </data>
+  <data name="btnHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="btnCommit.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="btnAddNew.Text" xml:space="preserve">
+    <value>Adicionar Novo</value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="btnMovePrevious.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="btnMoveFirst.Text" xml:space="preserve">
+    <value>| &lt; &lt;</value>
+  </data>
+  <data name="btnMoveLast.Text" xml:space="preserve">
+    <value>&gt; &gt;|</value>
+  </data>
+  <data name="btnMoveNext.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Elemento</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>00</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>01</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>02</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>03</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>04</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>05</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>06</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>07</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>08</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>09</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Label30.Text" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Label32.Text" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="Label33.Text" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="Label34.Text" xml:space="preserve">
+    <value>Sinalizador</value>
+  </data>
+  <data name="Label35.Text" xml:space="preserve">
+    <value>Sinalizador</value>
+  </data>
+  <data name="btnHourSelection.Text" xml:space="preserve">
+    <value>Permitir apenas sinóticas horas</value>
+  </data>
+  <data name="btnAssignSameValue.Text" xml:space="preserve">
+    <value>Atribuir o mesmo valor para todos os obs</value>
+  </data>
+  <data name="Label36.Text" xml:space="preserve">
+    <value> valor =</value>
+  </data>
+  <data name="Label37.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="btnView.Text" xml:space="preserve">
+    <value>Exibir</value>
+  </data>
+  <data name="chkRepeatEntry.Text" xml:space="preserve">
+    <value>Modo de entrada de chave de repetição</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dados de hora em hora</value>
+  </data>
+</root>

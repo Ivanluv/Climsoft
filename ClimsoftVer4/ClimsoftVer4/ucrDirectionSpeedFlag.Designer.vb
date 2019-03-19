@@ -22,6 +22,7 @@ Partial Class ucrDirectionSpeedFlag
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrDirectionSpeedFlag))
         Me.ucrDirection = New ClimsoftVer4.ucrTextBox()
         Me.ucrSpeed = New ClimsoftVer4.ucrTextBox()
         Me.ucrFlag = New ClimsoftVer4.ucrTextBox()
@@ -31,51 +32,37 @@ Partial Class ucrDirectionSpeedFlag
         '
         'ucrDirection
         '
-        Me.ucrDirection.Location = New System.Drawing.Point(91, 0)
-        Me.ucrDirection.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        resources.ApplyResources(Me.ucrDirection, "ucrDirection")
         Me.ucrDirection.Name = "ucrDirection"
-        Me.ucrDirection.Size = New System.Drawing.Size(82, 37)
-        Me.ucrDirection.TabIndex = 3
         Me.ucrDirection.TextboxValue = ""
         '
         'ucrSpeed
         '
-        Me.ucrSpeed.Location = New System.Drawing.Point(176, 0)
-        Me.ucrSpeed.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        resources.ApplyResources(Me.ucrSpeed, "ucrSpeed")
         Me.ucrSpeed.Name = "ucrSpeed"
-        Me.ucrSpeed.Size = New System.Drawing.Size(82, 37)
-        Me.ucrSpeed.TabIndex = 4
         Me.ucrSpeed.TextboxValue = ""
         '
         'ucrFlag
         '
-        Me.ucrFlag.Location = New System.Drawing.Point(261, 0)
-        Me.ucrFlag.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        resources.ApplyResources(Me.ucrFlag, "ucrFlag")
         Me.ucrFlag.Name = "ucrFlag"
-        Me.ucrFlag.Size = New System.Drawing.Size(82, 37)
-        Me.ucrFlag.TabIndex = 5
         Me.ucrFlag.TextboxValue = ""
         '
         'ucrDDFF
         '
-        Me.ucrDDFF.Location = New System.Drawing.Point(6, 0)
-        Me.ucrDDFF.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        resources.ApplyResources(Me.ucrDDFF, "ucrDDFF")
         Me.ucrDDFF.Name = "ucrDDFF"
-        Me.ucrDDFF.Size = New System.Drawing.Size(82, 37)
-        Me.ucrDDFF.TabIndex = 2
         Me.ucrDDFF.TextboxValue = ""
         '
         'ucrDirectionSpeedFlag
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.ucrDDFF)
         Me.Controls.Add(Me.ucrFlag)
         Me.Controls.Add(Me.ucrSpeed)
         Me.Controls.Add(Me.ucrDirection)
-        Me.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.Name = "ucrDirectionSpeedFlag"
-        Me.Size = New System.Drawing.Size(354, 40)
         CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

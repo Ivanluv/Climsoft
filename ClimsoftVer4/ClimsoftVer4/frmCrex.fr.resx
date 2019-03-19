@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblHour.Text" xml:space="preserve">
+    <value>Heure </value>
+  </data>
+  <data name="lblMinute.Text" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="lblDay.Text" xml:space="preserve">
+    <value>day</value>
+  </data>
+  <data name="lblTemplate.Text" xml:space="preserve">
+    <value>Modèle</value>
+  </data>
+  <data name="lblMonth.Text" xml:space="preserve">
+    <value>month</value>
+  </data>
+  <data name="lblBBB.Text" xml:space="preserve">
+    <value>BBB</value>
+  </data>
+  <data name="lblIncludeCheckDigit.Text" xml:space="preserve">
+    <value>Inscrire le chiffre de contrôle</value>
+  </data>
+  <data name="lblHeader.Text" xml:space="preserve">
+    <value>En-tête </value>
+  </data>
+  <data name="lblYear.Text" xml:space="preserve">
+    <value>YEAR</value>
+  </data>
+  <data name="lblStation.Text" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="lblNumberSequence.Text" xml:space="preserve">
+    <value>Numéro séquentiel</value>
+  </data>
+  <data name="lblOriginatingGeneratingSubCenter.Text" xml:space="preserve">
+    <value>Provenance/génération Sub Center</value>
+  </data>
+  <data name="lblOriginatingGeneratingCenter.Text" xml:space="preserve">
+    <value>Provenance/production Center</value>
+  </data>
+  <data name="lblDataCategorySubCategory.Text" xml:space="preserve">
+    <value>Sous-catégorie de la catégorie données</value>
+  </data>
+  <data name="lblDataCategory.Text" xml:space="preserve">
+    <value>Catégorie de données</value>
+  </data>
+  <data name="lblLocalTableVersionNumber.Text" xml:space="preserve">
+    <value>Table locale numéro de Version</value>
+  </data>
+  <data name="lblBUFRMasterTableVersionNumber.Text" xml:space="preserve">
+    <value>Numéro de Version de tableau de maître BUFR</value>
+  </data>
+  <data name="lblCrexTableVersionNumber.Text" xml:space="preserve">
+    <value>Numéro de Version de Table CREX</value>
+  </data>
+  <data name="lblCrexEditionsNumber.Text" xml:space="preserve">
+    <value>Nombre d’éditions CREX</value>
+  </data>
+  <data name="grpIndicators.Text" xml:space="preserve">
+    <value>Indicateurs de </value>
+  </data>
+  <data name="lblNumberOfSubsets.Text" xml:space="preserve">
+    <value>Nombre de sous-ensembles</value>
+  </data>
+  <data name="lblSensorsheightFromGroundWind.Text" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="lblPrecipitation.Text" xml:space="preserve">
+    <value>Précipitation</value>
+  </data>
+  <data name="lblVisibility.Text" xml:space="preserve">
+    <value>Visibilité</value>
+  </data>
+  <data name="lblTemperature.Text" xml:space="preserve">
+    <value>Température</value>
+  </data>
+  <data name="lblPressure.Text" xml:space="preserve">
+    <value>Pression </value>
+  </data>
+  <data name="grpSensorsHeightFromGround.Text" xml:space="preserve">
+    <value>Capteurs de hauteur de Ground(M)</value>
+  </data>
+  <data name="lblInstrumentTypesWind.Text" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="lblEvaporation.Text" xml:space="preserve">
+    <value>Évaporation </value>
+  </data>
+  <data name="grpInstrumentTypes.Text" xml:space="preserve">
+    <value>Types d’instruments</value>
+  </data>
+  <data name="lblCodedOutput.Text" xml:space="preserve">
+    <value>Sortie codée</value>
+  </data>
+  <data name="btnSettings.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="btnSend.Text" xml:space="preserve">
+    <value>Envoyer </value>
+  </data>
+  <data name="btnSendMail.Text" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="lblTo.Text" xml:space="preserve">
+    <value>En</value>
+  </data>
+  <data name="Label37.Text" xml:space="preserve">
+    <value>Sujet</value>
+  </data>
+  <data name="lblMailApplications.Text" xml:space="preserve">
+    <value>Applications de messagerie</value>
+  </data>
+  <data name="chkAttachUncodedData.Text" xml:space="preserve">
+    <value>Attacher des données non codées</value>
+  </data>
+  <data name="lblFTP.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="lblEmail.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="grpSendingOptions.Text" xml:space="preserve">
+    <value>Options d'envoi</value>
+  </data>
+  <data name="grpCharacterMessage.Text" xml:space="preserve">
+    <value>Message du caractère</value>
+  </data>
+  <data name="btnEncode.Text" xml:space="preserve">
+    <value>Encoder</value>
+  </data>
+  <data name="btnViewImportExport.Text" xml:space="preserve">
+    <value>Vue/Import/Export</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>réinitialiser</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CREX Synop</value>
+  </data>
+</root>

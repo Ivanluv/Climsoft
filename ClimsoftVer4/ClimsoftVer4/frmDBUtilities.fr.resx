@@ -12,28 +12,85 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="MenuStrip1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Button1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>132, 17</value>
-  </metadata>
-  <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>274, 17</value>
-  </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
-  </metadata>
+  <data name="ObsInitialToFinalToolStripMenuItem.Text" xml:space="preserve">
+    <value>OBS initiale finale</value>
+  </data>
+  <data name="ImportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Charger</value>
+  </data>
+  <data name="DailyToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Tous les jours</value>
+  </data>
+  <data name="SynopToolStripMenuItem.Text" xml:space="preserve">
+    <value>Synoptique</value>
+  </data>
+  <data name="HourlyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Toutes les heures</value>
+  </data>
+  <data name="CLICOMDailyToolStripMenuItem.Text" xml:space="preserve">
+    <value>CLICOM</value>
+  </data>
+  <data name="AWSToolStripMenuItem.Text" xml:space="preserve">
+    <value>AWS </value>
+  </data>
+  <data name="NOAAGTSToolStripMenuItem.Text" xml:space="preserve">
+    <value>NOAA GTS</value>
+  </data>
+  <data name="ToolStripHourly.Text" xml:space="preserve">
+    <value>Toutes les heures</value>
+  </data>
+  <data name="ToolStripDaily.Text" xml:space="preserve">
+    <value>Tous les jours</value>
+  </data>
+  <data name="ToolStripSynoptic.Text" xml:space="preserve">
+    <value>Synoptique</value>
+  </data>
+  <data name="MultipleElementColumnsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Plusieurs colonnes d’éléments</value>
+  </data>
+  <data name="MonthlyToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Mensuel</value>
+  </data>
+  <data name="DailyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fichiers texte</value>
+  </data>
+  <data name="CLIMSOFTV3ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Migration des données</value>
+  </data>
+  <data name="ExternalDataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Données externes</value>
+  </data>
+  <data name="GenerateValuesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Générer des valeurs</value>
+  </data>
+  <data name="BackupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sauvegarde</value>
+  </data>
+  <data name="RestoreToolStripMenuItem.Text" xml:space="preserve">
+    <value>Restaurer</value>
+  </data>
+  <data name="OptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="MenuStrip1.Text" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="ToolStripLabel1.Text" xml:space="preserve">
+    <value>Base de données</value>
+  </data>
+  <data name="ToolStripButton1.Text" xml:space="preserve">
+    <value>ToolStripButton1</value>
+  </data>
+  <data name="ToolStrip1.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="cmdUpload.Text" xml:space="preserve">
+    <value>Démarrer le téléchargement</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Utilitaires de base de données</value>
+  </data>
 </root>

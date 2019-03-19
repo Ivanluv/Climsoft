@@ -22,6 +22,7 @@ Partial Class ucrNavigation
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrNavigation))
         Me.btnMovePrevious = New System.Windows.Forms.Button()
         Me.btnMoveFirst = New System.Windows.Forms.Button()
         Me.btnMoveLast = New System.Windows.Forms.Button()
@@ -32,68 +33,43 @@ Partial Class ucrNavigation
         '
         'btnMovePrevious
         '
-        Me.btnMovePrevious.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMovePrevious.Location = New System.Drawing.Point(74, 0)
-        Me.btnMovePrevious.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.btnMovePrevious, "btnMovePrevious")
         Me.btnMovePrevious.Name = "btnMovePrevious"
-        Me.btnMovePrevious.Size = New System.Drawing.Size(69, 35)
-        Me.btnMovePrevious.TabIndex = 677
-        Me.btnMovePrevious.Text = "<<"
         Me.btnMovePrevious.UseVisualStyleBackColor = True
         '
         'btnMoveFirst
         '
-        Me.btnMoveFirst.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMoveFirst.Location = New System.Drawing.Point(4, 0)
-        Me.btnMoveFirst.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.btnMoveFirst, "btnMoveFirst")
         Me.btnMoveFirst.Name = "btnMoveFirst"
-        Me.btnMoveFirst.Size = New System.Drawing.Size(62, 35)
-        Me.btnMoveFirst.TabIndex = 676
-        Me.btnMoveFirst.Text = "|<<"
         Me.btnMoveFirst.UseVisualStyleBackColor = True
         '
         'btnMoveLast
         '
-        Me.btnMoveLast.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMoveLast.Location = New System.Drawing.Point(438, 0)
-        Me.btnMoveLast.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.btnMoveLast, "btnMoveLast")
         Me.btnMoveLast.Name = "btnMoveLast"
-        Me.btnMoveLast.Size = New System.Drawing.Size(62, 35)
-        Me.btnMoveLast.TabIndex = 675
-        Me.btnMoveLast.Text = ">>|"
         Me.btnMoveLast.UseVisualStyleBackColor = True
         '
         'txtRecNum
         '
-        Me.txtRecNum.Location = New System.Drawing.Point(152, 3)
-        Me.txtRecNum.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.txtRecNum, "txtRecNum")
         Me.txtRecNum.Name = "txtRecNum"
-        Me.txtRecNum.Size = New System.Drawing.Size(210, 26)
-        Me.txtRecNum.TabIndex = 674
         '
         'btnMoveNext
         '
-        Me.btnMoveNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMoveNext.Location = New System.Drawing.Point(372, 0)
-        Me.btnMoveNext.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.btnMoveNext, "btnMoveNext")
         Me.btnMoveNext.Name = "btnMoveNext"
-        Me.btnMoveNext.Size = New System.Drawing.Size(57, 35)
-        Me.btnMoveNext.TabIndex = 673
-        Me.btnMoveNext.Text = ">>"
         Me.btnMoveNext.UseVisualStyleBackColor = True
         '
         'ucrNavigation
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.btnMovePrevious)
         Me.Controls.Add(Me.btnMoveFirst)
         Me.Controls.Add(Me.btnMoveLast)
         Me.Controls.Add(Me.txtRecNum)
         Me.Controls.Add(Me.btnMoveNext)
-        Me.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.Name = "ucrNavigation"
-        Me.Size = New System.Drawing.Size(504, 39)
         CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

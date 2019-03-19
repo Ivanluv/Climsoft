@@ -20,6 +20,7 @@ Partial Class ucrYearSelector
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrYearSelector))
         Me.cmsYear = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.cmsYearViewLongYear = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsYearViewShortYear = New System.Windows.Forms.ToolStripMenuItem()
@@ -31,27 +32,24 @@ Partial Class ucrYearSelector
         '
         Me.cmsYear.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmsYearViewLongYear, Me.cmsYearViewShortYear})
         Me.cmsYear.Name = "cmsYear"
-        Me.cmsYear.Size = New System.Drawing.Size(156, 70)
+        resources.ApplyResources(Me.cmsYear, "cmsYear")
         '
         'cmsYearViewLongYear
         '
         Me.cmsYearViewLongYear.Checked = True
         Me.cmsYearViewLongYear.CheckState = System.Windows.Forms.CheckState.Checked
         Me.cmsYearViewLongYear.Name = "cmsYearViewLongYear"
-        Me.cmsYearViewLongYear.Size = New System.Drawing.Size(155, 22)
-        Me.cmsYearViewLongYear.Text = "View Long Year"
+        resources.ApplyResources(Me.cmsYearViewLongYear, "cmsYearViewLongYear")
         '
         'cmsYearViewShortYear
         '
         Me.cmsYearViewShortYear.Name = "cmsYearViewShortYear"
-        Me.cmsYearViewShortYear.Size = New System.Drawing.Size(155, 22)
-        Me.cmsYearViewShortYear.Text = "View Short Year"
+        resources.ApplyResources(Me.cmsYearViewShortYear, "cmsYearViewShortYear")
         '
         'ucrYearSelector
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.Name = "ucrYearSelector"
-        Me.Size = New System.Drawing.Size(85, 25)
         CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.cmsYear.ResumeLayout(False)
         Me.ResumeLayout(False)

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblFlag.Text" xml:space="preserve">
+    <value>Sinalizador</value>
+  </data>
+  <data name="lblValue.Text" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="lblMonth.Text" xml:space="preserve">
+    <value>mês(meses)</value>
+  </data>
+  <data name="lbl12.Text" xml:space="preserve">
+    <value>Dezembro</value>
+  </data>
+  <data name="lbl11.Text" xml:space="preserve">
+    <value>Novemeber</value>
+  </data>
+  <data name="lbl10.Text" xml:space="preserve">
+    <value>Outubro</value>
+  </data>
+  <data name="lbl09.Text" xml:space="preserve">
+    <value>Setembro</value>
+  </data>
+  <data name="lbl08.Text" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="lbl07.Text" xml:space="preserve">
+    <value>Julho</value>
+  </data>
+  <data name="lbl06.Text" xml:space="preserve">
+    <value>Junho</value>
+  </data>
+  <data name="lbl05.Text" xml:space="preserve">
+    <value>Maio</value>
+  </data>
+  <data name="lbl04.Text" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="lbl03.Text" xml:space="preserve">
+    <value>Março</value>
+  </data>
+  <data name="lbl02.Text" xml:space="preserve">
+    <value>Fevereiro</value>
+  </data>
+  <data name="lbl01.Text" xml:space="preserve">
+    <value>Janeiro</value>
+  </data>
+  <data name="lblPeriod.Text" xml:space="preserve">
+    <value>Período</value>
+  </data>
+</root>

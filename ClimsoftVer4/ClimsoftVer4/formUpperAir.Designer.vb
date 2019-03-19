@@ -22,15 +22,14 @@ Partial Class form_upperair1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(form_upperair1))
         Me.SuspendLayout()
         '
         'form_upperair1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(734, 631)
         Me.Name = "form_upperair1"
-        Me.Text = "Upper air Observations"
         Me.ResumeLayout(False)
 
     End Sub

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdOpenFile.Text" xml:space="preserve">
+    <value>Ouvrir un fichier</value>
+  </data>
+  <data name="cmdView.Text" xml:space="preserve">
+    <value>Afficher les données</value>
+  </data>
+  <data name="optComma.Text" xml:space="preserve">
+    <value>Virgule</value>
+  </data>
+  <data name="OptTAB.Text" xml:space="preserve">
+    <value>ONGLET</value>
+  </data>
+  <data name="OptOthers.Text" xml:space="preserve">
+    <value>Autres :</value>
+  </data>
+  <data name="cmdClear.Text" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="cmdRename.Text" xml:space="preserve">
+    <value>Renommer</value>
+  </data>
+  <data name="lblColumns.Text" xml:space="preserve">
+    <value>Sélectionnez la colonne N°</value>
+  </data>
+  <data name="lblFieldName.Text" xml:space="preserve">
+    <value>Sélectionnez le nom du champ</value>
+  </data>
+  <data name="lblDelimiters.Text" xml:space="preserve">
+    <value>Séparateurs</value>
+  </data>
+  <data name="cmdLoadData.Text" xml:space="preserve">
+    <value>Charger les données</value>
+  </data>
+  <data name="txtObsHour.Text" xml:space="preserve">
+    <value>06</value>
+  </data>
+  <data name="lblStartRow.Text" xml:space="preserve">
+    <value>Ligne de départ</value>
+  </data>
+  <data name="txtStartRow.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdtest.Text" xml:space="preserve">
+    <value>Ping</value>
+  </data>
+  <data name="chkScale.Text" xml:space="preserve">
+    <value>Supprimer la mise à l’échelle</value>
+  </data>
+  <data name="cmdSaveSpecs.Text" xml:space="preserve">
+    <value>Enregistrer l’en-tête Specs</value>
+  </data>
+  <data name="cmdLoadSpecs.Text" xml:space="preserve">
+    <value>Charger la fiche de l’en-tête</value>
+  </data>
+  <data name="lblColumnHeaders.Text" xml:space="preserve">
+    <value>Paramètres d’en-tête de colonnes</value>
+  </data>
+  <data name="ToolStripLabel1.Text" xml:space="preserve">
+    <value>Enregistrez les spécifications d’en-tête</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="lblStn.Text" xml:space="preserve">
+    <value>ID de la station</value>
+  </data>
+  <data name="lblDefaultObsHour.Text" xml:space="preserve">
+    <value>Heure d’Observation par défaut</value>
+  </data>
+  <data name="lblTRecords.Text" xml:space="preserve">
+    <value>Nombre total d'enregistrements</value>
+  </data>
+  <data name="lblStnEror.Text" xml:space="preserve">
+    <value>Erreurs de station</value>
+  </data>
+  <data name="lblElmeror.Text" xml:space="preserve">
+    <value>Erreurs de l’élément</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Données de tous les jours/horaires</value>
+  </data>
+</root>

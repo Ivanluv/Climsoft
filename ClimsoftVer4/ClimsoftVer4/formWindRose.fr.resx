@@ -12,4 +12,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblPredifined.Text" xml:space="preserve">
+    <value>Période</value>
+  </data>
+  <data name="optYear.Text" xml:space="preserve">
+    <value>YEAR</value>
+  </data>
+  <data name="optSeason.Text" xml:space="preserve">
+    <value>Saison</value>
+  </data>
+  <data name="optWeekly.Text" xml:space="preserve">
+    <value>Jour ouvrable</value>
+  </data>
+  <data name="optsingle.Text" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="lblProvider.Text" xml:space="preserve">
+    <value>Fournisseur</value>
+  </data>
+  <data name="lblTile.Text" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="lbllabel.Text" xml:space="preserve">
+    <value>Étiquettes de la Rose des vents</value>
+  </data>
+  <data name="lblThreshold.Text" xml:space="preserve">
+    <value>Seuil</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Traçage de la Rose des vents</value>
+  </data>
 </root>

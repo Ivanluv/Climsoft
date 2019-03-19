@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblStnFormyyyymmddhh.Text" xml:space="preserve">
+    <value>StnID-FormID-YYYYMMDDHH</value>
+  </data>
+  <data name="lblFileStructure.Text" xml:space="preserve">
+    <value>Estrutura do arquivo</value>
+  </data>
+  <data name="chkFiles.Text" xml:space="preserve">
+    <value>Cancelar seleção</value>
+  </data>
+  <data name="cmdArchive.Text" xml:space="preserve">
+    <value>Arquivo Morto</value>
+  </data>
+  <data name="lblImageFiles.Text" xml:space="preserve">
+    <value>Arquivos de Imagem</value>
+  </data>
+  <data name="lblSelectedFolder.Text" xml:space="preserve">
+    <value>Pasta de abrir imagem</value>
+  </data>
+  <data name="grpInformation.Text" xml:space="preserve">
+    <value>Arquivos de Imagem</value>
+  </data>
+  <data name="tabStructured.Text" xml:space="preserve">
+    <value>Nomes de arquivos estruturados</value>
+  </data>
+  <data name="cmdArchiveUnstructure.Text" xml:space="preserve">
+    <value>Arquivo Morto</value>
+  </data>
+  <data name="CheckBox1.Text" xml:space="preserve">
+    <value>Reestruturar o nome do arquivo</value>
+  </data>
+  <data name="lblImageFile.Text" xml:space="preserve">
+    <value>Arquivo de Imagem</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Identificação do Formulário</value>
+  </data>
+  <data name="lblHour.Text" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="lblday.Text" xml:space="preserve">
+    <value>dia(s)</value>
+  </data>
+  <data name="lblMonth.Text" xml:space="preserve">
+    <value>mês(meses)</value>
+  </data>
+  <data name="lblYear.Text" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="lblStationId.Text" xml:space="preserve">
+    <value>StationID</value>
+  </data>
+  <data name="tabUnstructured.Text" xml:space="preserve">
+    <value>Nomes de arquivos não estruturados</value>
+  </data>
+  <data name="cmdView.Text" xml:space="preserve">
+    <value>Exibir Imagem</value>
+  </data>
+  <data name="cmdDeleteArchiveDef.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="cmdUpdateArchiveDef.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>dia(s)</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>mês(meses)</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>FormID</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Estação</value>
+  </data>
+  <data name="grpImage.Text" xml:space="preserve">
+    <value>Detalhes da imagem</value>
+  </data>
+  <data name="TabViewArchive.Text" xml:space="preserve">
+    <value>Recuperar imagens</value>
+  </data>
+  <data name="cmdList.Text" xml:space="preserve">
+    <value>Detalhes da imagem lista</value>
+  </data>
+  <data name="TabPage1.Text" xml:space="preserve">
+    <value>Lista de arquivamento</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Ajuda</value>
+  </data>
+  <data name="MenuPaperArchive.Text" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="lblImagesAt.Text" xml:space="preserve">
+    <value>Imagens arquivadas no:</value>
+  </data>
+  <data name="lblMessages.Text" xml:space="preserve">
+    <value>Mensagens</value>
+  </data>
+  <data name="cmdClear.Text" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="lblZoomout.Text" xml:space="preserve">
+    <value>Ampliar imagem</value>
+  </data>
+  <data name="lblImageRotate.Text" xml:space="preserve">
+    <value>Girar imagem</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Arquivamento de papel</value>
+  </data>
+</root>

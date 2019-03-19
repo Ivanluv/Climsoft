@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Val_Elem046Label.Text" xml:space="preserve">
+    <value>Insolation</value>
+  </data>
+  <data name="Val_Elem174Label.Text" xml:space="preserve">
+    <value>PRECIP - 3 h</value>
+  </data>
+  <data name="Val_Elem005Label.Text" xml:space="preserve">
+    <value>PRECIP - 24h</value>
+  </data>
+  <data name="Val_Elem132Label.Text" xml:space="preserve">
+    <value>SSS - 1hr</value>
+  </data>
+  <data name="Val_Elem084Label.Text" xml:space="preserve">
+    <value>SSS - 24h</value>
+  </data>
+  <data name="Val_Elem018Label.Text" xml:space="preserve">
+    <value>Évaporation</value>
+  </data>
+  <data name="Val_Elem099Label.Text" xml:space="preserve">
+    <value>Herbe Min Temp</value>
+  </data>
+  <data name="Val_Elem003Label.Text" xml:space="preserve">
+    <value>TMin</value>
+  </data>
+  <data name="Val_Elem002Label.Text" xml:space="preserve">
+    <value>Tmax</value>
+  </data>
+  <data name="Val_Elem130Label.Text" xml:space="preserve">
+    <value>Nuage Ht Lvl4-Hshs4</value>
+  </data>
+  <data name="Val_Elem129Label.Text" xml:space="preserve">
+    <value>Type de nuage Lvl4-C4</value>
+  </data>
+  <data name="Val_Elem128Label.Text" xml:space="preserve">
+    <value>Amt nuage Lvl4-N4</value>
+  </data>
+  <data name="Val_Elem131Label.Text" xml:space="preserve">
+    <value>Portée verticale 4</value>
+  </data>
+  <data name="Val_Elem126Label.Text" xml:space="preserve">
+    <value>Nuage Ht Lvl3-HsHs3</value>
+  </data>
+  <data name="Val_Elem125Label.Text" xml:space="preserve">
+    <value>Type de nuage Lvl3-C3</value>
+  </data>
+  <data name="Val_Elem124Label.Text" xml:space="preserve">
+    <value>Amt nuage Lvl3-N3</value>
+  </data>
+  <data name="Val_Elem127Label.Text" xml:space="preserve">
+    <value>3 important vertical</value>
+  </data>
+  <data name="Val_Elem122Label.Text" xml:space="preserve">
+    <value>Nuage Ht Lvl2-HsHs2</value>
+  </data>
+  <data name="Val_Elem121Label.Text" xml:space="preserve">
+    <value>Type de nuages Lv2-C2</value>
+  </data>
+  <data name="Val_Elem120Label.Text" xml:space="preserve">
+    <value>Nuage Amt Lvl2-N2</value>
+  </data>
+  <data name="Val_Elem123Label.Text" xml:space="preserve">
+    <value>Portée verticale 2</value>
+  </data>
+  <data name="Val_Elem118Label.Text" xml:space="preserve">
+    <value>Nuage Ht Lvl1-HsHs1</value>
+  </data>
+  <data name="Val_Elem117Label.Text" xml:space="preserve">
+    <value>Type de nuage Lvl1-C1</value>
+  </data>
+  <data name="Val_Elem116Label.Text" xml:space="preserve">
+    <value>Amt nuage Lvl1-N1</value>
+  </data>
+  <data name="Val_Elem119Label.Text" xml:space="preserve">
+    <value>Significance1 vertical</value>
+  </data>
+  <data name="Val_Elem180Label.Text" xml:space="preserve">
+    <value>Haut Lvl nuages Type-CH</value>
+  </data>
+  <data name="Val_Elem179Label.Text" xml:space="preserve">
+    <value>Lvl moyen nuages Type-CM</value>
+  </data>
+  <data name="Val_Elem178Label.Text" xml:space="preserve">
+    <value>Nuages bas Lvl Type-CL</value>
+  </data>
+  <data name="Val_Elem177Label.Text" xml:space="preserve">
+    <value>Nuages bas Lvl Amt-Nh</value>
+  </data>
+  <data name="Val_Elem115Label.Text" xml:space="preserve">
+    <value>Portée verticale</value>
+  </data>
+  <data name="Val_Elem193Label.Text" xml:space="preserve">
+    <value>PastWx2</value>
+  </data>
+  <data name="Val_Elem197Label.Text" xml:space="preserve">
+    <value>PastWx1</value>
+  </data>
+  <data name="Val_Elem167Label.Text" xml:space="preserve">
+    <value>PresentWx</value>
+  </data>
+  <data name="Val_Elem111Label.Text" xml:space="preserve">
+    <value>Vitesse du vent -fff</value>
+  </data>
+  <data name="Val_Elem112Label.Text" xml:space="preserve">
+    <value>Direction du vent-dd</value>
+  </data>
+  <data name="Val_Elem114Label.Text" xml:space="preserve">
+    <value>Nuageuse totale couverture - N</value>
+  </data>
+  <data name="Val_Elem110Label.Text" xml:space="preserve">
+    <value>Visibilité horizontale-VV</value>
+  </data>
+  <data name="Val_Elem176Label.Text" xml:space="preserve">
+    <value>Nuages bas Hght-h</value>
+  </data>
+  <data name="Val_Elem105Label.Text" xml:space="preserve">
+    <value>Humidité relative-U</value>
+  </data>
+  <data name="Val_Elem103Label.Text" xml:space="preserve">
+    <value>Point de rosée de Temp-TdTdTd</value>
+  </data>
+  <data name="Val_Elem102Label.Text" xml:space="preserve">
+    <value>Wetbulb Temp-ainsi</value>
+  </data>
+  <data name="Val_Elem101Label.Text" xml:space="preserve">
+    <value>DryBulb Temp-TTT</value>
+  </data>
+  <data name="Val_Elem196Label.Text" xml:space="preserve">
+    <value>Hauteur du géopotentiel-hhh</value>
+  </data>
+  <data name="Val_Elem301Label.Text" xml:space="preserve">
+    <value>Pression standard niveau - un</value>
+  </data>
+  <data name="Val_Elem399Label.Text" xml:space="preserve">
+    <value>24hr pression changement-P24</value>
+  </data>
+  <data name="Val_Elem814Label.Text" xml:space="preserve">
+    <value>3hr pression caractéristique</value>
+  </data>
+  <data name="Val_Elem400Label.Text" xml:space="preserve">
+    <value>3hr pression changement-P3</value>
+  </data>
+  <data name="Val_Elem107Label.Text" xml:space="preserve">
+    <value>Pression réduite à MSL-P</value>
+  </data>
+  <data name="Val_Elem106Label.Text" xml:space="preserve">
+    <value>Station niveau pression-Po</value>
+  </data>
+  <data name="lblValue.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="lblFlag.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="lblValueTwo.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="lblFlagTwo.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="lblValueThree.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="lblFlagThree.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+</root>

@@ -23,6 +23,7 @@ Partial Class ucrStationSelector
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrStationSelector))
         Me.cmsStation = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.cmsStationNames = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsStationIDs = New System.Windows.Forms.ToolStripMenuItem()
@@ -32,6 +33,7 @@ Partial Class ucrStationSelector
         Me.cmsStationSortyByName = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsFilterStations = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.cmsStation.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,60 +41,54 @@ Partial Class ucrStationSelector
         '
         Me.cmsStation.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmsStationNames, Me.cmsStationIDs, Me.cmsStationIDAndStation, Me.ToolStripSeparator2, Me.cmsStationSortByID, Me.cmsStationSortyByName, Me.cmsFilterStations, Me.ToolStripSeparator1})
         Me.cmsStation.Name = "cmsStation"
-        Me.cmsStation.Size = New System.Drawing.Size(187, 148)
+        resources.ApplyResources(Me.cmsStation, "cmsStation")
         '
         'cmsStationNames
         '
         Me.cmsStationNames.Name = "cmsStationNames"
-        Me.cmsStationNames.Size = New System.Drawing.Size(186, 22)
-        Me.cmsStationNames.Text = "Station Names"
+        resources.ApplyResources(Me.cmsStationNames, "cmsStationNames")
         '
         'cmsStationIDs
         '
         Me.cmsStationIDs.Name = "cmsStationIDs"
-        Me.cmsStationIDs.Size = New System.Drawing.Size(186, 22)
-        Me.cmsStationIDs.Text = "IDs"
+        resources.ApplyResources(Me.cmsStationIDs, "cmsStationIDs")
         '
         'cmsStationIDAndStation
         '
         Me.cmsStationIDAndStation.Name = "cmsStationIDAndStation"
-        Me.cmsStationIDAndStation.Size = New System.Drawing.Size(186, 22)
-        Me.cmsStationIDAndStation.Text = "ID and Station"
+        resources.ApplyResources(Me.cmsStationIDAndStation, "cmsStationIDAndStation")
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(183, 6)
+        resources.ApplyResources(Me.ToolStripSeparator2, "ToolStripSeparator2")
         '
         'cmsStationSortByID
         '
         Me.cmsStationSortByID.Name = "cmsStationSortByID"
-        Me.cmsStationSortByID.Size = New System.Drawing.Size(186, 22)
-        Me.cmsStationSortByID.Text = "Sort By ID"
+        resources.ApplyResources(Me.cmsStationSortByID, "cmsStationSortByID")
         '
         'cmsStationSortyByName
         '
         Me.cmsStationSortyByName.Name = "cmsStationSortyByName"
-        Me.cmsStationSortyByName.Size = New System.Drawing.Size(186, 22)
-        Me.cmsStationSortyByName.Text = "Sort By Station Name"
+        resources.ApplyResources(Me.cmsStationSortyByName, "cmsStationSortyByName")
         '
         'cmsFilterStations
         '
         Me.cmsFilterStations.Name = "cmsFilterStations"
-        Me.cmsFilterStations.Size = New System.Drawing.Size(186, 22)
-        Me.cmsFilterStations.Text = "Filter Stations"
+        resources.ApplyResources(Me.cmsFilterStations, "cmsFilterStations")
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(183, 6)
+        resources.ApplyResources(Me.ToolStripSeparator1, "ToolStripSeparator1")
         '
         'ucrStationSelector
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Name = "ucrStationSelector"
-        Me.Size = New System.Drawing.Size(253, 24)
+        CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.cmsStation.ResumeLayout(False)
         Me.ResumeLayout(False)
 

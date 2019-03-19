@@ -49,137 +49,96 @@ Partial Class frmProducts
         'MenuStrip1
         '
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.HelpToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        resources.ApplyResources(Me.MenuStrip1, "MenuStrip1")
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(515, 24)
-        Me.MenuStrip1.TabIndex = 1
-        Me.MenuStrip1.Text = "MenuStrip1"
         '
         'FileToolStripMenuItem
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenListToolStripMenuItem, Me.ToolStripMenuItem2, Me.OpenListToolStripMenuItem1, Me.ToolStripMenuItem1, Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
-        Me.FileToolStripMenuItem.Text = "File"
+        resources.ApplyResources(Me.FileToolStripMenuItem, "FileToolStripMenuItem")
         '
         'OpenListToolStripMenuItem
         '
         Me.OpenListToolStripMenuItem.Name = "OpenListToolStripMenuItem"
-        Me.OpenListToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
-        Me.OpenListToolStripMenuItem.Text = "Save Specifications"
-        Me.OpenListToolStripMenuItem.Visible = False
+        resources.ApplyResources(Me.OpenListToolStripMenuItem, "OpenListToolStripMenuItem")
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(179, 22)
-        Me.ToolStripMenuItem2.Text = "Open Specifications"
-        Me.ToolStripMenuItem2.Visible = False
+        resources.ApplyResources(Me.ToolStripMenuItem2, "ToolStripMenuItem2")
         '
         'OpenListToolStripMenuItem1
         '
         Me.OpenListToolStripMenuItem1.Name = "OpenListToolStripMenuItem1"
-        Me.OpenListToolStripMenuItem1.Size = New System.Drawing.Size(179, 22)
-        Me.OpenListToolStripMenuItem1.Text = "Add New Product"
-        Me.OpenListToolStripMenuItem1.Visible = False
+        resources.ApplyResources(Me.OpenListToolStripMenuItem1, "OpenListToolStripMenuItem1")
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(176, 6)
+        resources.ApplyResources(Me.ToolStripMenuItem1, "ToolStripMenuItem1")
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
-        Me.ExitToolStripMenuItem.Text = "Exit"
+        resources.ApplyResources(Me.ExitToolStripMenuItem, "ExitToolStripMenuItem")
         '
         'EditToolStripMenuItem
         '
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
-        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
-        Me.EditToolStripMenuItem.Text = "Edit"
-        Me.EditToolStripMenuItem.Visible = False
+        resources.ApplyResources(Me.EditToolStripMenuItem, "EditToolStripMenuItem")
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem.Text = "Help"
+        resources.ApplyResources(Me.HelpToolStripMenuItem, "HelpToolStripMenuItem")
         '
         'lblProducts
         '
-        Me.lblProducts.AutoSize = True
-        Me.lblProducts.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblProducts.Location = New System.Drawing.Point(77, 52)
+        resources.ApplyResources(Me.lblProducts, "lblProducts")
         Me.lblProducts.Name = "lblProducts"
-        Me.lblProducts.Size = New System.Drawing.Size(69, 16)
-        Me.lblProducts.TabIndex = 14
-        Me.lblProducts.Text = "Products"
         '
         'ToolStrip1
         '
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
+        resources.ApplyResources(Me.ToolStrip1, "ToolStrip1")
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(515, 25)
-        Me.ToolStrip1.TabIndex = 13
-        Me.ToolStrip1.Text = "ToolStrip1"
         '
         'ToolStrip2
         '
-        Me.ToolStrip2.Dock = System.Windows.Forms.DockStyle.Bottom
+        resources.ApplyResources(Me.ToolStrip2, "ToolStrip2")
         Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripSeparator2, Me.ToolStripButton1})
-        Me.ToolStrip2.Location = New System.Drawing.Point(0, 429)
         Me.ToolStrip2.Name = "ToolStrip2"
-        Me.ToolStrip2.Size = New System.Drawing.Size(515, 25)
-        Me.ToolStrip2.TabIndex = 16
-        Me.ToolStrip2.Text = "ToolStrip2"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 25)
+        resources.ApplyResources(Me.ToolStripSeparator2, "ToolStripSeparator2")
         '
         'ToolStripButton1
         '
         Me.ToolStripButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.ToolStripButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        resources.ApplyResources(Me.ToolStripButton1, "ToolStripButton1")
         Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(40, 22)
-        Me.ToolStripButton1.Text = "Close"
         '
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.cmbProductsCategory)
         Me.Panel1.Controls.Add(Me.lblProductsCategory)
         Me.Panel1.Controls.Add(Me.lstvProducts)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel1.Location = New System.Drawing.Point(0, 49)
+        resources.ApplyResources(Me.Panel1, "Panel1")
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(503, 380)
-        Me.Panel1.TabIndex = 17
         '
         'cmbProductsCategory
         '
         Me.cmbProductsCategory.FormattingEnabled = True
-        Me.cmbProductsCategory.ItemHeight = 13
-        Me.cmbProductsCategory.Location = New System.Drawing.Point(21, 12)
+        resources.ApplyResources(Me.cmbProductsCategory, "cmbProductsCategory")
         Me.cmbProductsCategory.Name = "cmbProductsCategory"
-        Me.cmbProductsCategory.Size = New System.Drawing.Size(217, 21)
-        Me.cmbProductsCategory.TabIndex = 18
         '
         'lblProductsCategory
         '
-        Me.lblProductsCategory.AutoSize = True
-        Me.lblProductsCategory.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblProductsCategory.Location = New System.Drawing.Point(244, 17)
+        resources.ApplyResources(Me.lblProductsCategory, "lblProductsCategory")
         Me.lblProductsCategory.Name = "lblProductsCategory"
-        Me.lblProductsCategory.Size = New System.Drawing.Size(151, 16)
-        Me.lblProductsCategory.TabIndex = 17
-        Me.lblProductsCategory.Text = "Select Product category"
         '
         'lstvProducts
         '
@@ -190,26 +149,21 @@ Partial Class frmProducts
         Me.lstvProducts.HideSelection = False
         Me.lstvProducts.HoverSelection = True
         Me.lstvProducts.LabelEdit = True
-        Me.lstvProducts.Location = New System.Drawing.Point(21, 41)
+        resources.ApplyResources(Me.lstvProducts, "lstvProducts")
         Me.lstvProducts.Name = "lstvProducts"
-        Me.lstvProducts.RightToLeftLayout = True
-        Me.lstvProducts.Size = New System.Drawing.Size(461, 320)
-        Me.lstvProducts.TabIndex = 16
         Me.lstvProducts.UseCompatibleStateImageBehavior = False
         Me.lstvProducts.View = System.Windows.Forms.View.Details
         '
         'frmProducts
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(515, 454)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.ToolStrip2)
         Me.Controls.Add(Me.lblProducts)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Name = "frmProducts"
-        Me.Text = "Products List"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ToolStrip2.ResumeLayout(False)

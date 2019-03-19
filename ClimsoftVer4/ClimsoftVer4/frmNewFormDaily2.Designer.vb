@@ -22,6 +22,7 @@ Partial Class frmNewFormDaily2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmNewFormDaily2))
         Me.lblStation = New System.Windows.Forms.Label()
         Me.lblElement = New System.Windows.Forms.Label()
         Me.lblYear = New System.Windows.Forms.Label()
@@ -64,68 +65,41 @@ Partial Class frmNewFormDaily2
         '
         'lblStation
         '
-        Me.lblStation.AutoSize = True
-        Me.lblStation.Location = New System.Drawing.Point(25, 20)
+        resources.ApplyResources(Me.lblStation, "lblStation")
         Me.lblStation.Name = "lblStation"
-        Me.lblStation.Size = New System.Drawing.Size(43, 13)
-        Me.lblStation.TabIndex = 1
-        Me.lblStation.Text = "Station:"
         '
         'lblElement
         '
-        Me.lblElement.AutoSize = True
-        Me.lblElement.Location = New System.Drawing.Point(274, 20)
+        resources.ApplyResources(Me.lblElement, "lblElement")
         Me.lblElement.Name = "lblElement"
-        Me.lblElement.Size = New System.Drawing.Size(48, 13)
-        Me.lblElement.TabIndex = 1
-        Me.lblElement.Text = "Element:"
         '
         'lblYear
         '
-        Me.lblYear.AutoSize = True
-        Me.lblYear.Location = New System.Drawing.Point(70, 55)
+        resources.ApplyResources(Me.lblYear, "lblYear")
         Me.lblYear.Name = "lblYear"
-        Me.lblYear.Size = New System.Drawing.Size(32, 13)
-        Me.lblYear.TabIndex = 5
-        Me.lblYear.Text = "Year:"
         '
         'lblMonth
         '
-        Me.lblMonth.AutoSize = True
-        Me.lblMonth.Location = New System.Drawing.Point(154, 57)
+        resources.ApplyResources(Me.lblMonth, "lblMonth")
         Me.lblMonth.Name = "lblMonth"
-        Me.lblMonth.Size = New System.Drawing.Size(40, 13)
-        Me.lblMonth.TabIndex = 5
-        Me.lblMonth.Text = "Month:"
         '
         'lblHour
         '
-        Me.lblHour.AutoSize = True
-        Me.lblHour.Location = New System.Drawing.Point(277, 58)
+        resources.ApplyResources(Me.lblHour, "lblHour")
         Me.lblHour.Name = "lblHour"
-        Me.lblHour.Size = New System.Drawing.Size(33, 13)
-        Me.lblHour.TabIndex = 5
-        Me.lblHour.Text = "Hour:"
         '
         'cmdAssignSameValue
         '
         Me.cmdAssignSameValue.ForeColor = System.Drawing.Color.Blue
-        Me.cmdAssignSameValue.Location = New System.Drawing.Point(364, 73)
+        resources.ApplyResources(Me.cmdAssignSameValue, "cmdAssignSameValue")
         Me.cmdAssignSameValue.Name = "cmdAssignSameValue"
-        Me.cmdAssignSameValue.Size = New System.Drawing.Size(169, 23)
-        Me.cmdAssignSameValue.TabIndex = 16
-        Me.cmdAssignSameValue.Text = "Assign same value to all obs"
         Me.cmdAssignSameValue.UseVisualStyleBackColor = True
         '
         'lblValue
         '
-        Me.lblValue.AutoSize = True
+        resources.ApplyResources(Me.lblValue, "lblValue")
         Me.lblValue.ForeColor = System.Drawing.Color.Blue
-        Me.lblValue.Location = New System.Drawing.Point(537, 78)
         Me.lblValue.Name = "lblValue"
-        Me.lblValue.Size = New System.Drawing.Size(40, 13)
-        Me.lblValue.TabIndex = 10
-        Me.lblValue.Text = "Value="
         '
         'grpUnits
         '
@@ -137,273 +111,175 @@ Partial Class frmNewFormDaily2
         Me.grpUnits.Controls.Add(Me.ucrCloudheightUnits)
         Me.grpUnits.Controls.Add(Me.ucrPrecipUnits)
         Me.grpUnits.Controls.Add(Me.ucrTempUnits)
-        Me.grpUnits.Location = New System.Drawing.Point(70, 106)
+        resources.ApplyResources(Me.grpUnits, "grpUnits")
         Me.grpUnits.Name = "grpUnits"
-        Me.grpUnits.Size = New System.Drawing.Size(567, 54)
-        Me.grpUnits.TabIndex = 19
         Me.grpUnits.TabStop = False
-        Me.grpUnits.Text = "Units"
         '
         'lblVisibility
         '
-        Me.lblVisibility.AutoSize = True
-        Me.lblVisibility.Location = New System.Drawing.Point(450, 22)
+        resources.ApplyResources(Me.lblVisibility, "lblVisibility")
         Me.lblVisibility.Name = "lblVisibility"
-        Me.lblVisibility.Size = New System.Drawing.Size(46, 13)
-        Me.lblVisibility.TabIndex = 7
-        Me.lblVisibility.Text = "Visibility:"
         '
         'LblCloudheight
         '
-        Me.LblCloudheight.AutoSize = True
-        Me.LblCloudheight.Location = New System.Drawing.Point(288, 22)
+        resources.ApplyResources(Me.LblCloudheight, "LblCloudheight")
         Me.LblCloudheight.Name = "LblCloudheight"
-        Me.LblCloudheight.Size = New System.Drawing.Size(69, 13)
-        Me.LblCloudheight.TabIndex = 6
-        Me.LblCloudheight.Text = "Cloud height:"
         '
         'lblPrecip
         '
-        Me.lblPrecip.AutoSize = True
-        Me.lblPrecip.Location = New System.Drawing.Point(179, 22)
+        resources.ApplyResources(Me.lblPrecip, "lblPrecip")
         Me.lblPrecip.Name = "lblPrecip"
-        Me.lblPrecip.Size = New System.Drawing.Size(40, 13)
-        Me.lblPrecip.TabIndex = 5
-        Me.lblPrecip.Text = "Precip:"
         '
         'lblTemperature
         '
-        Me.lblTemperature.AutoSize = True
-        Me.lblTemperature.Location = New System.Drawing.Point(22, 22)
+        resources.ApplyResources(Me.lblTemperature, "lblTemperature")
         Me.lblTemperature.Name = "lblTemperature"
-        Me.lblTemperature.Size = New System.Drawing.Size(70, 13)
-        Me.lblTemperature.TabIndex = 4
-        Me.lblTemperature.Text = "Temperature:"
         '
         'ucrVisibilityUnits
         '
-        Me.ucrVisibilityUnits.Location = New System.Drawing.Point(498, 19)
-        Me.ucrVisibilityUnits.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrVisibilityUnits, "ucrVisibilityUnits")
         Me.ucrVisibilityUnits.Name = "ucrVisibilityUnits"
-        Me.ucrVisibilityUnits.Size = New System.Drawing.Size(62, 21)
-        Me.ucrVisibilityUnits.TabIndex = 23
         '
         'ucrCloudheightUnits
         '
-        Me.ucrCloudheightUnits.Location = New System.Drawing.Point(359, 19)
-        Me.ucrCloudheightUnits.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrCloudheightUnits, "ucrCloudheightUnits")
         Me.ucrCloudheightUnits.Name = "ucrCloudheightUnits"
-        Me.ucrCloudheightUnits.Size = New System.Drawing.Size(62, 21)
-        Me.ucrCloudheightUnits.TabIndex = 22
         '
         'ucrPrecipUnits
         '
-        Me.ucrPrecipUnits.Location = New System.Drawing.Point(221, 19)
-        Me.ucrPrecipUnits.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrPrecipUnits, "ucrPrecipUnits")
         Me.ucrPrecipUnits.Name = "ucrPrecipUnits"
-        Me.ucrPrecipUnits.Size = New System.Drawing.Size(62, 21)
-        Me.ucrPrecipUnits.TabIndex = 21
         '
         'ucrTempUnits
         '
-        Me.ucrTempUnits.Location = New System.Drawing.Point(94, 19)
-        Me.ucrTempUnits.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrTempUnits, "ucrTempUnits")
         Me.ucrTempUnits.Name = "ucrTempUnits"
-        Me.ucrTempUnits.Size = New System.Drawing.Size(62, 21)
-        Me.ucrTempUnits.TabIndex = 20
         '
         'btnView
         '
-        Me.btnView.Location = New System.Drawing.Point(444, 555)
+        resources.ApplyResources(Me.btnView, "btnView")
         Me.btnView.Name = "btnView"
-        Me.btnView.Size = New System.Drawing.Size(75, 23)
-        Me.btnView.TabIndex = 11
-        Me.btnView.Text = "View"
         Me.btnView.UseVisualStyleBackColor = True
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(618, 555)
+        resources.ApplyResources(Me.btnHelp, "btnHelp")
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(75, 23)
-        Me.btnHelp.TabIndex = 13
-        Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(357, 555)
+        resources.ApplyResources(Me.btnClear, "btnClear")
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
-        Me.btnClear.TabIndex = 10
-        Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
         'btnCommit
         '
-        Me.btnCommit.Location = New System.Drawing.Point(96, 555)
+        resources.ApplyResources(Me.btnCommit, "btnCommit")
         Me.btnCommit.Name = "btnCommit"
-        Me.btnCommit.Size = New System.Drawing.Size(75, 23)
-        Me.btnCommit.TabIndex = 6
-        Me.btnCommit.Text = "Save"
         Me.btnCommit.UseVisualStyleBackColor = True
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(270, 555)
+        resources.ApplyResources(Me.btnDelete, "btnDelete")
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 9
-        Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
         'btnAddNew
         '
-        Me.btnAddNew.Location = New System.Drawing.Point(9, 555)
+        resources.ApplyResources(Me.btnAddNew, "btnAddNew")
         Me.btnAddNew.Name = "btnAddNew"
-        Me.btnAddNew.Size = New System.Drawing.Size(75, 23)
-        Me.btnAddNew.TabIndex = 8
-        Me.btnAddNew.Text = "Add New"
         Me.btnAddNew.UseVisualStyleBackColor = True
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(183, 555)
+        resources.ApplyResources(Me.btnUpdate, "btnUpdate")
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
-        Me.btnUpdate.TabIndex = 7
-        Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(531, 555)
+        resources.ApplyResources(Me.btnClose, "btnClose")
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(75, 23)
-        Me.btnClose.TabIndex = 12
-        Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
         '
         'btnUpload
         '
         Me.btnUpload.BackColor = System.Drawing.Color.Lime
-        Me.btnUpload.Location = New System.Drawing.Point(618, 596)
+        resources.ApplyResources(Me.btnUpload, "btnUpload")
         Me.btnUpload.Name = "btnUpload"
-        Me.btnUpload.Size = New System.Drawing.Size(75, 23)
-        Me.btnUpload.TabIndex = 14
-        Me.btnUpload.Text = "Upload"
         Me.btnUpload.UseVisualStyleBackColor = False
         '
         'chkEnableSequencer
         '
-        Me.chkEnableSequencer.AutoSize = True
+        resources.ApplyResources(Me.chkEnableSequencer, "chkEnableSequencer")
         Me.chkEnableSequencer.Checked = True
         Me.chkEnableSequencer.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkEnableSequencer.ForeColor = System.Drawing.Color.Red
-        Me.chkEnableSequencer.Location = New System.Drawing.Point(533, 20)
         Me.chkEnableSequencer.Name = "chkEnableSequencer"
-        Me.chkEnableSequencer.Size = New System.Drawing.Size(155, 17)
-        Me.chkEnableSequencer.TabIndex = 18
-        Me.chkEnableSequencer.Text = "Enable Element Sequencer"
         Me.chkEnableSequencer.UseVisualStyleBackColor = True
         '
         'ucrInputValue
         '
-        Me.ucrInputValue.Location = New System.Drawing.Point(579, 73)
-        Me.ucrInputValue.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrInputValue, "ucrInputValue")
         Me.ucrInputValue.Name = "ucrInputValue"
-        Me.ucrInputValue.Size = New System.Drawing.Size(58, 24)
-        Me.ucrInputValue.TabIndex = 17
         Me.ucrInputValue.TextboxValue = ""
         '
         'ucrHour
         '
-        Me.ucrHour.Location = New System.Drawing.Point(279, 74)
-        Me.ucrHour.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrHour, "ucrHour")
         Me.ucrHour.Name = "ucrHour"
-        Me.ucrHour.Size = New System.Drawing.Size(65, 21)
-        Me.ucrHour.TabIndex = 4
         '
         'ucrMonth
         '
-        Me.ucrMonth.Location = New System.Drawing.Point(157, 74)
-        Me.ucrMonth.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrMonth, "ucrMonth")
         Me.ucrMonth.Name = "ucrMonth"
-        Me.ucrMonth.Size = New System.Drawing.Size(98, 21)
-        Me.ucrMonth.TabIndex = 3
         '
         'ucrYearSelector
         '
-        Me.ucrYearSelector.Location = New System.Drawing.Point(70, 74)
-        Me.ucrYearSelector.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrYearSelector, "ucrYearSelector")
         Me.ucrYearSelector.Name = "ucrYearSelector"
-        Me.ucrYearSelector.Size = New System.Drawing.Size(59, 21)
-        Me.ucrYearSelector.TabIndex = 2
         '
         'ucrFormDaily
         '
-        Me.ucrFormDaily.Location = New System.Drawing.Point(43, 160)
+        resources.ApplyResources(Me.ucrFormDaily, "ucrFormDaily")
         Me.ucrFormDaily.Name = "ucrFormDaily"
-        Me.ucrFormDaily.Size = New System.Drawing.Size(619, 353)
-        Me.ucrFormDaily.TabIndex = 5
         '
         'ucrElementSelector
         '
-        Me.ucrElementSelector.Location = New System.Drawing.Point(324, 17)
-        Me.ucrElementSelector.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrElementSelector, "ucrElementSelector")
         Me.ucrElementSelector.Name = "ucrElementSelector"
-        Me.ucrElementSelector.Size = New System.Drawing.Size(178, 21)
-        Me.ucrElementSelector.TabIndex = 1
         '
         'ucrStationSelector
         '
-        Me.ucrStationSelector.Location = New System.Drawing.Point(70, 17)
-        Me.ucrStationSelector.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrStationSelector, "ucrStationSelector")
         Me.ucrStationSelector.Name = "ucrStationSelector"
-        Me.ucrStationSelector.Size = New System.Drawing.Size(175, 24)
-        Me.ucrStationSelector.TabIndex = 0
         '
         'ucrDaiy2Navigation
         '
-        Me.ucrDaiy2Navigation.Location = New System.Drawing.Point(133, 523)
-        Me.ucrDaiy2Navigation.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrDaiy2Navigation, "ucrDaiy2Navigation")
         Me.ucrDaiy2Navigation.Name = "ucrDaiy2Navigation"
-        Me.ucrDaiy2Navigation.Size = New System.Drawing.Size(336, 25)
-        Me.ucrDaiy2Navigation.TabIndex = 15
         '
         'lblSequencer
         '
-        Me.lblSequencer.AutoSize = True
-        Me.lblSequencer.Location = New System.Drawing.Point(212, 602)
+        resources.ApplyResources(Me.lblSequencer, "lblSequencer")
         Me.lblSequencer.Name = "lblSequencer"
-        Me.lblSequencer.Size = New System.Drawing.Size(59, 13)
-        Me.lblSequencer.TabIndex = 681
-        Me.lblSequencer.Text = "Sequencer"
         '
         'txtSequencer
         '
-        Me.txtSequencer.Location = New System.Drawing.Point(277, 599)
+        resources.ApplyResources(Me.txtSequencer, "txtSequencer")
         Me.txtSequencer.Name = "txtSequencer"
-        Me.txtSequencer.Size = New System.Drawing.Size(200, 20)
-        Me.txtSequencer.TabIndex = 680
-        Me.txtSequencer.Text = "seq_daily_element"
         '
         'chkRepeatEntry
         '
-        Me.chkRepeatEntry.AutoSize = True
-        Me.chkRepeatEntry.Enabled = False
-        Me.chkRepeatEntry.Location = New System.Drawing.Point(9, 602)
+        resources.ApplyResources(Me.chkRepeatEntry, "chkRepeatEntry")
         Me.chkRepeatEntry.Name = "chkRepeatEntry"
-        Me.chkRepeatEntry.Size = New System.Drawing.Size(88, 17)
-        Me.chkRepeatEntry.TabIndex = 684
-        Me.chkRepeatEntry.Text = "Repeat Entry"
         Me.chkRepeatEntry.UseVisualStyleBackColor = True
         '
         'frmNewFormDaily2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(704, 631)
         Me.Controls.Add(Me.chkRepeatEntry)
         Me.Controls.Add(Me.lblSequencer)
         Me.Controls.Add(Me.txtSequencer)
@@ -435,7 +311,6 @@ Partial Class frmNewFormDaily2
         Me.Controls.Add(Me.ucrStationSelector)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "frmNewFormDaily2"
-        Me.Text = "Daily data for the whole month"
         Me.grpUnits.ResumeLayout(False)
         Me.grpUnits.PerformLayout()
         Me.ResumeLayout(False)

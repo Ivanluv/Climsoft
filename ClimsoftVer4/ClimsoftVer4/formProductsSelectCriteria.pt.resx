@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OpenListToolStripMenuItem.Text" xml:space="preserve">
+    <value>Salvar as especificações</value>
+  </data>
+  <data name="ToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Especificações abertas</value>
+  </data>
+  <data name="OpenListToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Adicionar novo produto</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="FileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="EditToolStripMenuItem.Text" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="MenuStrip1.Text" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="cmdSelectAllElements.Text" xml:space="preserve">
+    <value>Selecionar Tudo</value>
+  </data>
+  <data name="cmdSelectAllStations.Text" xml:space="preserve">
+    <value>Selecionar Tudo</value>
+  </data>
+  <data name="cmdClearStations.Text" xml:space="preserve">
+    <value>Limpar lista</value>
+  </data>
+  <data name="cmdClearElements.Text" xml:space="preserve">
+    <value>Limpar lista</value>
+  </data>
+  <data name="chkTranspose.Text" xml:space="preserve">
+    <value>Transposição de valores</value>
+  </data>
+  <data name="optTotal.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="optMean.Text" xml:space="preserve">
+    <value>Médio</value>
+  </data>
+  <data name="lblSummary.Text" xml:space="preserve">
+    <value>Tipo de Resumo</value>
+  </data>
+  <data name="btnMinDate.Text" xml:space="preserve">
+    <value>Menores e data</value>
+  </data>
+  <data name="btnMaxDate.Text" xml:space="preserve">
+    <value>Maior e data</value>
+  </data>
+  <data name="btnLowHigh.Text" xml:space="preserve">
+    <value>Maior e menor</value>
+  </data>
+  <data name="lblXtyp.Text" xml:space="preserve">
+    <value>Tipo de extremo</value>
+  </data>
+  <data name="cmdDelStation.Text" xml:space="preserve">
+    <value>Excluir estação selecionada</value>
+  </data>
+  <data name="cmdDelElement.Text" xml:space="preserve">
+    <value>Excluir os elementos selecionados</value>
+  </data>
+  <data name="lblProductType.Text" xml:space="preserve">
+    <value>      </value>
+  </data>
+  <data name="chkAdvancedSelection.Text" xml:space="preserve">
+    <value>Seleção avançada</value>
+  </data>
+  <data name="lblElement.Text" xml:space="preserve">
+    <value>Selecionar Elemento</value>
+  </data>
+  <data name="lblStation.Text" xml:space="preserve">
+    <value>Selecione a estação</value>
+  </data>
+  <data name="lblProducts.Text" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="txtMinuteEnd.Text" xml:space="preserve">
+    <value>00</value>
+  </data>
+  <data name="txtMinuteStart.Text" xml:space="preserve">
+    <value>00</value>
+  </data>
+  <data name="txtHourEnd.Text" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="txtHourStart.Text" xml:space="preserve">
+    <value>00</value>
+  </data>
+  <data name="txtSminute.Text" xml:space="preserve">
+    <value>Minuto</value>
+  </data>
+  <data name="lblHourEnd.Text" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="lblHourBegin.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="lblTo.Text" xml:space="preserve">
+    <value>Data de Término</value>
+  </data>
+  <data name="lblFrom.Text" xml:space="preserve">
+    <value>Data de Início</value>
+  </data>
+  <data name="lblPeriod.Text" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="lblRadius.Text" xml:space="preserve">
+    <value>Radiuds (km)</value>
+  </data>
+  <data name="lblLongitude.Text" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="lblLatitude.Text" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="OptGeography.Text" xml:space="preserve">
+    <value>Geográfico</value>
+  </data>
+  <data name="optBasin.Text" xml:space="preserve">
+    <value>Bacia de drenagem</value>
+  </data>
+  <data name="RadioButton1.Text" xml:space="preserve">
+    <value>Região</value>
+  </data>
+  <data name="optAuthority.Text" xml:space="preserve">
+    <value>Autoridade</value>
+  </data>
+  <data name="lblStations.Text" xml:space="preserve">
+    <value>Seleção avançada</value>
+  </data>
+  <data name="cmdExtract.Text" xml:space="preserve">
+    <value>Iniciar a extração de</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ToolStrip2.Text" xml:space="preserve">
+    <value>ToolStrip2</value>
+  </data>
+  <data name="HelpToolStripButton.Text" xml:space="preserve">
+    <value>Ele&amp;lp</value>
+  </data>
+  <data name="ToolStrip1.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Seleção de Dados</value>
+  </data>
+</root>

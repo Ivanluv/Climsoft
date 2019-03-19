@@ -20,6 +20,7 @@ Partial Class ucrHour
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrHour))
         Me.cmsHour = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.cmsHour24 = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsHour12 = New System.Windows.Forms.ToolStripMenuItem()
@@ -31,27 +32,24 @@ Partial Class ucrHour
         '
         Me.cmsHour.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmsHour24, Me.cmsHour12})
         Me.cmsHour.Name = "cmsYear"
-        Me.cmsHour.Size = New System.Drawing.Size(158, 48)
+        resources.ApplyResources(Me.cmsHour, "cmsHour")
         '
         'cmsHour24
         '
         Me.cmsHour24.Checked = True
         Me.cmsHour24.CheckState = System.Windows.Forms.CheckState.Checked
         Me.cmsHour24.Name = "cmsHour24"
-        Me.cmsHour24.Size = New System.Drawing.Size(157, 22)
-        Me.cmsHour24.Text = "View in 24hours"
+        resources.ApplyResources(Me.cmsHour24, "cmsHour24")
         '
         'cmsHour12
         '
         Me.cmsHour12.Name = "cmsHour12"
-        Me.cmsHour12.Size = New System.Drawing.Size(157, 22)
-        Me.cmsHour12.Text = "View in 12hrs"
+        resources.ApplyResources(Me.cmsHour12, "cmsHour12")
         '
         'ucrHour
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.Name = "ucrHour"
-        Me.Size = New System.Drawing.Size(139, 25)
         CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.cmsHour.ResumeLayout(False)
         Me.ResumeLayout(False)

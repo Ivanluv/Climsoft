@@ -117,4 +117,828 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="DataGridViewObservations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 108</value>
+  </data>
+  <data name="DataGridViewObservations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1137, 468</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DataGridViewObservations.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewObservations.Name" xml:space="preserve">
+    <value>DataGridViewObservations</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewObservations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewObservations.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewObservations.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtEndHour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 48</value>
+  </data>
+  <data name="txtEndHour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtEndHour.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="txtEndHour.Text" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;txtEndHour.Name" xml:space="preserve">
+    <value>txtEndHour</value>
+  </data>
+  <data name="&gt;&gt;txtEndHour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEndHour.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;txtEndHour.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtStartHour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 17</value>
+  </data>
+  <data name="txtStartHour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtStartHour.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txtStartHour.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtStartHour.Name" xml:space="preserve">
+    <value>txtStartHour</value>
+  </data>
+  <data name="&gt;&gt;txtStartHour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStartHour.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;txtStartHour.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblEndHour.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEndHour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>539, 52</value>
+  </data>
+  <data name="lblEndHour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lblEndHour.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblEndHour.Text" xml:space="preserve">
+    <value>End Hour</value>
+  </data>
+  <data name="&gt;&gt;lblEndHour.Name" xml:space="preserve">
+    <value>lblEndHour</value>
+  </data>
+  <data name="&gt;&gt;lblEndHour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndHour.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;lblEndHour.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblStartHour.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartHour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 21</value>
+  </data>
+  <data name="lblStartHour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lblStartHour.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblStartHour.Text" xml:space="preserve">
+    <value>Start Hour</value>
+  </data>
+  <data name="&gt;&gt;lblStartHour.Name" xml:space="preserve">
+    <value>lblStartHour</value>
+  </data>
+  <data name="&gt;&gt;lblStartHour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartHour.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;lblStartHour.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtEndDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 48</value>
+  </data>
+  <data name="txtEndDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtEndDay.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txtEndDay.Text" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;txtEndDay.Name" xml:space="preserve">
+    <value>txtEndDay</value>
+  </data>
+  <data name="&gt;&gt;txtEndDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEndDay.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;txtEndDay.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtStartDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 17</value>
+  </data>
+  <data name="txtStartDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="txtStartDay.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="txtStartDay.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtStartDay.Name" xml:space="preserve">
+    <value>txtStartDay</value>
+  </data>
+  <data name="&gt;&gt;txtStartDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStartDay.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;txtStartDay.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblEndDay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEndDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 52</value>
+  </data>
+  <data name="lblEndDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lblEndDay.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblEndDay.Text" xml:space="preserve">
+    <value>End Day</value>
+  </data>
+  <data name="&gt;&gt;lblEndDay.Name" xml:space="preserve">
+    <value>lblEndDay</value>
+  </data>
+  <data name="&gt;&gt;lblEndDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndDay.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;lblEndDay.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblStartDay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 21</value>
+  </data>
+  <data name="lblStartDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblStartDay.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblStartDay.Text" xml:space="preserve">
+    <value>Start Day</value>
+  </data>
+  <data name="&gt;&gt;lblStartDay.Name" xml:space="preserve">
+    <value>lblStartDay</value>
+  </data>
+  <data name="&gt;&gt;lblStartDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDay.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;lblStartDay.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtEndMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 48</value>
+  </data>
+  <data name="txtEndMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtEndMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtEndMonth.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtEndMonth.Name" xml:space="preserve">
+    <value>txtEndMonth</value>
+  </data>
+  <data name="&gt;&gt;txtEndMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEndMonth.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;txtEndMonth.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtStartMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 17</value>
+  </data>
+  <data name="txtStartMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 20</value>
+  </data>
+  <data name="txtStartMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtStartMonth.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtStartMonth.Name" xml:space="preserve">
+    <value>txtStartMonth</value>
+  </data>
+  <data name="&gt;&gt;txtStartMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStartMonth.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;txtStartMonth.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtEndYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 48</value>
+  </data>
+  <data name="txtEndYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 20</value>
+  </data>
+  <data name="txtEndYear.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtEndYear.Name" xml:space="preserve">
+    <value>txtEndYear</value>
+  </data>
+  <data name="&gt;&gt;txtEndYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEndYear.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;txtEndYear.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtStartYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 17</value>
+  </data>
+  <data name="txtStartYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 20</value>
+  </data>
+  <data name="txtStartYear.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtStartYear.Name" xml:space="preserve">
+    <value>txtStartYear</value>
+  </data>
+  <data name="&gt;&gt;txtStartYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStartYear.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;txtStartYear.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtElement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 48</value>
+  </data>
+  <data name="txtElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 20</value>
+  </data>
+  <data name="txtElement.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtElement.Name" xml:space="preserve">
+    <value>txtElement</value>
+  </data>
+  <data name="&gt;&gt;txtElement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtElement.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;txtElement.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtStation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="txtStation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 20</value>
+  </data>
+  <data name="txtStation.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtStation.Name" xml:space="preserve">
+    <value>txtStation</value>
+  </data>
+  <data name="&gt;&gt;txtStation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStation.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;txtStation.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblEndMonth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEndMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 52</value>
+  </data>
+  <data name="lblEndMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="lblEndMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblEndMonth.Text" xml:space="preserve">
+    <value>End Month</value>
+  </data>
+  <data name="&gt;&gt;lblEndMonth.Name" xml:space="preserve">
+    <value>lblEndMonth</value>
+  </data>
+  <data name="&gt;&gt;lblEndMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndMonth.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;lblEndMonth.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblStartMonth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 21</value>
+  </data>
+  <data name="lblStartMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="lblStartMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblStartMonth.Text" xml:space="preserve">
+    <value>Start Month</value>
+  </data>
+  <data name="&gt;&gt;lblStartMonth.Name" xml:space="preserve">
+    <value>lblStartMonth</value>
+  </data>
+  <data name="&gt;&gt;lblStartMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartMonth.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;lblStartMonth.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblEndYear.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEndYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 52</value>
+  </data>
+  <data name="lblEndYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblEndYear.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblEndYear.Text" xml:space="preserve">
+    <value>End Year</value>
+  </data>
+  <data name="&gt;&gt;lblEndYear.Name" xml:space="preserve">
+    <value>lblEndYear</value>
+  </data>
+  <data name="&gt;&gt;lblEndYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndYear.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;lblEndYear.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblStartYear.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 21</value>
+  </data>
+  <data name="lblStartYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lblStartYear.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblStartYear.Text" xml:space="preserve">
+    <value>Start Year</value>
+  </data>
+  <data name="&gt;&gt;lblStartYear.Name" xml:space="preserve">
+    <value>lblStartYear</value>
+  </data>
+  <data name="&gt;&gt;lblStartYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartYear.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;lblStartYear.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblElement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblElement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 52</value>
+  </data>
+  <data name="lblElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="lblElement.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblElement.Text" xml:space="preserve">
+    <value>Element Code</value>
+  </data>
+  <data name="&gt;&gt;lblElement.Name" xml:space="preserve">
+    <value>lblElement</value>
+  </data>
+  <data name="&gt;&gt;lblElement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblElement.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;lblElement.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblSation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 21</value>
+  </data>
+  <data name="lblSation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lblSation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSation.Text" xml:space="preserve">
+    <value>Station Id</value>
+  </data>
+  <data name="&gt;&gt;lblSation.Name" xml:space="preserve">
+    <value>lblSation</value>
+  </data>
+  <data name="&gt;&gt;lblSation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSation.Parent" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;lblSation.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="GrBxSelection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="GrBxSelection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>638, 78</value>
+  </data>
+  <data name="GrBxSelection.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GrBxSelection.Text" xml:space="preserve">
+    <value>Records Selection</value>
+  </data>
+  <data name="&gt;&gt;GrBxSelection.Name" xml:space="preserve">
+    <value>GrBxSelection</value>
+  </data>
+  <data name="&gt;&gt;GrBxSelection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrBxSelection.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrBxSelection.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 24</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>GrBxCommands</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 24</value>
+  </data>
+  <data name="cmdClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="cmdClose.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;cmdClose.Name" xml:space="preserve">
+    <value>cmdClose</value>
+  </data>
+  <data name="&gt;&gt;cmdClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdClose.Parent" xml:space="preserve">
+    <value>GrBxCommands</value>
+  </data>
+  <data name="&gt;&gt;cmdClose.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdDelete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 24</value>
+  </data>
+  <data name="cmdDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="cmdDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;cmdDelete.Name" xml:space="preserve">
+    <value>cmdDelete</value>
+  </data>
+  <data name="&gt;&gt;cmdDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDelete.Parent" xml:space="preserve">
+    <value>GrBxCommands</value>
+  </data>
+  <data name="&gt;&gt;cmdDelete.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdUpade.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdUpade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 24</value>
+  </data>
+  <data name="cmdUpade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="cmdUpade.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdUpade.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;cmdUpade.Name" xml:space="preserve">
+    <value>cmdUpade</value>
+  </data>
+  <data name="&gt;&gt;cmdUpade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdUpade.Parent" xml:space="preserve">
+    <value>GrBxCommands</value>
+  </data>
+  <data name="&gt;&gt;cmdUpade.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 24</value>
+  </data>
+  <data name="cmdView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="cmdView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdView.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;cmdView.Name" xml:space="preserve">
+    <value>cmdView</value>
+  </data>
+  <data name="&gt;&gt;cmdView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdView.Parent" xml:space="preserve">
+    <value>GrBxCommands</value>
+  </data>
+  <data name="&gt;&gt;cmdView.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GrBxCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 30</value>
+  </data>
+  <data name="GrBxCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 58</value>
+  </data>
+  <data name="GrBxCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="GrBxCommands.Text" xml:space="preserve">
+    <value>Commands</value>
+  </data>
+  <data name="&gt;&gt;GrBxCommands.Name" xml:space="preserve">
+    <value>GrBxCommands</value>
+  </data>
+  <data name="&gt;&gt;GrBxCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrBxCommands.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrBxCommands.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="optFinal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optFinal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 46</value>
+  </data>
+  <data name="optFinal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="optFinal.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="optFinal.Text" xml:space="preserve">
+    <value>Observation Final</value>
+  </data>
+  <data name="&gt;&gt;optFinal.Name" xml:space="preserve">
+    <value>optFinal</value>
+  </data>
+  <data name="&gt;&gt;optFinal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optFinal.Parent" xml:space="preserve">
+    <value>GrBxDataBase</value>
+  </data>
+  <data name="&gt;&gt;optFinal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optInitial.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optInitial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 23</value>
+  </data>
+  <data name="optInitial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="optInitial.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="optInitial.Text" xml:space="preserve">
+    <value>Observation Initial</value>
+  </data>
+  <data name="&gt;&gt;optInitial.Name" xml:space="preserve">
+    <value>optInitial</value>
+  </data>
+  <data name="&gt;&gt;optInitial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optInitial.Parent" xml:space="preserve">
+    <value>GrBxDataBase</value>
+  </data>
+  <data name="&gt;&gt;optInitial.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrBxDataBase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 20</value>
+  </data>
+  <data name="GrBxDataBase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 78</value>
+  </data>
+  <data name="GrBxDataBase.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="GrBxDataBase.Text" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="&gt;&gt;GrBxDataBase.Name" xml:space="preserve">
+    <value>GrBxDataBase</value>
+  </data>
+  <data name="&gt;&gt;GrBxDataBase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrBxDataBase.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrBxDataBase.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblrecords.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblrecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 93</value>
+  </data>
+  <data name="lblrecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblrecords.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblrecords.Name" xml:space="preserve">
+    <value>lblrecords</value>
+  </data>
+  <data name="&gt;&gt;lblrecords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblrecords.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblrecords.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1161, 588</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Update Observations</value>
+  </data>
+  <data name="&gt;&gt;BindingSource1.Name" xml:space="preserve">
+    <value>BindingSource1</value>
+  </data>
+  <data name="&gt;&gt;BindingSource1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmModifyObservations</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

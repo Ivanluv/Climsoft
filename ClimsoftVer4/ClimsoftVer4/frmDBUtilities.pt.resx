@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ObsInitialToFinalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Obs inicial para Final</value>
+  </data>
+  <data name="ImportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="DailyToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Diariamente</value>
+  </data>
+  <data name="SynopToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sinóticos</value>
+  </data>
+  <data name="HourlyToolStripMenuItem.Text" xml:space="preserve">
+    <value>A cada hora</value>
+  </data>
+  <data name="CLICOMDailyToolStripMenuItem.Text" xml:space="preserve">
+    <value>CLICOM</value>
+  </data>
+  <data name="AWSToolStripMenuItem.Text" xml:space="preserve">
+    <value>AWS </value>
+  </data>
+  <data name="NOAAGTSToolStripMenuItem.Text" xml:space="preserve">
+    <value>NOAA GTS</value>
+  </data>
+  <data name="ToolStripHourly.Text" xml:space="preserve">
+    <value>A cada hora</value>
+  </data>
+  <data name="ToolStripDaily.Text" xml:space="preserve">
+    <value>Diariamente</value>
+  </data>
+  <data name="ToolStripSynoptic.Text" xml:space="preserve">
+    <value>Sinóticos</value>
+  </data>
+  <data name="MultipleElementColumnsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Várias colunas de elemento</value>
+  </data>
+  <data name="MonthlyToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Mensalmente</value>
+  </data>
+  <data name="DailyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Arquivos de texto</value>
+  </data>
+  <data name="CLIMSOFTV3ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Migração de Dados</value>
+  </data>
+  <data name="ExternalDataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dados Externos</value>
+  </data>
+  <data name="GenerateValuesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Gerar valores</value>
+  </data>
+  <data name="BackupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reserva</value>
+  </data>
+  <data name="RestoreToolStripMenuItem.Text" xml:space="preserve">
+    <value>Restaurar</value>
+  </data>
+  <data name="OptionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="MenuStrip1.Text" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="ToolStripLabel1.Text" xml:space="preserve">
+    <value>Banco de dados</value>
+  </data>
+  <data name="ToolStripButton1.Text" xml:space="preserve">
+    <value>ToolStripButton1</value>
+  </data>
+  <data name="ToolStrip1.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="cmdUpload.Text" xml:space="preserve">
+    <value>Iniciar o Upload</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Utilitários de Banco de Dados</value>
+  </data>
+</root>

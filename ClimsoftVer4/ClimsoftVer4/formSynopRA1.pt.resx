@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="YyyyLabel.Text" xml:space="preserve">
+    <value>Ano:</value>
+  </data>
+  <data name="Val_Elem106Label.Text" xml:space="preserve">
+    <value>Estação nível pressão-Po</value>
+  </data>
+  <data name="Val_Elem107Label.Text" xml:space="preserve">
+    <value>Pressão reduzida a MSL-P</value>
+  </data>
+  <data name="Val_Elem400Label.Text" xml:space="preserve">
+    <value>3hr pressão mudança-P3</value>
+  </data>
+  <data name="Val_Elem814Label.Text" xml:space="preserve">
+    <value>Característica de pressão 3hr</value>
+  </data>
+  <data name="Val_Elem399Label.Text" xml:space="preserve">
+    <value>24hr pressão mudança-P24</value>
+  </data>
+  <data name="Val_Elem301Label.Text" xml:space="preserve">
+    <value>Padrão de pressão nível - um</value>
+  </data>
+  <data name="Val_Elem196Label.Text" xml:space="preserve">
+    <value>Altura do geopotencial-hhh</value>
+  </data>
+  <data name="Val_Elem101Label.Text" xml:space="preserve">
+    <value>DryBulb Temp-TTT</value>
+  </data>
+  <data name="Val_Elem102Label.Text" xml:space="preserve">
+    <value>Wetbulb Temp-TwTwTw</value>
+  </data>
+  <data name="Val_Elem103Label.Text" xml:space="preserve">
+    <value>Ponto de orvalho Temp-TdTdTd</value>
+  </data>
+  <data name="Val_Elem105Label.Text" xml:space="preserve">
+    <value>Umidade relativa-U</value>
+  </data>
+  <data name="Val_Elem110Label.Text" xml:space="preserve">
+    <value>Visibilidade horizontal-VV</value>
+  </data>
+  <data name="Val_Elem167Label.Text" xml:space="preserve">
+    <value>PresentWx</value>
+  </data>
+  <data name="Val_Elem197Label.Text" xml:space="preserve">
+    <value>PastWx1</value>
+  </data>
+  <data name="Val_Elem193Label.Text" xml:space="preserve">
+    <value>PastWx2</value>
+  </data>
+  <data name="Val_Elem119Label.Text" xml:space="preserve">
+    <value>Significado vertical 1</value>
+  </data>
+  <data name="Val_Elem116Label.Text" xml:space="preserve">
+    <value>Nuvem Amt Lvl1-N1</value>
+  </data>
+  <data name="Val_Elem117Label.Text" xml:space="preserve">
+    <value>Tipo de nuvem Lvl1-C1</value>
+  </data>
+  <data name="Val_Elem118Label.Text" xml:space="preserve">
+    <value>Nuvem Lvl1 de Ht-HsHs1</value>
+  </data>
+  <data name="Val_Elem123Label.Text" xml:space="preserve">
+    <value>Significado vertical 2</value>
+  </data>
+  <data name="Val_Elem120Label.Text" xml:space="preserve">
+    <value>Nuvem Amt Lvl2-N2</value>
+  </data>
+  <data name="Val_Elem121Label.Text" xml:space="preserve">
+    <value>Tipo de nuvem Lv2-C2</value>
+  </data>
+  <data name="Val_Elem122Label.Text" xml:space="preserve">
+    <value>Nuvem Ht Lvl2-HsHs2</value>
+  </data>
+  <data name="Val_Elem127Label.Text" xml:space="preserve">
+    <value>3 significativa vertical</value>
+  </data>
+  <data name="Val_Elem124Label.Text" xml:space="preserve">
+    <value>Nuvem Amt Lvl3-N3</value>
+  </data>
+  <data name="Val_Elem125Label.Text" xml:space="preserve">
+    <value>Tipo de nuvem Lvl3-C3</value>
+  </data>
+  <data name="Val_Elem126Label.Text" xml:space="preserve">
+    <value>Nuvem Ht Lvl3-HsHs3</value>
+  </data>
+  <data name="Val_Elem002Label.Text" xml:space="preserve">
+    <value>Tmax</value>
+  </data>
+  <data name="Val_Elem003Label.Text" xml:space="preserve">
+    <value>Tmin</value>
+  </data>
+  <data name="Val_Elem099Label.Text" xml:space="preserve">
+    <value>Grama Min Temp</value>
+  </data>
+  <data name="Val_Elem018Label.Text" xml:space="preserve">
+    <value>Evaporação</value>
+  </data>
+  <data name="Val_Elem084Label.Text" xml:space="preserve">
+    <value>SSS - 24Hr</value>
+  </data>
+  <data name="Val_Elem132Label.Text" xml:space="preserve">
+    <value>SSS - 1hr</value>
+  </data>
+  <data name="Val_Elem112Label.Text" xml:space="preserve">
+    <value>Direção do vento-dd</value>
+  </data>
+  <data name="Val_Elem005Label.Text" xml:space="preserve">
+    <value>Precipitação - 24Hr</value>
+  </data>
+  <data name="Val_Elem174Label.Text" xml:space="preserve">
+    <value>Precipitação - 3Hr</value>
+  </data>
+  <data name="Val_Elem176Label.Text" xml:space="preserve">
+    <value>Nuvem baixa Hght-h</value>
+  </data>
+  <data name="Val_Elem114Label.Text" xml:space="preserve">
+    <value>Nuvem de total cobertura - N</value>
+  </data>
+  <data name="Val_Elem111Label.Text" xml:space="preserve">
+    <value>Vento velocidade - fff</value>
+  </data>
+  <data name="Val_Elem115Label.Text" xml:space="preserve">
+    <value>Significado vertical</value>
+  </data>
+  <data name="Val_Elem177Label.Text" xml:space="preserve">
+    <value>Quantidade de nuvens de Lvl baixo-Nh</value>
+  </data>
+  <data name="Val_Elem178Label.Text" xml:space="preserve">
+    <value>Nuvens de Lvl baixo tipo-CL</value>
+  </data>
+  <data name="Val_Elem179Label.Text" xml:space="preserve">
+    <value>Tipo de nuvens Lvl médio-CM</value>
+  </data>
+  <data name="Val_Elem180Label.Text" xml:space="preserve">
+    <value>Tipo de nuvens de Lvl alto-CH</value>
+  </data>
+  <data name="Val_Elem131Label.Text" xml:space="preserve">
+    <value>Significado vertical 4</value>
+  </data>
+  <data name="Val_Elem128Label.Text" xml:space="preserve">
+    <value>Nuvem Amt Lvl4-N4</value>
+  </data>
+  <data name="Val_Elem129Label.Text" xml:space="preserve">
+    <value>Tipo de nuvem Lvl4-C4</value>
+  </data>
+  <data name="Val_Elem130Label.Text" xml:space="preserve">
+    <value>Nuvem Ht Lvl4-Hshs4</value>
+  </data>
+  <data name="Val_Elem046Label.Text" xml:space="preserve">
+    <value>Insolação - Rad</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="btnCommit.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="btnAddNew.Text" xml:space="preserve">
+    <value>Adicionar Novo</value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="btnMovePrevious.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="btnMoveFirst.Text" xml:space="preserve">
+    <value>| &lt; &lt;</value>
+  </data>
+  <data name="btnMoveLast.Text" xml:space="preserve">
+    <value>&gt; &gt;|</value>
+  </data>
+  <data name="btnMoveNext.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="btnHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Mês:</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Dia:</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Hora:</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Identificador de estação</value>
+  </data>
+  <data name="txtSequencer.Text" xml:space="preserve">
+    <value>seq_month_day_synoptime</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Sequencer</value>
+  </data>
+  <data name="btnUpload.Text" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="btnView.Text" xml:space="preserve">
+    <value>Exibir</value>
+  </data>
+  <data name="btnTDCF.Text" xml:space="preserve">
+    <value>TDCF</value>
+  </data>
+  <data name="chkRepeatEntry.Text" xml:space="preserve">
+    <value>Modo de entrada de chave de repetição</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dados sinóticos para muitos elementos para OMM - RA1</value>
+  </data>
+</root>

@@ -23,6 +23,7 @@ Partial Class frmNewHourlyWind
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim lblYear As System.Windows.Forms.Label
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmNewHourlyWind))
         Me.lblStationSelector = New System.Windows.Forms.Label()
         Me.lblDay = New System.Windows.Forms.Label()
         Me.lblMonth = New System.Windows.Forms.Label()
@@ -54,252 +55,158 @@ Partial Class frmNewHourlyWind
         '
         'lblYear
         '
-        lblYear.AutoSize = True
-        lblYear.Location = New System.Drawing.Point(270, 7)
+        resources.ApplyResources(lblYear, "lblYear")
         lblYear.Name = "lblYear"
-        lblYear.Size = New System.Drawing.Size(32, 13)
-        lblYear.TabIndex = 216
-        lblYear.Text = "Year:"
         '
         'lblStationSelector
         '
-        Me.lblStationSelector.AutoSize = True
-        Me.lblStationSelector.Location = New System.Drawing.Point(67, 7)
+        resources.ApplyResources(Me.lblStationSelector, "lblStationSelector")
         Me.lblStationSelector.Name = "lblStationSelector"
-        Me.lblStationSelector.Size = New System.Drawing.Size(43, 13)
-        Me.lblStationSelector.TabIndex = 220
-        Me.lblStationSelector.Text = "Station:"
         '
         'lblDay
         '
-        Me.lblDay.AutoSize = True
-        Me.lblDay.Location = New System.Drawing.Point(476, 7)
+        resources.ApplyResources(Me.lblDay, "lblDay")
         Me.lblDay.Name = "lblDay"
-        Me.lblDay.Size = New System.Drawing.Size(29, 13)
-        Me.lblDay.TabIndex = 218
-        Me.lblDay.Text = "Day:"
         '
         'lblMonth
         '
-        Me.lblMonth.AutoSize = True
-        Me.lblMonth.Location = New System.Drawing.Point(358, 7)
+        resources.ApplyResources(Me.lblMonth, "lblMonth")
         Me.lblMonth.Name = "lblMonth"
-        Me.lblMonth.Size = New System.Drawing.Size(40, 13)
-        Me.lblMonth.TabIndex = 217
-        Me.lblMonth.Text = "Month:"
         '
         'btnView
         '
-        Me.btnView.Location = New System.Drawing.Point(410, 508)
+        resources.ApplyResources(Me.btnView, "btnView")
         Me.btnView.Name = "btnView"
-        Me.btnView.Size = New System.Drawing.Size(75, 23)
-        Me.btnView.TabIndex = 10
-        Me.btnView.Text = "View"
         Me.btnView.UseVisualStyleBackColor = True
         '
         'btnUpload
         '
         Me.btnUpload.BackColor = System.Drawing.Color.Lime
-        Me.btnUpload.Location = New System.Drawing.Point(569, 532)
+        resources.ApplyResources(Me.btnUpload, "btnUpload")
         Me.btnUpload.Name = "btnUpload"
-        Me.btnUpload.Size = New System.Drawing.Size(75, 23)
-        Me.btnUpload.TabIndex = 13
-        Me.btnUpload.Text = "Upload"
         Me.btnUpload.UseVisualStyleBackColor = False
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(573, 508)
+        resources.ApplyResources(Me.btnHelp, "btnHelp")
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(75, 23)
-        Me.btnHelp.TabIndex = 12
-        Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'btnClear
         '
-        Me.btnClear.Enabled = False
-        Me.btnClear.Location = New System.Drawing.Point(329, 508)
+        resources.ApplyResources(Me.btnClear, "btnClear")
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
-        Me.btnClear.TabIndex = 9
-        Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
         'btnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(86, 508)
+        resources.ApplyResources(Me.btnSave, "btnSave")
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 5
-        Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(249, 508)
+        resources.ApplyResources(Me.btnDelete, "btnDelete")
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 8
-        Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
         'btnAddNew
         '
-        Me.btnAddNew.Location = New System.Drawing.Point(5, 508)
+        resources.ApplyResources(Me.btnAddNew, "btnAddNew")
         Me.btnAddNew.Name = "btnAddNew"
-        Me.btnAddNew.Size = New System.Drawing.Size(75, 23)
-        Me.btnAddNew.TabIndex = 7
-        Me.btnAddNew.Text = "Add New"
         Me.btnAddNew.UseVisualStyleBackColor = True
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(167, 508)
+        resources.ApplyResources(Me.btnUpdate, "btnUpdate")
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
-        Me.btnUpdate.TabIndex = 6
-        Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(491, 508)
+        resources.ApplyResources(Me.btnClose, "btnClose")
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(75, 23)
-        Me.btnClose.TabIndex = 11
-        Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
         '
         'txtSpeedDigits
         '
-        Me.txtSpeedDigits.Enabled = False
-        Me.txtSpeedDigits.Location = New System.Drawing.Point(557, 52)
+        resources.ApplyResources(Me.txtSpeedDigits, "txtSpeedDigits")
         Me.txtSpeedDigits.Name = "txtSpeedDigits"
-        Me.txtSpeedDigits.Size = New System.Drawing.Size(29, 20)
-        Me.txtSpeedDigits.TabIndex = 17
-        Me.txtSpeedDigits.Text = "2"
         '
         'txtDirectionDigits
         '
-        Me.txtDirectionDigits.Enabled = False
-        Me.txtDirectionDigits.Location = New System.Drawing.Point(384, 51)
+        resources.ApplyResources(Me.txtDirectionDigits, "txtDirectionDigits")
         Me.txtDirectionDigits.Name = "txtDirectionDigits"
-        Me.txtDirectionDigits.Size = New System.Drawing.Size(29, 20)
-        Me.txtDirectionDigits.TabIndex = 16
-        Me.txtDirectionDigits.Text = "2"
         '
         'lblSpeedDigits
         '
-        Me.lblSpeedDigits.AutoSize = True
+        resources.ApplyResources(Me.lblSpeedDigits, "lblSpeedDigits")
         Me.lblSpeedDigits.ForeColor = System.Drawing.Color.Blue
-        Me.lblSpeedDigits.Location = New System.Drawing.Point(431, 54)
         Me.lblSpeedDigits.Name = "lblSpeedDigits"
-        Me.lblSpeedDigits.Size = New System.Drawing.Size(121, 13)
-        Me.lblSpeedDigits.TabIndex = 673
-        Me.lblSpeedDigits.Text = "Number of digits:- speed"
         '
         'lblDirectionDigits
         '
-        Me.lblDirectionDigits.AutoSize = True
+        resources.ApplyResources(Me.lblDirectionDigits, "lblDirectionDigits")
         Me.lblDirectionDigits.ForeColor = System.Drawing.Color.Blue
-        Me.lblDirectionDigits.Location = New System.Drawing.Point(249, 54)
         Me.lblDirectionDigits.Name = "lblDirectionDigits"
-        Me.lblDirectionDigits.Size = New System.Drawing.Size(132, 13)
-        Me.lblDirectionDigits.TabIndex = 672
-        Me.lblDirectionDigits.Text = "Number of digits:- direction"
         '
         'btnHourSelection
         '
         Me.btnHourSelection.ForeColor = System.Drawing.Color.Blue
-        Me.btnHourSelection.Location = New System.Drawing.Point(66, 49)
+        resources.ApplyResources(Me.btnHourSelection, "btnHourSelection")
         Me.btnHourSelection.Name = "btnHourSelection"
-        Me.btnHourSelection.Size = New System.Drawing.Size(154, 23)
-        Me.btnHourSelection.TabIndex = 15
-        Me.btnHourSelection.Text = "Enable synoptic hours only"
         Me.btnHourSelection.UseVisualStyleBackColor = True
         '
         'lblSequencer
         '
-        Me.lblSequencer.AutoSize = True
-        Me.lblSequencer.Location = New System.Drawing.Point(180, 542)
+        resources.ApplyResources(Me.lblSequencer, "lblSequencer")
         Me.lblSequencer.Name = "lblSequencer"
-        Me.lblSequencer.Size = New System.Drawing.Size(59, 13)
-        Me.lblSequencer.TabIndex = 677
-        Me.lblSequencer.Text = "Sequencer"
         '
         'txtSequencer
         '
-        Me.txtSequencer.Location = New System.Drawing.Point(245, 539)
+        resources.ApplyResources(Me.txtSequencer, "txtSequencer")
         Me.txtSequencer.Name = "txtSequencer"
-        Me.txtSequencer.Size = New System.Drawing.Size(200, 20)
-        Me.txtSequencer.TabIndex = 676
-        Me.txtSequencer.Text = "seq_month_day"
         '
         'ucrHourlyWind
         '
-        Me.ucrHourlyWind.Location = New System.Drawing.Point(24, 76)
-        Me.ucrHourlyWind.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrHourlyWind, "ucrHourlyWind")
         Me.ucrHourlyWind.Name = "ucrHourlyWind"
-        Me.ucrHourlyWind.Size = New System.Drawing.Size(603, 389)
-        Me.ucrHourlyWind.TabIndex = 4
         '
         'ucrNavigation
         '
-        Me.ucrNavigation.Location = New System.Drawing.Point(157, 475)
-        Me.ucrNavigation.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrNavigation, "ucrNavigation")
         Me.ucrNavigation.Name = "ucrNavigation"
-        Me.ucrNavigation.Size = New System.Drawing.Size(336, 25)
-        Me.ucrNavigation.TabIndex = 14
         '
         'ucrDay
         '
-        Me.ucrDay.Location = New System.Drawing.Point(473, 22)
-        Me.ucrDay.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
+        resources.ApplyResources(Me.ucrDay, "ucrDay")
         Me.ucrDay.Name = "ucrDay"
-        Me.ucrDay.Size = New System.Drawing.Size(51, 24)
-        Me.ucrDay.TabIndex = 3
         '
         'ucrMonth
         '
-        Me.ucrMonth.Location = New System.Drawing.Point(355, 22)
-        Me.ucrMonth.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
+        resources.ApplyResources(Me.ucrMonth, "ucrMonth")
         Me.ucrMonth.Name = "ucrMonth"
-        Me.ucrMonth.Size = New System.Drawing.Size(100, 24)
-        Me.ucrMonth.TabIndex = 2
         '
         'ucrYearSelector
         '
-        Me.ucrYearSelector.Location = New System.Drawing.Point(267, 22)
-        Me.ucrYearSelector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
+        resources.ApplyResources(Me.ucrYearSelector, "ucrYearSelector")
         Me.ucrYearSelector.Name = "ucrYearSelector"
-        Me.ucrYearSelector.Size = New System.Drawing.Size(69, 24)
-        Me.ucrYearSelector.TabIndex = 1
         '
         'ucrStationSelector
         '
-        Me.ucrStationSelector.Location = New System.Drawing.Point(64, 22)
-        Me.ucrStationSelector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
+        resources.ApplyResources(Me.ucrStationSelector, "ucrStationSelector")
         Me.ucrStationSelector.Name = "ucrStationSelector"
-        Me.ucrStationSelector.Size = New System.Drawing.Size(184, 24)
-        Me.ucrStationSelector.TabIndex = 0
         '
         'chkRepeatEntry
         '
-        Me.chkRepeatEntry.AutoSize = True
-        Me.chkRepeatEntry.Enabled = False
-        Me.chkRepeatEntry.Location = New System.Drawing.Point(5, 541)
+        resources.ApplyResources(Me.chkRepeatEntry, "chkRepeatEntry")
         Me.chkRepeatEntry.Name = "chkRepeatEntry"
-        Me.chkRepeatEntry.Size = New System.Drawing.Size(88, 17)
-        Me.chkRepeatEntry.TabIndex = 686
-        Me.chkRepeatEntry.Text = "Repeat Entry"
         Me.chkRepeatEntry.UseVisualStyleBackColor = True
         '
         'frmNewHourlyWind
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(651, 566)
         Me.Controls.Add(Me.chkRepeatEntry)
         Me.Controls.Add(Me.ucrHourlyWind)
         Me.Controls.Add(Me.lblSequencer)
@@ -329,7 +236,6 @@ Partial Class frmNewHourlyWind
         Me.Controls.Add(lblYear)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "frmNewHourlyWind"
-        Me.Text = "Hourly wind data"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

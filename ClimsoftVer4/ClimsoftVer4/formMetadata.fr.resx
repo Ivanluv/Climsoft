@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Chaînes</value>
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>Qualificateur</value>
+  </data>
+  <data name="lblEW.Text" xml:space="preserve">
+    <value>E/W</value>
+  </data>
+  <data name="lblNS.Text" xml:space="preserve">
+    <value>N/S</value>
+  </data>
+  <data name="lblSecondsLon.Text" xml:space="preserve">
+    <value>secondes</value>
+  </data>
+  <data name="lblSecondsLat.Text" xml:space="preserve">
+    <value>secondes</value>
+  </data>
+  <data name="lblMinutesLon.Text" xml:space="preserve">
+    <value>Minute(s)</value>
+  </data>
+  <data name="lblMinutesLat.Text" xml:space="preserve">
+    <value>Minute(s)</value>
+  </data>
+  <data name="lblDegreesLon.Text" xml:space="preserve">
+    <value>Degrés</value>
+  </data>
+  <data name="lblDegreesLat.Text" xml:space="preserve">
+    <value>Degrés</value>
+  </data>
+  <data name="grpComputationDD.Text" xml:space="preserve">
+    <value>Calcul de degrés décimaux de latitude et Longitude</value>
+  </data>
+  <data name="lblICAOid.Text" xml:space="preserve">
+    <value>Id de l’OACI</value>
+  </data>
+  <data name="lblWMOid.Text" xml:space="preserve">
+    <value>Id de l’OMM</value>
+  </data>
+  <data name="lblSearchStation.Text" xml:space="preserve">
+    <value>Nom de la Station de recherche</value>
+  </data>
+  <data name="cmdImport.Text" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="cmdClear.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="cmdViewStation.Text" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="cmdAddNew.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="lblStationOperation.Text" xml:space="preserve">
+    <value>Station opérationnelle</value>
+  </data>
+  <data name="lbldarainage.Text" xml:space="preserve">
+    <value>Bassin versant</value>
+  </data>
+  <data name="lblAdmin.Text" xml:space="preserve">
+    <value>Région admin</value>
+  </data>
+  <data name="lblAuthority.Text" xml:space="preserve">
+    <value>Autorité</value>
+  </data>
+  <data name="lblCountry.Text" xml:space="preserve">
+    <value>Pays/région</value>
+  </data>
+  <data name="lblClosingdate.Text" xml:space="preserve">
+    <value>Date de clôture</value>
+  </data>
+  <data name="lblOpendate.Text" xml:space="preserve">
+    <value>Date d’ouverture</value>
+  </data>
+  <data name="lblGeoAccuracy.Text" xml:space="preserve">
+    <value>Précision géographique</value>
+  </data>
+  <data name="lblGeoMethod.Text" xml:space="preserve">
+    <value>Méthode géographique</value>
+  </data>
+  <data name="lblElevation.Text" xml:space="preserve">
+    <value>Elevation(metres)</value>
+  </data>
+  <data name="lblongitude.Text" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="lblLatitude.Text" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="lblStationName.Text" xml:space="preserve">
+    <value>Nom de la station</value>
+  </data>
+  <data name="lblStationId.Text" xml:space="preserve">
+    <value>Id de la station</value>
+  </data>
+  <data name="grpStation.Text" xml:space="preserve">
+    <value>Détails de la station</value>
+  </data>
+  <data name="TabStation.Text" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Total requis</value>
+  </data>
+  <data name="chkSelected.Text" xml:space="preserve">
+    <value>Sélectionné</value>
+  </data>
+  <data name="lblSerachElement.Text" xml:space="preserve">
+    <value>Élément de recherche</value>
+  </data>
+  <data name="cmdClearElement.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="cmdViewElements.Text" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="cmdDeleteElement.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="cmdUpdateElement.Text" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="cmdAddElement.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>Taper</value>
+  </data>
+  <data name="lblUpperlimit.Text" xml:space="preserve">
+    <value>Limite supérieure</value>
+  </data>
+  <data name="lblScale.Text" xml:space="preserve">
+    <value>Échelle</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Désignation</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>par nom</value>
+  </data>
+  <data name="lblUnit.Text" xml:space="preserve">
+    <value>Unité</value>
+  </data>
+  <data name="lblLowerLimit.Text" xml:space="preserve">
+    <value>Limite inférieure</value>
+  </data>
+  <data name="lblAbbrev.Text" xml:space="preserve">
+    <value>Abréviation</value>
+  </data>
+  <data name="lblId.Text" xml:space="preserve">
+    <value>Identificateur</value>
+  </data>
+  <data name="grpObservationElement.Text" xml:space="preserve">
+    <value>Éléments d’observation</value>
+  </data>
+  <data name="TabElement.Text" xml:space="preserve">
+    <value>Élément</value>
+  </data>
+  <data name="lblStationElement.Text" xml:space="preserve">
+    <value>Élément de la station</value>
+  </data>
+  <data name="lblInstrumentCode.Text" xml:space="preserve">
+    <value>(Tableau des codes)</value>
+  </data>
+  <data name="lblInstumentType.Text" xml:space="preserve">
+    <value>Type d’instrument</value>
+  </data>
+  <data name="cmdClearStationElement.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="cmdViewStElement.Text" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="cmdDeleteStElement.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="cmdUpdateStElement.Text" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="cmdAddStElement.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="lblBdate.Text" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="lblHeight.Text" xml:space="preserve">
+    <value>Hauteur</value>
+  </data>
+  <data name="lblSchedule.Text" xml:space="preserve">
+    <value>Horaire de classe</value>
+  </data>
+  <data name="lblInstrument.Text" xml:space="preserve">
+    <value>ID de l’instrument</value>
+  </data>
+  <data name="lblEdate.Text" xml:space="preserve">
+    <value>Date de fin</value>
+  </data>
+  <data name="lblElement.Text" xml:space="preserve">
+    <value>ID de l'élément</value>
+  </data>
+  <data name="lblstation.Text" xml:space="preserve">
+    <value>ID de la station</value>
+  </data>
+  <data name="grpStationElement.Text" xml:space="preserve">
+    <value>Détails d’élément station</value>
+  </data>
+  <data name="TabStationElement.Text" xml:space="preserve">
+    <value>Élément de la station</value>
+  </data>
+  <data name="lblPercent.Text" xml:space="preserve">
+    <value>(%)</value>
+  </data>
+  <data name="cmdInstrument.Text" xml:space="preserve">
+    <value>Ouvert</value>
+  </data>
+  <data name="lblimgFile.Text" xml:space="preserve">
+    <value>Fichier image</value>
+  </data>
+  <data name="lbStationID.Text" xml:space="preserve">
+    <value>ID de la station</value>
+  </data>
+  <data name="cmdClear2.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="cmdViewInstrument.Text" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="cmdDeleteInstrument.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="cmdUpdateInstrument.Text" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="cmdAddInstrument.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="lblInstrumentPic.Text" xml:space="preserve">
+    <value>Appareil photo</value>
+  </data>
+  <data name="lblInstalledAt.Text" xml:space="preserve">
+    <value>Hauteur</value>
+  </data>
+  <data name="lblDeinstalDate.Text" xml:space="preserve">
+    <value>Date de désinstallation</value>
+  </data>
+  <data name="txtUncertainity.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblIinstalDate.Text" xml:space="preserve">
+    <value>Date d'installation</value>
+  </data>
+  <data name="lblModel.Text" xml:space="preserve">
+    <value>Modèle</value>
+  </data>
+  <data name="lblSerial.Text" xml:space="preserve">
+    <value>Numéro de série</value>
+  </data>
+  <data name="lblInstAbbrev.Text" xml:space="preserve">
+    <value>Abréviation</value>
+  </data>
+  <data name="lblUncertainity.Text" xml:space="preserve">
+    <value>Incertitude</value>
+  </data>
+  <data name="lblManufacturer.Text" xml:space="preserve">
+    <value>Fabricant</value>
+  </data>
+  <data name="txtInstrumentName.Text" xml:space="preserve">
+    <value>par nom</value>
+  </data>
+  <data name="lblInstId.Text" xml:space="preserve">
+    <value>ID de l’instrument</value>
+  </data>
+  <data name="grpInstrument.Text" xml:space="preserve">
+    <value>Détails de l’instrument</value>
+  </data>
+  <data name="lblInstruments.Text" xml:space="preserve">
+    <value>Instrumenter</value>
+  </data>
+  <data name="TabInstrument.Text" xml:space="preserve">
+    <value>Instrumenter</value>
+  </data>
+  <data name="cmdViewHistory.Text" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="cmdDeleteHistory.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="cmdUpdateHistory.Text" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="cmdAddHistory.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="cmdClearHistory.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Bassin versant</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Date de clôture</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>Date d’ouverture</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>Région d’administration</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>Autorité</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>Méthode GeogLocation</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>Élévation</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>Type de station</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>GeogLocation précision</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>HistoryDetails</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>Gare historique</value>
+  </data>
+  <data name="TabStationLocationHistory.Text" xml:space="preserve">
+    <value>Gare historique</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Qualificateur de la station</value>
+  </data>
+  <data name="cmdDeleteView.Text" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="cmdDeleteQualier.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="cmdUpdateQualier.Text" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="cmdAddQualier.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="cmdClearQualifier.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>ID de la station</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>Type de réseau</value>
+  </data>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>Fuseau horaire</value>
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>Date de fin</value>
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>Qualificateur</value>
+  </data>
+  <data name="GroupBox3.Text" xml:space="preserve">
+    <value>Détails de qualificateur</value>
+  </data>
+  <data name="TabStationQualifier.Text" xml:space="preserve">
+    <value>Qualificateur de la station</value>
+  </data>
+  <data name="lblScheduleClass.Text" xml:space="preserve">
+    <value>Horaire de classe</value>
+  </data>
+  <data name="cmdViewScheduleClass.Text" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="cmdDeleteScheduleClass.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="cmdUpdateScheduleClass.Text" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="cmdAddScheduleClass.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="cmdClearClass.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>ID de la station</value>
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>Désignation</value>
+  </data>
+  <data name="lblClass.Text" xml:space="preserve">
+    <value>Classe</value>
+  </data>
+  <data name="GroupBox4.Text" xml:space="preserve">
+    <value>Détails de classe</value>
+  </data>
+  <data name="TabScheduleClass.Text" xml:space="preserve">
+    <value>Horaire de classe</value>
+  </data>
+  <data name="lblPhysicalFeature.Text" xml:space="preserve">
+    <value>Caractéristiques physiques</value>
+  </data>
+  <data name="cmdOpenFile.Text" xml:space="preserve">
+    <value>Ouvert</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>Description de la classe</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Fonction Image File</value>
+  </data>
+  <data name="lblFeaturePic.Text" xml:space="preserve">
+    <value>Fonction photo</value>
+  </data>
+  <data name="cmdViewFeature.Text" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="cmdDeleteFeature.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="cmdUpdateFeature.Text" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="cmdAddFeature.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="cmdClearFeature.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="lblStnId.Text" xml:space="preserve">
+    <value>ID de la station</value>
+  </data>
+  <data name="lblFeatureDescription.Text" xml:space="preserve">
+    <value>Description du composant</value>
+  </data>
+  <data name="lblFeatureClass.Text" xml:space="preserve">
+    <value>Classe d’entités</value>
+  </data>
+  <data name="lblFeatureBdate.Text" xml:space="preserve">
+    <value>Date de fin</value>
+  </data>
+  <data name="lblFeatureEdate.Text" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="grpPhysicalFeature.Text" xml:space="preserve">
+    <value>Détails de la fonction</value>
+  </data>
+  <data name="TabPhysicalFeature.Text" xml:space="preserve">
+    <value>Caractéristiques physiques</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Définition d’archives papier</value>
+  </data>
+  <data name="cmdReset.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="cmdViewPaperArchive.Text" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="cmdDeleteArchiveDef.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="cmdUpdateArchiveDef.Text" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="cmdAddArchiveDef.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="lbldescri.Text" xml:space="preserve">
+    <value>Désignation</value>
+  </data>
+  <data name="lblFormId.Text" xml:space="preserve">
+    <value>ID du formulaire</value>
+  </data>
+  <data name="GroupBox17.Text" xml:space="preserve">
+    <value>Définitions</value>
+  </data>
+  <data name="TabPaperArchive.Text" xml:space="preserve">
+    <value>Archives papier</value>
+  </data>
+  <data name="CloseToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Fermer</value>
+  </data>
+  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Aide</value>
+  </data>
+  <data name="MenuMetadata.Text" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Gestion des métadonnées</value>
+  </data>
+</root>

@@ -22,6 +22,7 @@ Partial Class ucrValueFlagPeriod
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrValueFlagPeriod))
         Me.ucrValue = New ClimsoftVer4.ucrTextBox()
         Me.ucrFlag = New ClimsoftVer4.ucrTextBox()
         Me.ucrPeriod = New ClimsoftVer4.ucrTextBox()
@@ -30,41 +31,30 @@ Partial Class ucrValueFlagPeriod
         '
         'ucrValue
         '
-        Me.ucrValue.Location = New System.Drawing.Point(0, 3)
-        Me.ucrValue.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValue, "ucrValue")
         Me.ucrValue.Name = "ucrValue"
-        Me.ucrValue.Size = New System.Drawing.Size(55, 23)
-        Me.ucrValue.TabIndex = 581
         Me.ucrValue.TextboxValue = ""
         '
         'ucrFlag
         '
-        Me.ucrFlag.Location = New System.Drawing.Point(59, 3)
-        Me.ucrFlag.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrFlag, "ucrFlag")
         Me.ucrFlag.Name = "ucrFlag"
-        Me.ucrFlag.Size = New System.Drawing.Size(29, 23)
-        Me.ucrFlag.TabIndex = 582
         Me.ucrFlag.TextboxValue = ""
         '
         'ucrPeriod
         '
-        Me.ucrPeriod.Location = New System.Drawing.Point(92, 3)
-        Me.ucrPeriod.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrPeriod, "ucrPeriod")
         Me.ucrPeriod.Name = "ucrPeriod"
-        Me.ucrPeriod.Size = New System.Drawing.Size(35, 23)
-        Me.ucrPeriod.TabIndex = 583
         Me.ucrPeriod.TextboxValue = ""
         '
         'ucrValueFlagPeriod
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.ucrPeriod)
         Me.Controls.Add(Me.ucrFlag)
         Me.Controls.Add(Me.ucrValue)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "ucrValueFlagPeriod"
-        Me.Size = New System.Drawing.Size(130, 23)
         CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

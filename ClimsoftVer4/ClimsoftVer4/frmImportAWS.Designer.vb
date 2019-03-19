@@ -59,189 +59,116 @@ Partial Class frmImportAWS
         '
         'btnBrowseSchemaFile
         '
-        Me.btnBrowseSchemaFile.Location = New System.Drawing.Point(597, 176)
+        resources.ApplyResources(Me.btnBrowseSchemaFile, "btnBrowseSchemaFile")
         Me.btnBrowseSchemaFile.Name = "btnBrowseSchemaFile"
-        Me.btnBrowseSchemaFile.Size = New System.Drawing.Size(75, 23)
-        Me.btnBrowseSchemaFile.TabIndex = 21
-        Me.btnBrowseSchemaFile.Text = "Browse"
         Me.btnBrowseSchemaFile.UseVisualStyleBackColor = True
         '
         'btnBrowseDataFile
         '
-        Me.btnBrowseDataFile.Location = New System.Drawing.Point(597, 139)
+        resources.ApplyResources(Me.btnBrowseDataFile, "btnBrowseDataFile")
         Me.btnBrowseDataFile.Name = "btnBrowseDataFile"
-        Me.btnBrowseDataFile.Size = New System.Drawing.Size(75, 23)
-        Me.btnBrowseDataFile.TabIndex = 20
-        Me.btnBrowseDataFile.Text = "Browse"
         Me.btnBrowseDataFile.UseVisualStyleBackColor = True
         '
         'lblSchemaFile
         '
-        Me.lblSchemaFile.AutoSize = True
-        Me.lblSchemaFile.Location = New System.Drawing.Point(51, 181)
+        resources.ApplyResources(Me.lblSchemaFile, "lblSchemaFile")
         Me.lblSchemaFile.Name = "lblSchemaFile"
-        Me.lblSchemaFile.Size = New System.Drawing.Size(65, 13)
-        Me.lblSchemaFile.TabIndex = 19
-        Me.lblSchemaFile.Text = "Schema File"
         '
         'txtSchemaFile
         '
-        Me.txtSchemaFile.Location = New System.Drawing.Point(154, 178)
+        resources.ApplyResources(Me.txtSchemaFile, "txtSchemaFile")
         Me.txtSchemaFile.Name = "txtSchemaFile"
-        Me.txtSchemaFile.Size = New System.Drawing.Size(437, 20)
-        Me.txtSchemaFile.TabIndex = 18
         '
         'lblDataFile
         '
-        Me.lblDataFile.AutoSize = True
-        Me.lblDataFile.Location = New System.Drawing.Point(53, 144)
+        resources.ApplyResources(Me.lblDataFile, "lblDataFile")
         Me.lblDataFile.Name = "lblDataFile"
-        Me.lblDataFile.Size = New System.Drawing.Size(49, 13)
-        Me.lblDataFile.TabIndex = 17
-        Me.lblDataFile.Text = "Data File"
         '
         'txtDataFile
         '
-        Me.txtDataFile.Location = New System.Drawing.Point(154, 141)
+        resources.ApplyResources(Me.txtDataFile, "txtDataFile")
         Me.txtDataFile.Name = "txtDataFile"
-        Me.txtDataFile.Size = New System.Drawing.Size(437, 20)
-        Me.txtDataFile.TabIndex = 16
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(597, 260)
+        resources.ApplyResources(Me.btnHelp, "btnHelp")
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(75, 23)
-        Me.btnHelp.TabIndex = 15
-        Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(504, 260)
+        resources.ApplyResources(Me.btnCancel, "btnCancel")
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(75, 23)
-        Me.btnCancel.TabIndex = 14
-        Me.btnCancel.Text = "Close"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
         'btnOK
         '
-        Me.btnOK.Enabled = False
-        Me.btnOK.Location = New System.Drawing.Point(410, 260)
+        resources.ApplyResources(Me.btnOK, "btnOK")
         Me.btnOK.Name = "btnOK"
-        Me.btnOK.Size = New System.Drawing.Size(75, 23)
-        Me.btnOK.TabIndex = 13
-        Me.btnOK.Text = "OK"
         Me.btnOK.UseVisualStyleBackColor = True
         '
         'txtStationColumn
         '
-        Me.txtStationColumn.Location = New System.Drawing.Point(154, 219)
+        resources.ApplyResources(Me.txtStationColumn, "txtStationColumn")
         Me.txtStationColumn.Name = "txtStationColumn"
-        Me.txtStationColumn.Size = New System.Drawing.Size(42, 20)
-        Me.txtStationColumn.TabIndex = 22
-        Me.txtStationColumn.Text = "2"
         '
         'lblStationColumn
         '
-        Me.lblStationColumn.AutoSize = True
-        Me.lblStationColumn.Location = New System.Drawing.Point(51, 222)
+        resources.ApplyResources(Me.lblStationColumn, "lblStationColumn")
         Me.lblStationColumn.Name = "lblStationColumn"
-        Me.lblStationColumn.Size = New System.Drawing.Size(89, 13)
-        Me.lblStationColumn.TabIndex = 23
-        Me.lblStationColumn.Text = "StationID Column"
         '
         'txtDateColumn
         '
-        Me.txtDateColumn.Location = New System.Drawing.Point(300, 219)
+        resources.ApplyResources(Me.txtDateColumn, "txtDateColumn")
         Me.txtDateColumn.Name = "txtDateColumn"
-        Me.txtDateColumn.Size = New System.Drawing.Size(43, 20)
-        Me.txtDateColumn.TabIndex = 24
-        Me.txtDateColumn.Text = "0"
         '
         'lblDateColumn
         '
-        Me.lblDateColumn.AutoSize = True
-        Me.lblDateColumn.Location = New System.Drawing.Point(215, 221)
+        resources.ApplyResources(Me.lblDateColumn, "lblDateColumn")
         Me.lblDateColumn.Name = "lblDateColumn"
-        Me.lblDateColumn.Size = New System.Drawing.Size(68, 13)
-        Me.lblDateColumn.TabIndex = 25
-        Me.lblDateColumn.Text = "Date Column"
         '
         'txtTimeColumn
         '
-        Me.txtTimeColumn.Location = New System.Drawing.Point(300, 263)
+        resources.ApplyResources(Me.txtTimeColumn, "txtTimeColumn")
         Me.txtTimeColumn.Name = "txtTimeColumn"
-        Me.txtTimeColumn.Size = New System.Drawing.Size(43, 20)
-        Me.txtTimeColumn.TabIndex = 26
-        Me.txtTimeColumn.Text = "1"
         '
         'lblTimeColumn
         '
-        Me.lblTimeColumn.AutoSize = True
-        Me.lblTimeColumn.Location = New System.Drawing.Point(215, 265)
+        resources.ApplyResources(Me.lblTimeColumn, "lblTimeColumn")
         Me.lblTimeColumn.Name = "lblTimeColumn"
-        Me.lblTimeColumn.Size = New System.Drawing.Size(68, 13)
-        Me.lblTimeColumn.TabIndex = 27
-        Me.lblTimeColumn.Text = "Time Column"
         '
         'txtValStartColumn
         '
-        Me.txtValStartColumn.Location = New System.Drawing.Point(154, 263)
+        resources.ApplyResources(Me.txtValStartColumn, "txtValStartColumn")
         Me.txtValStartColumn.Name = "txtValStartColumn"
-        Me.txtValStartColumn.Size = New System.Drawing.Size(42, 20)
-        Me.txtValStartColumn.TabIndex = 28
-        Me.txtValStartColumn.Text = "3"
         '
         'lblValStartColumn
         '
-        Me.lblValStartColumn.AutoSize = True
-        Me.lblValStartColumn.Location = New System.Drawing.Point(53, 266)
+        resources.ApplyResources(Me.lblValStartColumn, "lblValStartColumn")
         Me.lblValStartColumn.Name = "lblValStartColumn"
-        Me.lblValStartColumn.Size = New System.Drawing.Size(97, 13)
-        Me.lblValStartColumn.TabIndex = 29
-        Me.lblValStartColumn.Text = "Value Start Column"
         '
         'lblGuidelines
         '
-        Me.lblGuidelines.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.lblGuidelines, "lblGuidelines")
         Me.lblGuidelines.ForeColor = System.Drawing.Color.Red
-        Me.lblGuidelines.Location = New System.Drawing.Point(59, 13)
         Me.lblGuidelines.Name = "lblGuidelines"
-        Me.lblGuidelines.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.lblGuidelines.Size = New System.Drawing.Size(606, 91)
-        Me.lblGuidelines.TabIndex = 30
-        Me.lblGuidelines.Text = resources.GetString("lblGuidelines.Text")
-        Me.lblGuidelines.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'txtHourAdjustment
         '
-        Me.txtHourAdjustment.Location = New System.Drawing.Point(442, 219)
+        resources.ApplyResources(Me.txtHourAdjustment, "txtHourAdjustment")
         Me.txtHourAdjustment.Name = "txtHourAdjustment"
-        Me.txtHourAdjustment.Size = New System.Drawing.Size(43, 20)
-        Me.txtHourAdjustment.TabIndex = 32
-        Me.txtHourAdjustment.Text = "0"
         '
         'lblTimeAdjustment
         '
-        Me.lblTimeAdjustment.AutoSize = True
+        resources.ApplyResources(Me.lblTimeAdjustment, "lblTimeAdjustment")
         Me.lblTimeAdjustment.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblTimeAdjustment.Location = New System.Drawing.Point(383, 222)
         Me.lblTimeAdjustment.Name = "lblTimeAdjustment"
-        Me.lblTimeAdjustment.Size = New System.Drawing.Size(52, 13)
-        Me.lblTimeAdjustment.TabIndex = 33
-        Me.lblTimeAdjustment.Text = "Time shift"
         '
         'lblHourAdjustment
         '
-        Me.lblHourAdjustment.AutoSize = True
+        resources.ApplyResources(Me.lblHourAdjustment, "lblHourAdjustment")
         Me.lblHourAdjustment.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblHourAdjustment.Location = New System.Drawing.Point(501, 222)
         Me.lblHourAdjustment.Name = "lblHourAdjustment"
-        Me.lblHourAdjustment.Size = New System.Drawing.Size(58, 13)
-        Me.lblHourAdjustment.TabIndex = 34
-        Me.lblHourAdjustment.Text = "(+/-) Hours"
         '
         'Timer1
         '
@@ -253,83 +180,52 @@ Partial Class frmImportAWS
         Me.frameSetSchedule.Controls.Add(Me.lblscheduleHour)
         Me.frameSetSchedule.Controls.Add(Me.txtTimerStartMinute)
         Me.frameSetSchedule.Controls.Add(Me.txtTimerStartHour)
-        Me.frameSetSchedule.Location = New System.Drawing.Point(397, 301)
+        resources.ApplyResources(Me.frameSetSchedule, "frameSetSchedule")
         Me.frameSetSchedule.Name = "frameSetSchedule"
-        Me.frameSetSchedule.Size = New System.Drawing.Size(216, 53)
-        Me.frameSetSchedule.TabIndex = 35
         Me.frameSetSchedule.TabStop = False
-        Me.frameSetSchedule.Text = "Set minutes past hour"
         '
         'lblScheduleMinute
         '
-        Me.lblScheduleMinute.AutoSize = True
-        Me.lblScheduleMinute.Location = New System.Drawing.Point(106, 24)
+        resources.ApplyResources(Me.lblScheduleMinute, "lblScheduleMinute")
         Me.lblScheduleMinute.Name = "lblScheduleMinute"
-        Me.lblScheduleMinute.Size = New System.Drawing.Size(50, 13)
-        Me.lblScheduleMinute.TabIndex = 3
-        Me.lblScheduleMinute.Text = "Minute(s)"
         '
         'lblscheduleHour
         '
-        Me.lblscheduleHour.AutoSize = True
-        Me.lblscheduleHour.Enabled = False
-        Me.lblscheduleHour.Location = New System.Drawing.Point(9, 25)
+        resources.ApplyResources(Me.lblscheduleHour, "lblscheduleHour")
         Me.lblscheduleHour.Name = "lblscheduleHour"
-        Me.lblscheduleHour.Size = New System.Drawing.Size(30, 13)
-        Me.lblscheduleHour.TabIndex = 2
-        Me.lblscheduleHour.Text = "Hour"
         '
         'txtTimerStartMinute
         '
-        Me.txtTimerStartMinute.Location = New System.Drawing.Point(162, 22)
+        resources.ApplyResources(Me.txtTimerStartMinute, "txtTimerStartMinute")
         Me.txtTimerStartMinute.Name = "txtTimerStartMinute"
-        Me.txtTimerStartMinute.Size = New System.Drawing.Size(45, 20)
-        Me.txtTimerStartMinute.TabIndex = 1
         '
         'txtTimerStartHour
         '
-        Me.txtTimerStartHour.Enabled = False
-        Me.txtTimerStartHour.Location = New System.Drawing.Point(45, 22)
+        resources.ApplyResources(Me.txtTimerStartHour, "txtTimerStartHour")
         Me.txtTimerStartHour.Name = "txtTimerStartHour"
-        Me.txtTimerStartHour.Size = New System.Drawing.Size(40, 20)
-        Me.txtTimerStartHour.TabIndex = 0
         '
         'btnSetSchedule
         '
-        Me.btnSetSchedule.Enabled = False
-        Me.btnSetSchedule.Location = New System.Drawing.Point(274, 320)
+        resources.ApplyResources(Me.btnSetSchedule, "btnSetSchedule")
         Me.btnSetSchedule.Name = "btnSetSchedule"
-        Me.btnSetSchedule.Size = New System.Drawing.Size(117, 23)
-        Me.btnSetSchedule.TabIndex = 36
-        Me.btnSetSchedule.Text = "Activate Scheduler"
         Me.btnSetSchedule.UseVisualStyleBackColor = True
         '
         'lblTimerActivationStatus
         '
-        Me.lblTimerActivationStatus.AutoSize = True
+        resources.ApplyResources(Me.lblTimerActivationStatus, "lblTimerActivationStatus")
         Me.lblTimerActivationStatus.ForeColor = System.Drawing.Color.Red
-        Me.lblTimerActivationStatus.Location = New System.Drawing.Point(51, 322)
         Me.lblTimerActivationStatus.Name = "lblTimerActivationStatus"
-        Me.lblTimerActivationStatus.Size = New System.Drawing.Size(147, 13)
-        Me.lblTimerActivationStatus.TabIndex = 37
-        Me.lblTimerActivationStatus.Text = "Timer scheduler not activated"
         '
         'Label1
         '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.Label1, "Label1")
         Me.Label1.ForeColor = System.Drawing.Color.Red
-        Me.Label1.Location = New System.Drawing.Point(59, 88)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(599, 35)
-        Me.Label1.TabIndex = 38
-        Me.Label1.Text = "Click [OK] button to start data ingestion as a once off operation. Click [Activat" & _
-    "e Scheduler] to start data ingestion and repeat process every hour."
         '
         'frmImportAWS
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(726, 375)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblTimerActivationStatus)
         Me.Controls.Add(Me.btnSetSchedule)
@@ -358,7 +254,6 @@ Partial Class frmImportAWS
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmImportAWS"
-        Me.Text = "frmImportAWS"
         Me.frameSetSchedule.ResumeLayout(False)
         Me.frameSetSchedule.PerformLayout()
         Me.ResumeLayout(False)

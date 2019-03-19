@@ -23,6 +23,7 @@ Partial Class frmSynopTDCF
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim lblYYYY As System.Windows.Forms.Label
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSynopTDCF))
         Me.TabProcessing = New System.Windows.Forms.TabControl()
         Me.TabProcess = New System.Windows.Forms.TabPage()
         Me.cmdSend = New System.Windows.Forms.Button()
@@ -107,24 +108,17 @@ Partial Class frmSynopTDCF
         '
         'lblYYYY
         '
-        lblYYYY.AutoSize = True
-        lblYYYY.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        lblYYYY.Location = New System.Drawing.Point(137, 58)
+        resources.ApplyResources(lblYYYY, "lblYYYY")
         lblYYYY.Name = "lblYYYY"
-        lblYYYY.Size = New System.Drawing.Size(32, 13)
-        lblYYYY.TabIndex = 209
-        lblYYYY.Text = "Year:"
         '
         'TabProcessing
         '
         Me.TabProcessing.Controls.Add(Me.TabProcess)
         Me.TabProcessing.Controls.Add(Me.TabSettings)
         Me.TabProcessing.Controls.Add(Me.TabHelp)
-        Me.TabProcessing.Location = New System.Drawing.Point(-5, 2)
+        resources.ApplyResources(Me.TabProcessing, "TabProcessing")
         Me.TabProcessing.Name = "TabProcessing"
         Me.TabProcessing.SelectedIndex = 0
-        Me.TabProcessing.Size = New System.Drawing.Size(871, 487)
-        Me.TabProcessing.TabIndex = 0
         '
         'TabProcess
         '
@@ -136,49 +130,33 @@ Partial Class frmSynopTDCF
         Me.TabProcess.Controls.Add(Me.cmdClose)
         Me.TabProcess.Controls.Add(Me.cmdViewDecsriptors)
         Me.TabProcess.Controls.Add(Me.cmdEncode)
-        Me.TabProcess.Location = New System.Drawing.Point(4, 22)
+        resources.ApplyResources(Me.TabProcess, "TabProcess")
         Me.TabProcess.Name = "TabProcess"
-        Me.TabProcess.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabProcess.Size = New System.Drawing.Size(863, 461)
-        Me.TabProcess.TabIndex = 0
-        Me.TabProcess.Text = "Processing"
         Me.TabProcess.UseVisualStyleBackColor = True
         '
         'cmdSend
         '
-        Me.cmdSend.Location = New System.Drawing.Point(387, 424)
+        resources.ApplyResources(Me.cmdSend, "cmdSend")
         Me.cmdSend.Name = "cmdSend"
-        Me.cmdSend.Size = New System.Drawing.Size(71, 22)
-        Me.cmdSend.TabIndex = 10
-        Me.cmdSend.Text = "Send"
         Me.cmdSend.UseVisualStyleBackColor = True
         '
         'txtMsgbFile
         '
-        Me.txtMsgbFile.Location = New System.Drawing.Point(131, 380)
+        resources.ApplyResources(Me.txtMsgbFile, "txtMsgbFile")
         Me.txtMsgbFile.Name = "txtMsgbFile"
-        Me.txtMsgbFile.Size = New System.Drawing.Size(720, 20)
-        Me.txtMsgbFile.TabIndex = 9
         '
         'grpBinaryMessage
         '
         Me.grpBinaryMessage.BackColor = System.Drawing.Color.WhiteSmoke
         Me.grpBinaryMessage.Controls.Add(Me.txtEncoded)
-        Me.grpBinaryMessage.Location = New System.Drawing.Point(13, 102)
+        resources.ApplyResources(Me.grpBinaryMessage, "grpBinaryMessage")
         Me.grpBinaryMessage.Name = "grpBinaryMessage"
-        Me.grpBinaryMessage.Size = New System.Drawing.Size(838, 272)
-        Me.grpBinaryMessage.TabIndex = 8
         Me.grpBinaryMessage.TabStop = False
-        Me.grpBinaryMessage.Text = "Binary Message"
         '
         'txtEncoded
         '
-        Me.txtEncoded.Location = New System.Drawing.Point(6, 19)
-        Me.txtEncoded.Multiline = True
+        resources.ApplyResources(Me.txtEncoded, "txtEncoded")
         Me.txtEncoded.Name = "txtEncoded"
-        Me.txtEncoded.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.txtEncoded.Size = New System.Drawing.Size(826, 247)
-        Me.txtEncoded.TabIndex = 1
         '
         'grpObsHeaders
         '
@@ -195,150 +173,95 @@ Partial Class frmSynopTDCF
         Me.grpObsHeaders.Controls.Add(Me.cboHour)
         Me.grpObsHeaders.Controls.Add(lblYYYY)
         Me.grpObsHeaders.Controls.Add(Me.txtYear)
-        Me.grpObsHeaders.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpObsHeaders.Location = New System.Drawing.Point(11, 11)
+        resources.ApplyResources(Me.grpObsHeaders, "grpObsHeaders")
         Me.grpObsHeaders.Name = "grpObsHeaders"
-        Me.grpObsHeaders.Size = New System.Drawing.Size(840, 85)
-        Me.grpObsHeaders.TabIndex = 7
         Me.grpObsHeaders.TabStop = False
-        Me.grpObsHeaders.Text = "Observation Headers"
         '
         'lblBBB
         '
-        Me.lblBBB.AutoSize = True
-        Me.lblBBB.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblBBB.Location = New System.Drawing.Point(517, 57)
+        resources.ApplyResources(Me.lblBBB, "lblBBB")
         Me.lblBBB.Name = "lblBBB"
-        Me.lblBBB.Size = New System.Drawing.Size(28, 13)
-        Me.lblBBB.TabIndex = 216
         Me.lblBBB.Tag = "BBB"
-        Me.lblBBB.Text = "BBB"
         '
         'cboBBB
         '
         Me.cboBBB.FormattingEnabled = True
-        Me.cboBBB.Location = New System.Drawing.Point(549, 53)
+        resources.ApplyResources(Me.cboBBB, "cboBBB")
         Me.cboBBB.Name = "cboBBB"
-        Me.cboBBB.Size = New System.Drawing.Size(112, 21)
-        Me.cboBBB.TabIndex = 215
         '
         'lblStation
         '
-        Me.lblStation.AutoSize = True
-        Me.lblStation.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStation.Location = New System.Drawing.Point(135, 26)
+        resources.ApplyResources(Me.lblStation, "lblStation")
         Me.lblStation.Name = "lblStation"
-        Me.lblStation.Size = New System.Drawing.Size(40, 13)
-        Me.lblStation.TabIndex = 214
-        Me.lblStation.Text = "Station"
         '
         'cboStation
         '
         Me.cboStation.FormattingEnabled = True
-        Me.cboStation.Location = New System.Drawing.Point(181, 22)
+        resources.ApplyResources(Me.cboStation, "cboStation")
         Me.cboStation.Name = "cboStation"
-        Me.cboStation.Size = New System.Drawing.Size(480, 21)
-        Me.cboStation.TabIndex = 205
         '
         'lblHH
         '
-        Me.lblHH.AutoSize = True
-        Me.lblHH.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblHH.Location = New System.Drawing.Point(429, 58)
+        resources.ApplyResources(Me.lblHH, "lblHH")
         Me.lblHH.Name = "lblHH"
-        Me.lblHH.Size = New System.Drawing.Size(33, 13)
-        Me.lblHH.TabIndex = 213
-        Me.lblHH.Text = "Hour:"
         '
         'lblDD
         '
-        Me.lblDD.AutoSize = True
-        Me.lblDD.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDD.Location = New System.Drawing.Point(341, 58)
+        resources.ApplyResources(Me.lblDD, "lblDD")
         Me.lblDD.Name = "lblDD"
-        Me.lblDD.Size = New System.Drawing.Size(29, 13)
-        Me.lblDD.TabIndex = 212
-        Me.lblDD.Text = "Day:"
         '
         'lblMM
         '
-        Me.lblMM.AutoSize = True
-        Me.lblMM.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMM.Location = New System.Drawing.Point(241, 58)
+        resources.ApplyResources(Me.lblMM, "lblMM")
         Me.lblMM.Name = "lblMM"
-        Me.lblMM.Size = New System.Drawing.Size(40, 13)
-        Me.lblMM.TabIndex = 211
-        Me.lblMM.Text = "Month:"
         '
         'cboMonth
         '
         Me.cboMonth.FormattingEnabled = True
-        Me.cboMonth.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"})
-        Me.cboMonth.Location = New System.Drawing.Point(285, 54)
+        Me.cboMonth.Items.AddRange(New Object() {resources.GetString("cboMonth.Items"), resources.GetString("cboMonth.Items1"), resources.GetString("cboMonth.Items2"), resources.GetString("cboMonth.Items3"), resources.GetString("cboMonth.Items4"), resources.GetString("cboMonth.Items5"), resources.GetString("cboMonth.Items6"), resources.GetString("cboMonth.Items7"), resources.GetString("cboMonth.Items8"), resources.GetString("cboMonth.Items9"), resources.GetString("cboMonth.Items10"), resources.GetString("cboMonth.Items11")})
+        resources.ApplyResources(Me.cboMonth, "cboMonth")
         Me.cboMonth.Name = "cboMonth"
-        Me.cboMonth.Size = New System.Drawing.Size(41, 21)
-        Me.cboMonth.TabIndex = 207
         '
         'cboDay
         '
         Me.cboDay.FormattingEnabled = True
-        Me.cboDay.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"})
-        Me.cboDay.Location = New System.Drawing.Point(374, 54)
+        Me.cboDay.Items.AddRange(New Object() {resources.GetString("cboDay.Items"), resources.GetString("cboDay.Items1"), resources.GetString("cboDay.Items2"), resources.GetString("cboDay.Items3"), resources.GetString("cboDay.Items4"), resources.GetString("cboDay.Items5"), resources.GetString("cboDay.Items6"), resources.GetString("cboDay.Items7"), resources.GetString("cboDay.Items8"), resources.GetString("cboDay.Items9"), resources.GetString("cboDay.Items10"), resources.GetString("cboDay.Items11"), resources.GetString("cboDay.Items12"), resources.GetString("cboDay.Items13"), resources.GetString("cboDay.Items14"), resources.GetString("cboDay.Items15"), resources.GetString("cboDay.Items16"), resources.GetString("cboDay.Items17"), resources.GetString("cboDay.Items18"), resources.GetString("cboDay.Items19"), resources.GetString("cboDay.Items20"), resources.GetString("cboDay.Items21"), resources.GetString("cboDay.Items22"), resources.GetString("cboDay.Items23"), resources.GetString("cboDay.Items24"), resources.GetString("cboDay.Items25"), resources.GetString("cboDay.Items26"), resources.GetString("cboDay.Items27"), resources.GetString("cboDay.Items28"), resources.GetString("cboDay.Items29"), resources.GetString("cboDay.Items30")})
+        resources.ApplyResources(Me.cboDay, "cboDay")
         Me.cboDay.Name = "cboDay"
-        Me.cboDay.Size = New System.Drawing.Size(39, 21)
-        Me.cboDay.TabIndex = 208
         '
         'cboHour
         '
         Me.cboHour.FormattingEnabled = True
-        Me.cboHour.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", ""})
-        Me.cboHour.Location = New System.Drawing.Point(466, 54)
+        Me.cboHour.Items.AddRange(New Object() {resources.GetString("cboHour.Items"), resources.GetString("cboHour.Items1"), resources.GetString("cboHour.Items2"), resources.GetString("cboHour.Items3"), resources.GetString("cboHour.Items4"), resources.GetString("cboHour.Items5"), resources.GetString("cboHour.Items6"), resources.GetString("cboHour.Items7"), resources.GetString("cboHour.Items8"), resources.GetString("cboHour.Items9"), resources.GetString("cboHour.Items10"), resources.GetString("cboHour.Items11"), resources.GetString("cboHour.Items12"), resources.GetString("cboHour.Items13"), resources.GetString("cboHour.Items14"), resources.GetString("cboHour.Items15"), resources.GetString("cboHour.Items16"), resources.GetString("cboHour.Items17"), resources.GetString("cboHour.Items18"), resources.GetString("cboHour.Items19"), resources.GetString("cboHour.Items20"), resources.GetString("cboHour.Items21"), resources.GetString("cboHour.Items22"), resources.GetString("cboHour.Items23"), resources.GetString("cboHour.Items24")})
+        resources.ApplyResources(Me.cboHour, "cboHour")
         Me.cboHour.Name = "cboHour"
-        Me.cboHour.Size = New System.Drawing.Size(39, 21)
-        Me.cboHour.TabIndex = 210
         '
         'txtYear
         '
-        Me.txtYear.Location = New System.Drawing.Point(181, 54)
+        resources.ApplyResources(Me.txtYear, "txtYear")
         Me.txtYear.Name = "txtYear"
-        Me.txtYear.Size = New System.Drawing.Size(40, 20)
-        Me.txtYear.TabIndex = 206
         '
         'lblEncodedFile
         '
-        Me.lblEncodedFile.AutoSize = True
-        Me.lblEncodedFile.Location = New System.Drawing.Point(8, 385)
+        resources.ApplyResources(Me.lblEncodedFile, "lblEncodedFile")
         Me.lblEncodedFile.Name = "lblEncodedFile"
-        Me.lblEncodedFile.Size = New System.Drawing.Size(115, 13)
-        Me.lblEncodedFile.TabIndex = 5
-        Me.lblEncodedFile.Text = "Encoded Message File"
         '
         'cmdClose
         '
-        Me.cmdClose.Location = New System.Drawing.Point(479, 424)
+        resources.ApplyResources(Me.cmdClose, "cmdClose")
         Me.cmdClose.Name = "cmdClose"
-        Me.cmdClose.Size = New System.Drawing.Size(72, 23)
-        Me.cmdClose.TabIndex = 2
-        Me.cmdClose.Text = "Close"
         Me.cmdClose.UseVisualStyleBackColor = True
         '
         'cmdViewDecsriptors
         '
-        Me.cmdViewDecsriptors.Enabled = False
-        Me.cmdViewDecsriptors.Location = New System.Drawing.Point(249, 423)
+        resources.ApplyResources(Me.cmdViewDecsriptors, "cmdViewDecsriptors")
         Me.cmdViewDecsriptors.Name = "cmdViewDecsriptors"
-        Me.cmdViewDecsriptors.Size = New System.Drawing.Size(106, 23)
-        Me.cmdViewDecsriptors.TabIndex = 1
-        Me.cmdViewDecsriptors.Text = "View Descriptors"
         Me.cmdViewDecsriptors.UseVisualStyleBackColor = True
         '
         'cmdEncode
         '
-        Me.cmdEncode.Location = New System.Drawing.Point(138, 424)
+        resources.ApplyResources(Me.cmdEncode, "cmdEncode")
         Me.cmdEncode.Name = "cmdEncode"
-        Me.cmdEncode.Size = New System.Drawing.Size(81, 23)
-        Me.cmdEncode.TabIndex = 0
-        Me.cmdEncode.Text = "Encode"
         Me.cmdEncode.UseVisualStyleBackColor = True
         '
         'TabSettings
@@ -348,12 +271,8 @@ Partial Class frmSynopTDCF
         Me.TabSettings.Controls.Add(Me.grpIndicators)
         Me.TabSettings.Controls.Add(Me.lblBinaryBox)
         Me.TabSettings.Controls.Add(Me.cmdCancel)
-        Me.TabSettings.Location = New System.Drawing.Point(4, 22)
+        resources.ApplyResources(Me.TabSettings, "TabSettings")
         Me.TabSettings.Name = "TabSettings"
-        Me.TabSettings.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabSettings.Size = New System.Drawing.Size(863, 461)
-        Me.TabSettings.TabIndex = 1
-        Me.TabSettings.Text = "Settings"
         Me.TabSettings.UseVisualStyleBackColor = True
         '
         'grpMsgSwitch
@@ -372,128 +291,77 @@ Partial Class frmSynopTDCF
         Me.grpMsgSwitch.Controls.Add(Me.lblFolder)
         Me.grpMsgSwitch.Controls.Add(Me.lblTransferMode)
         Me.grpMsgSwitch.Controls.Add(Me.lblServer)
-        Me.grpMsgSwitch.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpMsgSwitch.Location = New System.Drawing.Point(392, 84)
+        resources.ApplyResources(Me.grpMsgSwitch, "grpMsgSwitch")
         Me.grpMsgSwitch.Name = "grpMsgSwitch"
-        Me.grpMsgSwitch.Size = New System.Drawing.Size(320, 241)
-        Me.grpMsgSwitch.TabIndex = 17
         Me.grpMsgSwitch.TabStop = False
-        Me.grpMsgSwitch.Text = "Message Switch Details"
         '
         'cmdUpdate
         '
-        Me.cmdUpdate.Location = New System.Drawing.Point(120, 208)
+        resources.ApplyResources(Me.cmdUpdate, "cmdUpdate")
         Me.cmdUpdate.Name = "cmdUpdate"
-        Me.cmdUpdate.Size = New System.Drawing.Size(63, 22)
-        Me.cmdUpdate.TabIndex = 12
-        Me.cmdUpdate.Text = "Update"
         Me.cmdUpdate.UseVisualStyleBackColor = True
         '
         'txtConfirmPassword
         '
-        Me.txtConfirmPassword.Location = New System.Drawing.Point(145, 178)
+        resources.ApplyResources(Me.txtConfirmPassword, "txtConfirmPassword")
         Me.txtConfirmPassword.Name = "txtConfirmPassword"
-        Me.txtConfirmPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtConfirmPassword.Size = New System.Drawing.Size(157, 20)
-        Me.txtConfirmPassword.TabIndex = 11
         '
         'txtPassword
         '
-        Me.txtPassword.Location = New System.Drawing.Point(145, 148)
+        resources.ApplyResources(Me.txtPassword, "txtPassword")
         Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(157, 20)
-        Me.txtPassword.TabIndex = 10
         '
         'txtLogin
         '
-        Me.txtLogin.Location = New System.Drawing.Point(145, 118)
+        resources.ApplyResources(Me.txtLogin, "txtLogin")
         Me.txtLogin.Name = "txtLogin"
-        Me.txtLogin.Size = New System.Drawing.Size(157, 20)
-        Me.txtLogin.TabIndex = 9
         '
         'txtFolder
         '
-        Me.txtFolder.Location = New System.Drawing.Point(145, 88)
+        resources.ApplyResources(Me.txtFolder, "txtFolder")
         Me.txtFolder.Name = "txtFolder"
-        Me.txtFolder.Size = New System.Drawing.Size(157, 20)
-        Me.txtFolder.TabIndex = 8
         '
         'cboFTP
         '
         Me.cboFTP.FormattingEnabled = True
-        Me.cboFTP.Items.AddRange(New Object() {"FTP", "SFTP"})
-        Me.cboFTP.Location = New System.Drawing.Point(145, 57)
+        Me.cboFTP.Items.AddRange(New Object() {resources.GetString("cboFTP.Items"), resources.GetString("cboFTP.Items1")})
+        resources.ApplyResources(Me.cboFTP, "cboFTP")
         Me.cboFTP.Name = "cboFTP"
-        Me.cboFTP.Size = New System.Drawing.Size(114, 21)
-        Me.cboFTP.TabIndex = 7
         '
         'txtServer
         '
-        Me.txtServer.Location = New System.Drawing.Point(145, 27)
+        resources.ApplyResources(Me.txtServer, "txtServer")
         Me.txtServer.Name = "txtServer"
-        Me.txtServer.Size = New System.Drawing.Size(156, 20)
-        Me.txtServer.TabIndex = 6
         '
         'lblConfirmPassword
         '
-        Me.lblConfirmPassword.AutoSize = True
-        Me.lblConfirmPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblConfirmPassword.Location = New System.Drawing.Point(12, 182)
+        resources.ApplyResources(Me.lblConfirmPassword, "lblConfirmPassword")
         Me.lblConfirmPassword.Name = "lblConfirmPassword"
-        Me.lblConfirmPassword.Size = New System.Drawing.Size(91, 13)
-        Me.lblConfirmPassword.TabIndex = 5
-        Me.lblConfirmPassword.Text = "Confirm Password"
         '
         'lblPassword
         '
-        Me.lblPassword.AutoSize = True
-        Me.lblPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPassword.Location = New System.Drawing.Point(12, 152)
+        resources.ApplyResources(Me.lblPassword, "lblPassword")
         Me.lblPassword.Name = "lblPassword"
-        Me.lblPassword.Size = New System.Drawing.Size(53, 13)
-        Me.lblPassword.TabIndex = 4
-        Me.lblPassword.Text = "Password"
         '
         'lblLogin
         '
-        Me.lblLogin.AutoSize = True
-        Me.lblLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLogin.Location = New System.Drawing.Point(12, 122)
+        resources.ApplyResources(Me.lblLogin, "lblLogin")
         Me.lblLogin.Name = "lblLogin"
-        Me.lblLogin.Size = New System.Drawing.Size(60, 13)
-        Me.lblLogin.TabIndex = 3
-        Me.lblLogin.Text = "User Name"
         '
         'lblFolder
         '
-        Me.lblFolder.AutoSize = True
-        Me.lblFolder.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFolder.Location = New System.Drawing.Point(12, 92)
+        resources.ApplyResources(Me.lblFolder, "lblFolder")
         Me.lblFolder.Name = "lblFolder"
-        Me.lblFolder.Size = New System.Drawing.Size(63, 13)
-        Me.lblFolder.TabIndex = 2
-        Me.lblFolder.Text = "Input Folder"
         '
         'lblTransferMode
         '
-        Me.lblTransferMode.AutoSize = True
-        Me.lblTransferMode.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTransferMode.Location = New System.Drawing.Point(12, 61)
+        resources.ApplyResources(Me.lblTransferMode, "lblTransferMode")
         Me.lblTransferMode.Name = "lblTransferMode"
-        Me.lblTransferMode.Size = New System.Drawing.Size(57, 13)
-        Me.lblTransferMode.TabIndex = 1
-        Me.lblTransferMode.Text = "FTP Mode"
         '
         'lblServer
         '
-        Me.lblServer.AutoSize = True
-        Me.lblServer.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblServer.Location = New System.Drawing.Point(12, 31)
+        resources.ApplyResources(Me.lblServer, "lblServer")
         Me.lblServer.Name = "lblServer"
-        Me.lblServer.Size = New System.Drawing.Size(112, 13)
-        Me.lblServer.TabIndex = 0
-        Me.lblServer.Text = "Server Address/Name"
         '
         'GroupBox1
         '
@@ -503,60 +371,38 @@ Partial Class frmSynopTDCF
         Me.GroupBox1.Controls.Add(Me.cboTemplate)
         Me.GroupBox1.Controls.Add(Me.txtMsgHeader)
         Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(27, 21)
+        resources.ApplyResources(Me.GroupBox1, "GroupBox1")
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(685, 57)
-        Me.GroupBox1.TabIndex = 14
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Headers"
         '
         'lblHeader
         '
-        Me.lblHeader.AutoSize = True
-        Me.lblHeader.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblHeader.Location = New System.Drawing.Point(283, 28)
+        resources.ApplyResources(Me.lblHeader, "lblHeader")
         Me.lblHeader.Name = "lblHeader"
-        Me.lblHeader.Size = New System.Drawing.Size(91, 13)
-        Me.lblHeader.TabIndex = 5
         Me.lblHeader.Tag = "Header"
-        Me.lblHeader.Text = "Message Header "
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(28, 28)
+        resources.ApplyResources(Me.Label1, "Label1")
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 13)
-        Me.Label1.TabIndex = 4
         Me.Label1.Tag = "Template"
-        Me.Label1.Text = "Template"
         '
         'cboTemplate
         '
         Me.cboTemplate.FormattingEnabled = True
-        Me.cboTemplate.Location = New System.Drawing.Point(83, 24)
+        resources.ApplyResources(Me.cboTemplate, "cboTemplate")
         Me.cboTemplate.Name = "cboTemplate"
-        Me.cboTemplate.Size = New System.Drawing.Size(151, 21)
-        Me.cboTemplate.TabIndex = 3
         '
         'txtMsgHeader
         '
-        Me.txtMsgHeader.Location = New System.Drawing.Point(378, 24)
+        resources.ApplyResources(Me.txtMsgHeader, "txtMsgHeader")
         Me.txtMsgHeader.Name = "txtMsgHeader"
-        Me.txtMsgHeader.Size = New System.Drawing.Size(100, 20)
-        Me.txtMsgHeader.TabIndex = 2
         '
         'Label7
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(988, 92)
+        resources.ApplyResources(Me.Label7, "Label7")
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(59, 13)
-        Me.Label7.TabIndex = 1
         Me.Label7.Tag = "Template"
-        Me.Label7.Text = "Template"
         '
         'grpIndicators
         '
@@ -585,269 +431,167 @@ Partial Class frmSynopTDCF
         Me.grpIndicators.Controls.Add(Me.txtBUFREditionNumber)
         Me.grpIndicators.Controls.Add(Me.Label44)
         Me.grpIndicators.Controls.Add(Me.Label49)
-        Me.grpIndicators.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpIndicators.Location = New System.Drawing.Point(27, 84)
+        resources.ApplyResources(Me.grpIndicators, "grpIndicators")
         Me.grpIndicators.Name = "grpIndicators"
-        Me.grpIndicators.Size = New System.Drawing.Size(333, 321)
-        Me.grpIndicators.TabIndex = 13
         Me.grpIndicators.TabStop = False
         Me.grpIndicators.Tag = "Indicators"
-        Me.grpIndicators.Text = "Indicators "
         '
         'lblInternationalDataSubCategory
         '
-        Me.lblInternationalDataSubCategory.AutoSize = True
-        Me.lblInternationalDataSubCategory.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblInternationalDataSubCategory.Location = New System.Drawing.Point(60, 184)
+        resources.ApplyResources(Me.lblInternationalDataSubCategory, "lblInternationalDataSubCategory")
         Me.lblInternationalDataSubCategory.Name = "lblInternationalDataSubCategory"
-        Me.lblInternationalDataSubCategory.Size = New System.Drawing.Size(161, 13)
-        Me.lblInternationalDataSubCategory.TabIndex = 15
         Me.lblInternationalDataSubCategory.Tag = "Data_Category"
-        Me.lblInternationalDataSubCategory.Text = "International Data Sub Category " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'cmdUpadate
         '
-        Me.cmdUpadate.Location = New System.Drawing.Point(211, 295)
+        resources.ApplyResources(Me.cmdUpadate, "cmdUpadate")
         Me.cmdUpadate.Name = "cmdUpadate"
-        Me.cmdUpadate.Size = New System.Drawing.Size(72, 20)
-        Me.cmdUpadate.TabIndex = 15
-        Me.cmdUpadate.Text = "Update"
         Me.cmdUpadate.UseVisualStyleBackColor = True
         '
         'txtLocalTableVersionNumber
         '
-        Me.txtLocalTableVersionNumber.Location = New System.Drawing.Point(250, 264)
+        resources.ApplyResources(Me.txtLocalTableVersionNumber, "txtLocalTableVersionNumber")
         Me.txtLocalTableVersionNumber.Name = "txtLocalTableVersionNumber"
-        Me.txtLocalTableVersionNumber.Size = New System.Drawing.Size(39, 20)
-        Me.txtLocalTableVersionNumber.TabIndex = 14
         '
         'lblLocalTableVersionNumber
         '
-        Me.lblLocalTableVersionNumber.AutoSize = True
-        Me.lblLocalTableVersionNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLocalTableVersionNumber.Location = New System.Drawing.Point(60, 265)
+        resources.ApplyResources(Me.lblLocalTableVersionNumber, "lblLocalTableVersionNumber")
         Me.lblLocalTableVersionNumber.Name = "lblLocalTableVersionNumber"
-        Me.lblLocalTableVersionNumber.Size = New System.Drawing.Size(146, 13)
-        Me.lblLocalTableVersionNumber.TabIndex = 11
         Me.lblLocalTableVersionNumber.Tag = "Table_Version_Number"
-        Me.lblLocalTableVersionNumber.Text = "Local Tables Version Number"
         '
         'chkOptionalSectionInclusion
         '
-        Me.chkOptionalSectionInclusion.AutoSize = True
-        Me.chkOptionalSectionInclusion.Location = New System.Drawing.Point(250, 130)
+        resources.ApplyResources(Me.chkOptionalSectionInclusion, "chkOptionalSectionInclusion")
         Me.chkOptionalSectionInclusion.Name = "chkOptionalSectionInclusion"
-        Me.chkOptionalSectionInclusion.Size = New System.Drawing.Size(15, 14)
-        Me.chkOptionalSectionInclusion.TabIndex = 3
         Me.chkOptionalSectionInclusion.UseVisualStyleBackColor = True
         '
         'lblMastersTableVersionNumber
         '
-        Me.lblMastersTableVersionNumber.AutoSize = True
-        Me.lblMastersTableVersionNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMastersTableVersionNumber.Location = New System.Drawing.Point(60, 238)
+        resources.ApplyResources(Me.lblMastersTableVersionNumber, "lblMastersTableVersionNumber")
         Me.lblMastersTableVersionNumber.Name = "lblMastersTableVersionNumber"
-        Me.lblMastersTableVersionNumber.Size = New System.Drawing.Size(152, 13)
-        Me.lblMastersTableVersionNumber.TabIndex = 1
         Me.lblMastersTableVersionNumber.Tag = "Masters_Table_Version_Number"
-        Me.lblMastersTableVersionNumber.Text = "Masters Table Version Number"
         '
         'txtMastersTableVersionNumber
         '
-        Me.txtMastersTableVersionNumber.Location = New System.Drawing.Point(250, 236)
+        resources.ApplyResources(Me.txtMastersTableVersionNumber, "txtMastersTableVersionNumber")
         Me.txtMastersTableVersionNumber.Name = "txtMastersTableVersionNumber"
-        Me.txtMastersTableVersionNumber.Size = New System.Drawing.Size(39, 20)
-        Me.txtMastersTableVersionNumber.TabIndex = 2
         '
         'cmdNew
         '
-        Me.cmdNew.Location = New System.Drawing.Point(94, 295)
+        resources.ApplyResources(Me.cmdNew, "cmdNew")
         Me.cmdNew.Name = "cmdNew"
-        Me.cmdNew.Size = New System.Drawing.Size(72, 20)
-        Me.cmdNew.TabIndex = 0
-        Me.cmdNew.Text = "AddNew"
         Me.cmdNew.UseVisualStyleBackColor = True
         '
         'lblLocalDataSubCateory
         '
-        Me.lblLocalDataSubCateory.AutoSize = True
-        Me.lblLocalDataSubCateory.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLocalDataSubCateory.Location = New System.Drawing.Point(60, 211)
+        resources.ApplyResources(Me.lblLocalDataSubCateory, "lblLocalDataSubCateory")
         Me.lblLocalDataSubCateory.Name = "lblLocalDataSubCateory"
-        Me.lblLocalDataSubCateory.Size = New System.Drawing.Size(126, 13)
-        Me.lblLocalDataSubCateory.TabIndex = 1
         Me.lblLocalDataSubCateory.Tag = "Local_Data_Sub_Cateory"
-        Me.lblLocalDataSubCateory.Text = "Local Data Sub-Category"
         '
         'txtLocalDataSubCategory
         '
-        Me.txtLocalDataSubCategory.Location = New System.Drawing.Point(250, 208)
+        resources.ApplyResources(Me.txtLocalDataSubCategory, "txtLocalDataSubCategory")
         Me.txtLocalDataSubCategory.Name = "txtLocalDataSubCategory"
-        Me.txtLocalDataSubCategory.Size = New System.Drawing.Size(39, 20)
-        Me.txtLocalDataSubCategory.TabIndex = 2
         '
         'txtInternationalDataSubCategory
         '
-        Me.txtInternationalDataSubCategory.Location = New System.Drawing.Point(250, 180)
+        resources.ApplyResources(Me.txtInternationalDataSubCategory, "txtInternationalDataSubCategory")
         Me.txtInternationalDataSubCategory.Name = "txtInternationalDataSubCategory"
-        Me.txtInternationalDataSubCategory.Size = New System.Drawing.Size(39, 20)
-        Me.txtInternationalDataSubCategory.TabIndex = 2
         '
         'lblDataCategory
         '
-        Me.lblDataCategory.AutoSize = True
-        Me.lblDataCategory.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDataCategory.Location = New System.Drawing.Point(60, 157)
+        resources.ApplyResources(Me.lblDataCategory, "lblDataCategory")
         Me.lblDataCategory.Name = "lblDataCategory"
-        Me.lblDataCategory.Size = New System.Drawing.Size(78, 13)
-        Me.lblDataCategory.TabIndex = 1
         Me.lblDataCategory.Tag = "Data_Category"
-        Me.lblDataCategory.Text = "Data Category " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'txtDataCategory
         '
-        Me.txtDataCategory.Location = New System.Drawing.Point(250, 152)
+        resources.ApplyResources(Me.txtDataCategory, "txtDataCategory")
         Me.txtDataCategory.Name = "txtDataCategory"
-        Me.txtDataCategory.Size = New System.Drawing.Size(39, 20)
-        Me.txtDataCategory.TabIndex = 2
         '
         'lblOptionalSectionInclusion
         '
-        Me.lblOptionalSectionInclusion.AutoSize = True
-        Me.lblOptionalSectionInclusion.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblOptionalSectionInclusion.Location = New System.Drawing.Point(60, 130)
-        Me.lblOptionalSectionInclusion.MaximumSize = New System.Drawing.Size(1000, 1100)
+        resources.ApplyResources(Me.lblOptionalSectionInclusion, "lblOptionalSectionInclusion")
         Me.lblOptionalSectionInclusion.Name = "lblOptionalSectionInclusion"
-        Me.lblOptionalSectionInclusion.Size = New System.Drawing.Size(130, 13)
-        Me.lblOptionalSectionInclusion.TabIndex = 1
         Me.lblOptionalSectionInclusion.Tag = "Optional_Section_Inclusion"
-        Me.lblOptionalSectionInclusion.Text = "Optional Section Inclusion"
         '
         'txtUpdateSequenceNumber
         '
-        Me.txtUpdateSequenceNumber.Location = New System.Drawing.Point(250, 102)
+        resources.ApplyResources(Me.txtUpdateSequenceNumber, "txtUpdateSequenceNumber")
         Me.txtUpdateSequenceNumber.Name = "txtUpdateSequenceNumber"
-        Me.txtUpdateSequenceNumber.Size = New System.Drawing.Size(39, 20)
-        Me.txtUpdateSequenceNumber.TabIndex = 2
         '
         'lblUpdateSequenceNumber
         '
-        Me.lblUpdateSequenceNumber.AutoSize = True
-        Me.lblUpdateSequenceNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblUpdateSequenceNumber.Location = New System.Drawing.Point(60, 103)
+        resources.ApplyResources(Me.lblUpdateSequenceNumber, "lblUpdateSequenceNumber")
         Me.lblUpdateSequenceNumber.Name = "lblUpdateSequenceNumber"
-        Me.lblUpdateSequenceNumber.Size = New System.Drawing.Size(134, 13)
-        Me.lblUpdateSequenceNumber.TabIndex = 1
         Me.lblUpdateSequenceNumber.Tag = "Update_Sequence_Number"
-        Me.lblUpdateSequenceNumber.Text = "Update Sequence Number"
         '
         'lblOriginatingGeneratingSubCentre
         '
-        Me.lblOriginatingGeneratingSubCentre.AutoSize = True
-        Me.lblOriginatingGeneratingSubCentre.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblOriginatingGeneratingSubCentre.Location = New System.Drawing.Point(60, 76)
+        resources.ApplyResources(Me.lblOriginatingGeneratingSubCentre, "lblOriginatingGeneratingSubCentre")
         Me.lblOriginatingGeneratingSubCentre.Name = "lblOriginatingGeneratingSubCentre"
-        Me.lblOriginatingGeneratingSubCentre.Size = New System.Drawing.Size(170, 13)
-        Me.lblOriginatingGeneratingSubCentre.TabIndex = 1
         Me.lblOriginatingGeneratingSubCentre.Tag = "Originating_Generating_SubCentre"
-        Me.lblOriginatingGeneratingSubCentre.Text = "Originating/Generating Sub-Centre"
         '
         'txtOriginatingGeneratingSubCentre
         '
-        Me.txtOriginatingGeneratingSubCentre.Location = New System.Drawing.Point(250, 74)
+        resources.ApplyResources(Me.txtOriginatingGeneratingSubCentre, "txtOriginatingGeneratingSubCentre")
         Me.txtOriginatingGeneratingSubCentre.Name = "txtOriginatingGeneratingSubCentre"
-        Me.txtOriginatingGeneratingSubCentre.Size = New System.Drawing.Size(39, 20)
-        Me.txtOriginatingGeneratingSubCentre.TabIndex = 2
         '
         'lblOriginatingOriginatingCentre
         '
-        Me.lblOriginatingOriginatingCentre.AutoSize = True
-        Me.lblOriginatingOriginatingCentre.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblOriginatingOriginatingCentre.Location = New System.Drawing.Point(60, 49)
+        resources.ApplyResources(Me.lblOriginatingOriginatingCentre, "lblOriginatingOriginatingCentre")
         Me.lblOriginatingOriginatingCentre.Name = "lblOriginatingOriginatingCentre"
-        Me.lblOriginatingOriginatingCentre.Size = New System.Drawing.Size(148, 13)
-        Me.lblOriginatingOriginatingCentre.TabIndex = 1
         Me.lblOriginatingOriginatingCentre.Tag = "Originating_Generating_Centre"
-        Me.lblOriginatingOriginatingCentre.Text = "Originating/Generating Centre"
         '
         'txtOriginatingGeneratingCentre
         '
-        Me.txtOriginatingGeneratingCentre.Location = New System.Drawing.Point(250, 46)
+        resources.ApplyResources(Me.txtOriginatingGeneratingCentre, "txtOriginatingGeneratingCentre")
         Me.txtOriginatingGeneratingCentre.Name = "txtOriginatingGeneratingCentre"
-        Me.txtOriginatingGeneratingCentre.Size = New System.Drawing.Size(55, 20)
-        Me.txtOriginatingGeneratingCentre.TabIndex = 2
         '
         'lblBUFREditionNumber
         '
-        Me.lblBUFREditionNumber.AutoSize = True
-        Me.lblBUFREditionNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblBUFREditionNumber.Location = New System.Drawing.Point(60, 22)
+        resources.ApplyResources(Me.lblBUFREditionNumber, "lblBUFREditionNumber")
         Me.lblBUFREditionNumber.Name = "lblBUFREditionNumber"
-        Me.lblBUFREditionNumber.Size = New System.Drawing.Size(110, 13)
-        Me.lblBUFREditionNumber.TabIndex = 1
         Me.lblBUFREditionNumber.Tag = "BUFR_edition_Number"
-        Me.lblBUFREditionNumber.Text = "BUFR edition Number"
         '
         'txtBUFREditionNumber
         '
-        Me.txtBUFREditionNumber.Location = New System.Drawing.Point(251, 18)
+        resources.ApplyResources(Me.txtBUFREditionNumber, "txtBUFREditionNumber")
         Me.txtBUFREditionNumber.Name = "txtBUFREditionNumber"
-        Me.txtBUFREditionNumber.Size = New System.Drawing.Size(38, 20)
-        Me.txtBUFREditionNumber.TabIndex = 2
         '
         'Label44
         '
-        Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(-3, 79)
+        resources.ApplyResources(Me.Label44, "Label44")
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(0, 13)
-        Me.Label44.TabIndex = 1
         '
         'Label49
         '
-        Me.Label49.AutoSize = True
-        Me.Label49.Location = New System.Drawing.Point(-3, 72)
+        resources.ApplyResources(Me.Label49, "Label49")
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(0, 13)
-        Me.Label49.TabIndex = 1
         '
         'lblBinaryBox
         '
-        Me.lblBinaryBox.AutoSize = True
-        Me.lblBinaryBox.Location = New System.Drawing.Point(6, 36)
+        resources.ApplyResources(Me.lblBinaryBox, "lblBinaryBox")
         Me.lblBinaryBox.Name = "lblBinaryBox"
-        Me.lblBinaryBox.Size = New System.Drawing.Size(10, 13)
-        Me.lblBinaryBox.TabIndex = 5
-        Me.lblBinaryBox.Text = " "
         '
         'cmdCancel
         '
-        Me.cmdCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdCancel.Location = New System.Drawing.Point(483, 379)
+        resources.ApplyResources(Me.cmdCancel, "cmdCancel")
         Me.cmdCancel.Name = "cmdCancel"
-        Me.cmdCancel.Size = New System.Drawing.Size(72, 20)
-        Me.cmdCancel.TabIndex = 1
-        Me.cmdCancel.Text = "Close"
         Me.cmdCancel.UseVisualStyleBackColor = True
         '
         'TabHelp
         '
-        Me.TabHelp.Location = New System.Drawing.Point(4, 22)
+        resources.ApplyResources(Me.TabHelp, "TabHelp")
         Me.TabHelp.Name = "TabHelp"
-        Me.TabHelp.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabHelp.Size = New System.Drawing.Size(863, 461)
-        Me.TabHelp.TabIndex = 2
-        Me.TabHelp.Text = "Help"
         Me.TabHelp.UseVisualStyleBackColor = True
         '
         'frmSynopTDCF
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(876, 493)
         Me.Controls.Add(Me.TabProcessing)
         Me.Name = "frmSynopTDCF"
-        Me.Text = "TDCF BUFR Encoding"
         Me.TabProcessing.ResumeLayout(False)
         Me.TabProcess.ResumeLayout(False)
         Me.TabProcess.PerformLayout()

@@ -22,6 +22,7 @@ Partial Class ucrHourly
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrHourly))
         Me.lblFlag = New System.Windows.Forms.Label()
         Me.lblValue = New System.Windows.Forms.Label()
         Me.lbl01 = New System.Windows.Forms.Label()
@@ -83,511 +84,312 @@ Partial Class ucrHourly
         '
         'lblFlag
         '
-        Me.lblFlag.AutoSize = True
-        Me.lblFlag.Location = New System.Drawing.Point(96, 9)
+        resources.ApplyResources(Me.lblFlag, "lblFlag")
         Me.lblFlag.Name = "lblFlag"
-        Me.lblFlag.Size = New System.Drawing.Size(27, 13)
-        Me.lblFlag.TabIndex = 3
-        Me.lblFlag.Text = "Flag"
         '
         'lblValue
         '
-        Me.lblValue.AutoSize = True
-        Me.lblValue.Location = New System.Drawing.Point(38, 9)
+        resources.ApplyResources(Me.lblValue, "lblValue")
         Me.lblValue.Name = "lblValue"
-        Me.lblValue.Size = New System.Drawing.Size(34, 13)
-        Me.lblValue.TabIndex = 4
-        Me.lblValue.Text = "Value"
         '
         'lbl01
         '
-        Me.lbl01.AutoSize = True
-        Me.lbl01.Location = New System.Drawing.Point(12, 61)
+        resources.ApplyResources(Me.lbl01, "lbl01")
         Me.lbl01.Name = "lbl01"
-        Me.lbl01.Size = New System.Drawing.Size(19, 13)
-        Me.lbl01.TabIndex = 5
-        Me.lbl01.Text = "01"
         '
         'lblHour
         '
-        Me.lblHour.AutoSize = True
-        Me.lblHour.Location = New System.Drawing.Point(5, 9)
+        resources.ApplyResources(Me.lblHour, "lblHour")
         Me.lblHour.Name = "lblHour"
-        Me.lblHour.Size = New System.Drawing.Size(30, 13)
-        Me.lblHour.TabIndex = 6
-        Me.lblHour.Text = "Hour"
         '
         'ucrValueFlagPeriod1
         '
-        Me.ucrValueFlagPeriod1.Location = New System.Drawing.Point(38, 57)
-        Me.ucrValueFlagPeriod1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod1, "ucrValueFlagPeriod1")
         Me.ucrValueFlagPeriod1.Name = "ucrValueFlagPeriod1"
-        Me.ucrValueFlagPeriod1.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod1.TabIndex = 1
         Me.ucrValueFlagPeriod1.Tag = "01"
         '
         'lbl10
         '
-        Me.lbl10.AutoSize = True
-        Me.lbl10.Location = New System.Drawing.Point(12, 331)
+        resources.ApplyResources(Me.lbl10, "lbl10")
         Me.lbl10.Name = "lbl10"
-        Me.lbl10.Size = New System.Drawing.Size(19, 13)
-        Me.lbl10.TabIndex = 24
-        Me.lbl10.Text = "10"
         '
         'lbl09
         '
-        Me.lbl09.AutoSize = True
-        Me.lbl09.Location = New System.Drawing.Point(12, 301)
+        resources.ApplyResources(Me.lbl09, "lbl09")
         Me.lbl09.Name = "lbl09"
-        Me.lbl09.Size = New System.Drawing.Size(19, 13)
-        Me.lbl09.TabIndex = 22
-        Me.lbl09.Text = "09"
         '
         'lbl08
         '
-        Me.lbl08.AutoSize = True
-        Me.lbl08.Location = New System.Drawing.Point(12, 271)
+        resources.ApplyResources(Me.lbl08, "lbl08")
         Me.lbl08.Name = "lbl08"
-        Me.lbl08.Size = New System.Drawing.Size(19, 13)
-        Me.lbl08.TabIndex = 21
-        Me.lbl08.Text = "08"
         '
         'lbl07
         '
-        Me.lbl07.AutoSize = True
-        Me.lbl07.Location = New System.Drawing.Point(12, 241)
+        resources.ApplyResources(Me.lbl07, "lbl07")
         Me.lbl07.Name = "lbl07"
-        Me.lbl07.Size = New System.Drawing.Size(19, 13)
-        Me.lbl07.TabIndex = 20
-        Me.lbl07.Text = "07"
         '
         'lbl06
         '
-        Me.lbl06.AutoSize = True
-        Me.lbl06.Location = New System.Drawing.Point(12, 211)
+        resources.ApplyResources(Me.lbl06, "lbl06")
         Me.lbl06.Name = "lbl06"
-        Me.lbl06.Size = New System.Drawing.Size(19, 13)
-        Me.lbl06.TabIndex = 19
-        Me.lbl06.Text = "06"
         '
         'lbl05
         '
-        Me.lbl05.AutoSize = True
-        Me.lbl05.Location = New System.Drawing.Point(12, 181)
+        resources.ApplyResources(Me.lbl05, "lbl05")
         Me.lbl05.Name = "lbl05"
-        Me.lbl05.Size = New System.Drawing.Size(19, 13)
-        Me.lbl05.TabIndex = 18
-        Me.lbl05.Text = "05"
         '
         'lbl04
         '
-        Me.lbl04.AutoSize = True
-        Me.lbl04.Location = New System.Drawing.Point(12, 151)
+        resources.ApplyResources(Me.lbl04, "lbl04")
         Me.lbl04.Name = "lbl04"
-        Me.lbl04.Size = New System.Drawing.Size(19, 13)
-        Me.lbl04.TabIndex = 17
-        Me.lbl04.Text = "04"
         '
         'lbl03
         '
-        Me.lbl03.AutoSize = True
-        Me.lbl03.Location = New System.Drawing.Point(12, 121)
+        resources.ApplyResources(Me.lbl03, "lbl03")
         Me.lbl03.Name = "lbl03"
-        Me.lbl03.Size = New System.Drawing.Size(19, 13)
-        Me.lbl03.TabIndex = 23
-        Me.lbl03.Text = "03"
         '
         'lbl02
         '
-        Me.lbl02.AutoSize = True
-        Me.lbl02.Location = New System.Drawing.Point(12, 91)
+        resources.ApplyResources(Me.lbl02, "lbl02")
         Me.lbl02.Name = "lbl02"
-        Me.lbl02.Size = New System.Drawing.Size(19, 13)
-        Me.lbl02.TabIndex = 16
-        Me.lbl02.Text = "02"
         '
         'ucrValueFlagPeriod10
         '
-        Me.ucrValueFlagPeriod10.Location = New System.Drawing.Point(38, 327)
-        Me.ucrValueFlagPeriod10.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod10, "ucrValueFlagPeriod10")
         Me.ucrValueFlagPeriod10.Name = "ucrValueFlagPeriod10"
-        Me.ucrValueFlagPeriod10.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod10.TabIndex = 10
         Me.ucrValueFlagPeriod10.Tag = "10"
         '
         'ucrValueFlagPeriod9
         '
-        Me.ucrValueFlagPeriod9.Location = New System.Drawing.Point(38, 297)
-        Me.ucrValueFlagPeriod9.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod9, "ucrValueFlagPeriod9")
         Me.ucrValueFlagPeriod9.Name = "ucrValueFlagPeriod9"
-        Me.ucrValueFlagPeriod9.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod9.TabIndex = 9
         Me.ucrValueFlagPeriod9.Tag = "09"
         '
         'ucrValueFlagPeriod8
         '
-        Me.ucrValueFlagPeriod8.Location = New System.Drawing.Point(38, 267)
-        Me.ucrValueFlagPeriod8.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod8, "ucrValueFlagPeriod8")
         Me.ucrValueFlagPeriod8.Name = "ucrValueFlagPeriod8"
-        Me.ucrValueFlagPeriod8.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod8.TabIndex = 8
         Me.ucrValueFlagPeriod8.Tag = "08"
         '
         'ucrValueFlagPeriod7
         '
-        Me.ucrValueFlagPeriod7.Location = New System.Drawing.Point(38, 237)
-        Me.ucrValueFlagPeriod7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod7, "ucrValueFlagPeriod7")
         Me.ucrValueFlagPeriod7.Name = "ucrValueFlagPeriod7"
-        Me.ucrValueFlagPeriod7.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod7.TabIndex = 7
         Me.ucrValueFlagPeriod7.Tag = "07"
         '
         'ucrValueFlagPeriod6
         '
-        Me.ucrValueFlagPeriod6.Location = New System.Drawing.Point(38, 207)
-        Me.ucrValueFlagPeriod6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod6, "ucrValueFlagPeriod6")
         Me.ucrValueFlagPeriod6.Name = "ucrValueFlagPeriod6"
-        Me.ucrValueFlagPeriod6.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod6.TabIndex = 6
         Me.ucrValueFlagPeriod6.Tag = "06"
         '
         'ucrValueFlagPeriod5
         '
-        Me.ucrValueFlagPeriod5.Location = New System.Drawing.Point(38, 177)
-        Me.ucrValueFlagPeriod5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod5, "ucrValueFlagPeriod5")
         Me.ucrValueFlagPeriod5.Name = "ucrValueFlagPeriod5"
-        Me.ucrValueFlagPeriod5.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod5.TabIndex = 5
         Me.ucrValueFlagPeriod5.Tag = "05"
         '
         'ucrValueFlagPeriod4
         '
-        Me.ucrValueFlagPeriod4.Location = New System.Drawing.Point(38, 147)
-        Me.ucrValueFlagPeriod4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod4, "ucrValueFlagPeriod4")
         Me.ucrValueFlagPeriod4.Name = "ucrValueFlagPeriod4"
-        Me.ucrValueFlagPeriod4.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod4.TabIndex = 4
         Me.ucrValueFlagPeriod4.Tag = "04"
         '
         'ucrValueFlagPeriod3
         '
-        Me.ucrValueFlagPeriod3.Location = New System.Drawing.Point(38, 117)
-        Me.ucrValueFlagPeriod3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod3, "ucrValueFlagPeriod3")
         Me.ucrValueFlagPeriod3.Name = "ucrValueFlagPeriod3"
-        Me.ucrValueFlagPeriod3.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod3.TabIndex = 3
         Me.ucrValueFlagPeriod3.Tag = "03"
         '
         'ucrValueFlagPeriod2
         '
-        Me.ucrValueFlagPeriod2.Location = New System.Drawing.Point(38, 87)
-        Me.ucrValueFlagPeriod2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod2, "ucrValueFlagPeriod2")
         Me.ucrValueFlagPeriod2.Name = "ucrValueFlagPeriod2"
-        Me.ucrValueFlagPeriod2.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod2.TabIndex = 2
         Me.ucrValueFlagPeriod2.Tag = "02"
         '
         'lbl11
         '
-        Me.lbl11.AutoSize = True
-        Me.lbl11.Location = New System.Drawing.Point(12, 361)
+        resources.ApplyResources(Me.lbl11, "lbl11")
         Me.lbl11.Name = "lbl11"
-        Me.lbl11.Size = New System.Drawing.Size(19, 13)
-        Me.lbl11.TabIndex = 27
-        Me.lbl11.Text = "11"
         '
         'ucrValueFlagPeriod11
         '
-        Me.ucrValueFlagPeriod11.Location = New System.Drawing.Point(38, 357)
-        Me.ucrValueFlagPeriod11.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrValueFlagPeriod11, "ucrValueFlagPeriod11")
         Me.ucrValueFlagPeriod11.Name = "ucrValueFlagPeriod11"
-        Me.ucrValueFlagPeriod11.Size = New System.Drawing.Size(126, 24)
-        Me.ucrValueFlagPeriod11.TabIndex = 11
         Me.ucrValueFlagPeriod11.Tag = "11"
         '
         'lbl23
         '
-        Me.lbl23.AutoSize = True
-        Me.lbl23.Location = New System.Drawing.Point(212, 361)
+        resources.ApplyResources(Me.lbl23, "lbl23")
         Me.lbl23.Name = "lbl23"
-        Me.lbl23.Size = New System.Drawing.Size(19, 13)
-        Me.lbl23.TabIndex = 55
-        Me.lbl23.Text = "23"
         '
         'lbl22
         '
-        Me.lbl22.AutoSize = True
-        Me.lbl22.Location = New System.Drawing.Point(212, 331)
+        resources.ApplyResources(Me.lbl22, "lbl22")
         Me.lbl22.Name = "lbl22"
-        Me.lbl22.Size = New System.Drawing.Size(19, 13)
-        Me.lbl22.TabIndex = 54
-        Me.lbl22.Text = "22"
         '
         'UcrValueFlagPeriod23
         '
-        Me.UcrValueFlagPeriod23.Location = New System.Drawing.Point(238, 357)
-        Me.UcrValueFlagPeriod23.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod23, "UcrValueFlagPeriod23")
         Me.UcrValueFlagPeriod23.Name = "UcrValueFlagPeriod23"
-        Me.UcrValueFlagPeriod23.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod23.TabIndex = 23
         Me.UcrValueFlagPeriod23.Tag = "23"
         '
         'UcrValueFlagPeriod22
         '
-        Me.UcrValueFlagPeriod22.Location = New System.Drawing.Point(238, 327)
-        Me.UcrValueFlagPeriod22.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod22, "UcrValueFlagPeriod22")
         Me.UcrValueFlagPeriod22.Name = "UcrValueFlagPeriod22"
-        Me.UcrValueFlagPeriod22.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod22.TabIndex = 22
         Me.UcrValueFlagPeriod22.Tag = "22"
         '
         'lbl21
         '
-        Me.lbl21.AutoSize = True
-        Me.lbl21.Location = New System.Drawing.Point(212, 301)
+        resources.ApplyResources(Me.lbl21, "lbl21")
         Me.lbl21.Name = "lbl21"
-        Me.lbl21.Size = New System.Drawing.Size(19, 13)
-        Me.lbl21.TabIndex = 51
-        Me.lbl21.Text = "21"
         '
         'lbl20
         '
-        Me.lbl20.AutoSize = True
-        Me.lbl20.Location = New System.Drawing.Point(212, 271)
+        resources.ApplyResources(Me.lbl20, "lbl20")
         Me.lbl20.Name = "lbl20"
-        Me.lbl20.Size = New System.Drawing.Size(19, 13)
-        Me.lbl20.TabIndex = 49
-        Me.lbl20.Text = "20"
         '
         'lbl19
         '
-        Me.lbl19.AutoSize = True
-        Me.lbl19.Location = New System.Drawing.Point(212, 241)
+        resources.ApplyResources(Me.lbl19, "lbl19")
         Me.lbl19.Name = "lbl19"
-        Me.lbl19.Size = New System.Drawing.Size(19, 13)
-        Me.lbl19.TabIndex = 48
-        Me.lbl19.Text = "19"
         '
         'lbl18
         '
-        Me.lbl18.AutoSize = True
-        Me.lbl18.Location = New System.Drawing.Point(212, 211)
+        resources.ApplyResources(Me.lbl18, "lbl18")
         Me.lbl18.Name = "lbl18"
-        Me.lbl18.Size = New System.Drawing.Size(19, 13)
-        Me.lbl18.TabIndex = 47
-        Me.lbl18.Text = "18"
         '
         'lbl17
         '
-        Me.lbl17.AutoSize = True
-        Me.lbl17.Location = New System.Drawing.Point(212, 181)
+        resources.ApplyResources(Me.lbl17, "lbl17")
         Me.lbl17.Name = "lbl17"
-        Me.lbl17.Size = New System.Drawing.Size(19, 13)
-        Me.lbl17.TabIndex = 46
-        Me.lbl17.Text = "17"
         '
         'lbl16
         '
-        Me.lbl16.AutoSize = True
-        Me.lbl16.Location = New System.Drawing.Point(212, 151)
+        resources.ApplyResources(Me.lbl16, "lbl16")
         Me.lbl16.Name = "lbl16"
-        Me.lbl16.Size = New System.Drawing.Size(19, 13)
-        Me.lbl16.TabIndex = 45
-        Me.lbl16.Text = "16"
         '
         'lbl15
         '
-        Me.lbl15.AutoSize = True
-        Me.lbl15.Location = New System.Drawing.Point(212, 121)
+        resources.ApplyResources(Me.lbl15, "lbl15")
         Me.lbl15.Name = "lbl15"
-        Me.lbl15.Size = New System.Drawing.Size(19, 13)
-        Me.lbl15.TabIndex = 44
-        Me.lbl15.Text = "15"
         '
         'lbl14
         '
-        Me.lbl14.AutoSize = True
-        Me.lbl14.Location = New System.Drawing.Point(212, 91)
+        resources.ApplyResources(Me.lbl14, "lbl14")
         Me.lbl14.Name = "lbl14"
-        Me.lbl14.Size = New System.Drawing.Size(19, 13)
-        Me.lbl14.TabIndex = 50
-        Me.lbl14.Text = "14"
         '
         'lbl13
         '
-        Me.lbl13.AutoSize = True
-        Me.lbl13.Location = New System.Drawing.Point(212, 61)
+        resources.ApplyResources(Me.lbl13, "lbl13")
         Me.lbl13.Name = "lbl13"
-        Me.lbl13.Size = New System.Drawing.Size(19, 13)
-        Me.lbl13.TabIndex = 43
-        Me.lbl13.Text = "13"
         '
         'UcrValueFlagPeriod21
         '
-        Me.UcrValueFlagPeriod21.Location = New System.Drawing.Point(238, 297)
-        Me.UcrValueFlagPeriod21.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod21, "UcrValueFlagPeriod21")
         Me.UcrValueFlagPeriod21.Name = "UcrValueFlagPeriod21"
-        Me.UcrValueFlagPeriod21.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod21.TabIndex = 21
         Me.UcrValueFlagPeriod21.Tag = "21"
         '
         'UcrValueFlagPeriod20
         '
-        Me.UcrValueFlagPeriod20.Location = New System.Drawing.Point(238, 267)
-        Me.UcrValueFlagPeriod20.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod20, "UcrValueFlagPeriod20")
         Me.UcrValueFlagPeriod20.Name = "UcrValueFlagPeriod20"
-        Me.UcrValueFlagPeriod20.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod20.TabIndex = 20
         Me.UcrValueFlagPeriod20.Tag = "20"
         '
         'UcrValueFlagPeriod19
         '
-        Me.UcrValueFlagPeriod19.Location = New System.Drawing.Point(237, 237)
-        Me.UcrValueFlagPeriod19.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod19, "UcrValueFlagPeriod19")
         Me.UcrValueFlagPeriod19.Name = "UcrValueFlagPeriod19"
-        Me.UcrValueFlagPeriod19.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod19.TabIndex = 19
         Me.UcrValueFlagPeriod19.Tag = "19"
         '
         'UcrValueFlagPeriod18
         '
-        Me.UcrValueFlagPeriod18.Location = New System.Drawing.Point(238, 207)
-        Me.UcrValueFlagPeriod18.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod18, "UcrValueFlagPeriod18")
         Me.UcrValueFlagPeriod18.Name = "UcrValueFlagPeriod18"
-        Me.UcrValueFlagPeriod18.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod18.TabIndex = 18
         Me.UcrValueFlagPeriod18.Tag = "18"
         '
         'UcrValueFlagPeriod17
         '
-        Me.UcrValueFlagPeriod17.Location = New System.Drawing.Point(238, 177)
-        Me.UcrValueFlagPeriod17.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod17, "UcrValueFlagPeriod17")
         Me.UcrValueFlagPeriod17.Name = "UcrValueFlagPeriod17"
-        Me.UcrValueFlagPeriod17.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod17.TabIndex = 17
         Me.UcrValueFlagPeriod17.Tag = "17"
         '
         'UcrValueFlagPeriod16
         '
-        Me.UcrValueFlagPeriod16.Location = New System.Drawing.Point(238, 147)
-        Me.UcrValueFlagPeriod16.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod16, "UcrValueFlagPeriod16")
         Me.UcrValueFlagPeriod16.Name = "UcrValueFlagPeriod16"
-        Me.UcrValueFlagPeriod16.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod16.TabIndex = 16
         Me.UcrValueFlagPeriod16.Tag = "16"
         '
         'UcrValueFlagPeriod15
         '
-        Me.UcrValueFlagPeriod15.Location = New System.Drawing.Point(238, 117)
-        Me.UcrValueFlagPeriod15.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod15, "UcrValueFlagPeriod15")
         Me.UcrValueFlagPeriod15.Name = "UcrValueFlagPeriod15"
-        Me.UcrValueFlagPeriod15.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod15.TabIndex = 15
         Me.UcrValueFlagPeriod15.Tag = "15"
         '
         'UcrValueFlagPeriod14
         '
-        Me.UcrValueFlagPeriod14.Location = New System.Drawing.Point(238, 87)
-        Me.UcrValueFlagPeriod14.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod14, "UcrValueFlagPeriod14")
         Me.UcrValueFlagPeriod14.Name = "UcrValueFlagPeriod14"
-        Me.UcrValueFlagPeriod14.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod14.TabIndex = 14
         Me.UcrValueFlagPeriod14.Tag = "14"
         '
         'UcrValueFlagPeriod13
         '
-        Me.UcrValueFlagPeriod13.Location = New System.Drawing.Point(238, 57)
-        Me.UcrValueFlagPeriod13.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod13, "UcrValueFlagPeriod13")
         Me.UcrValueFlagPeriod13.Name = "UcrValueFlagPeriod13"
-        Me.UcrValueFlagPeriod13.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod13.TabIndex = 13
         Me.UcrValueFlagPeriod13.Tag = "13"
         '
         'Label12
         '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(300, 9)
+        resources.ApplyResources(Me.Label12, "Label12")
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(27, 13)
-        Me.Label12.TabIndex = 30
-        Me.Label12.Text = "Flag"
         '
         'Label13
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(242, 9)
+        resources.ApplyResources(Me.Label13, "Label13")
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(34, 13)
-        Me.Label13.TabIndex = 31
-        Me.Label13.Text = "Value"
         '
         'lbl12
         '
-        Me.lbl12.AutoSize = True
-        Me.lbl12.Location = New System.Drawing.Point(212, 31)
+        resources.ApplyResources(Me.lbl12, "lbl12")
         Me.lbl12.Name = "lbl12"
-        Me.lbl12.Size = New System.Drawing.Size(19, 13)
-        Me.lbl12.TabIndex = 32
-        Me.lbl12.Text = "12"
         '
         'Label15
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(209, 9)
+        resources.ApplyResources(Me.Label15, "Label15")
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(30, 13)
-        Me.Label15.TabIndex = 33
-        Me.Label15.Text = "Hour"
         '
         'UcrValueFlagPeriod12
         '
-        Me.UcrValueFlagPeriod12.Location = New System.Drawing.Point(238, 27)
-        Me.UcrValueFlagPeriod12.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod12, "UcrValueFlagPeriod12")
         Me.UcrValueFlagPeriod12.Name = "UcrValueFlagPeriod12"
-        Me.UcrValueFlagPeriod12.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod12.TabIndex = 12
         Me.UcrValueFlagPeriod12.Tag = "12"
         '
         'UcrValueFlagPeriod0
         '
-        Me.UcrValueFlagPeriod0.Location = New System.Drawing.Point(38, 27)
-        Me.UcrValueFlagPeriod0.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.UcrValueFlagPeriod0, "UcrValueFlagPeriod0")
         Me.UcrValueFlagPeriod0.Name = "UcrValueFlagPeriod0"
-        Me.UcrValueFlagPeriod0.Size = New System.Drawing.Size(126, 24)
-        Me.UcrValueFlagPeriod0.TabIndex = 0
         Me.UcrValueFlagPeriod0.Tag = "00"
         '
         'lbl00
         '
-        Me.lbl00.AutoSize = True
-        Me.lbl00.Location = New System.Drawing.Point(12, 31)
+        resources.ApplyResources(Me.lbl00, "lbl00")
         Me.lbl00.Name = "lbl00"
-        Me.lbl00.Size = New System.Drawing.Size(19, 13)
-        Me.lbl00.TabIndex = 5
-        Me.lbl00.Text = "00"
         '
         'ucrInputTotal
         '
-        Me.ucrInputTotal.Location = New System.Drawing.Point(370, 360)
-        Me.ucrInputTotal.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        resources.ApplyResources(Me.ucrInputTotal, "ucrInputTotal")
         Me.ucrInputTotal.Name = "ucrInputTotal"
-        Me.ucrInputTotal.Size = New System.Drawing.Size(58, 26)
-        Me.ucrInputTotal.TabIndex = 24
         Me.ucrInputTotal.TextboxValue = ""
         '
         'lblTotal
         '
-        Me.lblTotal.AutoSize = True
-        Me.lblTotal.Location = New System.Drawing.Point(367, 342)
+        resources.ApplyResources(Me.lblTotal, "lblTotal")
         Me.lblTotal.Name = "lblTotal"
-        Me.lblTotal.Size = New System.Drawing.Size(31, 13)
-        Me.lblTotal.TabIndex = 56
-        Me.lblTotal.Text = "Total"
         '
         'ucrHourly
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.ucrInputTotal)
         Me.Controls.Add(Me.lblTotal)
@@ -646,7 +448,6 @@ Partial Class ucrHourly
         Me.Controls.Add(Me.UcrValueFlagPeriod0)
         Me.Controls.Add(Me.ucrValueFlagPeriod1)
         Me.Name = "ucrHourly"
-        Me.Size = New System.Drawing.Size(438, 389)
         CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

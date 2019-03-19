@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtEndHour.Text" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="txtStartHour.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblEndHour.Text" xml:space="preserve">
+    <value>Hora de fim</value>
+  </data>
+  <data name="lblStartHour.Text" xml:space="preserve">
+    <value>Hora de início</value>
+  </data>
+  <data name="txtEndDay.Text" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="txtStartDay.Text" xml:space="preserve">
+    <value>1,0</value>
+  </data>
+  <data name="lblEndDay.Text" xml:space="preserve">
+    <value>Termine o dia</value>
+  </data>
+  <data name="lblStartDay.Text" xml:space="preserve">
+    <value>Dia de Início</value>
+  </data>
+  <data name="txtEndMonth.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtStartMonth.Text" xml:space="preserve">
+    <value>1,0</value>
+  </data>
+  <data name="lblEndMonth.Text" xml:space="preserve">
+    <value>Fim de mês</value>
+  </data>
+  <data name="lblStartMonth.Text" xml:space="preserve">
+    <value>Mês de início</value>
+  </data>
+  <data name="lblEndYear.Text" xml:space="preserve">
+    <value>Ano de Término</value>
+  </data>
+  <data name="lblStartYear.Text" xml:space="preserve">
+    <value>Ano de Início</value>
+  </data>
+  <data name="lblElement.Text" xml:space="preserve">
+    <value>Código do elemento</value>
+  </data>
+  <data name="lblSation.Text" xml:space="preserve">
+    <value>Identificação da estação</value>
+  </data>
+  <data name="GrBxSelection.Text" xml:space="preserve">
+    <value>Seleção de registros</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="cmdUpade.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="cmdView.Text" xml:space="preserve">
+    <value>Exibir</value>
+  </data>
+  <data name="GrBxCommands.Text" xml:space="preserve">
+    <value>Comandos</value>
+  </data>
+  <data name="optFinal.Text" xml:space="preserve">
+    <value>Observação Final</value>
+  </data>
+  <data name="optInitial.Text" xml:space="preserve">
+    <value>Observação inicial</value>
+  </data>
+  <data name="GrBxDataBase.Text" xml:space="preserve">
+    <value>Tabelas</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Observações de atualização</value>
+  </data>
+</root>

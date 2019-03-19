@@ -20,6 +20,7 @@ Partial Class ucrMonth
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrMonth))
         Me.cmsMonth = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.cmsMonthIDs = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsMonthNames = New System.Windows.Forms.ToolStripMenuItem()
@@ -32,33 +33,29 @@ Partial Class ucrMonth
         '
         Me.cmsMonth.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmsMonthIDs, Me.cmsMonthNames, Me.cmsMonthShortMonthNames})
         Me.cmsMonth.Name = "cmsYear"
-        Me.cmsMonth.Size = New System.Drawing.Size(210, 92)
+        resources.ApplyResources(Me.cmsMonth, "cmsMonth")
         '
         'cmsMonthIDs
         '
         Me.cmsMonthIDs.Checked = True
         Me.cmsMonthIDs.CheckState = System.Windows.Forms.CheckState.Checked
         Me.cmsMonthIDs.Name = "cmsMonthIDs"
-        Me.cmsMonthIDs.Size = New System.Drawing.Size(209, 22)
-        Me.cmsMonthIDs.Text = "View Month IDs"
+        resources.ApplyResources(Me.cmsMonthIDs, "cmsMonthIDs")
         '
         'cmsMonthNames
         '
         Me.cmsMonthNames.Name = "cmsMonthNames"
-        Me.cmsMonthNames.Size = New System.Drawing.Size(209, 22)
-        Me.cmsMonthNames.Text = "View Month Names"
+        resources.ApplyResources(Me.cmsMonthNames, "cmsMonthNames")
         '
         'cmsMonthShortMonthNames
         '
         Me.cmsMonthShortMonthNames.Name = "cmsMonthShortMonthNames"
-        Me.cmsMonthShortMonthNames.Size = New System.Drawing.Size(209, 22)
-        Me.cmsMonthShortMonthNames.Text = "View Short Month Names"
+        resources.ApplyResources(Me.cmsMonthShortMonthNames, "cmsMonthShortMonthNames")
         '
         'ucrMonth
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.Name = "ucrMonth"
-        Me.Size = New System.Drawing.Size(380, 212)
         CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.cmsMonth.ResumeLayout(False)
         Me.ResumeLayout(False)

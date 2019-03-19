@@ -12,46 +12,157 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
-</value>
+  <data name="OpenListToolStripMenuItem.Text" xml:space="preserve">
+    <value>Enregistrez les spécifications</value>
   </data>
-  <data name="HelpToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIVSURBVDhPtVJNaxNRFM1PyE+Yn1AUXLjK0uWgDWQZwUUX
-        KsGFBEEcCkIwqBEpGiydsSo2kupsasdo7Yi2toh0sFZjG5JpiZo20/TpVOmH5njvm8BYahEXHji8+968
-        c+55l4n8F0zM+rhVWkHmdg29A/PoK1Yw8uIjOp/3xpvqBgrjLeilZbjNLXxZ34bwt6jexMVCGRndQenl
-        0p+NWHzPXoP3rQ3bAbQhQM0E5Np2BKprbZzrm8TIs8puE+68+r0NwwZiacCwALEBCVcAqet8JlAjk1PZ
-        JzsNJt6u4+FMS3ZmMV9mmFNAMhesbBZLC6oFdOsd8oVXocmdx018Ej9k1FgqiJ0zgS6qlR6BVI4iEFRN
-        IJlxMF/1cfTMcGiQvbskB6ZqgairJ6BCTJKYu9tlAUW1oSRsNDwfB+JXQ4PzN6s07W0ZPxDS5aSgJEFn
-        06Y9CaOqSauJRvMr9qmXQ4P8/RoWvU16eyBUEq5kbigwiKoOMTBQ0zbKlTq6TxihwejkZ1iOJwfEwmiC
-        BQ49yaW50J7Fh0xJw3IxbM3hwo2x0ICRHZzFgveTunYERK5lgo5YMxx8WPFw5Li+U8wYm66jNz+Naov+
-        Beqiao58N5NrPluoryJO0QeKU7sNGKPPazh9aRzGo/eYmVvEMk270fTlmzl2N3XW9xL/jv7iaxw7+wAH
-        E9ew//AVxE8OItv/9O/Cf0ck8gud2vKswuxNZgAAAABJRU5ErkJggg==
-</value>
+  <data name="ToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Ouverture de spécifications</value>
   </data>
-  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="ToolStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>239, 17</value>
-  </metadata>
-  <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>132, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>49</value>
-  </metadata>
+  <data name="OpenListToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Ajouter un nouveau produit</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="FileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="EditToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="MenuStrip1.Text" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="cmdSelectAllElements.Text" xml:space="preserve">
+    <value>Sélectionner tout</value>
+  </data>
+  <data name="cmdSelectAllStations.Text" xml:space="preserve">
+    <value>Sélectionner tout</value>
+  </data>
+  <data name="cmdClearStations.Text" xml:space="preserve">
+    <value>Effacer la liste</value>
+  </data>
+  <data name="cmdClearElements.Text" xml:space="preserve">
+    <value>Effacer la liste</value>
+  </data>
+  <data name="chkTranspose.Text" xml:space="preserve">
+    <value>Transposer les valeurs</value>
+  </data>
+  <data name="optTotal.Text" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="optMean.Text" xml:space="preserve">
+    <value>Moyenne</value>
+  </data>
+  <data name="lblSummary.Text" xml:space="preserve">
+    <value>Type de résumé</value>
+  </data>
+  <data name="btnMinDate.Text" xml:space="preserve">
+    <value>Le plus bas et la date</value>
+  </data>
+  <data name="btnMaxDate.Text" xml:space="preserve">
+    <value>Date et plus</value>
+  </data>
+  <data name="btnLowHigh.Text" xml:space="preserve">
+    <value>Plus et le plus bas</value>
+  </data>
+  <data name="lblXtyp.Text" xml:space="preserve">
+    <value>Type extrême</value>
+  </data>
+  <data name="cmdDelStation.Text" xml:space="preserve">
+    <value>Supprimer la Station sélectionnée</value>
+  </data>
+  <data name="cmdDelElement.Text" xml:space="preserve">
+    <value>Supprimer les éléments sélectionnés</value>
+  </data>
+  <data name="lblProductType.Text" xml:space="preserve">
+    <value>      </value>
+  </data>
+  <data name="chkAdvancedSelection.Text" xml:space="preserve">
+    <value>Sélection avancée</value>
+  </data>
+  <data name="lblElement.Text" xml:space="preserve">
+    <value>Sélectionner un élément</value>
+  </data>
+  <data name="lblStation.Text" xml:space="preserve">
+    <value>Sélectionnez la Station</value>
+  </data>
+  <data name="lblProducts.Text" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="txtMinuteEnd.Text" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="txtMinuteStart.Text" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="txtHourEnd.Text" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="txtHourStart.Text" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="txtSminute.Text" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="lblHourEnd.Text" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="lblHourBegin.Text" xml:space="preserve">
+    <value>par date</value>
+  </data>
+  <data name="lblTo.Text" xml:space="preserve">
+    <value>Date de fin</value>
+  </data>
+  <data name="lblFrom.Text" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="lblPeriod.Text" xml:space="preserve">
+    <value>Période</value>
+  </data>
+  <data name="lblRadius.Text" xml:space="preserve">
+    <value>Radiuds (km)</value>
+  </data>
+  <data name="lblLongitude.Text" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="lblLatitude.Text" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="OptGeography.Text" xml:space="preserve">
+    <value>Géographique</value>
+  </data>
+  <data name="optBasin.Text" xml:space="preserve">
+    <value>Bassin versant</value>
+  </data>
+  <data name="RadioButton1.Text" xml:space="preserve">
+    <value>Région</value>
+  </data>
+  <data name="optAuthority.Text" xml:space="preserve">
+    <value>Autorité</value>
+  </data>
+  <data name="lblStations.Text" xml:space="preserve">
+    <value>Sélection avancée</value>
+  </data>
+  <data name="cmdExtract.Text" xml:space="preserve">
+    <value>Démarrer l’Extraction</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="ToolStrip2.Text" xml:space="preserve">
+    <value>ToolStrip2</value>
+  </data>
+  <data name="HelpToolStripButton.Text" xml:space="preserve">
+    <value>Il&amp;lp</value>
+  </data>
+  <data name="ToolStrip1.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sélection de données</value>
+  </data>
 </root>

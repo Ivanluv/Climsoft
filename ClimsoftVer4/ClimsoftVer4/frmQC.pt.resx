@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdApply.Text" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="cmdOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="lblQcAdvanced.Text" xml:space="preserve">
+    <value>QC avançado</value>
+  </data>
+  <data name="txtEndMonth.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtBeginMonth.Text" xml:space="preserve">
+    <value>01</value>
+  </data>
+  <data name="lblEndMonth.Text" xml:space="preserve">
+    <value>Fim de mês</value>
+  </data>
+  <data name="lblBeginMonth.Text" xml:space="preserve">
+    <value>Começar o mês</value>
+  </data>
+  <data name="lblEndYear.Text" xml:space="preserve">
+    <value>Ano de Término</value>
+  </data>
+  <data name="lblBeginYear.Text" xml:space="preserve">
+    <value>Começar o ano</value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Atualizar com relatório QC</value>
+  </data>
+  <data name="chkAllStations.Text" xml:space="preserve">
+    <value>Selecione todas as estações</value>
+  </data>
+  <data name="chkAllElements.Text" xml:space="preserve">
+    <value>Selecione todos os elementos</value>
+  </data>
+  <data name="cmdPerformQC.Text" xml:space="preserve">
+    <value>Executar QC</value>
+  </data>
+  <data name="lblQCtype.Text" xml:space="preserve">
+    <value>Selecione a opção para o tipo QC</value>
+  </data>
+  <data name="optInterElement.Text" xml:space="preserve">
+    <value>Comparação entre elemento cheques</value>
+  </data>
+  <data name="optAbsoluteLimits.Text" xml:space="preserve">
+    <value>Verificações de limites absolutos</value>
+  </data>
+  <data name="lblStationsElementsList.Text" xml:space="preserve">
+    <value>Verifique para selecionar elementos e estações para QC</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Selecionar Intervalo de Hora</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Verificações de controle de qualidade</value>
+  </data>
+</root>

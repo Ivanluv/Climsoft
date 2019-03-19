@@ -22,6 +22,7 @@ Partial Class frmChangePassword
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmChangePassword))
         Me.txtUsername = New System.Windows.Forms.TextBox()
         Me.lblUsername = New System.Windows.Forms.Label()
         Me.txtNewPassword = New System.Windows.Forms.TextBox()
@@ -35,87 +36,56 @@ Partial Class frmChangePassword
         '
         'txtUsername
         '
-        Me.txtUsername.Location = New System.Drawing.Point(157, 46)
+        resources.ApplyResources(Me.txtUsername, "txtUsername")
         Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(164, 20)
-        Me.txtUsername.TabIndex = 0
         '
         'lblUsername
         '
-        Me.lblUsername.AutoSize = True
-        Me.lblUsername.Location = New System.Drawing.Point(12, 49)
+        resources.ApplyResources(Me.lblUsername, "lblUsername")
         Me.lblUsername.Name = "lblUsername"
-        Me.lblUsername.Size = New System.Drawing.Size(55, 13)
-        Me.lblUsername.TabIndex = 1
-        Me.lblUsername.Text = "Username"
         '
         'txtNewPassword
         '
-        Me.txtNewPassword.Location = New System.Drawing.Point(157, 94)
+        resources.ApplyResources(Me.txtNewPassword, "txtNewPassword")
         Me.txtNewPassword.Name = "txtNewPassword"
-        Me.txtNewPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtNewPassword.Size = New System.Drawing.Size(164, 20)
-        Me.txtNewPassword.TabIndex = 2
         '
         'lblNewPassword
         '
-        Me.lblNewPassword.AutoSize = True
-        Me.lblNewPassword.Location = New System.Drawing.Point(12, 97)
+        resources.ApplyResources(Me.lblNewPassword, "lblNewPassword")
         Me.lblNewPassword.Name = "lblNewPassword"
-        Me.lblNewPassword.Size = New System.Drawing.Size(78, 13)
-        Me.lblNewPassword.TabIndex = 3
-        Me.lblNewPassword.Text = "New Password"
         '
         'txtConfirmPassword
         '
-        Me.txtConfirmPassword.Location = New System.Drawing.Point(157, 138)
+        resources.ApplyResources(Me.txtConfirmPassword, "txtConfirmPassword")
         Me.txtConfirmPassword.Name = "txtConfirmPassword"
-        Me.txtConfirmPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtConfirmPassword.Size = New System.Drawing.Size(164, 20)
-        Me.txtConfirmPassword.TabIndex = 4
         '
         'lblConfirmNewPassword
         '
-        Me.lblConfirmNewPassword.AutoSize = True
-        Me.lblConfirmNewPassword.Location = New System.Drawing.Point(12, 141)
+        resources.ApplyResources(Me.lblConfirmNewPassword, "lblConfirmNewPassword")
         Me.lblConfirmNewPassword.Name = "lblConfirmNewPassword"
-        Me.lblConfirmNewPassword.Size = New System.Drawing.Size(122, 13)
-        Me.lblConfirmNewPassword.TabIndex = 5
-        Me.lblConfirmNewPassword.Text = "Re-enter New Password"
         '
         'btnOK
         '
-        Me.btnOK.Enabled = False
-        Me.btnOK.Location = New System.Drawing.Point(114, 175)
+        resources.ApplyResources(Me.btnOK, "btnOK")
         Me.btnOK.Name = "btnOK"
-        Me.btnOK.Size = New System.Drawing.Size(66, 23)
-        Me.btnOK.TabIndex = 6
-        Me.btnOK.Text = "OK"
         Me.btnOK.UseVisualStyleBackColor = True
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(186, 175)
+        resources.ApplyResources(Me.btnCancel, "btnCancel")
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(66, 23)
-        Me.btnCancel.TabIndex = 7
-        Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(258, 175)
+        resources.ApplyResources(Me.btnHelp, "btnHelp")
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(66, 23)
-        Me.btnHelp.TabIndex = 8
-        Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'frmChangePassword
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(356, 217)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnOK)
@@ -128,7 +98,6 @@ Partial Class frmChangePassword
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmChangePassword"
-        Me.Text = "Change Password"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

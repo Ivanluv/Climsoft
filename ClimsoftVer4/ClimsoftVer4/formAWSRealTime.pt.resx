@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="cmdMessages.Text" xml:space="preserve">
+    <value>Opções de Codificação</value>
+  </data>
+  <data name="cmdDataStructures.Text" xml:space="preserve">
+    <value>Estruturas de dados</value>
+  </data>
+  <data name="cmdSites.Text" xml:space="preserve">
+    <value>Locais</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="cmdServers.Text" xml:space="preserve">
+    <value>Servidores</value>
+  </data>
+  <data name="cmdProcess.Text" xml:space="preserve">
+    <value>Processando</value>
+  </data>
+  <data name="optStart.Text" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="txtGMTDiff.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblGMT.Text" xml:space="preserve">
+    <value>Diff GMT + /-</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Salvar Alterações</value>
+  </data>
+  <data name="chkDeleteFile.Text" xml:space="preserve">
+    <value>Excluir o arquivo de entrada após o processamento</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>Período de tempo limite (segundos)</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>Recuperar o último</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>Deslocamento de hora (minutos)</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>Intervalo de recuperação (minutos)</value>
+  </data>
+  <data name="optStop.Text" xml:space="preserve">
+    <value>Parar</value>
+  </data>
+  <data name="Ltime.Text" xml:space="preserve">
+    <value>   </value>
+  </data>
+  <data name="txtNextProcess.Text" xml:space="preserve">
+    <value>Processamento seguinte</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Último processamento</value>
+  </data>
+  <data name="txtStatus.Text" xml:space="preserve">
+    <value>Parado</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblDatetime.Text" xml:space="preserve">
+    <value>Data atual hora</value>
+  </data>
+  <data name="lblSatus.Text" xml:space="preserve">
+    <value>Status do Processamento</value>
+  </data>
+  <data name="lblErrors.Text" xml:space="preserve">
+    <value>Mensagens de erro</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Arquivos de mensagens</value>
+  </data>
+  <data name="lblOutputFolder.Text" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="lblOutputFTP.Text" xml:space="preserve">
+    <value>Servidor FTP</value>
+  </data>
+  <data name="pnlOutput.Text" xml:space="preserve">
+    <value>Saída</value>
+  </data>
+  <data name="lblInputFiles.Text" xml:space="preserve">
+    <value>Arquivos de entrada</value>
+  </data>
+  <data name="lblInputFolder.Text" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="lblSever.Text" xml:space="preserve">
+    <value>Servidor FTP</value>
+  </data>
+  <data name="lblInputData.Text" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="lblInformation.Text" xml:space="preserve">
+    <value>Processinf informações</value>
+  </data>
+  <data name="grpElements.Text" xml:space="preserve">
+    <value>Elementos View/Update</value>
+  </data>
+  <data name="chkPrefix.Text" xml:space="preserve">
+    <value>Prefixo de nome de arquivos</value>
+  </data>
+  <data name="Label42.Text" xml:space="preserve">
+    <value>Cabeçalho de Msg GTS</value>
+  </data>
+  <data name="chkGTSEncode.Text" xml:space="preserve">
+    <value>Codificam para GTS  </value>
+  </data>
+  <data name="Label41.Text" xml:space="preserve">
+    <value>Nome do Site</value>
+  </data>
+  <data name="cmdClear.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="cmdViewUpdate.Text" xml:space="preserve">
+    <value>Visualizar/actualizar</value>
+  </data>
+  <data name="cmdDel.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="cmdUpdateSites.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Operacional</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>AWS Server IP</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>Bandeira de dados ausentes</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>Estrutura de dados</value>
+  </data>
+  <data name="lblInfile.Text" xml:space="preserve">
+    <value>Arquivo de dados de entrada</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>ID do Site</value>
+  </data>
+  <data name="lblStructure.Text" xml:space="preserve">
+    <value>Selecione a estrutura de dados existente</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>Criar</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>Caractere de texto Qulifier</value>
+  </data>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>Linhas de cabeçalho total</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>Tipo de delimitador</value>
+  </data>
+  <data name="lblStrName.Text" xml:space="preserve">
+    <value>Nome da Estrutura</value>
+  </data>
+  <data name="grpStructures1.Text" xml:space="preserve">
+    <value>Estruturas de dados</value>
+  </data>
+  <data name="cmdBstAddNew.Text" xml:space="preserve">
+    <value>Adicionar Novo</value>
+  </data>
+  <data name="cmdRefresh.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="cmdReset.Text" xml:space="preserve">
+    <value>Restaurar</value>
+  </data>
+  <data name="txtBasestationFTPMode.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="Label40.Text" xml:space="preserve">
+    <value>Modo de transferência por FTP</value>
+  </data>
+  <data name="lblbaseStation.Text" xml:space="preserve">
+    <value>Estação base</value>
+  </data>
+  <data name="cmdBstDelete.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="cmdBsstUpdate.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="cmdBstSave.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="lblConfirmInputPW.Text" xml:space="preserve">
+    <value>Confirmar Senha</value>
+  </data>
+  <data name="lblInputPW.Text" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="lblInputUser.Text" xml:space="preserve">
+    <value>Nome do usuário</value>
+  </data>
+  <data name="lblFTPFolder.Text" xml:space="preserve">
+    <value>Pasta de entrada</value>
+  </data>
+  <data name="lblBaseStationFTP.Text" xml:space="preserve">
+    <value>Endereço de FTP</value>
+  </data>
+  <data name="cmdmssRefresh.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="cmdmssReset.Text" xml:space="preserve">
+    <value>Restaurar</value>
+  </data>
+  <data name="txtmssFTPMode.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="lblFtpTransferMode.Text" xml:space="preserve">
+    <value>Modo de transferência por FTP</value>
+  </data>
+  <data name="lblMsgSwitch.Text" xml:space="preserve">
+    <value>Interruptor de mensagem</value>
+  </data>
+  <data name="cmdMSSDelete.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="cmdMSSUpdate.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="cmdMSSAddNew.Text" xml:space="preserve">
+    <value>AddNew</value>
+  </data>
+  <data name="lblmssConfirmPassword.Text" xml:space="preserve">
+    <value>Confirmar Senha</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Palavra-passe</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Nome do usuário</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Pasta de entrada</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Endereço de FTP</value>
+  </data>
+  <data name="lblServerSettings.Text" xml:space="preserve">
+    <value>Configurações do Servidor</value>
+  </data>
+  <data name="cmdMSS.Text" xml:space="preserve">
+    <value>Interruptor de mensagem</value>
+  </data>
+  <data name="cmdBaseStation.Text" xml:space="preserve">
+    <value>Estação base</value>
+  </data>
+  <data name="GroupBox6.Text" xml:space="preserve">
+    <value>Código e bandeiras</value>
+  </data>
+  <data name="chkOptionalSection.Text" xml:space="preserve">
+    <value>Inclusão de opção seção                     </value>
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>N º de versão de tabela local</value>
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>Versão da tabela mestre não.</value>
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>Subcategoria dados locais</value>
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>Subcategoria internacional de dados</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>Categoria de Dados</value>
+  </data>
+  <data name="Label30.Text" xml:space="preserve">
+    <value>N º de sequência de atualização</value>
+  </data>
+  <data name="Label32.Text" xml:space="preserve">
+    <value>Origem/gerando sub centro</value>
+  </data>
+  <data name="Label33.Text" xml:space="preserve">
+    <value>Centro de origem/gerando</value>
+  </data>
+  <data name="Label34.Text" xml:space="preserve">
+    <value>BUFR edição n. º</value>
+  </data>
+  <data name="GroupBox7.Text" xml:space="preserve">
+    <value>BUFR seção 2</value>
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>Modelo de codificação</value>
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>Cabeçalho da mensagem (CCCC TTAAii)</value>
+  </data>
+  <data name="GroupBox5.Text" xml:space="preserve">
+    <value>Cabeçalho e modelos</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AWS em tempo Real</value>
+  </data>
+</root>

@@ -120,4 +120,122 @@
   <metadata name="cmsElement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmsElementsNames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="cmsElementsNames.Text" xml:space="preserve">
+    <value>Element Names</value>
+  </data>
+  <data name="cmsElementIDs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="cmsElementIDs.Text" xml:space="preserve">
+    <value>IDs</value>
+  </data>
+  <data name="cmsElemntIDName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="cmsElemntIDName.Text" xml:space="preserve">
+    <value>ID and Element Name</value>
+  </data>
+  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 6</value>
+  </data>
+  <data name="cmsElementSortByID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="cmsElementSortByID.Text" xml:space="preserve">
+    <value>Sort By ID</value>
+  </data>
+  <data name="cmsElementSortyByName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="cmsElementSortyByName.Text" xml:space="preserve">
+    <value>Sort By Element Name</value>
+  </data>
+  <data name="cmsElementsFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="cmsElementsFilter.Text" xml:space="preserve">
+    <value>Filter Stations</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 6</value>
+  </data>
+  <data name="cmsElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 148</value>
+  </data>
+  <data name="&gt;&gt;cmsElement.Name" xml:space="preserve">
+    <value>cmsElement</value>
+  </data>
+  <data name="&gt;&gt;cmsElement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;dtbRecords.Name" xml:space="preserve">
+    <value>dtbRecords</value>
+  </data>
+  <data name="&gt;&gt;dtbRecords.Type" xml:space="preserve">
+    <value>System.Data.DataTable, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsElementsNames.Name" xml:space="preserve">
+    <value>cmsElementsNames</value>
+  </data>
+  <data name="&gt;&gt;cmsElementsNames.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsElementIDs.Name" xml:space="preserve">
+    <value>cmsElementIDs</value>
+  </data>
+  <data name="&gt;&gt;cmsElementIDs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsElemntIDName.Name" xml:space="preserve">
+    <value>cmsElemntIDName</value>
+  </data>
+  <data name="&gt;&gt;cmsElemntIDName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
+    <value>ToolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsElementSortByID.Name" xml:space="preserve">
+    <value>cmsElementSortByID</value>
+  </data>
+  <data name="&gt;&gt;cmsElementSortByID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsElementSortyByName.Name" xml:space="preserve">
+    <value>cmsElementSortyByName</value>
+  </data>
+  <data name="&gt;&gt;cmsElementSortyByName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsElementsFilter.Name" xml:space="preserve">
+    <value>cmsElementsFilter</value>
+  </data>
+  <data name="&gt;&gt;cmsElementsFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucrElementSelector</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrDataLinkCombobox, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
 </root>

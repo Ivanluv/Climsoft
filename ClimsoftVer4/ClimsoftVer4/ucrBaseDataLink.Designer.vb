@@ -23,6 +23,7 @@ Partial Class ucrBaseDataLink
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrBaseDataLink))
         Me.cmsViewOptions = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.tsSortBy = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsViewOptions.SuspendLayout()
@@ -32,18 +33,16 @@ Partial Class ucrBaseDataLink
         '
         Me.cmsViewOptions.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsSortBy})
         Me.cmsViewOptions.Name = "cmsStationOptions"
-        Me.cmsViewOptions.Size = New System.Drawing.Size(115, 26)
-        Me.cmsViewOptions.Text = "Station Names"
+        resources.ApplyResources(Me.cmsViewOptions, "cmsViewOptions")
         '
         'tsSortBy
         '
         Me.tsSortBy.Name = "tsSortBy"
-        Me.tsSortBy.Size = New System.Drawing.Size(114, 22)
-        Me.tsSortBy.Text = "Sort By:"
+        resources.ApplyResources(Me.tsSortBy, "tsSortBy")
         '
         'ucrBaseDataLink
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Name = "ucrBaseDataLink"
         Me.cmsViewOptions.ResumeLayout(False)

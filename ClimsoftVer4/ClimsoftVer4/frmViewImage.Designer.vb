@@ -22,27 +22,23 @@ Partial Class frmViewImage
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmViewImage))
         Me.picView = New System.Windows.Forms.PictureBox()
         CType(Me.picView, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'picView
         '
-        Me.picView.Location = New System.Drawing.Point(12, 12)
+        resources.ApplyResources(Me.picView, "picView")
         Me.picView.Name = "picView"
-        Me.picView.Size = New System.Drawing.Size(848, 625)
-        Me.picView.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.picView.TabIndex = 0
         Me.picView.TabStop = False
         '
         'frmViewImage
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(872, 649)
         Me.Controls.Add(Me.picView)
         Me.Name = "frmViewImage"
-        Me.Text = "View Image"
         CType(Me.picView, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

@@ -22,6 +22,7 @@ Partial Class frmBackup
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmBackup))
         Me.txtBackupFolder = New System.Windows.Forms.TextBox()
         Me.lblBackupFolder = New System.Windows.Forms.Label()
         Me.btnBrowse = New System.Windows.Forms.Button()
@@ -33,75 +34,51 @@ Partial Class frmBackup
         '
         'txtBackupFolder
         '
-        Me.txtBackupFolder.Location = New System.Drawing.Point(131, 77)
+        resources.ApplyResources(Me.txtBackupFolder, "txtBackupFolder")
         Me.txtBackupFolder.Name = "txtBackupFolder"
-        Me.txtBackupFolder.Size = New System.Drawing.Size(273, 20)
-        Me.txtBackupFolder.TabIndex = 0
         '
         'lblBackupFolder
         '
-        Me.lblBackupFolder.AutoSize = True
-        Me.lblBackupFolder.Location = New System.Drawing.Point(46, 80)
+        resources.ApplyResources(Me.lblBackupFolder, "lblBackupFolder")
         Me.lblBackupFolder.Name = "lblBackupFolder"
-        Me.lblBackupFolder.Size = New System.Drawing.Size(79, 13)
-        Me.lblBackupFolder.TabIndex = 1
-        Me.lblBackupFolder.Text = "Backup Folder:"
         '
         'btnBrowse
         '
-        Me.btnBrowse.Location = New System.Drawing.Point(419, 75)
+        resources.ApplyResources(Me.btnBrowse, "btnBrowse")
         Me.btnBrowse.Name = "btnBrowse"
-        Me.btnBrowse.Size = New System.Drawing.Size(65, 23)
-        Me.btnBrowse.TabIndex = 2
-        Me.btnBrowse.Text = "Browse"
         Me.btnBrowse.UseVisualStyleBackColor = True
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(329, 128)
+        resources.ApplyResources(Me.btnHelp, "btnHelp")
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(75, 23)
-        Me.btnHelp.TabIndex = 9
         Me.btnHelp.Tag = "btnHelp"
-        Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(230, 128)
+        resources.ApplyResources(Me.btnCancel, "btnCancel")
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(75, 23)
-        Me.btnCancel.TabIndex = 8
         Me.btnCancel.Tag = "btnCancel"
-        Me.btnCancel.Text = "Close"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
         'btnOK
         '
-        Me.btnOK.Enabled = False
-        Me.btnOK.Location = New System.Drawing.Point(131, 128)
+        resources.ApplyResources(Me.btnOK, "btnOK")
         Me.btnOK.Name = "btnOK"
-        Me.btnOK.Size = New System.Drawing.Size(75, 23)
-        Me.btnOK.TabIndex = 7
         Me.btnOK.Tag = "btnOk"
-        Me.btnOK.Text = "Backup"
         Me.btnOK.UseVisualStyleBackColor = True
         '
         'lblBackupProgress
         '
-        Me.lblBackupProgress.AutoSize = True
+        resources.ApplyResources(Me.lblBackupProgress, "lblBackupProgress")
         Me.lblBackupProgress.ForeColor = System.Drawing.Color.Red
-        Me.lblBackupProgress.Location = New System.Drawing.Point(142, 27)
         Me.lblBackupProgress.Name = "lblBackupProgress"
-        Me.lblBackupProgress.Size = New System.Drawing.Size(174, 13)
-        Me.lblBackupProgress.TabIndex = 10
-        Me.lblBackupProgress.Text = "Backup observation data by station"
         '
         'frmBackup
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(516, 174)
         Me.Controls.Add(Me.lblBackupProgress)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.btnCancel)
@@ -112,7 +89,6 @@ Partial Class frmBackup
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmBackup"
-        Me.Text = "Backup Observation Data to CSV files"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

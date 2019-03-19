@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdView.Text" xml:space="preserve">
+    <value>Exibir Registros</value>
+  </data>
+  <data name="lblEndDate.Text" xml:space="preserve">
+    <value>Data de Término</value>
+  </data>
+  <data name="lblStartDate.Text" xml:space="preserve">
+    <value>Data de Início</value>
+  </data>
+  <data name="optAll.Text" xml:space="preserve">
+    <value>Todos os Usuários</value>
+  </data>
+  <data name="optUsers.Text" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="grpUsers.Text" xml:space="preserve">
+    <value>Registros de usuários</value>
+  </data>
+  <data name="TabUsrRecords.Text" xml:space="preserve">
+    <value>Registros de usuários</value>
+  </data>
+  <data name="cmdSave1.Text" xml:space="preserve">
+    <value>Salvar a saída</value>
+  </data>
+  <data name="cmdRetrieve.Text" xml:space="preserve">
+    <value>Computar o desempenho</value>
+  </data>
+  <data name="lblYear.Text" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="lblMonth.Text" xml:space="preserve">
+    <value>mês(meses)</value>
+  </data>
+  <data name="lblTo1.Text" xml:space="preserve">
+    <value>Até</value>
+  </data>
+  <data name="lblFrom1.Text" xml:space="preserve">
+    <value>vai de</value>
+  </data>
+  <data name="optRange.Text" xml:space="preserve">
+    <value>intervalo</value>
+  </data>
+  <data name="OptMonthly.Text" xml:space="preserve">
+    <value>Mensalmente</value>
+  </data>
+  <data name="grpPerformance.Text" xml:space="preserve">
+    <value>Monitoramento de desempenho de usuários</value>
+  </data>
+  <data name="TabPerformance.Text" xml:space="preserve">
+    <value>Monitoramento de Desempenho</value>
+  </data>
+  <data name="optNotVerified.Text" xml:space="preserve">
+    <value>NÃO verificados registros</value>
+  </data>
+  <data name="optVerified.Text" xml:space="preserve">
+    <value>Verificados registros</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>Tipo de seleção</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="cmdExtarct.Text" xml:space="preserve">
+    <value>Recuperar</value>
+  </data>
+  <data name="txtMonth2.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtMonth1.Text" xml:space="preserve">
+    <value>1,0</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Fim de mês</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Ano de Término</value>
+  </data>
+  <data name="optKeyEntryForm.Text" xml:space="preserve">
+    <value>Formulário de entrada de chave</value>
+  </data>
+  <data name="optAllForms.Text" xml:space="preserve">
+    <value>Todos os Formulários</value>
+  </data>
+  <data name="lblTo.Text" xml:space="preserve">
+    <value>Começar o mês</value>
+  </data>
+  <data name="lblFrom.Text" xml:space="preserve">
+    <value>Começar o ano</value>
+  </data>
+  <data name="grpVerify.Text" xml:space="preserve">
+    <value>Entrada de chave dupla verificação</value>
+  </data>
+  <data name="TabEntryVerify.Text" xml:space="preserve">
+    <value>Entrada de chave dupla verificação</value>
+  </data>
+  <data name="lblDoubleEntryMode.Text" xml:space="preserve">
+    <value>1 para a entrada de chave dupla </value>
+  </data>
+  <data name="lblSingleEntryMode.Text" xml:space="preserve">
+    <value>0 para entrada de dados simples </value>
+  </data>
+  <data name="RadioButton1.Text" xml:space="preserve">
+    <value>Modo de entrada de dados</value>
+  </data>
+  <data name="optTargets.Text" xml:space="preserve">
+    <value>Registros de alvos</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="cmdretrieve1.Text" xml:space="preserve">
+    <value>Exibir</value>
+  </data>
+  <data name="grpSettings.Text" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="TabSettings.Text" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="lblRecords.Text" xml:space="preserve">
+    <value>Total de registros = </value>
+  </data>
+  <data name="lblTrecs.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Operações de monitoramento</value>
+  </data>
+</root>

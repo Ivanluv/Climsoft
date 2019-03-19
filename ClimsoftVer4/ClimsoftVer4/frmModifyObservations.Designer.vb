@@ -22,6 +22,8 @@ Partial Class frmModifyObservations
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmModifyObservations))
         Me.DataGridViewObservations = New System.Windows.Forms.DataGridView()
         Me.GrBxSelection = New System.Windows.Forms.GroupBox()
         Me.txtEndHour = New System.Windows.Forms.TextBox()
@@ -54,10 +56,12 @@ Partial Class frmModifyObservations
         Me.optFinal = New System.Windows.Forms.RadioButton()
         Me.optInitial = New System.Windows.Forms.RadioButton()
         Me.lblrecords = New System.Windows.Forms.Label()
+        Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         CType(Me.DataGridViewObservations, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GrBxSelection.SuspendLayout()
         Me.GrBxCommands.SuspendLayout()
         Me.GrBxDataBase.SuspendLayout()
+        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridViewObservations
@@ -66,10 +70,8 @@ Partial Class frmModifyObservations
         Me.DataGridViewObservations.AllowUserToAddRows = False
         Me.DataGridViewObservations.BackgroundColor = System.Drawing.SystemColors.Control
         Me.DataGridViewObservations.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewObservations.Location = New System.Drawing.Point(12, 108)
+        resources.ApplyResources(Me.DataGridViewObservations, "DataGridViewObservations")
         Me.DataGridViewObservations.Name = "DataGridViewObservations"
-        Me.DataGridViewObservations.Size = New System.Drawing.Size(1137, 468)
-        Me.DataGridViewObservations.TabIndex = 0
         '
         'GrBxSelection
         '
@@ -93,178 +95,109 @@ Partial Class frmModifyObservations
         Me.GrBxSelection.Controls.Add(Me.lblStartYear)
         Me.GrBxSelection.Controls.Add(Me.lblElement)
         Me.GrBxSelection.Controls.Add(Me.lblSation)
-        Me.GrBxSelection.Location = New System.Drawing.Point(147, 20)
+        resources.ApplyResources(Me.GrBxSelection, "GrBxSelection")
         Me.GrBxSelection.Name = "GrBxSelection"
-        Me.GrBxSelection.Size = New System.Drawing.Size(638, 78)
-        Me.GrBxSelection.TabIndex = 4
         Me.GrBxSelection.TabStop = False
-        Me.GrBxSelection.Text = "Records Selection"
         '
         'txtEndHour
         '
-        Me.txtEndHour.Location = New System.Drawing.Point(596, 48)
+        resources.ApplyResources(Me.txtEndHour, "txtEndHour")
         Me.txtEndHour.Name = "txtEndHour"
-        Me.txtEndHour.Size = New System.Drawing.Size(30, 20)
-        Me.txtEndHour.TabIndex = 19
-        Me.txtEndHour.Text = "23"
         '
         'txtStartHour
         '
-        Me.txtStartHour.Location = New System.Drawing.Point(596, 17)
+        resources.ApplyResources(Me.txtStartHour, "txtStartHour")
         Me.txtStartHour.Name = "txtStartHour"
-        Me.txtStartHour.Size = New System.Drawing.Size(30, 20)
-        Me.txtStartHour.TabIndex = 18
-        Me.txtStartHour.Text = "0"
         '
         'lblEndHour
         '
-        Me.lblEndHour.AutoSize = True
-        Me.lblEndHour.Location = New System.Drawing.Point(539, 52)
+        resources.ApplyResources(Me.lblEndHour, "lblEndHour")
         Me.lblEndHour.Name = "lblEndHour"
-        Me.lblEndHour.Size = New System.Drawing.Size(52, 13)
-        Me.lblEndHour.TabIndex = 17
-        Me.lblEndHour.Text = "End Hour"
         '
         'lblStartHour
         '
-        Me.lblStartHour.AutoSize = True
-        Me.lblStartHour.Location = New System.Drawing.Point(538, 21)
+        resources.ApplyResources(Me.lblStartHour, "lblStartHour")
         Me.lblStartHour.Name = "lblStartHour"
-        Me.lblStartHour.Size = New System.Drawing.Size(55, 13)
-        Me.lblStartHour.TabIndex = 16
-        Me.lblStartHour.Text = "Start Hour"
         '
         'txtEndDay
         '
-        Me.txtEndDay.Location = New System.Drawing.Point(498, 48)
+        resources.ApplyResources(Me.txtEndDay, "txtEndDay")
         Me.txtEndDay.Name = "txtEndDay"
-        Me.txtEndDay.Size = New System.Drawing.Size(30, 20)
-        Me.txtEndDay.TabIndex = 15
-        Me.txtEndDay.Text = "31"
         '
         'txtStartDay
         '
-        Me.txtStartDay.Location = New System.Drawing.Point(496, 17)
+        resources.ApplyResources(Me.txtStartDay, "txtStartDay")
         Me.txtStartDay.Name = "txtStartDay"
-        Me.txtStartDay.Size = New System.Drawing.Size(32, 20)
-        Me.txtStartDay.TabIndex = 14
-        Me.txtStartDay.Text = "1"
         '
         'lblEndDay
         '
-        Me.lblEndDay.AutoSize = True
-        Me.lblEndDay.Location = New System.Drawing.Point(444, 52)
+        resources.ApplyResources(Me.lblEndDay, "lblEndDay")
         Me.lblEndDay.Name = "lblEndDay"
-        Me.lblEndDay.Size = New System.Drawing.Size(48, 13)
-        Me.lblEndDay.TabIndex = 13
-        Me.lblEndDay.Text = "End Day"
         '
         'lblStartDay
         '
-        Me.lblStartDay.AutoSize = True
-        Me.lblStartDay.Location = New System.Drawing.Point(443, 21)
+        resources.ApplyResources(Me.lblStartDay, "lblStartDay")
         Me.lblStartDay.Name = "lblStartDay"
-        Me.lblStartDay.Size = New System.Drawing.Size(51, 13)
-        Me.lblStartDay.TabIndex = 12
-        Me.lblStartDay.Text = "Start Day"
         '
         'txtEndMonth
         '
-        Me.txtEndMonth.Location = New System.Drawing.Point(405, 48)
+        resources.ApplyResources(Me.txtEndMonth, "txtEndMonth")
         Me.txtEndMonth.Name = "txtEndMonth"
-        Me.txtEndMonth.Size = New System.Drawing.Size(30, 20)
-        Me.txtEndMonth.TabIndex = 11
-        Me.txtEndMonth.Text = "12"
         '
         'txtStartMonth
         '
-        Me.txtStartMonth.Location = New System.Drawing.Point(404, 17)
+        resources.ApplyResources(Me.txtStartMonth, "txtStartMonth")
         Me.txtStartMonth.Name = "txtStartMonth"
-        Me.txtStartMonth.Size = New System.Drawing.Size(31, 20)
-        Me.txtStartMonth.TabIndex = 10
-        Me.txtStartMonth.Text = "1"
         '
         'txtEndYear
         '
-        Me.txtEndYear.Location = New System.Drawing.Point(291, 48)
+        resources.ApplyResources(Me.txtEndYear, "txtEndYear")
         Me.txtEndYear.Name = "txtEndYear"
-        Me.txtEndYear.Size = New System.Drawing.Size(35, 20)
-        Me.txtEndYear.TabIndex = 9
         '
         'txtStartYear
         '
-        Me.txtStartYear.Location = New System.Drawing.Point(290, 17)
+        resources.ApplyResources(Me.txtStartYear, "txtStartYear")
         Me.txtStartYear.Name = "txtStartYear"
-        Me.txtStartYear.Size = New System.Drawing.Size(36, 20)
-        Me.txtStartYear.TabIndex = 8
         '
         'txtElement
         '
-        Me.txtElement.Location = New System.Drawing.Point(95, 48)
+        resources.ApplyResources(Me.txtElement, "txtElement")
         Me.txtElement.Name = "txtElement"
-        Me.txtElement.Size = New System.Drawing.Size(124, 20)
-        Me.txtElement.TabIndex = 7
         '
         'txtStation
         '
-        Me.txtStation.Location = New System.Drawing.Point(95, 17)
+        resources.ApplyResources(Me.txtStation, "txtStation")
         Me.txtStation.Name = "txtStation"
-        Me.txtStation.Size = New System.Drawing.Size(124, 20)
-        Me.txtStation.TabIndex = 6
         '
         'lblEndMonth
         '
-        Me.lblEndMonth.AutoSize = True
-        Me.lblEndMonth.Location = New System.Drawing.Point(341, 52)
+        resources.ApplyResources(Me.lblEndMonth, "lblEndMonth")
         Me.lblEndMonth.Name = "lblEndMonth"
-        Me.lblEndMonth.Size = New System.Drawing.Size(59, 13)
-        Me.lblEndMonth.TabIndex = 5
-        Me.lblEndMonth.Text = "End Month"
         '
         'lblStartMonth
         '
-        Me.lblStartMonth.AutoSize = True
-        Me.lblStartMonth.Location = New System.Drawing.Point(341, 21)
+        resources.ApplyResources(Me.lblStartMonth, "lblStartMonth")
         Me.lblStartMonth.Name = "lblStartMonth"
-        Me.lblStartMonth.Size = New System.Drawing.Size(62, 13)
-        Me.lblStartMonth.TabIndex = 4
-        Me.lblStartMonth.Text = "Start Month"
         '
         'lblEndYear
         '
-        Me.lblEndYear.AutoSize = True
-        Me.lblEndYear.Location = New System.Drawing.Point(235, 52)
+        resources.ApplyResources(Me.lblEndYear, "lblEndYear")
         Me.lblEndYear.Name = "lblEndYear"
-        Me.lblEndYear.Size = New System.Drawing.Size(51, 13)
-        Me.lblEndYear.TabIndex = 3
-        Me.lblEndYear.Text = "End Year"
         '
         'lblStartYear
         '
-        Me.lblStartYear.AutoSize = True
-        Me.lblStartYear.Location = New System.Drawing.Point(235, 21)
+        resources.ApplyResources(Me.lblStartYear, "lblStartYear")
         Me.lblStartYear.Name = "lblStartYear"
-        Me.lblStartYear.Size = New System.Drawing.Size(54, 13)
-        Me.lblStartYear.TabIndex = 2
-        Me.lblStartYear.Text = "Start Year"
         '
         'lblElement
         '
-        Me.lblElement.AutoSize = True
-        Me.lblElement.Location = New System.Drawing.Point(16, 52)
+        resources.ApplyResources(Me.lblElement, "lblElement")
         Me.lblElement.Name = "lblElement"
-        Me.lblElement.Size = New System.Drawing.Size(73, 13)
-        Me.lblElement.TabIndex = 1
-        Me.lblElement.Text = "Element Code"
         '
         'lblSation
         '
-        Me.lblSation.AutoSize = True
-        Me.lblSation.Location = New System.Drawing.Point(16, 21)
+        resources.ApplyResources(Me.lblSation, "lblSation")
         Me.lblSation.Name = "lblSation"
-        Me.lblSation.Size = New System.Drawing.Size(52, 13)
-        Me.lblSation.TabIndex = 0
-        Me.lblSation.Text = "Station Id"
         '
         'GrBxCommands
         '
@@ -273,119 +206,84 @@ Partial Class frmModifyObservations
         Me.GrBxCommands.Controls.Add(Me.cmdDelete)
         Me.GrBxCommands.Controls.Add(Me.cmdUpade)
         Me.GrBxCommands.Controls.Add(Me.cmdView)
-        Me.GrBxCommands.Location = New System.Drawing.Point(799, 30)
+        resources.ApplyResources(Me.GrBxCommands, "GrBxCommands")
         Me.GrBxCommands.Name = "GrBxCommands"
-        Me.GrBxCommands.Size = New System.Drawing.Size(344, 58)
-        Me.GrBxCommands.TabIndex = 5
         Me.GrBxCommands.TabStop = False
-        Me.GrBxCommands.Text = "Commands"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(280, 24)
+        resources.ApplyResources(Me.Button1, "Button1")
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(57, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Help"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'cmdClose
         '
-        Me.cmdClose.Location = New System.Drawing.Point(212, 24)
+        resources.ApplyResources(Me.cmdClose, "cmdClose")
         Me.cmdClose.Name = "cmdClose"
-        Me.cmdClose.Size = New System.Drawing.Size(57, 23)
-        Me.cmdClose.TabIndex = 3
-        Me.cmdClose.Text = "Close"
         Me.cmdClose.UseVisualStyleBackColor = True
         '
         'cmdDelete
         '
-        Me.cmdDelete.Enabled = False
-        Me.cmdDelete.Location = New System.Drawing.Point(144, 24)
+        resources.ApplyResources(Me.cmdDelete, "cmdDelete")
         Me.cmdDelete.Name = "cmdDelete"
-        Me.cmdDelete.Size = New System.Drawing.Size(57, 23)
-        Me.cmdDelete.TabIndex = 2
-        Me.cmdDelete.Text = "Delete"
         Me.cmdDelete.UseVisualStyleBackColor = True
         '
         'cmdUpade
         '
-        Me.cmdUpade.Enabled = False
-        Me.cmdUpade.Location = New System.Drawing.Point(76, 24)
+        resources.ApplyResources(Me.cmdUpade, "cmdUpade")
         Me.cmdUpade.Name = "cmdUpade"
-        Me.cmdUpade.Size = New System.Drawing.Size(57, 23)
-        Me.cmdUpade.TabIndex = 1
-        Me.cmdUpade.Text = "Update"
         Me.cmdUpade.UseVisualStyleBackColor = True
         '
         'cmdView
         '
-        Me.cmdView.Location = New System.Drawing.Point(8, 24)
+        resources.ApplyResources(Me.cmdView, "cmdView")
         Me.cmdView.Name = "cmdView"
-        Me.cmdView.Size = New System.Drawing.Size(57, 23)
-        Me.cmdView.TabIndex = 0
-        Me.cmdView.Text = "View"
         Me.cmdView.UseVisualStyleBackColor = True
         '
         'GrBxDataBase
         '
         Me.GrBxDataBase.Controls.Add(Me.optFinal)
         Me.GrBxDataBase.Controls.Add(Me.optInitial)
-        Me.GrBxDataBase.Location = New System.Drawing.Point(17, 20)
+        resources.ApplyResources(Me.GrBxDataBase, "GrBxDataBase")
         Me.GrBxDataBase.Name = "GrBxDataBase"
-        Me.GrBxDataBase.Size = New System.Drawing.Size(125, 78)
-        Me.GrBxDataBase.TabIndex = 6
         Me.GrBxDataBase.TabStop = False
-        Me.GrBxDataBase.Text = "Databases"
         '
         'optFinal
         '
-        Me.optFinal.AutoSize = True
-        Me.optFinal.Location = New System.Drawing.Point(11, 46)
+        resources.ApplyResources(Me.optFinal, "optFinal")
         Me.optFinal.Name = "optFinal"
-        Me.optFinal.Size = New System.Drawing.Size(107, 17)
-        Me.optFinal.TabIndex = 5
-        Me.optFinal.Text = "Observation Final"
         Me.optFinal.UseVisualStyleBackColor = True
         '
         'optInitial
         '
-        Me.optInitial.AutoSize = True
+        resources.ApplyResources(Me.optInitial, "optInitial")
         Me.optInitial.Checked = True
-        Me.optInitial.Location = New System.Drawing.Point(11, 23)
         Me.optInitial.Name = "optInitial"
-        Me.optInitial.Size = New System.Drawing.Size(109, 17)
-        Me.optInitial.TabIndex = 4
         Me.optInitial.TabStop = True
-        Me.optInitial.Text = "Observation Initial"
         Me.optInitial.UseVisualStyleBackColor = True
         '
         'lblrecords
         '
-        Me.lblrecords.AutoSize = True
-        Me.lblrecords.Location = New System.Drawing.Point(518, 93)
+        resources.ApplyResources(Me.lblrecords, "lblrecords")
         Me.lblrecords.Name = "lblrecords"
-        Me.lblrecords.Size = New System.Drawing.Size(0, 13)
-        Me.lblrecords.TabIndex = 7
         '
         'frmModifyObservations
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1161, 588)
         Me.Controls.Add(Me.lblrecords)
         Me.Controls.Add(Me.GrBxDataBase)
         Me.Controls.Add(Me.GrBxCommands)
         Me.Controls.Add(Me.GrBxSelection)
         Me.Controls.Add(Me.DataGridViewObservations)
         Me.Name = "frmModifyObservations"
-        Me.Text = "Update Observations"
         CType(Me.DataGridViewObservations, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GrBxSelection.ResumeLayout(False)
         Me.GrBxSelection.PerformLayout()
         Me.GrBxCommands.ResumeLayout(False)
         Me.GrBxDataBase.ResumeLayout(False)
         Me.GrBxDataBase.PerformLayout()
+        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -422,4 +320,5 @@ Partial Class frmModifyObservations
     Friend WithEvents txtStartDay As System.Windows.Forms.TextBox
     Friend WithEvents lblEndDay As System.Windows.Forms.Label
     Friend WithEvents lblStartDay As System.Windows.Forms.Label
+    Friend WithEvents BindingSource1 As BindingSource
 End Class

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtEyear.Text" xml:space="preserve">
+    <value>2012</value>
+  </data>
+  <data name="txtByear.Text" xml:space="preserve">
+    <value>1900</value>
+  </data>
+  <data name="lblEyear.Text" xml:space="preserve">
+    <value>Année de fin</value>
+  </data>
+  <data name="lblByear.Text" xml:space="preserve">
+    <value>Beging année</value>
+  </data>
+  <data name="lblV4.Text" xml:space="preserve">
+    <value>V4 db</value>
+  </data>
+  <data name="txtV4db.Text" xml:space="preserve">
+    <value>maria_climsoft_db_v4</value>
+  </data>
+  <data name="txtV3db.Text" xml:space="preserve">
+    <value>mysql_main_climsoft_database_v3</value>
+  </data>
+  <data name="lblV3.Text" xml:space="preserve">
+    <value>V3 db</value>
+  </data>
+  <data name="optSeletedRecords.Text" xml:space="preserve">
+    <value>Enregistrements sélectionnés :</value>
+  </data>
+  <data name="optEntireDb.Text" xml:space="preserve">
+    <value>Base de données entière</value>
+  </data>
+  <data name="lblBkpFile.Text" xml:space="preserve">
+    <value>Fichier de sauvegarde</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="cmdStart.Text" xml:space="preserve">
+    <value>Démarrer</value>
+  </data>
+  <data name="optV3MysqlDb.Text" xml:space="preserve">
+    <value>CLIMSOFT V3 MySQL Database - au sein du même serveur)</value>
+  </data>
+  <data name="optV3Backup.Text" xml:space="preserve">
+    <value>CLIMSOFT V3 Backup</value>
+  </data>
+  <data name="lblMessages.Text" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="chkboxReplace.Text" xml:space="preserve">
+    <value>Remplacer les enregistrements existants</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Migration des données</value>
+  </data>
+</root>

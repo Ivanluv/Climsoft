@@ -117,4 +117,751 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="UcrValueFlagPeriod1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UcrValueFlagPeriod1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UcrValueFlagPeriod1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod1.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod1</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod1.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod1.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="UcrValueFlagPeriod5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 139</value>
+  </data>
+  <data name="UcrValueFlagPeriod5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod5.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod5</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod5.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod5.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="UcrValueFlagPeriod6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 169</value>
+  </data>
+  <data name="UcrValueFlagPeriod6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod6.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod6</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod6.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod6.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="UcrValueFlagPeriod12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 347</value>
+  </data>
+  <data name="UcrValueFlagPeriod12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod12.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod12.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod12</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod12.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod12.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="UcrValueFlagPeriod11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 318</value>
+  </data>
+  <data name="UcrValueFlagPeriod11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod11.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod11.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod11</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod11.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod11.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="UcrValueFlagPeriod10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 288</value>
+  </data>
+  <data name="UcrValueFlagPeriod10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod10.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod10.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod10</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod10.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod10.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="UcrValueFlagPeriod7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 200</value>
+  </data>
+  <data name="UcrValueFlagPeriod7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod7.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod7</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod7.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod7.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="UcrValueFlagPeriod8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 228</value>
+  </data>
+  <data name="UcrValueFlagPeriod8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod8.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod8</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod8.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod8.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="UcrValueFlagPeriod9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 258</value>
+  </data>
+  <data name="UcrValueFlagPeriod9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod9.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod9.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod9</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod9.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod9.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="UcrValueFlagPeriod4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 110</value>
+  </data>
+  <data name="UcrValueFlagPeriod4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod4.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod4</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod4.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod4.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="UcrValueFlagPeriod3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 83</value>
+  </data>
+  <data name="UcrValueFlagPeriod3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod3.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod3</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod3.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="UcrValueFlagPeriod2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 52</value>
+  </data>
+  <data name="UcrValueFlagPeriod2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod2.Name" xml:space="preserve">
+    <value>UcrValueFlagPeriod2</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod2.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrValueFlagPeriod, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcrValueFlagPeriod2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblFlag.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 6</value>
+  </data>
+  <data name="lblFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lblFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>572</value>
+  </data>
+  <data name="lblFlag.Text" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="&gt;&gt;lblFlag.Name" xml:space="preserve">
+    <value>lblFlag</value>
+  </data>
+  <data name="&gt;&gt;lblFlag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFlag.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFlag.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 6</value>
+  </data>
+  <data name="lblValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lblValue.TabIndex" type="System.Int32, mscorlib">
+    <value>571</value>
+  </data>
+  <data name="lblValue.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="&gt;&gt;lblValue.Name" xml:space="preserve">
+    <value>lblValue</value>
+  </data>
+  <data name="&gt;&gt;lblValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblValue.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblMonth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 5</value>
+  </data>
+  <data name="lblMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lblMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>570</value>
+  </data>
+  <data name="lblMonth.Text" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="&gt;&gt;lblMonth.Name" xml:space="preserve">
+    <value>lblMonth</value>
+  </data>
+  <data name="&gt;&gt;lblMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMonth.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMonth.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lbl12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 353</value>
+  </data>
+  <data name="lbl12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="lbl12.TabIndex" type="System.Int32, mscorlib">
+    <value>584</value>
+  </data>
+  <data name="lbl12.Text" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="&gt;&gt;lbl12.Name" xml:space="preserve">
+    <value>lbl12</value>
+  </data>
+  <data name="&gt;&gt;lbl12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl12.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 323</value>
+  </data>
+  <data name="lbl11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="lbl11.TabIndex" type="System.Int32, mscorlib">
+    <value>583</value>
+  </data>
+  <data name="lbl11.Text" xml:space="preserve">
+    <value>Novemeber</value>
+  </data>
+  <data name="&gt;&gt;lbl11.Name" xml:space="preserve">
+    <value>lbl11</value>
+  </data>
+  <data name="&gt;&gt;lbl11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 293</value>
+  </data>
+  <data name="lbl10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lbl10.TabIndex" type="System.Int32, mscorlib">
+    <value>582</value>
+  </data>
+  <data name="lbl10.Text" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="&gt;&gt;lbl10.Name" xml:space="preserve">
+    <value>lbl10</value>
+  </data>
+  <data name="&gt;&gt;lbl10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl09.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl09.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 262</value>
+  </data>
+  <data name="lbl09.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="lbl09.TabIndex" type="System.Int32, mscorlib">
+    <value>581</value>
+  </data>
+  <data name="lbl09.Text" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="&gt;&gt;lbl09.Name" xml:space="preserve">
+    <value>lbl09</value>
+  </data>
+  <data name="&gt;&gt;lbl09.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl09.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl09.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl08.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl08.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 234</value>
+  </data>
+  <data name="lbl08.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lbl08.TabIndex" type="System.Int32, mscorlib">
+    <value>580</value>
+  </data>
+  <data name="lbl08.Text" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="&gt;&gt;lbl08.Name" xml:space="preserve">
+    <value>lbl08</value>
+  </data>
+  <data name="&gt;&gt;lbl08.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl08.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl08.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl07.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl07.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 206</value>
+  </data>
+  <data name="lbl07.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lbl07.TabIndex" type="System.Int32, mscorlib">
+    <value>579</value>
+  </data>
+  <data name="lbl07.Text" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="&gt;&gt;lbl07.Name" xml:space="preserve">
+    <value>lbl07</value>
+  </data>
+  <data name="&gt;&gt;lbl07.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl07.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl07.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl06.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl06.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 176</value>
+  </data>
+  <data name="lbl06.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="lbl06.TabIndex" type="System.Int32, mscorlib">
+    <value>578</value>
+  </data>
+  <data name="lbl06.Text" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="&gt;&gt;lbl06.Name" xml:space="preserve">
+    <value>lbl06</value>
+  </data>
+  <data name="&gt;&gt;lbl06.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl06.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl06.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl05.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl05.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 145</value>
+  </data>
+  <data name="lbl05.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lbl05.TabIndex" type="System.Int32, mscorlib">
+    <value>577</value>
+  </data>
+  <data name="lbl05.Text" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="&gt;&gt;lbl05.Name" xml:space="preserve">
+    <value>lbl05</value>
+  </data>
+  <data name="&gt;&gt;lbl05.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl05.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl05.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl04.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl04.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 115</value>
+  </data>
+  <data name="lbl04.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lbl04.TabIndex" type="System.Int32, mscorlib">
+    <value>576</value>
+  </data>
+  <data name="lbl04.Text" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="&gt;&gt;lbl04.Name" xml:space="preserve">
+    <value>lbl04</value>
+  </data>
+  <data name="&gt;&gt;lbl04.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl04.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl04.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl03.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl03.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 89</value>
+  </data>
+  <data name="lbl03.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lbl03.TabIndex" type="System.Int32, mscorlib">
+    <value>575</value>
+  </data>
+  <data name="lbl03.Text" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="&gt;&gt;lbl03.Name" xml:space="preserve">
+    <value>lbl03</value>
+  </data>
+  <data name="&gt;&gt;lbl03.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl03.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl03.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbl02.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl02.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 59</value>
+  </data>
+  <data name="lbl02.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lbl02.TabIndex" type="System.Int32, mscorlib">
+    <value>574</value>
+  </data>
+  <data name="lbl02.Text" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="&gt;&gt;lbl02.Name" xml:space="preserve">
+    <value>lbl02</value>
+  </data>
+  <data name="&gt;&gt;lbl02.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl02.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl02.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbl01.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl01.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="lbl01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lbl01.TabIndex" type="System.Int32, mscorlib">
+    <value>573</value>
+  </data>
+  <data name="lbl01.Text" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="&gt;&gt;lbl01.Name" xml:space="preserve">
+    <value>lbl01</value>
+  </data>
+  <data name="&gt;&gt;lbl01.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl01.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl01.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblPeriod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 7</value>
+  </data>
+  <data name="lblPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lblPeriod.TabIndex" type="System.Int32, mscorlib">
+    <value>585</value>
+  </data>
+  <data name="lblPeriod.Text" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="&gt;&gt;lblPeriod.Name" xml:space="preserve">
+    <value>lblPeriod</value>
+  </data>
+  <data name="&gt;&gt;lblPeriod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPeriod.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPeriod.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 378</value>
+  </data>
+  <data name="&gt;&gt;dtbRecords.Name" xml:space="preserve">
+    <value>dtbRecords</value>
+  </data>
+  <data name="&gt;&gt;dtbRecords.Type" xml:space="preserve">
+    <value>System.Data.DataTable, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucrMonthlydata</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrBaseDataLink, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
 </root>

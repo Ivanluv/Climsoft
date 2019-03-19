@@ -22,6 +22,7 @@ Partial Class frmUploadToObsFinal
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmUploadToObsFinal))
         Me.lblProcessingStatus = New System.Windows.Forms.Label()
         Me.btnHelp = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
@@ -45,128 +46,78 @@ Partial Class frmUploadToObsFinal
         '
         'lblProcessingStatus
         '
-        Me.lblProcessingStatus.AutoSize = True
+        resources.ApplyResources(Me.lblProcessingStatus, "lblProcessingStatus")
         Me.lblProcessingStatus.ForeColor = System.Drawing.Color.Red
-        Me.lblProcessingStatus.Location = New System.Drawing.Point(83, 439)
         Me.lblProcessingStatus.Name = "lblProcessingStatus"
-        Me.lblProcessingStatus.Size = New System.Drawing.Size(0, 13)
-        Me.lblProcessingStatus.TabIndex = 25
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(498, 429)
+        resources.ApplyResources(Me.btnHelp, "btnHelp")
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(75, 23)
-        Me.btnHelp.TabIndex = 23
-        Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(399, 429)
+        resources.ApplyResources(Me.btnCancel, "btnCancel")
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(75, 23)
-        Me.btnCancel.TabIndex = 22
-        Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
         'btnOK
         '
-        Me.btnOK.Enabled = False
-        Me.btnOK.Location = New System.Drawing.Point(613, 426)
+        resources.ApplyResources(Me.btnOK, "btnOK")
         Me.btnOK.Name = "btnOK"
-        Me.btnOK.Size = New System.Drawing.Size(75, 23)
-        Me.btnOK.TabIndex = 4
-        Me.btnOK.Text = "OK"
         Me.btnOK.UseVisualStyleBackColor = True
-        Me.btnOK.Visible = False
         '
         'lblEndMonth
         '
-        Me.lblEndMonth.AutoSize = True
-        Me.lblEndMonth.Location = New System.Drawing.Point(142, 436)
+        resources.ApplyResources(Me.lblEndMonth, "lblEndMonth")
         Me.lblEndMonth.Name = "lblEndMonth"
-        Me.lblEndMonth.Size = New System.Drawing.Size(59, 13)
-        Me.lblEndMonth.TabIndex = 20
-        Me.lblEndMonth.Text = "End Month"
         '
         'lblBeginMonth
         '
-        Me.lblBeginMonth.AutoSize = True
-        Me.lblBeginMonth.Location = New System.Drawing.Point(142, 410)
+        resources.ApplyResources(Me.lblBeginMonth, "lblBeginMonth")
         Me.lblBeginMonth.Name = "lblBeginMonth"
-        Me.lblBeginMonth.Size = New System.Drawing.Size(70, 13)
-        Me.lblBeginMonth.TabIndex = 19
-        Me.lblBeginMonth.Text = "Begin Month:"
         '
         'lblEndYear
         '
-        Me.lblEndYear.AutoSize = True
-        Me.lblEndYear.Location = New System.Drawing.Point(12, 436)
+        resources.ApplyResources(Me.lblEndYear, "lblEndYear")
         Me.lblEndYear.Name = "lblEndYear"
-        Me.lblEndYear.Size = New System.Drawing.Size(54, 13)
-        Me.lblEndYear.TabIndex = 18
-        Me.lblEndYear.Text = "End Year:"
         '
         'lblBeginYear
         '
-        Me.lblBeginYear.AutoSize = True
-        Me.lblBeginYear.Location = New System.Drawing.Point(12, 410)
+        resources.ApplyResources(Me.lblBeginYear, "lblBeginYear")
         Me.lblBeginYear.Name = "lblBeginYear"
-        Me.lblBeginYear.Size = New System.Drawing.Size(62, 13)
-        Me.lblBeginYear.TabIndex = 17
-        Me.lblBeginYear.Text = "Begin Year:"
         '
         'txtEndMonth
         '
-        Me.txtEndMonth.Location = New System.Drawing.Point(218, 432)
+        resources.ApplyResources(Me.txtEndMonth, "txtEndMonth")
         Me.txtEndMonth.Name = "txtEndMonth"
-        Me.txtEndMonth.Size = New System.Drawing.Size(33, 20)
-        Me.txtEndMonth.TabIndex = 3
-        Me.txtEndMonth.Text = "12"
-        Me.txtEndMonth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtBeginMonth
         '
-        Me.txtBeginMonth.Location = New System.Drawing.Point(218, 406)
+        resources.ApplyResources(Me.txtBeginMonth, "txtBeginMonth")
         Me.txtBeginMonth.Name = "txtBeginMonth"
-        Me.txtBeginMonth.Size = New System.Drawing.Size(33, 20)
-        Me.txtBeginMonth.TabIndex = 2
-        Me.txtBeginMonth.Text = "1"
-        Me.txtBeginMonth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtEndYear
         '
-        Me.txtEndYear.Location = New System.Drawing.Point(80, 432)
+        resources.ApplyResources(Me.txtEndYear, "txtEndYear")
         Me.txtEndYear.Name = "txtEndYear"
-        Me.txtEndYear.Size = New System.Drawing.Size(48, 20)
-        Me.txtEndYear.TabIndex = 1
         '
         'txtBeginYear
         '
-        Me.txtBeginYear.Location = New System.Drawing.Point(80, 406)
+        resources.ApplyResources(Me.txtBeginYear, "txtBeginYear")
         Me.txtBeginYear.Name = "txtBeginYear"
-        Me.txtBeginYear.Size = New System.Drawing.Size(48, 20)
-        Me.txtBeginYear.TabIndex = 0
         '
         'chkAllElements
         '
-        Me.chkAllElements.AutoSize = True
-        Me.chkAllElements.Location = New System.Drawing.Point(386, 357)
+        resources.ApplyResources(Me.chkAllElements, "chkAllElements")
         Me.chkAllElements.Name = "chkAllElements"
-        Me.chkAllElements.Size = New System.Drawing.Size(116, 17)
-        Me.chkAllElements.TabIndex = 29
-        Me.chkAllElements.Text = "Select All Elements"
         Me.chkAllElements.UseVisualStyleBackColor = True
         '
         'chkAllStations
         '
-        Me.chkAllStations.AutoSize = True
-        Me.chkAllStations.Location = New System.Drawing.Point(12, 358)
+        resources.ApplyResources(Me.chkAllStations, "chkAllStations")
         Me.chkAllStations.Name = "chkAllStations"
-        Me.chkAllStations.Size = New System.Drawing.Size(111, 17)
-        Me.chkAllStations.TabIndex = 28
-        Me.chkAllStations.Text = "Select All Stations"
         Me.chkAllStations.UseVisualStyleBackColor = True
         '
         'lstViewElements
@@ -174,12 +125,8 @@ Partial Class frmUploadToObsFinal
         Me.lstViewElements.CheckBoxes = True
         Me.lstViewElements.FullRowSelect = True
         Me.lstViewElements.GridLines = True
-        Me.lstViewElements.Location = New System.Drawing.Point(386, 12)
+        resources.ApplyResources(Me.lstViewElements, "lstViewElements")
         Me.lstViewElements.Name = "lstViewElements"
-        Me.lstViewElements.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.lstViewElements.RightToLeftLayout = True
-        Me.lstViewElements.Size = New System.Drawing.Size(350, 340)
-        Me.lstViewElements.TabIndex = 27
         Me.lstViewElements.UseCompatibleStateImageBehavior = False
         Me.lstViewElements.View = System.Windows.Forms.View.Details
         '
@@ -188,48 +135,33 @@ Partial Class frmUploadToObsFinal
         Me.LstViewStations.CheckBoxes = True
         Me.LstViewStations.FullRowSelect = True
         Me.LstViewStations.GridLines = True
-        Me.LstViewStations.Location = New System.Drawing.Point(12, 12)
+        resources.ApplyResources(Me.LstViewStations, "LstViewStations")
         Me.LstViewStations.Name = "LstViewStations"
-        Me.LstViewStations.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.LstViewStations.RightToLeftLayout = True
-        Me.LstViewStations.Size = New System.Drawing.Size(350, 340)
-        Me.LstViewStations.TabIndex = 26
         Me.LstViewStations.UseCompatibleStateImageBehavior = False
         Me.LstViewStations.View = System.Windows.Forms.View.Details
         '
         'cmdUploadData
         '
-        Me.cmdUploadData.Location = New System.Drawing.Point(288, 429)
+        resources.ApplyResources(Me.cmdUploadData, "cmdUploadData")
         Me.cmdUploadData.Name = "cmdUploadData"
-        Me.cmdUploadData.Size = New System.Drawing.Size(73, 23)
-        Me.cmdUploadData.TabIndex = 30
-        Me.cmdUploadData.Text = "Upload"
         Me.cmdUploadData.UseVisualStyleBackColor = True
         '
         'txtDataTransferProgress
         '
         Me.txtDataTransferProgress.ForeColor = System.Drawing.Color.Black
-        Me.txtDataTransferProgress.Location = New System.Drawing.Point(456, 380)
+        resources.ApplyResources(Me.txtDataTransferProgress, "txtDataTransferProgress")
         Me.txtDataTransferProgress.Name = "txtDataTransferProgress"
-        Me.txtDataTransferProgress.Size = New System.Drawing.Size(280, 20)
-        Me.txtDataTransferProgress.TabIndex = 31
-        Me.txtDataTransferProgress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'lblTableRecords
         '
-        Me.lblTableRecords.AutoSize = True
+        resources.ApplyResources(Me.lblTableRecords, "lblTableRecords")
         Me.lblTableRecords.ForeColor = System.Drawing.Color.Black
-        Me.lblTableRecords.Location = New System.Drawing.Point(519, 403)
         Me.lblTableRecords.Name = "lblTableRecords"
-        Me.lblTableRecords.Size = New System.Drawing.Size(122, 13)
-        Me.lblTableRecords.TabIndex = 32
-        Me.lblTableRecords.Text = "Data transfer in progress"
         '
         'frmUploadToObsFinal
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(748, 463)
         Me.Controls.Add(Me.lblTableRecords)
         Me.Controls.Add(Me.txtDataTransferProgress)
         Me.Controls.Add(Me.cmdUploadData)
@@ -252,7 +184,6 @@ Partial Class frmUploadToObsFinal
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmUploadToObsFinal"
-        Me.Text = "Upload to ObservationFinal"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

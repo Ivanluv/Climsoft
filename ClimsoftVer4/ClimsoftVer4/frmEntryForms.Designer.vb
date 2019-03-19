@@ -62,103 +62,79 @@ Partial Class frmEntryForms
         Me.lstvForms.FullRowSelect = True
         Me.lstvForms.GridLines = True
         Me.lstvForms.LabelEdit = True
-        Me.lstvForms.Location = New System.Drawing.Point(14, 12)
+        resources.ApplyResources(Me.lstvForms, "lstvForms")
         Me.lstvForms.Name = "lstvForms"
-        Me.lstvForms.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.lstvForms.Size = New System.Drawing.Size(503, 237)
-        Me.lstvForms.TabIndex = 4
         Me.lstvForms.UseCompatibleStateImageBehavior = False
         Me.lstvForms.View = System.Windows.Forms.View.Details
         '
         'ToolStrip1
         '
-        Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.Bottom
+        resources.ApplyResources(Me.ToolStrip1, "ToolStrip1")
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStriptxtSpace, Me.ToolStripApply, Me.ToolStripSeparator4, Me.ToolStripSeparator1, Me.ToolStripReset, Me.ToolStripSeparator3, Me.ToolStripSeparator2, Me.cmdClose, Me.ToolStripSeparator6, Me.ToolStripSeparator7, Me.cmdHelp})
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 436)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(537, 25)
-        Me.ToolStrip1.TabIndex = 8
-        Me.ToolStrip1.Text = "ToolStrip1"
         '
         'ToolStriptxtSpace
         '
-        Me.ToolStriptxtSpace.AutoSize = False
+        resources.ApplyResources(Me.ToolStriptxtSpace, "ToolStriptxtSpace")
         Me.ToolStriptxtSpace.Name = "ToolStriptxtSpace"
-        Me.ToolStriptxtSpace.Size = New System.Drawing.Size(140, 22)
         '
         'ToolStripApply
         '
         Me.ToolStripApply.BackColor = System.Drawing.SystemColors.ControlLight
         Me.ToolStripApply.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.ToolStripApply.Image = CType(resources.GetObject("ToolStripApply.Image"), System.Drawing.Image)
-        Me.ToolStripApply.ImageAlign = System.Drawing.ContentAlignment.TopRight
-        Me.ToolStripApply.ImageTransparentColor = System.Drawing.Color.Magenta
+        resources.ApplyResources(Me.ToolStripApply, "ToolStripApply")
         Me.ToolStripApply.Name = "ToolStripApply"
-        Me.ToolStripApply.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ToolStripApply.RightToLeftAutoMirrorImage = True
-        Me.ToolStripApply.Size = New System.Drawing.Size(27, 22)
-        Me.ToolStripApply.Text = "OK"
-        Me.ToolStripApply.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 25)
+        resources.ApplyResources(Me.ToolStripSeparator4, "ToolStripSeparator4")
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 25)
+        resources.ApplyResources(Me.ToolStripSeparator1, "ToolStripSeparator1")
         '
         'ToolStripReset
         '
         Me.ToolStripReset.BackColor = System.Drawing.SystemColors.ControlLight
         Me.ToolStripReset.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.ToolStripReset.Image = CType(resources.GetObject("ToolStripReset.Image"), System.Drawing.Image)
-        Me.ToolStripReset.ImageTransparentColor = System.Drawing.Color.Magenta
+        resources.ApplyResources(Me.ToolStripReset, "ToolStripReset")
         Me.ToolStripReset.Name = "ToolStripReset"
-        Me.ToolStripReset.Size = New System.Drawing.Size(39, 22)
-        Me.ToolStripReset.Text = "Reset"
         '
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 25)
+        resources.ApplyResources(Me.ToolStripSeparator3, "ToolStripSeparator3")
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 25)
+        resources.ApplyResources(Me.ToolStripSeparator2, "ToolStripSeparator2")
         '
         'cmdClose
         '
         Me.cmdClose.BackColor = System.Drawing.SystemColors.ControlLight
         Me.cmdClose.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.cmdClose.Image = CType(resources.GetObject("cmdClose.Image"), System.Drawing.Image)
-        Me.cmdClose.ImageTransparentColor = System.Drawing.Color.Magenta
+        resources.ApplyResources(Me.cmdClose, "cmdClose")
         Me.cmdClose.Name = "cmdClose"
-        Me.cmdClose.Size = New System.Drawing.Size(40, 22)
-        Me.cmdClose.Text = "Close"
         '
         'ToolStripSeparator6
         '
         Me.ToolStripSeparator6.Name = "ToolStripSeparator6"
-        Me.ToolStripSeparator6.Size = New System.Drawing.Size(6, 25)
+        resources.ApplyResources(Me.ToolStripSeparator6, "ToolStripSeparator6")
         '
         'ToolStripSeparator7
         '
         Me.ToolStripSeparator7.Name = "ToolStripSeparator7"
-        Me.ToolStripSeparator7.Size = New System.Drawing.Size(6, 25)
+        resources.ApplyResources(Me.ToolStripSeparator7, "ToolStripSeparator7")
         '
         'cmdHelp
         '
         Me.cmdHelp.BackColor = System.Drawing.SystemColors.ControlLight
         Me.cmdHelp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.cmdHelp.Image = CType(resources.GetObject("cmdHelp.Image"), System.Drawing.Image)
-        Me.cmdHelp.ImageTransparentColor = System.Drawing.Color.Magenta
+        resources.ApplyResources(Me.cmdHelp, "cmdHelp")
         Me.cmdHelp.Name = "cmdHelp"
-        Me.cmdHelp.Size = New System.Drawing.Size(36, 22)
-        Me.cmdHelp.Text = "Help"
         '
         'GroupBox1
         '
@@ -166,12 +142,9 @@ Partial Class frmEntryForms
         Me.GroupBox1.Controls.Add(Me.chkSkipUploaded)
         Me.GroupBox1.Controls.Add(Me.optSelectRecords)
         Me.GroupBox1.Controls.Add(Me.optAllRecords)
-        Me.GroupBox1.Location = New System.Drawing.Point(17, 264)
+        resources.ApplyResources(Me.GroupBox1, "GroupBox1")
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(500, 157)
-        Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Records to Delete"
         '
         'GroupSelections
         '
@@ -183,127 +156,80 @@ Partial Class frmEntryForms
         Me.GroupSelections.Controls.Add(Me.txtBYear)
         Me.GroupSelections.Controls.Add(Me.Label3)
         Me.GroupSelections.Controls.Add(Me.Label2)
-        Me.GroupSelections.Enabled = False
-        Me.GroupSelections.Location = New System.Drawing.Point(164, 49)
+        resources.ApplyResources(Me.GroupSelections, "GroupSelections")
         Me.GroupSelections.Name = "GroupSelections"
-        Me.GroupSelections.Size = New System.Drawing.Size(260, 62)
-        Me.GroupSelections.TabIndex = 13
         Me.GroupSelections.TabStop = False
         '
         'Label6
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(139, 38)
+        resources.ApplyResources(Me.Label6, "Label6")
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(59, 13)
-        Me.Label6.TabIndex = 19
-        Me.Label6.Text = "End Month"
         '
         'Label5
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(139, 9)
+        resources.ApplyResources(Me.Label5, "Label5")
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(51, 13)
-        Me.Label5.TabIndex = 18
-        Me.Label5.Text = "End Year"
         '
         'TxtEMonth
         '
-        Me.TxtEMonth.Location = New System.Drawing.Point(210, 35)
+        resources.ApplyResources(Me.TxtEMonth, "TxtEMonth")
         Me.TxtEMonth.Name = "TxtEMonth"
-        Me.TxtEMonth.Size = New System.Drawing.Size(33, 20)
-        Me.TxtEMonth.TabIndex = 17
-        Me.TxtEMonth.Text = "12"
-        Me.TxtEMonth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtEYear
         '
-        Me.txtEYear.Location = New System.Drawing.Point(211, 6)
+        resources.ApplyResources(Me.txtEYear, "txtEYear")
         Me.txtEYear.Name = "txtEYear"
-        Me.txtEYear.Size = New System.Drawing.Size(46, 20)
-        Me.txtEYear.TabIndex = 16
-        Me.txtEYear.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtBmonth
         '
-        Me.txtBmonth.Location = New System.Drawing.Point(73, 35)
+        resources.ApplyResources(Me.txtBmonth, "txtBmonth")
         Me.txtBmonth.Name = "txtBmonth"
-        Me.txtBmonth.Size = New System.Drawing.Size(33, 20)
-        Me.txtBmonth.TabIndex = 15
-        Me.txtBmonth.Text = "1"
-        Me.txtBmonth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtBYear
         '
-        Me.txtBYear.Location = New System.Drawing.Point(73, 6)
+        resources.ApplyResources(Me.txtBYear, "txtBYear")
         Me.txtBYear.Name = "txtBYear"
-        Me.txtBYear.Size = New System.Drawing.Size(46, 20)
-        Me.txtBYear.TabIndex = 14
-        Me.txtBYear.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(11, 35)
+        resources.ApplyResources(Me.Label3, "Label3")
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(62, 13)
-        Me.Label3.TabIndex = 13
-        Me.Label3.Text = "Start Month"
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(11, 9)
+        resources.ApplyResources(Me.Label2, "Label2")
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(54, 13)
-        Me.Label2.TabIndex = 12
-        Me.Label2.Text = "Start Year"
         '
         'chkSkipUploaded
         '
-        Me.chkSkipUploaded.AutoSize = True
+        resources.ApplyResources(Me.chkSkipUploaded, "chkSkipUploaded")
         Me.chkSkipUploaded.Checked = True
         Me.chkSkipUploaded.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.chkSkipUploaded.Location = New System.Drawing.Point(21, 125)
         Me.chkSkipUploaded.Name = "chkSkipUploaded"
-        Me.chkSkipUploaded.Size = New System.Drawing.Size(159, 17)
-        Me.chkSkipUploaded.TabIndex = 12
-        Me.chkSkipUploaded.Text = "Skip Records Not Uploaded"
         Me.chkSkipUploaded.UseVisualStyleBackColor = True
         '
         'optSelectRecords
         '
-        Me.optSelectRecords.AutoSize = True
-        Me.optSelectRecords.Location = New System.Drawing.Point(149, 28)
+        resources.ApplyResources(Me.optSelectRecords, "optSelectRecords")
         Me.optSelectRecords.Name = "optSelectRecords"
-        Me.optSelectRecords.Size = New System.Drawing.Size(98, 17)
-        Me.optSelectRecords.TabIndex = 1
-        Me.optSelectRecords.Text = "Select Records"
         Me.optSelectRecords.UseVisualStyleBackColor = True
         '
         'optAllRecords
         '
-        Me.optAllRecords.AutoSize = True
+        resources.ApplyResources(Me.optAllRecords, "optAllRecords")
         Me.optAllRecords.Checked = True
-        Me.optAllRecords.Location = New System.Drawing.Point(21, 28)
         Me.optAllRecords.Name = "optAllRecords"
-        Me.optAllRecords.Size = New System.Drawing.Size(79, 17)
-        Me.optAllRecords.TabIndex = 0
         Me.optAllRecords.TabStop = True
-        Me.optAllRecords.Text = "All Records"
         Me.optAllRecords.UseVisualStyleBackColor = True
         '
         'frmEntryForms
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(537, 461)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.lstvForms)
         Me.Name = "frmEntryForms"
-        Me.Text = "Empty Key Entry Forms"
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)

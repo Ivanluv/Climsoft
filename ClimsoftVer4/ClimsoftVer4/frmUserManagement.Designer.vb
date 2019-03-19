@@ -22,6 +22,7 @@ Partial Class frmUserManagement
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmUserManagement))
         Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.cboUserRole = New System.Windows.Forms.ComboBox()
         Me.txtPassword = New System.Windows.Forms.TextBox()
@@ -41,44 +42,30 @@ Partial Class frmUserManagement
         '
         'txtUserName
         '
-        Me.txtUserName.Location = New System.Drawing.Point(146, 67)
+        resources.ApplyResources(Me.txtUserName, "txtUserName")
         Me.txtUserName.Name = "txtUserName"
-        Me.txtUserName.Size = New System.Drawing.Size(184, 20)
-        Me.txtUserName.TabIndex = 0
         '
         'cboUserRole
         '
         Me.cboUserRole.FormattingEnabled = True
-        Me.cboUserRole.Items.AddRange(New Object() {"ClimsoftAdmin", "ClimsoftDeveloper", "ClimsoftMetadata", "ClimsoftOperator", "ClimsoftOperatorSupervisor", "ClimsoftProducts", "ClimsoftQC", "ClimsoftRainfall", "ClimsoftTranslator"})
-        Me.cboUserRole.Location = New System.Drawing.Point(146, 105)
+        Me.cboUserRole.Items.AddRange(New Object() {resources.GetString("cboUserRole.Items"), resources.GetString("cboUserRole.Items1"), resources.GetString("cboUserRole.Items2"), resources.GetString("cboUserRole.Items3"), resources.GetString("cboUserRole.Items4"), resources.GetString("cboUserRole.Items5"), resources.GetString("cboUserRole.Items6"), resources.GetString("cboUserRole.Items7"), resources.GetString("cboUserRole.Items8")})
+        resources.ApplyResources(Me.cboUserRole, "cboUserRole")
         Me.cboUserRole.Name = "cboUserRole"
-        Me.cboUserRole.Size = New System.Drawing.Size(184, 21)
-        Me.cboUserRole.TabIndex = 1
         '
         'txtPassword
         '
-        Me.txtPassword.Location = New System.Drawing.Point(146, 143)
+        resources.ApplyResources(Me.txtPassword, "txtPassword")
         Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(184, 20)
-        Me.txtPassword.TabIndex = 2
         '
         'txtConfirmPassword
         '
-        Me.txtConfirmPassword.Location = New System.Drawing.Point(146, 181)
+        resources.ApplyResources(Me.txtConfirmPassword, "txtConfirmPassword")
         Me.txtConfirmPassword.Name = "txtConfirmPassword"
-        Me.txtConfirmPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtConfirmPassword.Size = New System.Drawing.Size(184, 20)
-        Me.txtConfirmPassword.TabIndex = 3
         '
         'btnAddNew
         '
-        Me.btnAddNew.Enabled = False
-        Me.btnAddNew.Location = New System.Drawing.Point(35, 220)
+        resources.ApplyResources(Me.btnAddNew, "btnAddNew")
         Me.btnAddNew.Name = "btnAddNew"
-        Me.btnAddNew.Size = New System.Drawing.Size(75, 23)
-        Me.btnAddNew.TabIndex = 4
-        Me.btnAddNew.Text = "Add New"
         Me.btnAddNew.UseVisualStyleBackColor = True
         '
         'DataGridView1
@@ -86,94 +73,60 @@ Partial Class frmUserManagement
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
-        Me.DataGridView1.Location = New System.Drawing.Point(372, 61)
+        resources.ApplyResources(Me.DataGridView1, "DataGridView1")
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(291, 182)
-        Me.DataGridView1.TabIndex = 8
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(284, 220)
+        resources.ApplyResources(Me.btnHelp, "btnHelp")
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(75, 23)
-        Me.btnHelp.TabIndex = 6
-        Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'btnDelete
         '
         Me.btnDelete.BackColor = System.Drawing.SystemColors.ControlLight
         Me.btnDelete.ForeColor = System.Drawing.Color.Red
-        Me.btnDelete.Location = New System.Drawing.Point(118, 220)
+        resources.ApplyResources(Me.btnDelete, "btnDelete")
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 7
-        Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = False
         '
         'lblUserName
         '
-        Me.lblUserName.AutoSize = True
-        Me.lblUserName.Location = New System.Drawing.Point(32, 70)
+        resources.ApplyResources(Me.lblUserName, "lblUserName")
         Me.lblUserName.Name = "lblUserName"
-        Me.lblUserName.Size = New System.Drawing.Size(55, 13)
-        Me.lblUserName.TabIndex = 8
-        Me.lblUserName.Text = "Username"
         '
         'lblUserRole
         '
-        Me.lblUserRole.AutoSize = True
-        Me.lblUserRole.Location = New System.Drawing.Point(32, 108)
+        resources.ApplyResources(Me.lblUserRole, "lblUserRole")
         Me.lblUserRole.Name = "lblUserRole"
-        Me.lblUserRole.Size = New System.Drawing.Size(54, 13)
-        Me.lblUserRole.TabIndex = 9
-        Me.lblUserRole.Text = "User Role"
         '
         'lblPassword
         '
-        Me.lblPassword.AutoSize = True
-        Me.lblPassword.Location = New System.Drawing.Point(32, 146)
+        resources.ApplyResources(Me.lblPassword, "lblPassword")
         Me.lblPassword.Name = "lblPassword"
-        Me.lblPassword.Size = New System.Drawing.Size(53, 13)
-        Me.lblPassword.TabIndex = 10
-        Me.lblPassword.Text = "Password"
         '
         'lblConfirmPassword
         '
-        Me.lblConfirmPassword.AutoSize = True
-        Me.lblConfirmPassword.Location = New System.Drawing.Point(32, 184)
+        resources.ApplyResources(Me.lblConfirmPassword, "lblConfirmPassword")
         Me.lblConfirmPassword.Name = "lblConfirmPassword"
-        Me.lblConfirmPassword.Size = New System.Drawing.Size(91, 13)
-        Me.lblConfirmPassword.TabIndex = 11
-        Me.lblConfirmPassword.Text = "Confirm Password"
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(201, 220)
+        resources.ApplyResources(Me.btnClose, "btnClose")
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(75, 23)
-        Me.btnClose.TabIndex = 5
-        Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
         '
         'lblFrmUserManagementGuidelines
         '
-        Me.lblFrmUserManagementGuidelines.AutoSize = True
-        Me.lblFrmUserManagementGuidelines.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.lblFrmUserManagementGuidelines, "lblFrmUserManagementGuidelines")
         Me.lblFrmUserManagementGuidelines.ForeColor = System.Drawing.Color.Red
-        Me.lblFrmUserManagementGuidelines.Location = New System.Drawing.Point(32, 18)
         Me.lblFrmUserManagementGuidelines.Name = "lblFrmUserManagementGuidelines"
-        Me.lblFrmUserManagementGuidelines.Size = New System.Drawing.Size(561, 16)
-        Me.lblFrmUserManagementGuidelines.TabIndex = 12
-        Me.lblFrmUserManagementGuidelines.Text = "To remove a user account, select the username on the grid display and click on De" & _
-    "lete button."
         '
         'frmUserManagement
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(695, 266)
         Me.Controls.Add(Me.lblFrmUserManagementGuidelines)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.lblConfirmPassword)
@@ -191,7 +144,6 @@ Partial Class frmUserManagement
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmUserManagement"
-        Me.Text = "User Management"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

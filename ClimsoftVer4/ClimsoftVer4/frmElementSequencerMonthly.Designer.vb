@@ -35,62 +35,44 @@ Partial Class frmElementSequencerMonthly
         'lblSequencerGuidelines
         '
         Me.lblSequencerGuidelines.ForeColor = System.Drawing.Color.Red
-        Me.lblSequencerGuidelines.Location = New System.Drawing.Point(23, 19)
+        resources.ApplyResources(Me.lblSequencerGuidelines, "lblSequencerGuidelines")
         Me.lblSequencerGuidelines.Name = "lblSequencerGuidelines"
-        Me.lblSequencerGuidelines.Size = New System.Drawing.Size(458, 45)
-        Me.lblSequencerGuidelines.TabIndex = 16
-        Me.lblSequencerGuidelines.Text = resources.GetString("lblSequencerGuidelines.Text")
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(331, 316)
+        resources.ApplyResources(Me.btnHelp, "btnHelp")
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(75, 23)
-        Me.btnHelp.TabIndex = 15
-        Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(79, 316)
+        resources.ApplyResources(Me.btnDelete, "btnDelete")
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 14
-        Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(163, 316)
+        resources.ApplyResources(Me.btnUpdate, "btnUpdate")
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
-        Me.btnUpdate.TabIndex = 13
-        Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(247, 316)
+        resources.ApplyResources(Me.btnClose, "btnClose")
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(75, 23)
-        Me.btnClose.TabIndex = 12
-        Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(67, 78)
+        resources.ApplyResources(Me.DataGridView1, "DataGridView1")
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(358, 215)
-        Me.DataGridView1.TabIndex = 11
         '
         'frmElementSequencerMonthly
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(515, 358)
         Me.Controls.Add(Me.lblSequencerGuidelines)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.btnDelete)
@@ -98,7 +80,6 @@ Partial Class frmElementSequencerMonthly
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.DataGridView1)
         Me.Name = "frmElementSequencerMonthly"
-        Me.Text = "Sequencer for Entering Monthly Data on FormMonthly"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

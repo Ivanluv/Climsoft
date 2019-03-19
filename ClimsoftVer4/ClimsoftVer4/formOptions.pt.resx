@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Selecione a tabela de referência</value>
+  </data>
+  <data name="RadioButton2.Text" xml:space="preserve">
+    <value>Entrada de chave dupla</value>
+  </data>
+  <data name="RadioButton1.Text" xml:space="preserve">
+    <value>Entrada de chave única</value>
+  </data>
+  <data name="grpBoxEntryMode.Text" xml:space="preserve">
+    <value>Modo de entrada de chave de dados</value>
+  </data>
+  <data name="CheckBox2.Text" xml:space="preserve">
+    <value>Limpar dados no formulário de entrada de chave após o upload</value>
+  </data>
+  <data name="CheckBox1.Text" xml:space="preserve">
+    <value>Manter dados valores no cabeçalho do formulário</value>
+  </data>
+  <data name="groupEntryForms.Text" xml:space="preserve">
+    <value>Opções de formulário de entrada de dados</value>
+  </data>
+  <data name="tabDataEntry.Text" xml:space="preserve">
+    <value>Entrada de Dados</value>
+  </data>
+  <data name="cmdChangePassword.Text" xml:space="preserve">
+    <value>Alterar Senha</value>
+  </data>
+  <data name="lblDelimiter.Text" xml:space="preserve">
+    <value>Caractere delimitador para arquivos de saída de texto</value>
+  </data>
+  <data name="txtDelimiter.Text" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="tabdatabase.Text" xml:space="preserve">
+    <value>Estado do Banco de Dados</value>
+  </data>
+  <data name="lblCrexEditionsNumber.Text" xml:space="preserve">
+    <value>Número de edições CREX</value>
+  </data>
+  <data name="lblLocalTableVersionNumber.Text" xml:space="preserve">
+    <value>Tabela local número de versão</value>
+  </data>
+  <data name="lblInternationalDataSubCategory.Text" xml:space="preserve">
+    <value>Subcategoria internacional de dados</value>
+  </data>
+  <data name="lblMastersTableVersionNumber.Text" xml:space="preserve">
+    <value>Número de versão da tabela mestre</value>
+  </data>
+  <data name="lblLocalDataSubCateory.Text" xml:space="preserve">
+    <value>Subcategoria dados locais</value>
+  </data>
+  <data name="lblDataCategory.Text" xml:space="preserve">
+    <value>Categoria de dados 
+</value>
+  </data>
+  <data name="lblOptionalSequenceInclusion.Text" xml:space="preserve">
+    <value>Inclusão de sequência opcional BUFR</value>
+  </data>
+  <data name="lblGeneratingSubCentre.Text" xml:space="preserve">
+    <value>Geração de subcentro</value>
+  </data>
+  <data name="lblCrexTableVersionNumber.Text" xml:space="preserve">
+    <value>Número de versão de tabela CREX</value>
+  </data>
+  <data name="lblOriginatingCentre.Text" xml:space="preserve">
+    <value>Gerando o centro</value>
+  </data>
+  <data name="lblBUFREditionNumber.Text" xml:space="preserve">
+    <value>Número de edição BUFR</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>Secção I indicadores</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Cabeçalhos de mensagem</value>
+  </data>
+  <data name="tabMessageHeaders.Text" xml:space="preserve">
+    <value>Codificação de mensagens</value>
+  </data>
+  <data name="txtMSLElevation.Text" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="txtStandardPressureLevel.Text" xml:space="preserve">
+    <value>850</value>
+  </data>
+  <data name="txtObsTime.Text" xml:space="preserve">
+    <value>06:00</value>
+  </data>
+  <data name="lblMSLPressureElevation.Text" xml:space="preserve">
+    <value>Elevação do limiar de MSL Pressre</value>
+  </data>
+  <data name="lblStandardPressureLevel.Text" xml:space="preserve">
+    <value>Nível de pressão padrão</value>
+  </data>
+  <data name="lblObsTime.Text" xml:space="preserve">
+    <value>Tempo de observação diária</value>
+  </data>
+  <data name="tabObservations.Text" xml:space="preserve">
+    <value>Observações</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="cmdApply.Text" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="cmdOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Opções de Formulário</value>
+  </data>
+</root>

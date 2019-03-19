@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label62.Text" xml:space="preserve">
+    <value>day</value>
+  </data>
+  <data name="Label61.Text" xml:space="preserve">
+    <value>month</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>YEAR</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Identification de la station</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="lblDP06.Text" xml:space="preserve">
+    <value>Point de rosée</value>
+  </data>
+  <data name="lblWB06.Text" xml:space="preserve">
+    <value>Bulbe humide</value>
+  </data>
+  <data name="lblDB06.Text" xml:space="preserve">
+    <value>Bulbe sec</value>
+  </data>
+  <data name="Label60.Text" xml:space="preserve">
+    <value>RH (%)</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Herbe Tmin</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>TMin</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>TMax</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>100 cm</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>050 cm</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>030 cm</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>020 cm</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>010 cm</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>005 cm</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Temps de sol @ 05GMT</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Temps et RH @ 06GMT</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Temps de sol @ 09GMT</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>020 cm</value>
+  </data>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>010 cm</value>
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>005 cm</value>
+  </data>
+  <data name="Label32.Text" xml:space="preserve">
+    <value>Vent Run (km)</value>
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>Pluie de durée (heures)</value>
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>Amount(mm) de pluie</value>
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>Précipitations et 24hr vent Run</value>
+  </data>
+  <data name="Label33.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="Label34.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Label35.Text" xml:space="preserve">
+    <value>Rayonnement</value>
+  </data>
+  <data name="lblSunHrs.Text" xml:space="preserve">
+    <value>Heures de soleil</value>
+  </data>
+  <data name="Label39.Text" xml:space="preserve">
+    <value>EVAP Pan1</value>
+  </data>
+  <data name="Label38.Text" xml:space="preserve">
+    <value>EVAP Pan2</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>Soleil et évaporation</value>
+  </data>
+  <data name="Label30.Text" xml:space="preserve">
+    <value>Temp et RH @ 12GMT</value>
+  </data>
+  <data name="Label40.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="Label41.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Label42.Text" xml:space="preserve">
+    <value>Point de rosée</value>
+  </data>
+  <data name="Label43.Text" xml:space="preserve">
+    <value>Bulbe humide</value>
+  </data>
+  <data name="Label44.Text" xml:space="preserve">
+    <value>Bulbe sec</value>
+  </data>
+  <data name="lblRH06Z.Text" xml:space="preserve">
+    <value>RH (%)</value>
+  </data>
+  <data name="Label45.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="Label46.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Label47.Text" xml:space="preserve">
+    <value>020 cm</value>
+  </data>
+  <data name="Label48.Text" xml:space="preserve">
+    <value>010 cm</value>
+  </data>
+  <data name="Label49.Text" xml:space="preserve">
+    <value>005 cm</value>
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>Temps de sol @ 1300 GMT</value>
+  </data>
+  <data name="Label50.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="Label51.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Label52.Text" xml:space="preserve">
+    <value>Réinitialisation de TMin</value>
+  </data>
+  <data name="Label53.Text" xml:space="preserve">
+    <value>Réinitialisation de TMax</value>
+  </data>
+  <data name="Label56.Text" xml:space="preserve">
+    <value>Humidité @100 cm</value>
+  </data>
+  <data name="Label57.Text" xml:space="preserve">
+    <value>Humidité @005 cm</value>
+  </data>
+  <data name="Label36.Text" xml:space="preserve">
+    <value>Temp de réarmement et de l’humidité du sol</value>
+  </data>
+  <data name="chkRepeatEntry.Text" xml:space="preserve">
+    <value>Entrée de clé de Mode répétition</value>
+  </data>
+  <data name="btnView.Text" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="btnUpload.Text" xml:space="preserve">
+    <value>Charger</value>
+  </data>
+  <data name="Label37.Text" xml:space="preserve">
+    <value>Sequencer</value>
+  </data>
+  <data name="txtSequencer.Text" xml:space="preserve">
+    <value>seq_month_day</value>
+  </data>
+  <data name="btnHelp.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="btnAddNew.Text" xml:space="preserve">
+    <value>Ajouter nouveau</value>
+  </data>
+  <data name="btnMovePrevious.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="btnMoveLast.Text" xml:space="preserve">
+    <value>&gt; &gt;|</value>
+  </data>
+  <data name="btnMoveNext.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="btnMoveFirst.Text" xml:space="preserve">
+    <value>| &lt; &lt;</value>
+  </data>
+  <data name="btnCommit.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Données Agromet Kenya</value>
+  </data>
+</root>

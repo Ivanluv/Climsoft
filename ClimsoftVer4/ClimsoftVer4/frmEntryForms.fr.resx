@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ToolStripApply.Text" xml:space="preserve">
+    <value>W!!ÔK !!W</value>
+  </data>
+  <data name="ToolStripReset.Text" xml:space="preserve">
+    <value>réinitialiser</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="ToolStrip1.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Fin mois</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Année de fin</value>
+  </data>
+  <data name="TxtEMonth.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtBmonth.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Mois de départ</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Première année</value>
+  </data>
+  <data name="chkSkipUploaded.Text" xml:space="preserve">
+    <value>Skip Records ne pas téléchargées</value>
+  </data>
+  <data name="optSelectRecords.Text" xml:space="preserve">
+    <value>Sélectionner les enregistrements</value>
+  </data>
+  <data name="optAllRecords.Text" xml:space="preserve">
+    <value>Tous les enregistrements</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Enregistrements à supprimer</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Formulaires de saisie de clé vide</value>
+  </data>
+</root>

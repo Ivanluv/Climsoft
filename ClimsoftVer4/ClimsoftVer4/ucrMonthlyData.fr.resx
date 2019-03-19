@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblFlag.Text" xml:space="preserve">
+    <value>Indicateur</value>
+  </data>
+  <data name="lblValue.Text" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="lblMonth.Text" xml:space="preserve">
+    <value>month</value>
+  </data>
+  <data name="lbl12.Text" xml:space="preserve">
+    <value>Décembre</value>
+  </data>
+  <data name="lbl11.Text" xml:space="preserve">
+    <value>Novemeber</value>
+  </data>
+  <data name="lbl10.Text" xml:space="preserve">
+    <value>Octobre</value>
+  </data>
+  <data name="lbl09.Text" xml:space="preserve">
+    <value>Septembre</value>
+  </data>
+  <data name="lbl08.Text" xml:space="preserve">
+    <value>Août</value>
+  </data>
+  <data name="lbl07.Text" xml:space="preserve">
+    <value>Juillet</value>
+  </data>
+  <data name="lbl06.Text" xml:space="preserve">
+    <value>Juin</value>
+  </data>
+  <data name="lbl05.Text" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="lbl04.Text" xml:space="preserve">
+    <value>Avril</value>
+  </data>
+  <data name="lbl03.Text" xml:space="preserve">
+    <value>Mars</value>
+  </data>
+  <data name="lbl02.Text" xml:space="preserve">
+    <value>Février</value>
+  </data>
+  <data name="lbl01.Text" xml:space="preserve">
+    <value>Janvier</value>
+  </data>
+  <data name="lblPeriod.Text" xml:space="preserve">
+    <value>Période</value>
+  </data>
+</root>

@@ -22,25 +22,22 @@ Partial Class ucrTextBox
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrTextBox))
         Me.txtBox = New System.Windows.Forms.TextBox()
         CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtBox
         '
-        Me.txtBox.Location = New System.Drawing.Point(0, 0)
+        resources.ApplyResources(Me.txtBox, "txtBox")
         Me.txtBox.Name = "txtBox"
-        Me.txtBox.Size = New System.Drawing.Size(51, 20)
-        Me.txtBox.TabIndex = 578
         '
         'ucrTextBox
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.txtBox)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "ucrTextBox"
-        Me.Size = New System.Drawing.Size(51, 20)
         CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

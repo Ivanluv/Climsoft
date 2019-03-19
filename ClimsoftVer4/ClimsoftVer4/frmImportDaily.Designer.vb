@@ -22,6 +22,7 @@ Partial Class frmImportDaily
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmImportDaily))
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.cmdOpenFile = New System.Windows.Forms.Button()
         Me.dlgOpenImportFile = New System.Windows.Forms.OpenFileDialog()
@@ -58,6 +59,10 @@ Partial Class frmImportDaily
         Me.lblStn = New System.Windows.Forms.Label()
         Me.lblDefaultObsHour = New System.Windows.Forms.Label()
         Me.lblTRecords = New System.Windows.Forms.Label()
+        Me.lblStnEror = New System.Windows.Forms.Label()
+        Me.lblElmeror = New System.Windows.Forms.Label()
+        Me.lstStations = New System.Windows.Forms.ListBox()
+        Me.lstElements = New System.Windows.Forms.ListBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlHeaders.SuspendLayout()
         Me.SuspendLayout()
@@ -66,18 +71,13 @@ Partial Class frmImportDaily
         '
         Me.DataGridView1.AllowUserToOrderColumns = True
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(10, 181)
+        resources.ApplyResources(Me.DataGridView1, "DataGridView1")
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(948, 405)
-        Me.DataGridView1.TabIndex = 0
         '
         'cmdOpenFile
         '
-        Me.cmdOpenFile.Location = New System.Drawing.Point(468, 0)
+        resources.ApplyResources(Me.cmdOpenFile, "cmdOpenFile")
         Me.cmdOpenFile.Name = "cmdOpenFile"
-        Me.cmdOpenFile.Size = New System.Drawing.Size(69, 23)
-        Me.cmdOpenFile.TabIndex = 1
-        Me.cmdOpenFile.Text = "Open File"
         Me.cmdOpenFile.UseVisualStyleBackColor = True
         '
         'dlgOpenImportFile
@@ -86,194 +86,123 @@ Partial Class frmImportDaily
         '
         'txtImportFile
         '
-        Me.txtImportFile.Location = New System.Drawing.Point(4, 3)
+        resources.ApplyResources(Me.txtImportFile, "txtImportFile")
         Me.txtImportFile.Name = "txtImportFile"
-        Me.txtImportFile.Size = New System.Drawing.Size(464, 20)
-        Me.txtImportFile.TabIndex = 2
         '
         'cmdView
         '
-        Me.cmdView.Enabled = False
-        Me.cmdView.Location = New System.Drawing.Point(12, 146)
+        resources.ApplyResources(Me.cmdView, "cmdView")
         Me.cmdView.Name = "cmdView"
-        Me.cmdView.Size = New System.Drawing.Size(69, 29)
-        Me.cmdView.TabIndex = 3
-        Me.cmdView.Text = "View Data"
         Me.cmdView.UseVisualStyleBackColor = True
         '
         'optComma
         '
-        Me.optComma.AutoSize = True
+        resources.ApplyResources(Me.optComma, "optComma")
         Me.optComma.Checked = True
-        Me.optComma.Location = New System.Drawing.Point(82, 41)
         Me.optComma.Name = "optComma"
-        Me.optComma.Size = New System.Drawing.Size(60, 17)
-        Me.optComma.TabIndex = 4
         Me.optComma.TabStop = True
-        Me.optComma.Text = "Comma"
         Me.optComma.UseVisualStyleBackColor = True
         '
         'OptTAB
         '
-        Me.OptTAB.AutoSize = True
-        Me.OptTAB.Location = New System.Drawing.Point(174, 41)
+        resources.ApplyResources(Me.OptTAB, "OptTAB")
         Me.OptTAB.Name = "OptTAB"
-        Me.OptTAB.Size = New System.Drawing.Size(46, 17)
-        Me.OptTAB.TabIndex = 5
-        Me.OptTAB.Text = "TAB"
         Me.OptTAB.UseVisualStyleBackColor = True
         '
         'OptOthers
         '
-        Me.OptOthers.AutoSize = True
-        Me.OptOthers.Location = New System.Drawing.Point(256, 41)
+        resources.ApplyResources(Me.OptOthers, "OptOthers")
         Me.OptOthers.Name = "OptOthers"
-        Me.OptOthers.Size = New System.Drawing.Size(54, 17)
-        Me.OptOthers.TabIndex = 6
-        Me.OptOthers.Text = "Other:"
         Me.OptOthers.UseVisualStyleBackColor = True
         '
         'txtOther
         '
-        Me.txtOther.Location = New System.Drawing.Point(309, 39)
+        resources.ApplyResources(Me.txtOther, "txtOther")
         Me.txtOther.Name = "txtOther"
-        Me.txtOther.Size = New System.Drawing.Size(24, 20)
-        Me.txtOther.TabIndex = 7
         '
         'cmdClear
         '
-        Me.cmdClear.Location = New System.Drawing.Point(215, 148)
+        resources.ApplyResources(Me.cmdClear, "cmdClear")
         Me.cmdClear.Name = "cmdClear"
-        Me.cmdClear.Size = New System.Drawing.Size(62, 29)
-        Me.cmdClear.TabIndex = 8
-        Me.cmdClear.Text = "Clear"
         Me.cmdClear.UseVisualStyleBackColor = True
         '
         'lstColumn
         '
         Me.lstColumn.FormattingEnabled = True
-        Me.lstColumn.Location = New System.Drawing.Point(59, 53)
+        resources.ApplyResources(Me.lstColumn, "lstColumn")
         Me.lstColumn.Name = "lstColumn"
-        Me.lstColumn.Size = New System.Drawing.Size(86, 30)
-        Me.lstColumn.TabIndex = 9
         '
         'cmbFields
         '
         Me.cmbFields.FormattingEnabled = True
-        Me.cmbFields.Items.AddRange(New Object() {"station_id", "element_code", "date_time", "time", "yyyy", "mm", "dd", "hh", "value", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"})
-        Me.cmbFields.Location = New System.Drawing.Point(151, 55)
+        Me.cmbFields.Items.AddRange(New Object() {resources.GetString("cmbFields.Items"), resources.GetString("cmbFields.Items1"), resources.GetString("cmbFields.Items2"), resources.GetString("cmbFields.Items3"), resources.GetString("cmbFields.Items4"), resources.GetString("cmbFields.Items5"), resources.GetString("cmbFields.Items6"), resources.GetString("cmbFields.Items7"), resources.GetString("cmbFields.Items8"), resources.GetString("cmbFields.Items9"), resources.GetString("cmbFields.Items10"), resources.GetString("cmbFields.Items11"), resources.GetString("cmbFields.Items12"), resources.GetString("cmbFields.Items13"), resources.GetString("cmbFields.Items14"), resources.GetString("cmbFields.Items15"), resources.GetString("cmbFields.Items16"), resources.GetString("cmbFields.Items17"), resources.GetString("cmbFields.Items18"), resources.GetString("cmbFields.Items19"), resources.GetString("cmbFields.Items20"), resources.GetString("cmbFields.Items21"), resources.GetString("cmbFields.Items22"), resources.GetString("cmbFields.Items23"), resources.GetString("cmbFields.Items24"), resources.GetString("cmbFields.Items25"), resources.GetString("cmbFields.Items26"), resources.GetString("cmbFields.Items27"), resources.GetString("cmbFields.Items28"), resources.GetString("cmbFields.Items29"), resources.GetString("cmbFields.Items30"), resources.GetString("cmbFields.Items31"), resources.GetString("cmbFields.Items32"), resources.GetString("cmbFields.Items33"), resources.GetString("cmbFields.Items34"), resources.GetString("cmbFields.Items35"), resources.GetString("cmbFields.Items36"), resources.GetString("cmbFields.Items37"), resources.GetString("cmbFields.Items38"), resources.GetString("cmbFields.Items39"), resources.GetString("cmbFields.Items40")})
+        resources.ApplyResources(Me.cmbFields, "cmbFields")
         Me.cmbFields.Name = "cmbFields"
-        Me.cmbFields.Size = New System.Drawing.Size(147, 21)
-        Me.cmbFields.TabIndex = 10
         '
         'cmdRename
         '
-        Me.cmdRename.Location = New System.Drawing.Point(191, 74)
+        resources.ApplyResources(Me.cmdRename, "cmdRename")
         Me.cmdRename.Name = "cmdRename"
-        Me.cmdRename.Size = New System.Drawing.Size(56, 20)
-        Me.cmdRename.TabIndex = 11
-        Me.cmdRename.Text = "Rename"
         Me.cmdRename.UseVisualStyleBackColor = True
-        Me.cmdRename.Visible = False
         '
         'lblColumns
         '
-        Me.lblColumns.AutoSize = True
-        Me.lblColumns.Location = New System.Drawing.Point(56, 37)
+        resources.ApplyResources(Me.lblColumns, "lblColumns")
         Me.lblColumns.Name = "lblColumns"
-        Me.lblColumns.Size = New System.Drawing.Size(92, 13)
-        Me.lblColumns.TabIndex = 12
-        Me.lblColumns.Text = "Select Column No"
         '
         'lblFieldName
         '
-        Me.lblFieldName.AutoSize = True
-        Me.lblFieldName.Location = New System.Drawing.Point(171, 37)
+        resources.ApplyResources(Me.lblFieldName, "lblFieldName")
         Me.lblFieldName.Name = "lblFieldName"
-        Me.lblFieldName.Size = New System.Drawing.Size(93, 13)
-        Me.lblFieldName.TabIndex = 13
-        Me.lblFieldName.Text = "Select Field Name"
         '
         'lblDelimiters
         '
-        Me.lblDelimiters.AutoSize = True
-        Me.lblDelimiters.Location = New System.Drawing.Point(24, 43)
+        resources.ApplyResources(Me.lblDelimiters, "lblDelimiters")
         Me.lblDelimiters.Name = "lblDelimiters"
-        Me.lblDelimiters.Size = New System.Drawing.Size(52, 13)
-        Me.lblDelimiters.TabIndex = 15
-        Me.lblDelimiters.Text = "Delimiters"
         '
         'cmdLoadData
         '
-        Me.cmdLoadData.Enabled = False
-        Me.cmdLoadData.Location = New System.Drawing.Point(115, 148)
+        resources.ApplyResources(Me.cmdLoadData, "cmdLoadData")
         Me.cmdLoadData.Name = "cmdLoadData"
-        Me.cmdLoadData.Size = New System.Drawing.Size(69, 29)
-        Me.cmdLoadData.TabIndex = 16
-        Me.cmdLoadData.Text = "Load Data"
         Me.cmdLoadData.UseVisualStyleBackColor = True
         '
         'txtObsHour
         '
-        Me.txtObsHour.Location = New System.Drawing.Point(264, 70)
+        resources.ApplyResources(Me.txtObsHour, "txtObsHour")
         Me.txtObsHour.Name = "txtObsHour"
-        Me.txtObsHour.Size = New System.Drawing.Size(23, 20)
-        Me.txtObsHour.TabIndex = 18
-        Me.txtObsHour.Text = "06"
         '
         'lblStartRow
         '
-        Me.lblStartRow.AutoSize = True
-        Me.lblStartRow.Location = New System.Drawing.Point(24, 74)
+        resources.ApplyResources(Me.lblStartRow, "lblStartRow")
         Me.lblStartRow.Name = "lblStartRow"
-        Me.lblStartRow.Size = New System.Drawing.Size(54, 13)
-        Me.lblStartRow.TabIndex = 20
-        Me.lblStartRow.Text = "Start Row"
         '
         'txtStartRow
         '
-        Me.txtStartRow.Location = New System.Drawing.Point(87, 70)
+        resources.ApplyResources(Me.txtStartRow, "txtStartRow")
         Me.txtStartRow.Name = "txtStartRow"
-        Me.txtStartRow.Size = New System.Drawing.Size(30, 20)
-        Me.txtStartRow.TabIndex = 21
-        Me.txtStartRow.Text = "2"
         '
         'cmdtest
         '
-        Me.cmdtest.Location = New System.Drawing.Point(680, -1)
+        resources.ApplyResources(Me.cmdtest, "cmdtest")
         Me.cmdtest.Name = "cmdtest"
-        Me.cmdtest.Size = New System.Drawing.Size(48, 26)
-        Me.cmdtest.TabIndex = 22
-        Me.cmdtest.Text = "Test"
         Me.cmdtest.UseVisualStyleBackColor = True
-        Me.cmdtest.Visible = False
         '
         'chkScale
         '
-        Me.chkScale.AutoSize = True
-        Me.chkScale.Location = New System.Drawing.Point(27, 105)
+        resources.ApplyResources(Me.chkScale, "chkScale")
         Me.chkScale.Name = "chkScale"
-        Me.chkScale.Size = New System.Drawing.Size(104, 17)
-        Me.chkScale.TabIndex = 23
-        Me.chkScale.Text = "Remove Scaling"
         Me.chkScale.UseVisualStyleBackColor = True
         '
         'cmdSaveSpecs
         '
-        Me.cmdSaveSpecs.Location = New System.Drawing.Point(49, 103)
+        resources.ApplyResources(Me.cmdSaveSpecs, "cmdSaveSpecs")
         Me.cmdSaveSpecs.Name = "cmdSaveSpecs"
-        Me.cmdSaveSpecs.Size = New System.Drawing.Size(111, 25)
-        Me.cmdSaveSpecs.TabIndex = 24
-        Me.cmdSaveSpecs.Text = "Save Header Specs"
         Me.cmdSaveSpecs.UseVisualStyleBackColor = True
         '
         'cmdLoadSpecs
         '
-        Me.cmdLoadSpecs.Location = New System.Drawing.Point(176, 103)
+        resources.ApplyResources(Me.cmdLoadSpecs, "cmdLoadSpecs")
         Me.cmdLoadSpecs.Name = "cmdLoadSpecs"
-        Me.cmdLoadSpecs.Size = New System.Drawing.Size(111, 25)
-        Me.cmdLoadSpecs.TabIndex = 25
-        Me.cmdLoadSpecs.Text = "Load Header Specs"
         Me.cmdLoadSpecs.UseVisualStyleBackColor = True
         '
         'pnlHeaders
@@ -287,107 +216,93 @@ Partial Class frmImportDaily
         Me.pnlHeaders.Controls.Add(Me.cmdRename)
         Me.pnlHeaders.Controls.Add(Me.lblColumns)
         Me.pnlHeaders.Controls.Add(Me.lblFieldName)
-        Me.pnlHeaders.Enabled = False
-        Me.pnlHeaders.Location = New System.Drawing.Point(539, 41)
+        resources.ApplyResources(Me.pnlHeaders, "pnlHeaders")
         Me.pnlHeaders.Name = "pnlHeaders"
-        Me.pnlHeaders.Padding = New System.Windows.Forms.Padding(1, 0, 1, 1)
-        Me.pnlHeaders.Size = New System.Drawing.Size(354, 134)
-        Me.pnlHeaders.TabIndex = 26
         '
         'lblColumnHeaders
         '
-        Me.lblColumnHeaders.AutoSize = True
-        Me.lblColumnHeaders.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblColumnHeaders.Location = New System.Drawing.Point(125, 1)
+        resources.ApplyResources(Me.lblColumnHeaders, "lblColumnHeaders")
         Me.lblColumnHeaders.Name = "lblColumnHeaders"
-        Me.lblColumnHeaders.Size = New System.Drawing.Size(149, 13)
-        Me.lblColumnHeaders.TabIndex = 26
-        Me.lblColumnHeaders.Text = "Columns Header Settings"
         '
         'ToolStripLabel1
         '
         Me.ToolStripLabel1.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(148, 22)
-        Me.ToolStripLabel1.Text = "Save Header Specifications"
+        resources.ApplyResources(Me.ToolStripLabel1, "ToolStripLabel1")
         '
         'cmdClose
         '
-        Me.cmdClose.Location = New System.Drawing.Point(308, 148)
+        resources.ApplyResources(Me.cmdClose, "cmdClose")
         Me.cmdClose.Name = "cmdClose"
-        Me.cmdClose.Size = New System.Drawing.Size(57, 29)
-        Me.cmdClose.TabIndex = 27
-        Me.cmdClose.Text = "Close"
         Me.cmdClose.UseVisualStyleBackColor = True
         '
         'cmdHelp
         '
-        Me.cmdHelp.Location = New System.Drawing.Point(396, 148)
+        resources.ApplyResources(Me.cmdHelp, "cmdHelp")
         Me.cmdHelp.Name = "cmdHelp"
-        Me.cmdHelp.Size = New System.Drawing.Size(62, 29)
-        Me.cmdHelp.TabIndex = 28
-        Me.cmdHelp.Text = "Help"
         Me.cmdHelp.UseVisualStyleBackColor = True
         '
         'lblRecords
         '
-        Me.lblRecords.AutoSize = True
-        Me.lblRecords.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.lblRecords, "lblRecords")
         Me.lblRecords.ForeColor = System.Drawing.Color.Red
-        Me.lblRecords.Location = New System.Drawing.Point(339, 589)
         Me.lblRecords.Name = "lblRecords"
-        Me.lblRecords.Size = New System.Drawing.Size(0, 13)
-        Me.lblRecords.TabIndex = 29
         '
         'lblType
         '
-        Me.lblType.AutoSize = True
-        Me.lblType.Location = New System.Drawing.Point(753, 6)
+        resources.ApplyResources(Me.lblType, "lblType")
         Me.lblType.Name = "lblType"
-        Me.lblType.Size = New System.Drawing.Size(0, 13)
-        Me.lblType.TabIndex = 30
-        Me.lblType.Visible = False
         '
         'txtStn
         '
-        Me.txtStn.Location = New System.Drawing.Point(218, 102)
+        resources.ApplyResources(Me.txtStn, "txtStn")
         Me.txtStn.Name = "txtStn"
-        Me.txtStn.Size = New System.Drawing.Size(240, 20)
-        Me.txtStn.TabIndex = 31
         '
         'lblStn
         '
-        Me.lblStn.AutoSize = True
-        Me.lblStn.Location = New System.Drawing.Point(158, 107)
+        resources.ApplyResources(Me.lblStn, "lblStn")
         Me.lblStn.Name = "lblStn"
-        Me.lblStn.Size = New System.Drawing.Size(54, 13)
-        Me.lblStn.TabIndex = 32
-        Me.lblStn.Text = "Station ID"
         '
         'lblDefaultObsHour
         '
-        Me.lblDefaultObsHour.AutoSize = True
-        Me.lblDefaultObsHour.Location = New System.Drawing.Point(136, 74)
+        resources.ApplyResources(Me.lblDefaultObsHour, "lblDefaultObsHour")
         Me.lblDefaultObsHour.Name = "lblDefaultObsHour"
-        Me.lblDefaultObsHour.Size = New System.Drawing.Size(127, 13)
-        Me.lblDefaultObsHour.TabIndex = 33
-        Me.lblDefaultObsHour.Text = "Default Observation Hour"
         '
         'lblTRecords
         '
-        Me.lblTRecords.AutoSize = True
-        Me.lblTRecords.Location = New System.Drawing.Point(881, 589)
+        resources.ApplyResources(Me.lblTRecords, "lblTRecords")
         Me.lblTRecords.Name = "lblTRecords"
-        Me.lblTRecords.Size = New System.Drawing.Size(74, 13)
-        Me.lblTRecords.TabIndex = 34
-        Me.lblTRecords.Text = "Total Records"
-        Me.lblTRecords.Visible = False
+        '
+        'lblStnEror
+        '
+        resources.ApplyResources(Me.lblStnEror, "lblStnEror")
+        Me.lblStnEror.Name = "lblStnEror"
+        '
+        'lblElmeror
+        '
+        resources.ApplyResources(Me.lblElmeror, "lblElmeror")
+        Me.lblElmeror.Name = "lblElmeror"
+        '
+        'lstStations
+        '
+        Me.lstStations.FormattingEnabled = True
+        resources.ApplyResources(Me.lstStations, "lstStations")
+        Me.lstStations.Name = "lstStations"
+        '
+        'lstElements
+        '
+        Me.lstElements.FormattingEnabled = True
+        resources.ApplyResources(Me.lstElements, "lstElements")
+        Me.lstElements.Name = "lstElements"
         '
         'frmImportDaily
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(970, 609)
+        Me.Controls.Add(Me.lstElements)
+        Me.Controls.Add(Me.lstStations)
+        Me.Controls.Add(Me.lblElmeror)
+        Me.Controls.Add(Me.lblStnEror)
         Me.Controls.Add(Me.lblTRecords)
         Me.Controls.Add(Me.lblDefaultObsHour)
         Me.Controls.Add(Me.lblStn)
@@ -414,7 +329,6 @@ Partial Class frmImportDaily
         Me.Controls.Add(Me.cmdOpenFile)
         Me.Controls.Add(Me.DataGridView1)
         Me.Name = "frmImportDaily"
-        Me.Text = "Daily/Hourly Data"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlHeaders.ResumeLayout(False)
         Me.pnlHeaders.PerformLayout()
@@ -458,4 +372,8 @@ Partial Class frmImportDaily
     Friend WithEvents lblStn As System.Windows.Forms.Label
     Friend WithEvents lblDefaultObsHour As System.Windows.Forms.Label
     Friend WithEvents lblTRecords As System.Windows.Forms.Label
+    Friend WithEvents lblStnEror As Label
+    Friend WithEvents lblElmeror As Label
+    Friend WithEvents lstStations As ListBox
+    Friend WithEvents lstElements As ListBox
 End Class

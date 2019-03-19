@@ -23,6 +23,7 @@ Partial Class ucrElementSelector
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ucrElementSelector))
         Me.cmsElement = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.cmsElementsNames = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsElementIDs = New System.Windows.Forms.ToolStripMenuItem()
@@ -32,6 +33,7 @@ Partial Class ucrElementSelector
         Me.cmsElementSortyByName = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsElementsFilter = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.cmsElement.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,59 +41,54 @@ Partial Class ucrElementSelector
         '
         Me.cmsElement.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmsElementsNames, Me.cmsElementIDs, Me.cmsElemntIDName, Me.ToolStripSeparator2, Me.cmsElementSortByID, Me.cmsElementSortyByName, Me.cmsElementsFilter, Me.ToolStripSeparator1})
         Me.cmsElement.Name = "cmsStation"
-        Me.cmsElement.Size = New System.Drawing.Size(193, 148)
+        resources.ApplyResources(Me.cmsElement, "cmsElement")
         '
         'cmsElementsNames
         '
         Me.cmsElementsNames.Name = "cmsElementsNames"
-        Me.cmsElementsNames.Size = New System.Drawing.Size(192, 22)
-        Me.cmsElementsNames.Text = "Element Names"
+        resources.ApplyResources(Me.cmsElementsNames, "cmsElementsNames")
         '
         'cmsElementIDs
         '
         Me.cmsElementIDs.Name = "cmsElementIDs"
-        Me.cmsElementIDs.Size = New System.Drawing.Size(192, 22)
-        Me.cmsElementIDs.Text = "IDs"
+        resources.ApplyResources(Me.cmsElementIDs, "cmsElementIDs")
         '
         'cmsElemntIDName
         '
         Me.cmsElemntIDName.Name = "cmsElemntIDName"
-        Me.cmsElemntIDName.Size = New System.Drawing.Size(192, 22)
-        Me.cmsElemntIDName.Text = "ID and Element Name"
+        resources.ApplyResources(Me.cmsElemntIDName, "cmsElemntIDName")
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(189, 6)
+        resources.ApplyResources(Me.ToolStripSeparator2, "ToolStripSeparator2")
         '
         'cmsElementSortByID
         '
         Me.cmsElementSortByID.Name = "cmsElementSortByID"
-        Me.cmsElementSortByID.Size = New System.Drawing.Size(192, 22)
-        Me.cmsElementSortByID.Text = "Sort By ID"
+        resources.ApplyResources(Me.cmsElementSortByID, "cmsElementSortByID")
         '
         'cmsElementSortyByName
         '
         Me.cmsElementSortyByName.Name = "cmsElementSortyByName"
-        Me.cmsElementSortyByName.Size = New System.Drawing.Size(192, 22)
-        Me.cmsElementSortyByName.Text = "Sort By Element Name"
+        resources.ApplyResources(Me.cmsElementSortyByName, "cmsElementSortyByName")
         '
         'cmsElementsFilter
         '
         Me.cmsElementsFilter.Name = "cmsElementsFilter"
-        Me.cmsElementsFilter.Size = New System.Drawing.Size(192, 22)
-        Me.cmsElementsFilter.Text = "Filter Stations"
+        resources.ApplyResources(Me.cmsElementsFilter, "cmsElementsFilter")
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(189, 6)
+        resources.ApplyResources(Me.ToolStripSeparator1, "ToolStripSeparator1")
         '
         'ucrElementSelector
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Name = "ucrElementSelector"
+        CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.cmsElement.ResumeLayout(False)
         Me.ResumeLayout(False)
 

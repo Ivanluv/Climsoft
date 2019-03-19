@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mnuInputKeyEntry.Text" xml:space="preserve">
+    <value>Entrada de chave</value>
+  </data>
+  <data name="mnuInputPaperArchive.Text" xml:space="preserve">
+    <value>Papel de arquivo</value>
+  </data>
+  <data name="mnuInput.Text" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="mnuAccessoriesDewPointRH.Text" xml:space="preserve">
+    <value>Cálculo de ponto de orvalho e RH</value>
+  </data>
+  <data name="mnuAccessoriesXMLOutput.Text" xml:space="preserve">
+    <value>Gerar saída XML</value>
+  </data>
+  <data name="UserRecordsToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Registros de usuário</value>
+  </data>
+  <data name="mnuAccessories.Text" xml:space="preserve">
+    <value>Acessórios</value>
+  </data>
+  <data name="mnuProducts.Text" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="mnuQC.Text" xml:space="preserve">
+    <value>QC</value>
+  </data>
+  <data name="UserAdminToolStripMenuItem.Text" xml:space="preserve">
+    <value>Administrador de Usuários</value>
+  </data>
+  <data name="MetadataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Metadados</value>
+  </data>
+  <data name="PasswordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alterar Senha</value>
+  </data>
+  <data name="DataFormsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Formulários de dados</value>
+  </data>
+  <data name="UpdateElementsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Limites de elemento de atualização</value>
+  </data>
+  <data name="ConfigureDatabaseConnectionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Configurar a Conexão de banco de dados</value>
+  </data>
+  <data name="UpdateObservationsToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Observações de atualização</value>
+  </data>
+  <data name="OpeartionsMonitoringToolStripMenuItem.Text" xml:space="preserve">
+    <value>Operações de monitoramento</value>
+  </data>
+  <data name="EmptyKeyEntryTablesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Formulários de entrada de chave vazio</value>
+  </data>
+  <data name="mnuAdministration.Text" xml:space="preserve">
+    <value>Administração</value>
+  </data>
+  <data name="ChangeOwnPasswordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alterar a própria senha</value>
+  </data>
+  <data name="mnuToolsModifyForms.Text" xml:space="preserve">
+    <value>Modificar formas</value>
+  </data>
+  <data name="SelectLanguageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Selecionar Idioma</value>
+  </data>
+  <data name="GenerlSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Configurações Gerais</value>
+  </data>
+  <data name="HourlyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Diariamente</value>
+  </data>
+  <data name="DailyToolStripMenuItem.Text" xml:space="preserve">
+    <value>A cada hora</value>
+  </data>
+  <data name="MonthlyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mensalmente</value>
+  </data>
+  <data name="SequencerConfigurationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Configuração do sequenciador</value>
+  </data>
+  <data name="FormHourlyTimeSelectionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Seleção de tempo de FormHourly</value>
+  </data>
+  <data name="AWSElementsToolStripMenuItem.Text" xml:space="preserve">
+    <value>AWS elementos</value>
+  </data>
+  <data name="AWSStationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Estações de AWS</value>
+  </data>
+  <data name="AWSToolStripMenuItem.Text" xml:space="preserve">
+    <value>AWS</value>
+  </data>
+  <data name="ConfigurationForTDCFToolStripMenuItem.Text" xml:space="preserve">
+    <value>Configurações do TDCF</value>
+  </data>
+  <data name="mnuTools.Text" xml:space="preserve">
+    <value>Ferramentas</value>
+  </data>
+  <data name="mnuLanguageTranslation.Text" xml:space="preserve">
+    <value>Tradução de idiomas</value>
+  </data>
+  <data name="mnuHelpContents.Text" xml:space="preserve">
+    <value>Conteúdo</value>
+  </data>
+  <data name="mnuHelpAbout.Text" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="mnuHelp.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="MenuStrip2.Text" xml:space="preserve">
+    <value>MenuStrip2</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Bem-vindo</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>Processamento em tempo Real AWS</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Informações de metadados</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Administração de usuários</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Produtos de clima</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Verificações de controle de qualidade</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Transferência de Dados</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Imagem de papel de arquivo</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Entrada de Dados</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Menu principal</value>
+  </data>
+  <data name="SelectLanguageToolStripMenuItem.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuLanguageTranslation.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>

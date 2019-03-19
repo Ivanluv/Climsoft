@@ -120,4 +120,71 @@
   <metadata name="cmsMonth.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmsMonthIDs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="cmsMonthIDs.Text" xml:space="preserve">
+    <value>View Month IDs</value>
+  </data>
+  <data name="cmsMonthNames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="cmsMonthNames.Text" xml:space="preserve">
+    <value>View Month Names</value>
+  </data>
+  <data name="cmsMonthShortMonthNames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="cmsMonthShortMonthNames.Text" xml:space="preserve">
+    <value>View Short Month Names</value>
+  </data>
+  <data name="cmsMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 70</value>
+  </data>
+  <data name="&gt;&gt;cmsMonth.Name" xml:space="preserve">
+    <value>cmsMonth</value>
+  </data>
+  <data name="&gt;&gt;cmsMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 212</value>
+  </data>
+  <data name="&gt;&gt;dtbRecords.Name" xml:space="preserve">
+    <value>dtbRecords</value>
+  </data>
+  <data name="&gt;&gt;dtbRecords.Type" xml:space="preserve">
+    <value>System.Data.DataTable, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsMonthIDs.Name" xml:space="preserve">
+    <value>cmsMonthIDs</value>
+  </data>
+  <data name="&gt;&gt;cmsMonthIDs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsMonthNames.Name" xml:space="preserve">
+    <value>cmsMonthNames</value>
+  </data>
+  <data name="&gt;&gt;cmsMonthNames.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsMonthShortMonthNames.Name" xml:space="preserve">
+    <value>cmsMonthShortMonthNames</value>
+  </data>
+  <data name="&gt;&gt;cmsMonthShortMonthNames.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucrMonth</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ClimsoftVer4.ucrDataLinkCombobox, ClimsoftVer4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
 </root>

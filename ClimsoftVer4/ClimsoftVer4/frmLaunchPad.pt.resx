@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnStationInformation.Text" xml:space="preserve">
+    <value>Informação de estação</value>
+  </data>
+  <data name="btnElementInformation.Text" xml:space="preserve">
+    <value>Informações do elemento</value>
+  </data>
+  <data name="ToolStripLabel1.Text" xml:space="preserve">
+    <value>                                </value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="ToolStripSeparator1.Text" xml:space="preserve">
+    <value>                  </value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="ToolStrip1.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="btnSynopticData.Text" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="lblServer.Text" xml:space="preserve">
+    <value>Servidor</value>
+  </data>
+  <data name="lblPort.Text" xml:space="preserve">
+    <value>Porto</value>
+  </data>
+  <data name="lblDatabase.Text" xml:space="preserve">
+    <value>Banco de dados</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Detalhes de Conexão do banco de dados</value>
+  </data>
+</root>
