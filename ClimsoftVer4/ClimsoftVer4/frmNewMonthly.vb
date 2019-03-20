@@ -25,7 +25,7 @@
         SaveEnable()
     End Sub
 
-    Private Sub btnAddNew_Click(sender As Object, e As EventArgs) Handles btnAddNew.Click
+    Private Sub btnAddNew_Click(sender As Object, e As EventArgs) 
         Dim dctSequencerFields As New Dictionary(Of String, List(Of String))
 
         btnAddNew.Enabled = False
@@ -39,7 +39,7 @@
         ucrMonthlydata.Focus()
     End Sub
 
-    Private Sub btnCommit_Click(sender As Object, e As EventArgs) Handles btnCommit.Click
+    Private Sub btnCommit_Click(sender As Object, e As EventArgs) 
         Try
             If Not ValidateValues() Then
                 Exit Sub
@@ -60,7 +60,7 @@
         End Try
     End Sub
 
-    Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
+    Private Sub btnUpdate_Click(sender As Object, e As EventArgs) 
         Try
             If Not ValidateValues() Then
                 Exit Sub
@@ -75,7 +75,7 @@
         End Try
     End Sub
 
-    Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
+    Private Sub btnDelete_Click(sender As Object, e As EventArgs) 
         Try
             If Not ValidateValues() Then
                 Exit Sub
@@ -92,14 +92,14 @@
         End Try
     End Sub
 
-    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) 
         'Move to the first record of datatable
         ucrNavigation.MoveFirst()
         'Enable appropriate base buttons
         SaveEnable()
     End Sub
 
-    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) 
         Me.Close()
     End Sub
 
@@ -123,7 +123,7 @@
     End Sub
 
     'TODO
-    Private Sub btnView_Click(sender As Object, e As EventArgs) Handles btnView.Click
+    Private Sub btnView_Click(sender As Object, e As EventArgs) 
         Dim viewRecords As New dataEntryGlobalRoutines
         Dim sql As String
         Dim userName As String
@@ -137,11 +137,11 @@
         viewRecords.viewTableRecords(sql)
     End Sub
 
-    Private Sub btnHelp_Click(sender As Object, e As EventArgs) Handles btnHelp.Click
+    Private Sub btnHelp_Click(sender As Object, e As EventArgs) 
         Help.ShowHelp(Me, Application.StartupPath & "\climsoft4.chm", "keyentryoperations.htm#form_monthly")
     End Sub
 
-    Private Sub btnUpload_Click(sender As Object, e As EventArgs) Handles btnUpload.Click
+    Private Sub btnUpload_Click(sender As Object, e As EventArgs) 
 
         If MessageBox.Show("Are you sure you want to upload these records?", "Upload Records", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
             ucrMonthlydata.UploadAllRecords()
@@ -184,7 +184,7 @@
 
     End Function
 
-    Private Sub AllControls_KeyDown(sender As Object, e As KeyEventArgs) Handles ucrStationSelector.evtKeyDown, ucrElementSelector.evtKeyDown, ucrYearSelector.evtKeyDown
+    Private Sub AllControls_KeyDown(sender As Object, e As KeyEventArgs) 
         If e.KeyCode = Keys.Enter Then
             If TypeOf sender Is ucrBaseDataLink Then
                 If DirectCast(sender, ucrBaseDataLink).ValidateValue() Then
@@ -208,6 +208,7 @@
         End If
     End Sub
 
+    Private Sub ucrStationSelector_Load(sender As Object, e As EventArgs) 
 
-
+    End Sub
 End Class
