@@ -9,6 +9,7 @@
     Dim lin, rec, col, kount, prd As Integer
 
 
+
     Private Sub cmdOpenFile_Click(sender As Object, e As EventArgs) Handles cmdOpenFile.Click
         dlgOpenImportFile.Filter = "Comma Delimited|*.csv;*.txt"
         dlgOpenImportFile.Title = "Open Import Text File"
@@ -116,6 +117,9 @@
             pnlHeaders.Enabled = False
         End If
         Me.Cursor = Cursors.Default
+        lstStations.Items.Clear()
+        lstElements.Items.Clear()
+        pnlErrors.Visible = False
     End Sub
 
     Sub List_AWSFields()
@@ -150,6 +154,7 @@
             For i = 0 To kount - 1
                 cmbFields.Items.Add(ds1.Tables("obselement").Rows(i).Item("elementId") & "-" & ds1.Tables("obselement").Rows(i).Item("abbreviation"))
             Next
+
         Catch ex As Exception
             MsgBox(ex.Message)
             dbcon.Close()
@@ -167,6 +172,7 @@
             cmbFields.Items.Add("mm")
             cmbFields.Items.Add("dd")
             cmbFields.Items.Add("hh")
+            cmbFields.Items.Add("NA")
             ' Add the AWS element codes existing in obselement table
 
             dbConnectionString = frmLogin.txtusrpwd.Text
@@ -186,6 +192,7 @@
             For i = 0 To kount - 1
                 cmbFields.Items.Add(ds1.Tables("obselement").Rows(i).Item("elementId") & "-" & ds1.Tables("obselement").Rows(i).Item("abbreviation"))
             Next
+
         Catch ex As Exception
             MsgBox(ex.Message)
             dbcon.Close()
@@ -199,6 +206,14 @@
         DataGridView1.Refresh()
         cmdLoadData.Enabled = False
         pnlHeaders.Enabled = False
+        lstStations.Items.Clear()
+        lstElements.Items.Clear()
+        pnlErrors.Visible = False
+        lstStations.Visible = False
+        lstElements.Visible = False
+        cmdSaveErrors.Visible = False
+        lblStnEror.Visible = False
+        lblElmeror.Visible = False
     End Sub
 
     Private Sub cmdRename_Click(sender As Object, e As EventArgs) Handles cmdRename.Click
@@ -250,6 +265,8 @@
                 DataCat = "CLICOMSYP"
             ElseIf lblType.Text = "CLICOMhourly" Then
                 DataCat = "CLICOMHLY"
+            ElseIf lblType.Text = "Monthly" Then
+                DataCat = "Monthly"
             Else
                 ' Other future data categories
                 'DataCat = Get_DataCat()
@@ -287,13 +304,15 @@
                     Load_CLICOM("synop")
                 Case "CLICOMHLY"
                     Load_CLICOM("hourly")
+                Case "Monthly"
+                    Load_Monthly()
             End Select
 
             FileClose(101)
             ' load data into observationinitial table
 
             ' Create sql query
-            sql0 = "LOAD DATA local INFILE '" & fl2 & "' IGNORE INTO TABLE observationinitial FIELDS TERMINATED BY ',' (recordedFrom,describedBy,obsDatetime,obsLevel,obsValue,flag,period);"
+            sql0 = "LOAD DATA local INFILE '" & fl2 & "' IGNORE INTO TABLE observationinitial FIELDS TERMINATED BY ',' (recordedFrom,describedBy,obsDatetime,obsLevel,obsValue,flag,period,acquisitionType);"
             objCmd = New MySql.Data.MySqlClient.MySqlCommand(sql0, dbcon)
 
             'Execute query
@@ -304,6 +323,25 @@
 
             dbcon.Close()
             Me.Cursor = Cursors.Default
+
+            ' Output stations and elements errors into a file
+            'pnlErrors.Visible = False
+
+
+            If lstStations.Items.Count > 0 Then
+                pnlErrors.Visible = True
+                lblStnEror.Visible = True
+                lstStations.Visible = True
+                cmdSaveErrors.Visible = True
+            End If
+
+            If lstElements.Items.Count > 0 Then
+                pnlErrors.Visible = True
+                lblElmeror.Visible = True
+                lstElements.Visible = True
+                cmdSaveErrors.Visible = True
+            End If
+
         Catch ex As Exception
             MsgBox(ex.Message)
             lblRecords.Text = "Data Import Failed!, Check if the Staion Id exists in metadata"
@@ -338,6 +376,7 @@
     Sub Load_Daily2()
 
         Dim dt, st, cod, y, m, d, h, dttime, hd, dat, flg As String
+        Dim acquisitiontype As Integer
 
         Me.Cursor = Cursors.WaitCursor
         Try
@@ -355,7 +394,9 @@
                         ' Get the record index
                         col = 0
                         st = txtStn.Text
+                        acquisitiontype = 6
                         h = txtObsHour.Text
+                        cod = txtElmCode.Text
                         For Each currentField In currentRow
 
                             hd = DataGridView1.Columns(col).Name
@@ -375,6 +416,8 @@
 
                                     ElseIf .Columns(col).Name = "hh" Then
                                         h = dat
+                                    ElseIf .Columns(col).Name = "NA" Then ' Not Required
+                                        'Do nothing
                                     Else ' Data column encountered
 
                                         flg = ""
@@ -388,9 +431,15 @@
                                             Else
                                                 Get_Value_Flag(cod, dat, flg)
                                             End If
-                                            'If IsDate(dttime) Then Add_Record(st, cod, dttime, dat, flg)
+
+                                            ' Process Dekadal data if any
+                                            If optDekadal.Checked = True Then
+                                                cprd = GetDekadPeriod(dttime)
+                                                If IsNumeric(dat) Then flg = "C"
+                                            End If
+
                                             If Station_Element(st, cod) Then
-                                                If IsDate(dttime) Then If Not Add_Record(st, cod, dttime, dat, flg) Then Exit For 'Sub
+                                                If IsDate(dttime) Then If Not Add_Record(st, cod, dttime, dat, flg, acquisitiontype) Then Exit For 'Sub
                                             End If
                                         End If
                                     End If
@@ -421,6 +470,7 @@
                 MyReader.SetDelimiters(delimit)
 
                 Dim st, cod, y, m, d, h, dttime, hd, dat, flg As String
+                Dim acquisitiontype As Integer
 
                 Do While MyReader.EndOfData = False
 
@@ -430,6 +480,9 @@
                         col = 0
                         st = txtStn.Text
                         h = txtObsHour.Text
+                        cod = txtElmCode.Text
+
+                        acquisitiontype = 6
 
                         For Each currentField In currentRow
                             hd = DataGridView1.Columns(col).Name
@@ -462,7 +515,7 @@
                                 End If
                                 If IsDate(dttime) And IsDate(DateSerial(y, m, h)) Then
                                     If Station_Element(st, cod) Then
-                                        If Not Add_Record(st, cod, dttime, dat, flg) Then Exit For
+                                        If Not Add_Record(st, cod, dttime, dat, flg, acquisitiontype) Then Exit For
                                     End If
                                 End If
 
@@ -487,7 +540,7 @@
     Sub Load_Hourly()
         'MsgBox("form_hourly")
         Dim st, cod, y, m, d, dttime, hd, dat, flg As String
-
+        Dim acquisitiontype As Integer
         Try
 
             Using MyReader As New Microsoft.VisualBasic.FileIO.TextFieldParser(txtImportFile.Text)
@@ -504,6 +557,9 @@
 
                         col = 0
                         st = txtStn.Text
+                        cod = txtElmCode.Text
+                        acquisitiontype = 6
+
                         For Each currentField In currentRow
                             hd = DataGridView1.Columns(col).Name()
                             dat = currentField
@@ -519,6 +575,8 @@
                                         m = dat
                                     ElseIf .Columns(col).Name = "dd" Then
                                         d = dat
+                                    ElseIf .Columns(col).Name = "NA" Then ' Not Required
+                                        'Do nothing
                                     Else ' Data column found
                                         ' Process data
                                         If IsNumeric(hd) Then
@@ -531,7 +589,7 @@
                                                 Get_Value_Flag(cod, dat, flg)
                                             End If
                                             If Station_Element(st, cod) Then
-                                                If IsDate(dttime) Then If Not Add_Record(st, cod, dttime, dat, flg) Then Exit For 'Sub
+                                                If IsDate(dttime) Then If Not Add_Record(st, cod, dttime, dat, flg, acquisitiontype) Then Exit For 'Sub
                                             End If
                                         End If
                                         End If ' Last DataGridView which is equivalent to End data columns 
@@ -556,6 +614,7 @@
         'MsgBox("Aws")
         Dim st, cod, dttim, d, tt, dt, dat, hd, flg As String
         Dim dt_tm As Boolean
+        Dim acquisitiontype As Integer
 
         Try
             Using MyReader As New Microsoft.VisualBasic.FileIO.TextFieldParser(txtImportFile.Text)
@@ -570,6 +629,7 @@
                         ' Initialize values
                         col = 0
                         st = txtStn.Text
+                        acquisitiontype = 3
                         dt_tm = False
 
                         'h = txtObsHour.Text
@@ -610,7 +670,7 @@
                                                 dat = ""
                                             End If
 
-                                            If Station_Element(st, cod) Then Add_Record(st, cod, dttim, dat, flg)
+                                            If Station_Element(st, cod) Then Add_Record(st, cod, dttim, dat, flg, acquisitiontype)
 
                                         End If
                                     End If
@@ -634,7 +694,7 @@
         'MsgBox(1)
         Dim st, cod, dttim, d, tt, dt, dat, hd, flg As String
         Dim dt_tm As Boolean
-
+        Dim acquisitiontype As Integer
         Try
             Using MyReader As New Microsoft.VisualBasic.FileIO.TextFieldParser(txtImportFile.Text)
                 MyReader.TextFieldType = FileIO.FieldType.Delimited
@@ -648,6 +708,8 @@
                         ' Initialize values
                         col = 0
                         st = txtStn.Text
+                        cod = txtElmCode.Text
+                        acquisitiontype = 3
                         dt_tm = False
 
                         'h = txtObsHour.Text
@@ -688,7 +750,7 @@
                                     dttim = DateAndTime.Year(dttim) & "-" & DateAndTime.Month(dttim) & "-" & DateAndTime.Day(dttim) & " " & Format(DateAndTime.Hour(dttim), "00") & ":" & Format(DateAndTime.Minute(dttim), "00") & ":" & Format(DateAndTime.Second(dttim), "00")
 
                                     If Station_Element(st, cod) Then
-                                        If Not Add_Record(st, cod, dttim, dat, flg) Then Exit For
+                                        If Not Add_Record(st, cod, dttim, dat, flg, acquisitiontype) Then Exit For
                                     End If
 
                                 End If
@@ -711,7 +773,7 @@
 
     Sub Load_ColumnElems()
         Dim st, cod, y, m, d, h, dt_tm, hd, dat, dttcom, flg As String
-
+        Dim acquisitiontype As Integer
 
         Try
             Using MyReader As New Microsoft.VisualBasic.FileIO.TextFieldParser(txtImportFile.Text)
@@ -727,6 +789,8 @@
 
                             st = txtStn.Text
                             h = txtObsHour.Text
+                            cod = txtElmCode.Text
+                            acquisitiontype = 6
                             dttcom = 0
                             col = 0
                             For Each currentField In currentRow
@@ -752,7 +816,12 @@
                                         Else
 
                                             ' Data column follows
-                                            If dttcom <> 3 Then
+
+                                            ' Days For Monthly accumulated data if any
+                                            If optMonthly.Checked = True Then d = DateTime.DaysInMonth(y, m)
+
+
+                                            If dttcom <> 3 And optMonthly.Checked = False Then
                                                 MsgBox("Column headers yyyy, mm, dd Not found")
                                                 Exit Sub
                                             Else 'compute datetime value
@@ -763,13 +832,27 @@
                                             cod = hd
                                             dat = currentField
                                             flg = ""
+
                                             If IsNumeric(dat) Then
                                                 prd = 0
                                                 If chkScale.Checked = True Then Scale_Data(cod, dat)
                                             Else
                                                 Get_Value_Flag(cod, dat, flg)
                                             End If
-                                            If Station_Element(st, cod) Then Add_Record(st, cod, dt_tm, dat, flg)
+
+                                            ' Process Dekadal data if any
+                                            If optDekadal.Checked = True Then
+                                                cprd = GetDekadPeriod(dt_tm)
+                                                If IsNumeric(dat) Then flg = "C"
+                                            End If
+
+                                            ' Period and Flag Days For Monthly accumulated data if any
+                                            If optMonthly.Checked = True Then
+                                                cprd = DateTime.DaysInMonth(y, m)
+                                                If IsNumeric(dat) Then flg = "C"
+                                            End If
+
+                                            If Station_Element(st, cod) Then Add_Record(st, cod, dt_tm, dat, flg, acquisitiontype)
                                         End If
                                     End If
                                 End With
@@ -790,7 +873,7 @@
     End Sub
 
     Sub Load_CLICOM(typ As String)
-        Dim col As Integer
+        Dim col, acquisitiontype As Integer
         Dim st, cod, dt, tm, dttime, hd, dat, flg As String
         Dim maxrows As Long
 
@@ -845,6 +928,7 @@
                         st = txtStn.Text
                         tm = txtObsHour.Text
                         flg = ""
+                        acquisitiontype = 2
 
                         For Each currentField In currentRow
 
@@ -883,7 +967,7 @@
                                                 End If
                                             End If
                                             If Station_Element(st, cod) And IsDate(dttime) Then ' Exit For
-                                                If Not Add_Record(st, cod, dttime, dat, flg) Then Exit For
+                                                If Not Add_Record(st, cod, dttime, dat, flg, acquisitiontype) Then Exit For
                                             End If
                                         End If
                                     End If
@@ -905,7 +989,84 @@
         End Try
 
     End Sub
+    Sub Load_Monthly()
 
+        Dim dt, st, cod, y, m, d, h, dttime, hd, dat, flg As String
+        Dim acquisitiontype As Integer
+
+        Me.Cursor = Cursors.WaitCursor
+        Try
+
+            Using MyReader As New Microsoft.VisualBasic.FileIO.TextFieldParser(txtImportFile.Text)
+                MyReader.TextFieldType = FileIO.FieldType.Delimited
+                MyReader.SetDelimiters(delimit)
+
+                Do While MyReader.EndOfData = False
+
+                    'While Not MyReader.EndOfData
+                    currentRow = MyReader.ReadFields()
+
+                    If MyReader.LineNumber > Val(txtStartRow.Text) Then
+                        ' Get the record index
+                        col = 0
+                        st = txtStn.Text
+                        acquisitiontype = 6
+                        h = txtObsHour.Text
+                        cod = txtElmCode.Text
+                        For Each currentField In currentRow
+
+                            hd = DataGridView1.Columns(col).Name
+                            dat = currentField
+
+                            With DataGridView1
+                                If col < .ColumnCount Then
+                                    'If col = 3 Then MsgBox(dat)
+                                    If .Columns(col).Name = "station_id" Then
+                                        st = dat
+                                    ElseIf .Columns(col).Name = "element_code" Then
+                                        cod = dat
+                                    ElseIf .Columns(col).Name = "yyyy" Then
+                                        y = dat
+
+                                    Else ' Data column encountered
+
+                                        flg = ""
+                                        If IsNumeric(hd) Then
+                                            d = DateTime.DaysInMonth(y, hd)
+                                            dttime = y & "-" & hd & "-" & d & " " & h & ":00"
+                                            cprd = d
+                                            flg = "C"
+
+                                            If IsNumeric(dat) Then
+                                                'prd = 0 ' initialize data period counter
+                                                If chkScale.Checked = True Then Scale_Data(cod, dat)
+                                            Else
+                                                Get_Value_Flag(cod, dat, flg)
+                                            End If
+
+                                            If Station_Element(st, cod) Then
+                                                If IsDate(dttime) Then If Not Add_Record(st, cod, dttime, dat, flg, acquisitiontype) Then Exit For 'Sub
+                                            End If
+                                        End If
+                                    End If
+                                    ' Show upload progress
+                                    lblRecords.Text = "Loading: " & MyReader.LineNumber - 1 & " of " & lblTRecords.Text ' & " " & '.RowCount - Val(txtStartRow.Text) '1
+                                    lblRecords.Refresh()
+                                    col = col + 1
+                                End If
+                            End With
+                        Next
+                    End If
+
+                Loop
+
+            End Using
+
+        Catch ex As Exception
+            If MsgBox(ex.HResult & " " & ex.Message, MsgBoxStyle.OkCancel) = vbCancel Then Exit Sub
+        End Try
+
+    End Sub
     Sub Get_Value_Flag(code As String, ByRef dat As String, ByRef flg As String)
         'MsgBox("Flag")
         Dim datstr, flgchr As String
@@ -975,7 +1136,28 @@
             Get_RecordIdx = False
         End Try
     End Function
-    
+    Function GetDekadPeriod(ByRef dtm As String) As Integer
+        Dim y1, m1, d1, h1 As String
+        Try
+            y1 = DateAndTime.Year(dtm)
+            m1 = DateAndTime.Month(dtm)
+            d1 = DateAndTime.Day(dtm)
+            h1 = DateAndTime.Hour(dtm)
+
+            If DateAndTime.Day(dtm) < 3 Then
+                GetDekadPeriod = 10
+                d1 = Val(d1) * 10
+            Else
+                GetDekadPeriod = Val(DateTime.DaysInMonth(DateAndTime.Year(dtm), DateAndTime.Month(dtm))) - 20
+                d1 = 20 + GetDekadPeriod
+            End If
+
+            dtm = y1 & "-" & m1 & "-" & d1 & " " & h1 & ":00"
+        Catch ex As Exception
+            MsgBox(ex.Message)
+            GetDekadPeriod = 10
+        End Try
+    End Function
 
     Private Sub cmbFields_Click(sender As Object, e As EventArgs) Handles cmbFields.Click
         'DataGridView1.Columns(CInt(lstColumn.Text) - 1).Name = cmbFields.Text
@@ -1011,17 +1193,17 @@
     End Sub
     Private Sub cmdtest_Click(sender As Object, e As EventArgs) Handles cmdtest.Click
         'Update_database("8535004", "5", "2004-02-01 00:00", "0.1")
-        Add_Record("8535004", "2", "2004-2-1 9:00", "0.1", "")
+        Add_Record("8535004", "2", "2004-2-1 9:00", "0.1", "", "0")
     End Sub
 
 
-    Function Add_Record(stn As String, code As String, datetime As String, obsVal As String, flg As String) As Boolean
+    Function Add_Record(stn As String, code As String, datetime As String, obsVal As String, flg As String, acqTyp As Integer) As Boolean
         Dim dat As String
 
         Try
             If Val(cprd) < 1 Then cprd = "NULL" ' No cummulative values
 
-            dat = stn & ", " & code & ", " & datetime & ", surface ," & obsVal & ", " & flg & ", " & cprd
+            dat = stn & ", " & code & ", " & datetime & ", surface ," & obsVal & ", " & flg & ", " & cprd & ", " & acqTyp
 
             Print(101, dat)
             PrintLine(101)
@@ -1038,16 +1220,32 @@
 
     End Function
 
+    Private Sub BindingSource2_CurrentChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub txtOther_TextChanged(sender As Object, e As EventArgs) Handles txtOther.TextChanged
+
+    End Sub
+
     Private Sub cmbFields_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbFields.SelectedIndexChanged
         Dim Colhd As String
-
+        Dim x As Integer
         Try
 
-            If InStr(cmbFields.Text, "-") > 0 Then
+            kount = InStr(cmbFields.Text, "-")
+
+            'If InStr(cmbFields.Text, "-") > 0 Then
+            If kount > 1 Then
                 Colhd = ""
+                x = 0
                 For Each C As Char In cmbFields.Text
-                    If IsNumeric(C) Then Colhd = Colhd & C
+                    x = x + 1
+                    If x < kount Then If IsNumeric(C) Then Colhd = Colhd & C
                 Next
+                'For Each C As Char In cmbFields.Text
+                '        If IsNumeric(C) Then Colhd = Colhd & C
+                'Next
             Else
                 Colhd = cmbFields.Text
             End If
@@ -1082,8 +1280,44 @@
 
     End Sub
 
+    Private Sub cmdSaveErrors_Click(sender As Object, e As EventArgs)
+        Dim errfile As String
+        Try
+            dlgSaveSchema.Filter = "Errors file|*.txt"
+            dlgSaveSchema.Title = "Upload Errors"
+            dlgSaveSchema.ShowDialog()
+
+            errfile = dlgSaveSchema.FileName
+            FileOpen(111, errfile, OpenMode.Output)
+
+            If lstStations.Items.Count Then
+                PrintLine(111, "Station Errors")
+                For i = 0 To lstStations.Items.Count - 1
+                    PrintLine(111, lstStations.Items(i))
+                Next
+            End If
+            PrintLine(111)
+
+            If lstElements.Items.Count Then
+                PrintLine(111, "Elements Errors")
+                For i = 0 To lstElements.Items.Count - 1
+                    PrintLine(111, lstElements.Items(i))
+                Next
+            End If
+            FileClose(111)
+
+        Catch ex As Exception
+            FileClose(111)
+        End Try
+
+    End Sub
+
+    Private Sub FontDialog1_Apply(sender As Object, e As EventArgs)
+
+    End Sub
+
     Function Station_Element(stn_id As String, elm_code As String) As Boolean
-        Dim stn, elm As Boolean
+        Dim stn, elm, itm As Boolean
 
         stn = True
         elm = True
@@ -1097,10 +1331,16 @@
             da1.Fill(ds1, "station")
 
             If ds1.Tables("station").Rows.Count = 0 Then
-                'lblStnEror.Text = "Station " & stn_id & " Not Found"
-                lblStnEror.Visible = True
-                lstStations.Visible = True
-                lstStations.Items.Add(stn_id)
+                itm = False
+                For i = 0 To lstStations.Items.Count - 1
+                    If lstStations.Items(i) = stn_id Then
+                        itm = True
+                    End If
+                Next
+                ''lblStnEror.Text = "Station " & stn_id & " Not Found"
+                'lblStnEror.Visible = True
+                'lstStations.Visible = True
+                If itm = False Then lstStations.Items.Add(stn_id)
                 stn = False
             End If
 
@@ -1112,10 +1352,16 @@
             da1.Fill(ds1, "element")
 
             If ds1.Tables("element").Rows.Count = 0 Then
-                'lblElmeror.Text = "Element " & elm_code & " Not Found"
-                lblElmeror.Visible = True
-                lstElements.Visible = True
-                lstElements.Items.Add(elm_code)
+                itm = False
+                For i = 0 To lstElements.Items.Count - 1
+                    If lstElements.Items(i) = elm_code Then
+                        itm = True
+                    End If
+                Next
+                ''lblElmeror.Text = "Element " & elm_code & " Not Found"
+                'lblElmeror.Visible = True
+                'lstElements.Visible = True
+                If itm = False Then lstElements.Items.Add(elm_code)
                 elm = False
             End If
 
@@ -1123,6 +1369,7 @@
                 Return False
             Else
                 Return True
+
             End If
         Catch ex As Exception
             MsgBox(ex.Message)
@@ -1178,7 +1425,7 @@
 
     End Function
     Private Sub cmdSaveSpecs_Click(sender As Object, e As EventArgs) Handles cmdSaveSpecs.Click
-        Dim hdr, schemafile As String
+        Dim hdr, schemafile, dlt, strw, obshr, scal, id, code As String
         'Dim configFilename As String = Application.StartupPath & "\schema.sch"
         Try
             dlgSaveSchema.Filter = "Schema file|*.sch"
@@ -1187,12 +1434,28 @@
             schemafile = dlgSaveSchema.FileName
             FileOpen(100, schemafile, OpenMode.Output)
 
+            'Get column headers
             hdr = DataGridView1.Columns(0).Name
             For i = 1 To DataGridView1.Columns.Count - 1
                 hdr = hdr & "," & DataGridView1.Columns(i).Name
             Next
 
             PrintLine(100, hdr)
+            ' Get data descriptions
+            If optComma.Checked = True Then
+                dlt = "Comma"
+            ElseIf OptTAB.Checked = True Then
+                dlt = "TAB"
+            ElseIf OptOthers.Checked = True Then
+                dlt = txtOther.Text
+            End If
+
+            strw = txtStartRow.Text
+            obshr = txtObsHour.Text
+            scal = chkScale.Checked
+            id = txtStn.Text
+            code = txtElmCode.Text
+            PrintLine(100, dlt & "," & strw & "," & obshr & "," & scal & "," & id & "," & code)
         Catch ex As Exception
             FileClose(100)
         End Try
@@ -1225,9 +1488,30 @@
                     num = num + 1
                 Next
                 DataGridView1.Refresh()
+                hdr = MyReader.ReadFields()
+                'If hdr(0) = vbNull Then MsgBox("No Descriptiions")
+                'MsgBox(Len(hdr))
+                If Len(hdr(0)) > 0 Then
+                    ' Populate descriptions
+
+                    Select Case hdr(0)
+                        Case "Comma"
+                            optComma.Checked = True
+                        Case "TAB"
+                            OptTAB.Checked = True
+                        Case Else
+                            OptOthers.Checked = True
+                            txtOther.Text = hdr(0)
+                    End Select
+                    txtStartRow.Text = hdr(1)
+                    txtObsHour.Text = hdr(2)
+                    chkScale.Checked = hdr(3)
+                    txtStn.Text = hdr(4)
+                    txtElmCode.Text = hdr(5)
+                End If
             End Using
         Catch ex As Exception
-            MsgBox(ex.Message)
+            If ex.HResult <> -2147467261 Then MsgBox(ex.Message)
         End Try
 
     End Sub
@@ -1260,5 +1544,13 @@
         Else
             Help.ShowHelp(Me, Application.StartupPath & "\climsoft4.chm", "textfileimport.htm#procedures")
         End If
+    End Sub
+
+    Private Sub txtOther_GotFocus(sender As Object, e As EventArgs) Handles txtOther.GotFocus
+        OptOthers.Checked = True
+    End Sub
+
+    Private Sub frmImportDaily_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If Len(recCommit.RegkeyValue("key01")) <> 0 Then txtObsHour.Text = recCommit.RegkeyValue("key01")
     End Sub
 End Class
