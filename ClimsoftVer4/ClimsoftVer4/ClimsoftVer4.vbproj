@@ -143,6 +143,12 @@
     <Compile Include="formSynopticCaribbean.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormSynopticRA1New.Designer.vb">
+      <DependentUpon>FormSynopticRA1New.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSynopticRA1New.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmChangeOwnPasswordNew.Designer.vb">
       <DependentUpon>frmChangeOwnPasswordNew.vb</DependentUpon>
     </Compile>
@@ -1117,6 +1123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formSynopticCaribbean.resx">
       <DependentUpon>formSynopticCaribbean.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSynopticRA1New.resx">
+      <DependentUpon>FormSynopticRA1New.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmChangeOwnPasswordNew.resx">
       <DependentUpon>frmChangeOwnPasswordNew.vb</DependentUpon>

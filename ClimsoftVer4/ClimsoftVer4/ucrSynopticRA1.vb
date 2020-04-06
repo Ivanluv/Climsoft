@@ -1,5 +1,5 @@
 ﻿
-Public Class ucrSynopticRA1
+Public Class ucrSynopticRA1New
 
     Private strValueFieldName As String = "Val_Elem"
     Private strFlagFieldName As String = "Flag"
@@ -32,32 +32,32 @@ Public Class ucrSynopticRA1
                 End If
             Next
 
-            SetUpTableEntry("form_synoptic_2_ra1")
-            AddField("signature")
-            AddField("entryDatetime")
+            'SetUpTableEntry("form_synoptic_2_ra1")
+            'AddField("signature")
+            'AddField("entryDatetime")
 
-            AddLinkedControlFilters(ucrStationSelector, ucrStationSelector.FieldName, "=", strLinkedFieldName:="stationId", bForceValuesAsString:=True)
-            AddLinkedControlFilters(ucrYearSelector, ucrYearSelector.FieldName, "=", strLinkedFieldName:="Year", bForceValuesAsString:=False)
-            AddLinkedControlFilters(ucrMonthSelector, ucrMonthSelector.FieldName, "=", strLinkedFieldName:="MonthId", bForceValuesAsString:=False)
-            AddLinkedControlFilters(ucrDaySelector, ucrDaySelector.FieldName, "=", strLinkedFieldName:="Day", bForceValuesAsString:=False)
-            AddLinkedControlFilters(ucrHourSelector, ucrHourSelector.FieldName, "=", strLinkedFieldName:="24Hrs", bForceValuesAsString:=False)
+            'AddLinkedControlFilters(ucrStationSelector, ucrStationSelector.FieldName, "=", strLinkedFieldName:="stationId", bForceValuesAsString:=True)
+            'AddLinkedControlFilters(ucrYearSelector, ucrYearSelector.FieldName, "=", strLinkedFieldName:="Year", bForceValuesAsString:=False)
+            'AddLinkedControlFilters(ucrMonthSelector, ucrMonthSelector.FieldName, "=", strLinkedFieldName:="MonthId", bForceValuesAsString:=False)
+            'AddLinkedControlFilters(ucrDaySelector, ucrDaySelector.FieldName, "=", strLinkedFieldName:="Day", bForceValuesAsString:=False)
+            'AddLinkedControlFilters(ucrHourSelector, ucrHourSelector.FieldName, "=", strLinkedFieldName:="24Hrs", bForceValuesAsString:=False)
 
             'set up the navigation control
-            ucrNavigation.SetTableEntryAndKeyControls(Me)
+            'ucrNavigation.SetTableEntryAndKeyControls(Me)
             GetRegKeys()
 
             bFirstLoad = False
 
             'populate the values
-            ucrNavigation.SetSortBy("entryDatetime")
-            ucrNavigation.PopulateControl()
+            'ucrNavigation.SetSortBy("entryDatetime")
+            'ucrNavigation.PopulateControl()
 
         End If
     End Sub
 
-    Private Sub btnAddNew_Click(sender As Object, e As EventArgs) Handles btnAddNew.Click
+    Private Sub btnAddNew_Click(sender As Object, e As EventArgs)
         Try
-            ucrNavigation.NewSequencerRecord(txtSequencer.Text, {"mm", "dd", "hh"}, {ucrMonthSelector, ucrDaySelector, ucrHourSelector}, ucrYearSelector)
+            'ucrNavigation.NewSequencerRecord(txtSequencer.Text, {"mm", "dd", "hh"}, {ucrMonthSelector, ucrDaySelector, ucrHourSelector}, ucrYearSelector)
             ' ucrNavigation.NewRecord() 'temporary
             'SaveEnable()
             ucrVFPStationLevelPressure.Focus()
@@ -65,13 +65,13 @@ Public Class ucrSynopticRA1
             MessageBox.Show("Error: " & ex.Message, "Add New Record", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
     End Sub
-    Private Sub BtnSaveAndUpdate_Click(sender As Object, e As EventArgs) Handles btnSave.Click, btnUpdate.Click
+    Private Sub BtnSaveAndUpdate_Click(sender As Object, e As EventArgs)
         'Change the signature(user) and the DATETIME first before saving 
-        GetTable.Rows(0).Item("signature") = frmLogin.txtUsername.Text
-        GetTable.Rows(0).Item("entryDatetime") = Date.Now
+        'GetTable.Rows(0).Item("signature") = frmLogin.txtUsername.Text
+        'GetTable.Rows(0).Item("entryDatetime") = Date.Now
     End Sub
 
-    Private Sub btnView_Click(sender As Object, e As EventArgs) Handles btnView.Click
+    Private Sub btnView_Click(sender As Object, e As EventArgs)
         Dim viewRecords As New dataEntryGlobalRoutines
         Dim sql, userName As String
         userName = frmLogin.txtUsername.Text
@@ -84,17 +84,17 @@ Public Class ucrSynopticRA1
         viewRecords.viewTableRecords(sql)
     End Sub
 
-    Private Sub btnHelp_Click(sender As Object, e As EventArgs) Handles btnHelp.Click
+    Private Sub btnHelp_Click(sender As Object, e As EventArgs)
         Help.ShowHelp(Me, Application.StartupPath & "\climsoft4.chm", "keyentryoperations.htm#form_synopticRA1")
     End Sub
 
     Private Sub BtnUpload_Click(sender As Object, e As EventArgs) Handles btnUpload.Click
         'upload code in the background thread
         Dim frm As New frmNewComputationProgress
-        frm.SetHeader("Uploading " & ucrNavigation.iMaxRows & " records")
-        frm.SetProgressMaximum(ucrNavigation.iMaxRows)
-        frm.ShowNumbers(True)
-        frm.ShowResultMessage(True)
+        'frm.SetHeader("Uploading " & ucrNavigation.iMaxRows & " records")
+        'frm.SetProgressMaximum(ucrNavigation.iMaxRows)
+        'frm.ShowNumbers(True)
+        'frm.ShowResultMessage(True)
         AddHandler frm.backgroundWorker.DoWork, AddressOf DoUpload
 
         frm.backgroundWorker.RunWorkerAsync()
@@ -105,13 +105,13 @@ Public Class ucrSynopticRA1
         bAutoFillValues = chkAutoFillValues.Checked
     End Sub
 
-    Private Sub ucrYearSelector_evtValueChanged(sender As Object, e As EventArgs) Handles ucrYearSelector.evtValueChanged
-        If ucrYearSelector.ValidateValue() Then
-            txtSequencer.Text = If(ucrYearSelector.IsLeapYear(), "seq_month_day_synoptime_leap_yr", "seq_month_day_synoptime")
-        End If
+    Private Sub ucrYearSelector_evtValueChanged(sender As Object, e As EventArgs)
+        'If ucrYearSelector.ValidateValue() Then
+        'txtSequencer.Text = If(ucrYearSelector.IsLeapYear(), "seq_month_day_synoptime_leap_yr", "seq_month_day_synoptime")
+        'End If
     End Sub
 
-    Private Sub btnTDCF_Click(sender As Object, e As EventArgs) Handles btnTDCF.Click
+    Private Sub btnTDCF_Click(sender As Object, e As EventArgs)
         Try
             frmSynopTDCF.Show()
             frmSynopTDCF.cboTemplate.Text = "TM_307081"
@@ -123,20 +123,20 @@ Public Class ucrSynopticRA1
             Dim dtbl As DataTable
             clsDataDefinition.SetTableNameAndFields("form_synoptic_2_ra1", {"stationId", "yyyy", "mm", "dd", "hh"})
 
-            Dim yearFilter As TableFilter = New TableFilter(strNewField:="yyyy", strNewOperator:="=", objNewValue:=ucrYearSelector.GetValue, bNewIsPositiveCondition:=True, bForceValuesAsString:=True)
-            Dim monthFilter As TableFilter = New TableFilter(strNewField:="mm", strNewOperator:="=", objNewValue:=ucrMonthSelector.GetValue, bNewIsPositiveCondition:=True, bForceValuesAsString:=True)
-            Dim dayFilter As TableFilter = New TableFilter(strNewField:="dd", strNewOperator:="=", objNewValue:=ucrDaySelector.GetValue, bNewIsPositiveCondition:=True, bForceValuesAsString:=True)
-            Dim hourFilter As TableFilter = New TableFilter(strNewField:="hh", strNewOperator:="=", objNewValue:=ucrHourSelector.GetValue, bNewIsPositiveCondition:=True, bForceValuesAsString:=True)
+            ' Dim yearFilter As TableFilter = New TableFilter(strNewField:="yyyy", strNewOperator:="=", objNewValue:=ucrYearSelector.GetValue, bNewIsPositiveCondition:=True, bForceValuesAsString:=True)
+            ' Dim monthFilter As TableFilter = New TableFilter(strNewField:="mm", strNewOperator:="=", objNewValue:=ucrMonthSelector.GetValue, bNewIsPositiveCondition:=True, bForceValuesAsString:=True)
+            'Dim dayFilter As TableFilter = New TableFilter(strNewField:="dd", strNewOperator:="=", objNewValue:=ucrDaySelector.GetValue, bNewIsPositiveCondition:=True, bForceValuesAsString:=True)
+            'Dim hourFilter As TableFilter = New TableFilter(strNewField:="hh", strNewOperator:="=", objNewValue:=ucrHourSelector.GetValue, bNewIsPositiveCondition:=True, bForceValuesAsString:=True)
 
 
-            clsDataDefinition.SetFilter(New TableFilter({yearFilter, monthFilter, dayFilter, hourFilter}))
+            'clsDataDefinition.SetFilter(New TableFilter({yearFilter, monthFilter, dayFilter, hourFilter}))
             dtbl = clsDataDefinition.GetDataTable()
 
             frmSynopTDCF.cboStation.Text = ucrStationSelector.GetValue
-            frmSynopTDCF.txtYear.Text = ucrYearSelector.GetValue
-            frmSynopTDCF.cboMonth.Text = ucrMonthSelector.GetValue
+            'frmSynopTDCF.txtYear.Text = ucrYearSelector.GetValue
+            'frmSynopTDCF.cboMonth.Text = ucrMonthSelector.GetValue
             frmSynopTDCF.cboDay.Text = ucrDaySelector.GetValue
-            frmSynopTDCF.cboHour.Text = ucrHourSelector.GetValue
+            'frmSynopTDCF.cboHour.Text = ucrHourSelector.GetValue
             If dtbl IsNot Nothing AndAlso dtbl.Rows.Count > 0 Then
                 ' Populate the station combo box with the stations for the subset
                 For Each row As DataRow In dtbl.Rows
@@ -162,9 +162,9 @@ Public Class ucrSynopticRA1
         'Check if Gmin is required and change properties accordingly
         SetGminRequired(IsGminRequired())
 
-        If Not bUpdating AndAlso bAutoFillValues Then
-            SetDefaultStandardPressureLevel()
-        End If
+        'If Not bUpdating AndAlso bAutoFillValues Then
+        SetDefaultStandardPressureLevel()
+        ' End If
 
     End Sub
 
@@ -243,11 +243,11 @@ Public Class ucrSynopticRA1
     Private Sub SetTmaxRequired(bRequired As Boolean)
         If bRequired Then
             'Apply required action to Tmax
-            ucrVFPTmax.Enabled = True
-            ucrVFPTmax.SetBackColor(Color.White)
+            'ucrVFPTmax.Enabled = True
+            'ucrVFPTmax.SetBackColor(Color.White)
         Else
-            ucrVFPTmax.Enabled = False
-            ucrVFPTmax.SetBackColor(Color.LightGray)
+            'ucrVFPTmax.Enabled = False
+            'ucrVFPTmax.SetBackColor(Color.LightGray)
         End If
     End Sub
 
@@ -259,40 +259,40 @@ Public Class ucrSynopticRA1
     Private Sub SetTminAndRelatedElementsRequired(bRequired As Boolean)
         If bRequired Then
             'Apply required action to Tmin
-            ucrVFPTmin.Enabled = True
-            ucrVFPTmin.SetBackColor(Color.White)
+            'ucrVFPTmin.Enabled = True
+            'ucrVFPTmin.SetBackColor(Color.White)
 
             'Apply same action to evaporation
-            ucrVFPEvaporation.Enabled = True
-            ucrVFPEvaporation.SetBackColor(Color.White)
+            'ucrVFPEvaporation.Enabled = True
+            'ucrVFPEvaporation.SetBackColor(Color.White)
 
             'Apply same action to 24Hr sunshine
-            ucrVFPSss24Hr.Enabled = True
-            ucrVFPSss24Hr.SetBackColor(Color.White)
+            'ucrVFPSss24Hr.Enabled = True
+            'ucrVFPSss24Hr.SetBackColor(Color.White)
 
             'Apply same action to 24Hr precip
             ucrVFPPrecip24Hr.Enabled = True
             ucrVFPPrecip24Hr.SetBackColor(Color.White)
 
             'Apply same action to 24Hr radiation (Insolation)
-            ucrVFPInsolation.Enabled = True
-            ucrVFPInsolation.SetBackColor(Color.White)
+            'ucrVFPInsolation.Enabled = True
+            'ucrVFPInsolation.SetBackColor(Color.White)
 
         Else
-            ucrVFPTmin.Enabled = False
-            ucrVFPTmin.SetBackColor(Color.LightGray)
+            'ucrVFPTmin.Enabled = False
+            'ucrVFPTmin.SetBackColor(Color.LightGray)
 
-            ucrVFPEvaporation.Enabled = False
-            ucrVFPEvaporation.SetBackColor(Color.LightGray)
+            'ucrVFPEvaporation.Enabled = False
+            'ucrVFPEvaporation.SetBackColor(Color.LightGray)
 
-            ucrVFPSss24Hr.Enabled = False
-            ucrVFPSss24Hr.SetBackColor(Color.LightGray)
+            'ucrVFPSss24Hr.Enabled = False
+            'ucrVFPSss24Hr.SetBackColor(Color.LightGray)
 
             ucrVFPPrecip24Hr.Enabled = False
             ucrVFPPrecip24Hr.SetBackColor(Color.LightGray)
 
-            ucrVFPInsolation.Enabled = False
-            ucrVFPInsolation.SetBackColor(Color.LightGray)
+            'ucrVFPInsolation.Enabled = False
+            'ucrVFPInsolation.SetBackColor(Color.LightGray)
         End If
     End Sub
 
@@ -303,25 +303,25 @@ Public Class ucrSynopticRA1
     ''' <param name="bRequired"></param>
     Private Sub SetGminRequired(bRequired As Boolean)
         If bRequired Then
-            ucrVFPGrassMinTemp.Enabled = True
-            ucrVFPGrassMinTemp.SetBackColor(Color.White)
+            'ucrVFPGrassMinTemp.Enabled = True
+            'ucrVFPGrassMinTemp.SetBackColor(Color.White)
         Else
-            ucrVFPGrassMinTemp.Enabled = False
-            ucrVFPGrassMinTemp.SetBackColor(Color.LightGray)
+            'ucrVFPGrassMinTemp.Enabled = False
+            'ucrVFPGrassMinTemp.SetBackColor(Color.LightGray)
         End If
     End Sub
 
     Private Function IsTmaxRequired() As Boolean
         Dim iHour As Integer
         'get the hour value
-        iHour = ucrHourSelector.GetValue
+        'iHour = ucrHourSelector.GetValue
         Return (iHour = iTmaxMorningHour OrElse iHour = iTmaxAfternoonHour)
     End Function
 
     Private Function IsTminRequired() As Boolean
         Dim iHour As Integer
         'get the hour value
-        iHour = ucrHourSelector.GetValue
+        'iHour = ucrHourSelector.GetValue
         'iTmaxMorningHour is the tmin
         Return (iHour = iTmaxMorningHour)
     End Function
@@ -331,67 +331,67 @@ Public Class ucrSynopticRA1
         Dim iHour As Integer
         'get the month and the hour value
         iMonth = ucrMonthSelector.GetValue
-        iHour = ucrHourSelector.GetValue
+        'iHour = ucrHourSelector.GetValue
         Return (iMonth >= iGminStartMonth AndAlso iMonth < iGminEndMonth AndAlso iHour = 6)
     End Function
 
     Private Sub SetDefaultStandardPressureLevel()
-        ucrVFPStandardPressureLevel.SetElementValue(iStandardPressureLevel)
+        'ucrVFPStandardPressureLevel.SetElementValue(iStandardPressureLevel)
     End Sub
 
-    Private Sub ucrVFPWetBulbTemp_Leave(sender As Object, e As EventArgs) Handles ucrVFPWetBulbTemp.Leave
+    Private Sub ucrVFPWetBulbTemp_Leave(sender As Object, e As EventArgs)
         Try
             If Not bAutoFillValues Then
                 Exit Sub
             End If
 
-            If Val(ucrVFPDryBulbTemp.GetElementValue) < Val(ucrVFPWetBulbTemp.GetElementValue) Then
-                ucrVFPWetBulbTemp.ucrValue.SetBackColor(Color.Cyan)
-                ucrVFPDryBulbTemp.ucrValue.SetBackColor(Color.Cyan)
-                ucrVFPWetBulbTemp.ucrValue.GetFocus()
-                MessageBox.Show("Drybulb must be greater or equal to Wetbulb!", "Wetbulb", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-            Else
-                ucrVFPWetBulbTemp.ucrValue.SetBackColor(Color.White)
-                ucrVFPDryBulbTemp.ucrValue.SetBackColor(Color.White)
+            'If Val(ucrVFPDryBulbTemp.GetElementValue) < Val(ucrVFPWetBulbTemp.GetElementValue) Then
+            'ucrVFPWetBulbTemp.ucrValue.SetBackColor(Color.Cyan)
+            'ucrVFPDryBulbTemp.ucrValue.SetBackColor(Color.Cyan)
+            'ucrVFPWetBulbTemp.ucrValue.GetFocus()
+            'MessageBox.Show("Drybulb must be greater or equal to Wetbulb!", "Wetbulb", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+            'Else
+            'ucrVFPWetBulbTemp.ucrValue.SetBackColor(Color.White)
+            'ucrVFPDryBulbTemp.ucrValue.SetBackColor(Color.White)
 
-                Dim dryBulb, wetBulb, dwPoint, ppp, gpm, stationElevation As Decimal
+            Dim dryBulb, wetBulb, dwPoint, ppp, gpm, stationElevation As Decimal
 
-                'Apply element scale factor to drybulb and wetbulb 
-                'before calling function to calculate dewpoint
-                dryBulb = Val(ucrVFPDryBulbTemp.GetElementValue) / 10
-                wetBulb = Val(ucrVFPWetBulbTemp.GetElementValue) / 10
-                dwPoint = calculateDewpoint(dryBulb, wetBulb) * 10
+            'Apply element scale factor to drybulb and wetbulb 
+            'before calling function to calculate dewpoint
+            ' dryBulb = Val(ucrVFPDryBulbTemp.GetElementValue) / 10
+            'wetBulb = Val(ucrVFPWetBulbTemp.GetElementValue) / 10
+            'dwPoint = calculateDewpoint(dryBulb, wetBulb) * 10
 
-                ucrVFPDewPointTemp.SetElementValue(dwPoint)
+            'ucrVFPDewPointTemp.SetElementValue(dwPoint)
 
-                ppp = Val(ucrVFPStationLevelPressure.GetElementValue) / 10
-                gpm = Val(ucrVFPStandardPressureLevel.GetElementValue)
+            ppp = Val(ucrVFPStationLevelPressure.GetElementValue) / 10
+            'gpm = Val(ucrVFPStandardPressureLevel.GetElementValue)
 
-                'do a datacall to get station elevation
-                stationElevation = GetStationElevation()
+            'do a datacall to get station elevation
+            stationElevation = GetStationElevation()
 
-                If stationElevation <> 0 AndAlso Not ucrVFPStationLevelPressure.IsElementValueEmpty AndAlso Not ucrVFPDryBulbTemp.IsElementValueEmpty Then
-                    'Calculate and set geopotential 
-                    ucrVFPGeopotentialHeight.SetElementValue(CalculateGeopotential(ppp, dryBulb, stationElevation, gpm))
-                    'calculate and set MSL pressure 
-                    ucrVFPPressureReduced.SetElementValue(CalculateMSLppp(ppp, dryBulb, stationElevation))
-                End If
-            End If
+            'If stationElevation <> 0 AndAlso Not ucrVFPStationLevelPressure.IsElementValueEmpty AndAlso Not ucrVFPDryBulbTemp.IsElementValueEmpty Then
+            'Calculate and set geopotential 
+            'ucrVFPGeopotentialHeight.SetElementValue(CalculateGeopotential(ppp, dryBulb, stationElevation, gpm))
+            'calculate and set MSL pressure 
+            ucrVFPPressureReduced.SetElementValue(CalculateMSLppp(ppp, dryBulb, stationElevation))
+            'End If
+            'End If
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
     End Sub
 
-    Private Sub UcrVFPDewPointTemp_Leave(sender As Object, e As EventArgs) Handles ucrVFPDewPointTemp.Leave
+    Private Sub UcrVFPDewPointTemp_Leave(sender As Object, e As EventArgs)
         If Not bAutoFillValues Then
             Exit Sub
         End If
 
         Dim dryBulb, dewPoint As Decimal
         'Apply element scale factor to drybulb and wetbulb before calling the function to calculate relative humidty
-        dryBulb = Val(ucrVFPDryBulbTemp.GetElementValue) / 10
-        dewPoint = Val(ucrVFPDewPointTemp.GetElementValue) / 10
-        ucrVFPRelativeHumidity.SetElementValue(CalculateRelativeHumidity(dewPoint, dryBulb))
+        'dryBulb = Val(ucrVFPDryBulbTemp.GetElementValue) / 10
+        'dewPoint = Val(ucrVFPDewPointTemp.GetElementValue) / 10
+        'ucrVFPRelativeHumidity.SetElementValue(CalculateRelativeHumidity(dewPoint, dryBulb))
     End Sub
 
     Private Function calculateDewpoint(ByVal dryBulb As Decimal, ByVal wetBulb As Decimal) As Decimal
@@ -469,19 +469,19 @@ Public Class ucrSynopticRA1
     Protected Overrides Sub ValidateDataEntryPermission()
         Dim bEnabled As Boolean
         'if its an update or any of the linked year,month and day selector is nothing then just enable the control
-        If ucrYearSelector.ValidateValue AndAlso ucrMonthSelector.ValidateValue AndAlso ucrDaySelector.ValidateValue Then
-            Dim todayDate As Date = Date.Now
+        'If ucrYearSelector.ValidateValue AndAlso ucrMonthSelector.ValidateValue AndAlso ucrDaySelector.ValidateValue Then
+        Dim todayDate As Date = Date.Now
             Dim selectedDate As Date
             'initialise the dates with ONLY year month and day values. Neglect the time factor
             todayDate = New Date(todayDate.Year, todayDate.Month, todayDate.Day)
-            selectedDate = New Date(ucrYearSelector.GetValue, ucrMonthSelector.GetValue, ucrDaySelector.GetValue)
+        'selectedDate = New Date(ucrYearSelector.GetValue, ucrMonthSelector.GetValue, ucrDaySelector.GetValue)
 
-            'if selectedDate is earlier than todayDate (<0) enable control
-            'if it is same time (0) or later than (>0) disable control
-            bEnabled = If(Date.Compare(selectedDate, todayDate) < 0, True, False)
-        Else
-            bEnabled = False
-        End If
+        'if selectedDate is earlier than todayDate (<0) enable control
+        'if it is same time (0) or later than (>0) disable control
+        bEnabled = If(Date.Compare(selectedDate, todayDate) < 0, True, False)
+        ' Else
+        bEnabled = False
+        'End If
 
         For Each ctr As Control In Me.Controls
             If TypeOf ctr Is ucrValueView AndAlso Not DirectCast(ctr, ucrValueView).KeyControl Then
@@ -514,14 +514,14 @@ Public Class ucrSynopticRA1
 
         Try
 
-            strTableName = GetTableName()
+            'strTableName = GetTableName()
 
             'Get all the records from the table
-            Using cmdSelect As New MySql.Data.MySqlClient.MySqlCommand("Select * FROM " & GetTableName() & " ORDER BY entryDatetime", clsDataConnection.OpenedConnection)
-                Using da As New MySql.Data.MySqlClient.MySqlDataAdapter(cmdSelect)
-                    da.Fill(dtbAllRecords)
-                End Using
-            End Using
+            'Using cmdSelect As New MySql.Data.MySqlClient.MySqlCommand("Select * FROM " & GetTableName() & " ORDER BY entryDatetime", clsDataConnection.OpenedConnection)
+            'Using da As New MySql.Data.MySqlClient.MySqlDataAdapter(cmdSelect)
+            'da.Fill(dtbAllRecords)
+            'End Using
+            'End Using
 
             'Save the records to observable initial table
             For Each row As DataRow In dtbAllRecords.Rows
@@ -531,20 +531,20 @@ Public Class ucrSynopticRA1
                     Exit For
                 End If
 
-                For Each strFieldName As String In lstFields
-                    'if its not an observation value field then skip the loop
-                    If Not strFieldName.StartsWith(Me.strValueFieldName) Then
-                        Continue For
-                    End If
+                'For Each strFieldName As String In lstFields
+                'if its not an observation value field then skip the loop
+                'If Not strFieldName.StartsWith(Me.strValueFieldName) Then
+                Continue For
+                'End If
 
-                    strElementCode = strFieldName.Substring(Me.strValueFieldName.Length)
-                    strValueColumn = strFieldName
-                    strFlagColumn = lstFields.Find(Function(x As String)
-                                                       Return x.Equals(Me.strFlagFieldName & strElementCode)
-                                                   End Function)
+                'strElementCode = strFieldName.Substring(Me.strValueFieldName.Length)
+                'strValueColumn = strFieldName
+                'strFlagColumn = lstFields.Find(Function(x As String)
+                'Return x.Equals(Me.strFlagFieldName & strElementCode)
+                'End Function)
 
-                    'set the record
-                    If ((Not IsDBNull(row.Item(strValueColumn)) AndAlso Not String.IsNullOrEmpty(row.Item(strValueColumn))) OrElse (Not IsDBNull(row.Item(strFlagColumn)) AndAlso Not String.IsNullOrEmpty(row.Item(strFlagColumn)))) AndAlso Long.TryParse(strElementCode, lElementId) Then
+                'set the record
+                If ((Not IsDBNull(row.Item(strValueColumn)) AndAlso Not String.IsNullOrEmpty(row.Item(strValueColumn))) OrElse (Not IsDBNull(row.Item(strFlagColumn)) AndAlso Not String.IsNullOrEmpty(row.Item(strFlagColumn)))) AndAlso Long.TryParse(strElementCode, lElementId) Then
 
                         strStationId = row.Item("stationId")
 
@@ -569,8 +569,8 @@ Public Class ucrSynopticRA1
                             cmd.Parameters.AddWithValue("@obsDatetime", dtObsDateTime)
                             cmd.Parameters.AddWithValue("@qcStatus", 0)
                             cmd.Parameters.AddWithValue("@acquisitiontype", 1)
-                            cmd.Parameters.AddWithValue("@dataForm", GetTableName)
-                            Using reader As MySql.Data.MySqlClient.MySqlDataReader = cmd.ExecuteReader()
+                        'cmd.Parameters.AddWithValue("@dataForm", GetTableName)
+                        Using reader As MySql.Data.MySqlClient.MySqlDataReader = cmd.ExecuteReader()
                                 bUpdateRecord = reader.HasRows
                             End Using
                         End Using
@@ -600,8 +600,8 @@ Public Class ucrSynopticRA1
                                 cmd.Parameters.AddWithValue("@qcStatus", 0)
                                 cmd.Parameters.AddWithValue("@acquisitiontype", 1)
                                 cmd.Parameters.AddWithValue("@capturedBy", strSignature)
-                                cmd.Parameters.AddWithValue("@dataForm", GetTableName)
-                                cmd.ExecuteNonQuery()
+                            ' cmd.Parameters.AddWithValue("@dataForm", GetTableName)
+                            cmd.ExecuteNonQuery()
                             End Using
                             If bUpdateRecord Then
                                 iUpdatesNum += 1
@@ -624,7 +624,7 @@ Public Class ucrSynopticRA1
                 'Display progress of data transfer
                 pos += 1
                 backgroundWorker.ReportProgress(pos)
-            Next
+            'Next
 
             If Not invalidRecord Then
                 strResult = "All Records have been uploaded sucessfully "

@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class ucrSynopticRA1
-    Inherits ClimsoftVer4.ucrTableEntry
+Partial Class ucrSynopticRA1New
+    Inherits ClimsoftVer4.ucrPage
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()>
@@ -69,87 +69,87 @@ Partial Class ucrSynopticRA1
         Me.Val_Elem400Label = New System.Windows.Forms.Label()
         Me.Val_Elem107Label = New System.Windows.Forms.Label()
         Me.Val_Elem106Label = New System.Windows.Forms.Label()
-        Me.ucrVFPStationLevelPressure = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPHighLvlCloudsType = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPMediumLvlClouds = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPLowLvlCloudsType = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPLowLvlCloudsAmt = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPVerticalSignificance = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPTotalCloudCover = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPLowCloudHght = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPHorizontalVisibilty = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPRelativeHumidity = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPDewPointTemp = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPWetBulbTemp = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPDryBulbTemp = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPGeopotentialHeight = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPStandardPressureLevel = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFP24HrPressureChange = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFP3hrPressureCharacteristic = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFP3hrPressureChange = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPPressureReduced = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudTypeLvlC4 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudHtLvl4HsHs4 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPInsolation = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPWindSpeedfff = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPWindDirectiondd = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPPrecip3Hr = New ClimsoftVer4.ucrValueFlagPeriod()
         Me.ucrVFPPrecip24Hr = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPSss1Hr = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPSss24Hr = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPEvaporation = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPGrassMinTemp = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPTmin = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPTmax = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPPastWx2 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPPastWx1 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPPresentWx = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPVerticalSignificance4 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudAmtLvl4N4 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudHtLvl2H2Hs2 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudTypeLv2C2 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudAmtLvl2N2 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPVerticalSignificance2 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudHtLvl1HsHs1 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudTypeLvl1C1 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudAmtLvl1N1 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPVerticalSignificance1 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudAmtLvl3N3 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudHtLvlHsHs3 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPVerticalSignificant3 = New ClimsoftVer4.ucrValueFlagPeriod()
-        Me.ucrVFPCloudTypeLvl3C3 = New ClimsoftVer4.ucrValueFlagPeriod()
         Me.lblValue = New System.Windows.Forms.Label()
         Me.lblFlag = New System.Windows.Forms.Label()
         Me.lblValueTwo = New System.Windows.Forms.Label()
         Me.lblFlagTwo = New System.Windows.Forms.Label()
         Me.lblValueThree = New System.Windows.Forms.Label()
         Me.lblFlagThree = New System.Windows.Forms.Label()
-        Me.btnCancel = New System.Windows.Forms.Button()
         Me.chkRepeatEntry = New System.Windows.Forms.CheckBox()
         Me.txtSequencer = New System.Windows.Forms.TextBox()
-        Me.btnView = New System.Windows.Forms.Button()
         Me.btnUpload = New System.Windows.Forms.Button()
-        Me.btnHelp = New System.Windows.Forms.Button()
-        Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnSave = New System.Windows.Forms.Button()
-        Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnAddNew = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
-        Me.btnClose = New System.Windows.Forms.Button()
-        Me.ucrNavigation = New ClimsoftVer4.ucrNavigation()
         Me.chkAutoFillValues = New System.Windows.Forms.CheckBox()
-        Me.ucrDaySelector = New ClimsoftVer4.ucrDay()
-        Me.ucrHourSelector = New ClimsoftVer4.ucrHour()
-        Me.ucrMonthSelector = New ClimsoftVer4.ucrMonth()
-        Me.ucrYearSelector = New ClimsoftVer4.ucrYearSelector()
-        Me.ucrStationSelector = New ClimsoftVer4.ucrStationSelector()
         Me.lblStationSelector = New System.Windows.Forms.Label()
         Me.lblDay = New System.Windows.Forms.Label()
         Me.lblMonth = New System.Windows.Forms.Label()
         Me.lblHour = New System.Windows.Forms.Label()
-        Me.btnTDCF = New System.Windows.Forms.Button()
+        Me.ucrStationSelector = New ClimsoftVer4.ucrStationSelectorNew()
+        Me.ucrYearSlector = New ClimsoftVer4.ucrYearSelectorNew()
+        Me.ucrMonthSelector = New ClimsoftVer4.ucrMonthSelectorNew()
+        Me.ucrDaySelector = New ClimsoftVer4.ucrDaySelectorNew()
+        Me.ucrHour = New ClimsoftVer4.ucrHourNew()
+        Me.ucrVFPStationLevelPressure = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPPressureReduced = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFP3hrPressureChange = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFP3hrPressureCharacteristicNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFP24HrPressureChangeNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPStandardPressureLevelNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPGeopotentialHeightNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPDryBulbTempNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPWetBulbTempNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPDewPointTempNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPRelativeHumidityNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPHorizontalVisibiltyNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPLowCloudHghtNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPTotalCloudCoverNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPVerticalSignificanceNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPLowLvlCloudsAmtNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPLowLvlCloudsTypeNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPMediumLvlCloudsNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPHighLvlCloudsTypeNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPVerticalSignificance1New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudAmtLvl1N1New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudTypeLvl1C1New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudHtLvl1HsHs1New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPVerticalSignificance2New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudAmtLvl2N2New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudTypeLv2C2New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudHtLvl2H2Hs2New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPVerticalSignificant3New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudAmtLvl3N3New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudTypeLvl3C3New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudHtLvlHsHs3New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPVerticalSignificance4New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudAmtLvl4N4New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudTypeLvlC4New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPCloudHtLvl4HsHs4New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPPresentWxNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPPastWx1New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPPastWx2New = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPTmaxNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPTminNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPGrassMinTempNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPEvaporationNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPSss24HrNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPSss1HrNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPPrecip24HrNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPPrecip3HrNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPWindDirectionddNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPWindSpeedfffNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrVFPInsolationNew = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.ucrNavigator = New ClimsoftVer4.ucrNavigator()
+        Me.uceBtnAddNew = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnCancel = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnTDCF = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnClose = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnHelp = New ClimsoftVer4.ucrButton()
         lblYear = New System.Windows.Forms.Label()
-        CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblYear
@@ -603,306 +603,6 @@ Partial Class ucrSynopticRA1
         Me.Val_Elem106Label.TabIndex = 820
         Me.Val_Elem106Label.Text = "Station Level Pressure-Po"
         '
-        'ucrVFPStationLevelPressure
-        '
-        Me.ucrVFPStationLevelPressure.FieldName = "106"
-        Me.ucrVFPStationLevelPressure.IncludePeriod = True
-        Me.ucrVFPStationLevelPressure.KeyControl = False
-        Me.ucrVFPStationLevelPressure.Location = New System.Drawing.Point(156, 83)
-        Me.ucrVFPStationLevelPressure.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPStationLevelPressure.Name = "ucrVFPStationLevelPressure"
-        Me.ucrVFPStationLevelPressure.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPStationLevelPressure.TabIndex = 6
-        Me.ucrVFPStationLevelPressure.Tag = "106"
-        '
-        'ucrVFPHighLvlCloudsType
-        '
-        Me.ucrVFPHighLvlCloudsType.FieldName = "171"
-        Me.ucrVFPHighLvlCloudsType.IncludePeriod = True
-        Me.ucrVFPHighLvlCloudsType.KeyControl = False
-        Me.ucrVFPHighLvlCloudsType.Location = New System.Drawing.Point(156, 515)
-        Me.ucrVFPHighLvlCloudsType.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPHighLvlCloudsType.Name = "ucrVFPHighLvlCloudsType"
-        Me.ucrVFPHighLvlCloudsType.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPHighLvlCloudsType.TabIndex = 24
-        Me.ucrVFPHighLvlCloudsType.Tag = "171"
-        '
-        'ucrVFPMediumLvlClouds
-        '
-        Me.ucrVFPMediumLvlClouds.FieldName = "170"
-        Me.ucrVFPMediumLvlClouds.IncludePeriod = True
-        Me.ucrVFPMediumLvlClouds.KeyControl = False
-        Me.ucrVFPMediumLvlClouds.Location = New System.Drawing.Point(156, 491)
-        Me.ucrVFPMediumLvlClouds.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPMediumLvlClouds.Name = "ucrVFPMediumLvlClouds"
-        Me.ucrVFPMediumLvlClouds.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPMediumLvlClouds.TabIndex = 23
-        Me.ucrVFPMediumLvlClouds.Tag = "170"
-        '
-        'ucrVFPLowLvlCloudsType
-        '
-        Me.ucrVFPLowLvlCloudsType.FieldName = "169"
-        Me.ucrVFPLowLvlCloudsType.IncludePeriod = True
-        Me.ucrVFPLowLvlCloudsType.KeyControl = False
-        Me.ucrVFPLowLvlCloudsType.Location = New System.Drawing.Point(156, 467)
-        Me.ucrVFPLowLvlCloudsType.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPLowLvlCloudsType.Name = "ucrVFPLowLvlCloudsType"
-        Me.ucrVFPLowLvlCloudsType.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPLowLvlCloudsType.TabIndex = 22
-        Me.ucrVFPLowLvlCloudsType.Tag = "169"
-        '
-        'ucrVFPLowLvlCloudsAmt
-        '
-        Me.ucrVFPLowLvlCloudsAmt.FieldName = "168"
-        Me.ucrVFPLowLvlCloudsAmt.IncludePeriod = True
-        Me.ucrVFPLowLvlCloudsAmt.KeyControl = False
-        Me.ucrVFPLowLvlCloudsAmt.Location = New System.Drawing.Point(156, 443)
-        Me.ucrVFPLowLvlCloudsAmt.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPLowLvlCloudsAmt.Name = "ucrVFPLowLvlCloudsAmt"
-        Me.ucrVFPLowLvlCloudsAmt.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPLowLvlCloudsAmt.TabIndex = 21
-        Me.ucrVFPLowLvlCloudsAmt.Tag = "168"
-        '
-        'ucrVFPVerticalSignificance
-        '
-        Me.ucrVFPVerticalSignificance.FieldName = "115"
-        Me.ucrVFPVerticalSignificance.IncludePeriod = True
-        Me.ucrVFPVerticalSignificance.KeyControl = False
-        Me.ucrVFPVerticalSignificance.Location = New System.Drawing.Point(156, 419)
-        Me.ucrVFPVerticalSignificance.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPVerticalSignificance.Name = "ucrVFPVerticalSignificance"
-        Me.ucrVFPVerticalSignificance.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPVerticalSignificance.TabIndex = 20
-        Me.ucrVFPVerticalSignificance.Tag = "115"
-        '
-        'ucrVFPTotalCloudCover
-        '
-        Me.ucrVFPTotalCloudCover.FieldName = "114"
-        Me.ucrVFPTotalCloudCover.IncludePeriod = True
-        Me.ucrVFPTotalCloudCover.KeyControl = False
-        Me.ucrVFPTotalCloudCover.Location = New System.Drawing.Point(156, 395)
-        Me.ucrVFPTotalCloudCover.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPTotalCloudCover.Name = "ucrVFPTotalCloudCover"
-        Me.ucrVFPTotalCloudCover.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPTotalCloudCover.TabIndex = 19
-        Me.ucrVFPTotalCloudCover.Tag = "114"
-        '
-        'ucrVFPLowCloudHght
-        '
-        Me.ucrVFPLowCloudHght.FieldName = "192"
-        Me.ucrVFPLowCloudHght.IncludePeriod = True
-        Me.ucrVFPLowCloudHght.KeyControl = False
-        Me.ucrVFPLowCloudHght.Location = New System.Drawing.Point(156, 371)
-        Me.ucrVFPLowCloudHght.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPLowCloudHght.Name = "ucrVFPLowCloudHght"
-        Me.ucrVFPLowCloudHght.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPLowCloudHght.TabIndex = 18
-        Me.ucrVFPLowCloudHght.Tag = "192"
-        '
-        'ucrVFPHorizontalVisibilty
-        '
-        Me.ucrVFPHorizontalVisibilty.FieldName = "110"
-        Me.ucrVFPHorizontalVisibilty.IncludePeriod = True
-        Me.ucrVFPHorizontalVisibilty.KeyControl = False
-        Me.ucrVFPHorizontalVisibilty.Location = New System.Drawing.Point(156, 347)
-        Me.ucrVFPHorizontalVisibilty.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPHorizontalVisibilty.Name = "ucrVFPHorizontalVisibilty"
-        Me.ucrVFPHorizontalVisibilty.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPHorizontalVisibilty.TabIndex = 17
-        Me.ucrVFPHorizontalVisibilty.Tag = "110"
-        '
-        'ucrVFPRelativeHumidity
-        '
-        Me.ucrVFPRelativeHumidity.FieldName = "105"
-        Me.ucrVFPRelativeHumidity.IncludePeriod = True
-        Me.ucrVFPRelativeHumidity.KeyControl = False
-        Me.ucrVFPRelativeHumidity.Location = New System.Drawing.Point(156, 323)
-        Me.ucrVFPRelativeHumidity.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPRelativeHumidity.Name = "ucrVFPRelativeHumidity"
-        Me.ucrVFPRelativeHumidity.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPRelativeHumidity.TabIndex = 16
-        Me.ucrVFPRelativeHumidity.Tag = "105"
-        '
-        'ucrVFPDewPointTemp
-        '
-        Me.ucrVFPDewPointTemp.FieldName = "103"
-        Me.ucrVFPDewPointTemp.IncludePeriod = True
-        Me.ucrVFPDewPointTemp.KeyControl = False
-        Me.ucrVFPDewPointTemp.Location = New System.Drawing.Point(156, 299)
-        Me.ucrVFPDewPointTemp.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPDewPointTemp.Name = "ucrVFPDewPointTemp"
-        Me.ucrVFPDewPointTemp.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPDewPointTemp.TabIndex = 15
-        Me.ucrVFPDewPointTemp.Tag = "103"
-        '
-        'ucrVFPWetBulbTemp
-        '
-        Me.ucrVFPWetBulbTemp.FieldName = "102"
-        Me.ucrVFPWetBulbTemp.IncludePeriod = True
-        Me.ucrVFPWetBulbTemp.KeyControl = False
-        Me.ucrVFPWetBulbTemp.Location = New System.Drawing.Point(156, 275)
-        Me.ucrVFPWetBulbTemp.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPWetBulbTemp.Name = "ucrVFPWetBulbTemp"
-        Me.ucrVFPWetBulbTemp.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPWetBulbTemp.TabIndex = 14
-        Me.ucrVFPWetBulbTemp.Tag = "102"
-        '
-        'ucrVFPDryBulbTemp
-        '
-        Me.ucrVFPDryBulbTemp.FieldName = "101"
-        Me.ucrVFPDryBulbTemp.IncludePeriod = True
-        Me.ucrVFPDryBulbTemp.KeyControl = False
-        Me.ucrVFPDryBulbTemp.Location = New System.Drawing.Point(156, 251)
-        Me.ucrVFPDryBulbTemp.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPDryBulbTemp.Name = "ucrVFPDryBulbTemp"
-        Me.ucrVFPDryBulbTemp.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPDryBulbTemp.TabIndex = 13
-        Me.ucrVFPDryBulbTemp.Tag = "101"
-        '
-        'ucrVFPGeopotentialHeight
-        '
-        Me.ucrVFPGeopotentialHeight.FieldName = "185"
-        Me.ucrVFPGeopotentialHeight.IncludePeriod = True
-        Me.ucrVFPGeopotentialHeight.KeyControl = False
-        Me.ucrVFPGeopotentialHeight.Location = New System.Drawing.Point(156, 227)
-        Me.ucrVFPGeopotentialHeight.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPGeopotentialHeight.Name = "ucrVFPGeopotentialHeight"
-        Me.ucrVFPGeopotentialHeight.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPGeopotentialHeight.TabIndex = 12
-        Me.ucrVFPGeopotentialHeight.Tag = "185"
-        '
-        'ucrVFPStandardPressureLevel
-        '
-        Me.ucrVFPStandardPressureLevel.FieldName = "301"
-        Me.ucrVFPStandardPressureLevel.IncludePeriod = True
-        Me.ucrVFPStandardPressureLevel.KeyControl = False
-        Me.ucrVFPStandardPressureLevel.Location = New System.Drawing.Point(156, 203)
-        Me.ucrVFPStandardPressureLevel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPStandardPressureLevel.Name = "ucrVFPStandardPressureLevel"
-        Me.ucrVFPStandardPressureLevel.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPStandardPressureLevel.TabIndex = 11
-        Me.ucrVFPStandardPressureLevel.Tag = "301"
-        '
-        'ucrVFP24HrPressureChange
-        '
-        Me.ucrVFP24HrPressureChange.FieldName = "399"
-        Me.ucrVFP24HrPressureChange.IncludePeriod = True
-        Me.ucrVFP24HrPressureChange.KeyControl = False
-        Me.ucrVFP24HrPressureChange.Location = New System.Drawing.Point(156, 179)
-        Me.ucrVFP24HrPressureChange.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFP24HrPressureChange.Name = "ucrVFP24HrPressureChange"
-        Me.ucrVFP24HrPressureChange.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFP24HrPressureChange.TabIndex = 10
-        Me.ucrVFP24HrPressureChange.Tag = "399"
-        '
-        'ucrVFP3hrPressureCharacteristic
-        '
-        Me.ucrVFP3hrPressureCharacteristic.FieldName = "814"
-        Me.ucrVFP3hrPressureCharacteristic.IncludePeriod = True
-        Me.ucrVFP3hrPressureCharacteristic.KeyControl = False
-        Me.ucrVFP3hrPressureCharacteristic.Location = New System.Drawing.Point(156, 155)
-        Me.ucrVFP3hrPressureCharacteristic.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFP3hrPressureCharacteristic.Name = "ucrVFP3hrPressureCharacteristic"
-        Me.ucrVFP3hrPressureCharacteristic.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFP3hrPressureCharacteristic.TabIndex = 9
-        Me.ucrVFP3hrPressureCharacteristic.Tag = "814"
-        '
-        'ucrVFP3hrPressureChange
-        '
-        Me.ucrVFP3hrPressureChange.FieldName = "400"
-        Me.ucrVFP3hrPressureChange.IncludePeriod = True
-        Me.ucrVFP3hrPressureChange.KeyControl = False
-        Me.ucrVFP3hrPressureChange.Location = New System.Drawing.Point(156, 131)
-        Me.ucrVFP3hrPressureChange.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFP3hrPressureChange.Name = "ucrVFP3hrPressureChange"
-        Me.ucrVFP3hrPressureChange.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFP3hrPressureChange.TabIndex = 8
-        Me.ucrVFP3hrPressureChange.Tag = "400"
-        '
-        'ucrVFPPressureReduced
-        '
-        Me.ucrVFPPressureReduced.FieldName = "107"
-        Me.ucrVFPPressureReduced.IncludePeriod = True
-        Me.ucrVFPPressureReduced.KeyControl = False
-        Me.ucrVFPPressureReduced.Location = New System.Drawing.Point(156, 107)
-        Me.ucrVFPPressureReduced.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPPressureReduced.Name = "ucrVFPPressureReduced"
-        Me.ucrVFPPressureReduced.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPPressureReduced.TabIndex = 7
-        Me.ucrVFPPressureReduced.Tag = "107"
-        '
-        'ucrVFPCloudTypeLvlC4
-        '
-        Me.ucrVFPCloudTypeLvlC4.FieldName = "129"
-        Me.ucrVFPCloudTypeLvlC4.IncludePeriod = True
-        Me.ucrVFPCloudTypeLvlC4.KeyControl = False
-        Me.ucrVFPCloudTypeLvlC4.Location = New System.Drawing.Point(445, 419)
-        Me.ucrVFPCloudTypeLvlC4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudTypeLvlC4.Name = "ucrVFPCloudTypeLvlC4"
-        Me.ucrVFPCloudTypeLvlC4.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudTypeLvlC4.TabIndex = 39
-        Me.ucrVFPCloudTypeLvlC4.Tag = "129"
-        '
-        'ucrVFPCloudHtLvl4HsHs4
-        '
-        Me.ucrVFPCloudHtLvl4HsHs4.FieldName = "130"
-        Me.ucrVFPCloudHtLvl4HsHs4.IncludePeriod = True
-        Me.ucrVFPCloudHtLvl4HsHs4.KeyControl = False
-        Me.ucrVFPCloudHtLvl4HsHs4.Location = New System.Drawing.Point(445, 443)
-        Me.ucrVFPCloudHtLvl4HsHs4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudHtLvl4HsHs4.Name = "ucrVFPCloudHtLvl4HsHs4"
-        Me.ucrVFPCloudHtLvl4HsHs4.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudHtLvl4HsHs4.TabIndex = 40
-        Me.ucrVFPCloudHtLvl4HsHs4.Tag = "130"
-        '
-        'ucrVFPInsolation
-        '
-        Me.ucrVFPInsolation.FieldName = "046"
-        Me.ucrVFPInsolation.IncludePeriod = True
-        Me.ucrVFPInsolation.KeyControl = False
-        Me.ucrVFPInsolation.Location = New System.Drawing.Point(705, 395)
-        Me.ucrVFPInsolation.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPInsolation.Name = "ucrVFPInsolation"
-        Me.ucrVFPInsolation.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPInsolation.TabIndex = 54
-        Me.ucrVFPInsolation.Tag = "046"
-        '
-        'ucrVFPWindSpeedfff
-        '
-        Me.ucrVFPWindSpeedfff.FieldName = "111"
-        Me.ucrVFPWindSpeedfff.IncludePeriod = True
-        Me.ucrVFPWindSpeedfff.KeyControl = False
-        Me.ucrVFPWindSpeedfff.Location = New System.Drawing.Point(705, 371)
-        Me.ucrVFPWindSpeedfff.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPWindSpeedfff.Name = "ucrVFPWindSpeedfff"
-        Me.ucrVFPWindSpeedfff.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPWindSpeedfff.TabIndex = 53
-        Me.ucrVFPWindSpeedfff.Tag = "111"
-        '
-        'ucrVFPWindDirectiondd
-        '
-        Me.ucrVFPWindDirectiondd.FieldName = "112"
-        Me.ucrVFPWindDirectiondd.IncludePeriod = True
-        Me.ucrVFPWindDirectiondd.KeyControl = False
-        Me.ucrVFPWindDirectiondd.Location = New System.Drawing.Point(705, 347)
-        Me.ucrVFPWindDirectiondd.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPWindDirectiondd.Name = "ucrVFPWindDirectiondd"
-        Me.ucrVFPWindDirectiondd.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPWindDirectiondd.TabIndex = 52
-        Me.ucrVFPWindDirectiondd.Tag = "112"
-        '
-        'ucrVFPPrecip3Hr
-        '
-        Me.ucrVFPPrecip3Hr.FieldName = "174"
-        Me.ucrVFPPrecip3Hr.IncludePeriod = True
-        Me.ucrVFPPrecip3Hr.KeyControl = False
-        Me.ucrVFPPrecip3Hr.Location = New System.Drawing.Point(705, 323)
-        Me.ucrVFPPrecip3Hr.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPPrecip3Hr.Name = "ucrVFPPrecip3Hr"
-        Me.ucrVFPPrecip3Hr.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPPrecip3Hr.TabIndex = 51
-        Me.ucrVFPPrecip3Hr.Tag = "174"
-        '
         'ucrVFPPrecip24Hr
         '
         Me.ucrVFPPrecip24Hr.FieldName = "005"
@@ -914,282 +614,6 @@ Partial Class ucrSynopticRA1
         Me.ucrVFPPrecip24Hr.Size = New System.Drawing.Size(165, 23)
         Me.ucrVFPPrecip24Hr.TabIndex = 50
         Me.ucrVFPPrecip24Hr.Tag = "005"
-        '
-        'ucrVFPSss1Hr
-        '
-        Me.ucrVFPSss1Hr.FieldName = "132"
-        Me.ucrVFPSss1Hr.IncludePeriod = True
-        Me.ucrVFPSss1Hr.KeyControl = False
-        Me.ucrVFPSss1Hr.Location = New System.Drawing.Point(705, 275)
-        Me.ucrVFPSss1Hr.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPSss1Hr.Name = "ucrVFPSss1Hr"
-        Me.ucrVFPSss1Hr.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPSss1Hr.TabIndex = 49
-        Me.ucrVFPSss1Hr.Tag = "132"
-        '
-        'ucrVFPSss24Hr
-        '
-        Me.ucrVFPSss24Hr.FieldName = "084"
-        Me.ucrVFPSss24Hr.IncludePeriod = True
-        Me.ucrVFPSss24Hr.KeyControl = False
-        Me.ucrVFPSss24Hr.Location = New System.Drawing.Point(705, 251)
-        Me.ucrVFPSss24Hr.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPSss24Hr.Name = "ucrVFPSss24Hr"
-        Me.ucrVFPSss24Hr.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPSss24Hr.TabIndex = 48
-        Me.ucrVFPSss24Hr.Tag = "084"
-        '
-        'ucrVFPEvaporation
-        '
-        Me.ucrVFPEvaporation.FieldName = "018"
-        Me.ucrVFPEvaporation.IncludePeriod = True
-        Me.ucrVFPEvaporation.KeyControl = False
-        Me.ucrVFPEvaporation.Location = New System.Drawing.Point(705, 227)
-        Me.ucrVFPEvaporation.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPEvaporation.Name = "ucrVFPEvaporation"
-        Me.ucrVFPEvaporation.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPEvaporation.TabIndex = 47
-        Me.ucrVFPEvaporation.Tag = "018"
-        '
-        'ucrVFPGrassMinTemp
-        '
-        Me.ucrVFPGrassMinTemp.FieldName = "099"
-        Me.ucrVFPGrassMinTemp.IncludePeriod = True
-        Me.ucrVFPGrassMinTemp.KeyControl = False
-        Me.ucrVFPGrassMinTemp.Location = New System.Drawing.Point(705, 204)
-        Me.ucrVFPGrassMinTemp.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPGrassMinTemp.Name = "ucrVFPGrassMinTemp"
-        Me.ucrVFPGrassMinTemp.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPGrassMinTemp.TabIndex = 46
-        Me.ucrVFPGrassMinTemp.Tag = "099"
-        '
-        'ucrVFPTmin
-        '
-        Me.ucrVFPTmin.FieldName = "003"
-        Me.ucrVFPTmin.IncludePeriod = True
-        Me.ucrVFPTmin.KeyControl = False
-        Me.ucrVFPTmin.Location = New System.Drawing.Point(705, 179)
-        Me.ucrVFPTmin.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPTmin.Name = "ucrVFPTmin"
-        Me.ucrVFPTmin.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPTmin.TabIndex = 45
-        Me.ucrVFPTmin.Tag = "003"
-        '
-        'ucrVFPTmax
-        '
-        Me.ucrVFPTmax.FieldName = "002"
-        Me.ucrVFPTmax.IncludePeriod = True
-        Me.ucrVFPTmax.KeyControl = False
-        Me.ucrVFPTmax.Location = New System.Drawing.Point(705, 155)
-        Me.ucrVFPTmax.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPTmax.Name = "ucrVFPTmax"
-        Me.ucrVFPTmax.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPTmax.TabIndex = 44
-        Me.ucrVFPTmax.Tag = "002"
-        '
-        'ucrVFPPastWx2
-        '
-        Me.ucrVFPPastWx2.FieldName = "193"
-        Me.ucrVFPPastWx2.IncludePeriod = True
-        Me.ucrVFPPastWx2.KeyControl = False
-        Me.ucrVFPPastWx2.Location = New System.Drawing.Point(705, 131)
-        Me.ucrVFPPastWx2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPPastWx2.Name = "ucrVFPPastWx2"
-        Me.ucrVFPPastWx2.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPPastWx2.TabIndex = 43
-        Me.ucrVFPPastWx2.Tag = "193"
-        '
-        'ucrVFPPastWx1
-        '
-        Me.ucrVFPPastWx1.FieldName = "197"
-        Me.ucrVFPPastWx1.IncludePeriod = True
-        Me.ucrVFPPastWx1.KeyControl = False
-        Me.ucrVFPPastWx1.Location = New System.Drawing.Point(705, 107)
-        Me.ucrVFPPastWx1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPPastWx1.Name = "ucrVFPPastWx1"
-        Me.ucrVFPPastWx1.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPPastWx1.TabIndex = 42
-        Me.ucrVFPPastWx1.Tag = "197"
-        '
-        'ucrVFPPresentWx
-        '
-        Me.ucrVFPPresentWx.FieldName = "167"
-        Me.ucrVFPPresentWx.IncludePeriod = True
-        Me.ucrVFPPresentWx.KeyControl = False
-        Me.ucrVFPPresentWx.Location = New System.Drawing.Point(705, 83)
-        Me.ucrVFPPresentWx.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPPresentWx.Name = "ucrVFPPresentWx"
-        Me.ucrVFPPresentWx.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPPresentWx.TabIndex = 41
-        Me.ucrVFPPresentWx.Tag = "167"
-        '
-        'ucrVFPVerticalSignificance4
-        '
-        Me.ucrVFPVerticalSignificance4.FieldName = "131"
-        Me.ucrVFPVerticalSignificance4.IncludePeriod = True
-        Me.ucrVFPVerticalSignificance4.KeyControl = False
-        Me.ucrVFPVerticalSignificance4.Location = New System.Drawing.Point(445, 371)
-        Me.ucrVFPVerticalSignificance4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPVerticalSignificance4.Name = "ucrVFPVerticalSignificance4"
-        Me.ucrVFPVerticalSignificance4.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPVerticalSignificance4.TabIndex = 37
-        Me.ucrVFPVerticalSignificance4.Tag = "131"
-        '
-        'ucrVFPCloudAmtLvl4N4
-        '
-        Me.ucrVFPCloudAmtLvl4N4.FieldName = "128"
-        Me.ucrVFPCloudAmtLvl4N4.IncludePeriod = True
-        Me.ucrVFPCloudAmtLvl4N4.KeyControl = False
-        Me.ucrVFPCloudAmtLvl4N4.Location = New System.Drawing.Point(445, 395)
-        Me.ucrVFPCloudAmtLvl4N4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudAmtLvl4N4.Name = "ucrVFPCloudAmtLvl4N4"
-        Me.ucrVFPCloudAmtLvl4N4.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudAmtLvl4N4.TabIndex = 38
-        Me.ucrVFPCloudAmtLvl4N4.Tag = "128"
-        '
-        'ucrVFPCloudHtLvl2H2Hs2
-        '
-        Me.ucrVFPCloudHtLvl2H2Hs2.FieldName = "122"
-        Me.ucrVFPCloudHtLvl2H2Hs2.IncludePeriod = True
-        Me.ucrVFPCloudHtLvl2H2Hs2.KeyControl = False
-        Me.ucrVFPCloudHtLvl2H2Hs2.Location = New System.Drawing.Point(445, 251)
-        Me.ucrVFPCloudHtLvl2H2Hs2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudHtLvl2H2Hs2.Name = "ucrVFPCloudHtLvl2H2Hs2"
-        Me.ucrVFPCloudHtLvl2H2Hs2.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudHtLvl2H2Hs2.TabIndex = 32
-        Me.ucrVFPCloudHtLvl2H2Hs2.Tag = "122"
-        '
-        'ucrVFPCloudTypeLv2C2
-        '
-        Me.ucrVFPCloudTypeLv2C2.FieldName = "121"
-        Me.ucrVFPCloudTypeLv2C2.IncludePeriod = True
-        Me.ucrVFPCloudTypeLv2C2.KeyControl = False
-        Me.ucrVFPCloudTypeLv2C2.Location = New System.Drawing.Point(445, 227)
-        Me.ucrVFPCloudTypeLv2C2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudTypeLv2C2.Name = "ucrVFPCloudTypeLv2C2"
-        Me.ucrVFPCloudTypeLv2C2.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudTypeLv2C2.TabIndex = 31
-        Me.ucrVFPCloudTypeLv2C2.Tag = "121"
-        '
-        'ucrVFPCloudAmtLvl2N2
-        '
-        Me.ucrVFPCloudAmtLvl2N2.FieldName = "120"
-        Me.ucrVFPCloudAmtLvl2N2.IncludePeriod = True
-        Me.ucrVFPCloudAmtLvl2N2.KeyControl = False
-        Me.ucrVFPCloudAmtLvl2N2.Location = New System.Drawing.Point(445, 203)
-        Me.ucrVFPCloudAmtLvl2N2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudAmtLvl2N2.Name = "ucrVFPCloudAmtLvl2N2"
-        Me.ucrVFPCloudAmtLvl2N2.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudAmtLvl2N2.TabIndex = 30
-        Me.ucrVFPCloudAmtLvl2N2.Tag = "120"
-        '
-        'ucrVFPVerticalSignificance2
-        '
-        Me.ucrVFPVerticalSignificance2.FieldName = "123"
-        Me.ucrVFPVerticalSignificance2.IncludePeriod = True
-        Me.ucrVFPVerticalSignificance2.KeyControl = False
-        Me.ucrVFPVerticalSignificance2.Location = New System.Drawing.Point(445, 179)
-        Me.ucrVFPVerticalSignificance2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPVerticalSignificance2.Name = "ucrVFPVerticalSignificance2"
-        Me.ucrVFPVerticalSignificance2.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPVerticalSignificance2.TabIndex = 29
-        Me.ucrVFPVerticalSignificance2.Tag = "123"
-        '
-        'ucrVFPCloudHtLvl1HsHs1
-        '
-        Me.ucrVFPCloudHtLvl1HsHs1.FieldName = "118"
-        Me.ucrVFPCloudHtLvl1HsHs1.IncludePeriod = True
-        Me.ucrVFPCloudHtLvl1HsHs1.KeyControl = False
-        Me.ucrVFPCloudHtLvl1HsHs1.Location = New System.Drawing.Point(445, 155)
-        Me.ucrVFPCloudHtLvl1HsHs1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudHtLvl1HsHs1.Name = "ucrVFPCloudHtLvl1HsHs1"
-        Me.ucrVFPCloudHtLvl1HsHs1.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudHtLvl1HsHs1.TabIndex = 28
-        Me.ucrVFPCloudHtLvl1HsHs1.Tag = "118"
-        '
-        'ucrVFPCloudTypeLvl1C1
-        '
-        Me.ucrVFPCloudTypeLvl1C1.FieldName = "117"
-        Me.ucrVFPCloudTypeLvl1C1.IncludePeriod = True
-        Me.ucrVFPCloudTypeLvl1C1.KeyControl = False
-        Me.ucrVFPCloudTypeLvl1C1.Location = New System.Drawing.Point(445, 131)
-        Me.ucrVFPCloudTypeLvl1C1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudTypeLvl1C1.Name = "ucrVFPCloudTypeLvl1C1"
-        Me.ucrVFPCloudTypeLvl1C1.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudTypeLvl1C1.TabIndex = 27
-        Me.ucrVFPCloudTypeLvl1C1.Tag = "117"
-        '
-        'ucrVFPCloudAmtLvl1N1
-        '
-        Me.ucrVFPCloudAmtLvl1N1.FieldName = "116"
-        Me.ucrVFPCloudAmtLvl1N1.IncludePeriod = True
-        Me.ucrVFPCloudAmtLvl1N1.KeyControl = False
-        Me.ucrVFPCloudAmtLvl1N1.Location = New System.Drawing.Point(445, 107)
-        Me.ucrVFPCloudAmtLvl1N1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudAmtLvl1N1.Name = "ucrVFPCloudAmtLvl1N1"
-        Me.ucrVFPCloudAmtLvl1N1.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudAmtLvl1N1.TabIndex = 26
-        Me.ucrVFPCloudAmtLvl1N1.Tag = "116"
-        '
-        'ucrVFPVerticalSignificance1
-        '
-        Me.ucrVFPVerticalSignificance1.FieldName = "119"
-        Me.ucrVFPVerticalSignificance1.IncludePeriod = True
-        Me.ucrVFPVerticalSignificance1.KeyControl = False
-        Me.ucrVFPVerticalSignificance1.Location = New System.Drawing.Point(445, 83)
-        Me.ucrVFPVerticalSignificance1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPVerticalSignificance1.Name = "ucrVFPVerticalSignificance1"
-        Me.ucrVFPVerticalSignificance1.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPVerticalSignificance1.TabIndex = 25
-        Me.ucrVFPVerticalSignificance1.Tag = "119"
-        '
-        'ucrVFPCloudAmtLvl3N3
-        '
-        Me.ucrVFPCloudAmtLvl3N3.FieldName = "124"
-        Me.ucrVFPCloudAmtLvl3N3.IncludePeriod = True
-        Me.ucrVFPCloudAmtLvl3N3.KeyControl = False
-        Me.ucrVFPCloudAmtLvl3N3.Location = New System.Drawing.Point(445, 299)
-        Me.ucrVFPCloudAmtLvl3N3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudAmtLvl3N3.Name = "ucrVFPCloudAmtLvl3N3"
-        Me.ucrVFPCloudAmtLvl3N3.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudAmtLvl3N3.TabIndex = 34
-        Me.ucrVFPCloudAmtLvl3N3.Tag = "124"
-        '
-        'ucrVFPCloudHtLvlHsHs3
-        '
-        Me.ucrVFPCloudHtLvlHsHs3.FieldName = "126"
-        Me.ucrVFPCloudHtLvlHsHs3.IncludePeriod = True
-        Me.ucrVFPCloudHtLvlHsHs3.KeyControl = False
-        Me.ucrVFPCloudHtLvlHsHs3.Location = New System.Drawing.Point(445, 347)
-        Me.ucrVFPCloudHtLvlHsHs3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudHtLvlHsHs3.Name = "ucrVFPCloudHtLvlHsHs3"
-        Me.ucrVFPCloudHtLvlHsHs3.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudHtLvlHsHs3.TabIndex = 36
-        Me.ucrVFPCloudHtLvlHsHs3.Tag = "126"
-        '
-        'ucrVFPVerticalSignificant3
-        '
-        Me.ucrVFPVerticalSignificant3.FieldName = "127"
-        Me.ucrVFPVerticalSignificant3.IncludePeriod = True
-        Me.ucrVFPVerticalSignificant3.KeyControl = False
-        Me.ucrVFPVerticalSignificant3.Location = New System.Drawing.Point(445, 274)
-        Me.ucrVFPVerticalSignificant3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPVerticalSignificant3.Name = "ucrVFPVerticalSignificant3"
-        Me.ucrVFPVerticalSignificant3.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPVerticalSignificant3.TabIndex = 33
-        Me.ucrVFPVerticalSignificant3.Tag = "127"
-        '
-        'ucrVFPCloudTypeLvl3C3
-        '
-        Me.ucrVFPCloudTypeLvl3C3.FieldName = "125"
-        Me.ucrVFPCloudTypeLvl3C3.IncludePeriod = True
-        Me.ucrVFPCloudTypeLvl3C3.KeyControl = False
-        Me.ucrVFPCloudTypeLvl3C3.Location = New System.Drawing.Point(445, 323)
-        Me.ucrVFPCloudTypeLvl3C3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrVFPCloudTypeLvl3C3.Name = "ucrVFPCloudTypeLvl3C3"
-        Me.ucrVFPCloudTypeLvl3C3.Size = New System.Drawing.Size(165, 23)
-        Me.ucrVFPCloudTypeLvl3C3.TabIndex = 35
-        Me.ucrVFPCloudTypeLvl3C3.Tag = "125"
         '
         'lblValue
         '
@@ -1245,16 +669,6 @@ Partial Class ucrSynopticRA1
         Me.lblFlagThree.TabIndex = 827
         Me.lblFlagThree.Text = "Flag"
         '
-        'btnCancel
-        '
-        Me.btnCancel.Location = New System.Drawing.Point(461, 589)
-        Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(60, 23)
-        Me.btnCancel.TabIndex = 59
-        Me.btnCancel.Tag = "cancel"
-        Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
-        '
         'chkRepeatEntry
         '
         Me.chkRepeatEntry.AutoSize = True
@@ -1275,16 +689,6 @@ Partial Class ucrSynopticRA1
         Me.txtSequencer.TabIndex = 840
         Me.txtSequencer.Text = "seq_month_day_synoptime"
         '
-        'btnView
-        '
-        Me.btnView.Location = New System.Drawing.Point(529, 589)
-        Me.btnView.Name = "btnView"
-        Me.btnView.Size = New System.Drawing.Size(60, 23)
-        Me.btnView.TabIndex = 61
-        Me.btnView.Tag = ""
-        Me.btnView.Text = "View"
-        Me.btnView.UseVisualStyleBackColor = True
-        '
         'btnUpload
         '
         Me.btnUpload.BackColor = System.Drawing.Color.Lime
@@ -1294,84 +698,6 @@ Partial Class ucrSynopticRA1
         Me.btnUpload.TabIndex = 65
         Me.btnUpload.Text = "Upload"
         Me.btnUpload.UseVisualStyleBackColor = False
-        '
-        'btnHelp
-        '
-        Me.btnHelp.Location = New System.Drawing.Point(733, 589)
-        Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(60, 23)
-        Me.btnHelp.TabIndex = 64
-        Me.btnHelp.Tag = ""
-        Me.btnHelp.Text = "Help"
-        Me.btnHelp.UseVisualStyleBackColor = True
-        '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(392, 589)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(60, 23)
-        Me.btnClear.TabIndex = 58
-        Me.btnClear.Tag = "clear"
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
-        '
-        'btnSave
-        '
-        Me.btnSave.Location = New System.Drawing.Point(189, 589)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(60, 23)
-        Me.btnSave.TabIndex = 55
-        Me.btnSave.Tag = "save"
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = True
-        '
-        'btnDelete
-        '
-        Me.btnDelete.Location = New System.Drawing.Point(323, 589)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(60, 23)
-        Me.btnDelete.TabIndex = 57
-        Me.btnDelete.Tag = "delete"
-        Me.btnDelete.Text = "Delete"
-        Me.btnDelete.UseVisualStyleBackColor = True
-        '
-        'btnAddNew
-        '
-        Me.btnAddNew.Location = New System.Drawing.Point(123, 589)
-        Me.btnAddNew.Name = "btnAddNew"
-        Me.btnAddNew.Size = New System.Drawing.Size(60, 23)
-        Me.btnAddNew.TabIndex = 60
-        Me.btnAddNew.Tag = "add"
-        Me.btnAddNew.Text = "Add New"
-        Me.btnAddNew.UseVisualStyleBackColor = True
-        '
-        'btnUpdate
-        '
-        Me.btnUpdate.Location = New System.Drawing.Point(256, 589)
-        Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(60, 23)
-        Me.btnUpdate.TabIndex = 56
-        Me.btnUpdate.Tag = "update"
-        Me.btnUpdate.Text = "Update"
-        Me.btnUpdate.UseVisualStyleBackColor = True
-        '
-        'btnClose
-        '
-        Me.btnClose.Location = New System.Drawing.Point(666, 589)
-        Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(60, 23)
-        Me.btnClose.TabIndex = 63
-        Me.btnClose.Tag = "close"
-        Me.btnClose.Text = "Close"
-        Me.btnClose.UseVisualStyleBackColor = True
-        '
-        'ucrNavigation
-        '
-        Me.ucrNavigation.Location = New System.Drawing.Point(241, 556)
-        Me.ucrNavigation.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ucrNavigation.Name = "ucrNavigation"
-        Me.ucrNavigation.Size = New System.Drawing.Size(336, 25)
-        Me.ucrNavigation.TabIndex = 839
         '
         'chkAutoFillValues
         '
@@ -1385,61 +711,6 @@ Partial Class ucrSynopticRA1
         Me.chkAutoFillValues.TabIndex = 850
         Me.chkAutoFillValues.Text = "Auto Fill Values"
         Me.chkAutoFillValues.UseVisualStyleBackColor = True
-        '
-        'ucrDaySelector
-        '
-        Me.ucrDaySelector.FieldName = "dd"
-        Me.ucrDaySelector.KeyControl = True
-        Me.ucrDaySelector.Location = New System.Drawing.Point(470, 31)
-        Me.ucrDaySelector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
-        Me.ucrDaySelector.Name = "ucrDaySelector"
-        Me.ucrDaySelector.Size = New System.Drawing.Size(51, 24)
-        Me.ucrDaySelector.TabIndex = 4
-        Me.ucrDaySelector.Tag = "dd"
-        '
-        'ucrHourSelector
-        '
-        Me.ucrHourSelector.FieldName = "hh"
-        Me.ucrHourSelector.KeyControl = True
-        Me.ucrHourSelector.Location = New System.Drawing.Point(551, 31)
-        Me.ucrHourSelector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
-        Me.ucrHourSelector.Name = "ucrHourSelector"
-        Me.ucrHourSelector.Size = New System.Drawing.Size(59, 24)
-        Me.ucrHourSelector.TabIndex = 5
-        Me.ucrHourSelector.Tag = "hh"
-        '
-        'ucrMonthSelector
-        '
-        Me.ucrMonthSelector.FieldName = "mm"
-        Me.ucrMonthSelector.KeyControl = True
-        Me.ucrMonthSelector.Location = New System.Drawing.Point(337, 31)
-        Me.ucrMonthSelector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
-        Me.ucrMonthSelector.Name = "ucrMonthSelector"
-        Me.ucrMonthSelector.Size = New System.Drawing.Size(100, 24)
-        Me.ucrMonthSelector.TabIndex = 3
-        Me.ucrMonthSelector.Tag = "mm"
-        '
-        'ucrYearSelector
-        '
-        Me.ucrYearSelector.FieldName = "yyyy"
-        Me.ucrYearSelector.KeyControl = True
-        Me.ucrYearSelector.Location = New System.Drawing.Point(247, 31)
-        Me.ucrYearSelector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
-        Me.ucrYearSelector.Name = "ucrYearSelector"
-        Me.ucrYearSelector.Size = New System.Drawing.Size(69, 24)
-        Me.ucrYearSelector.TabIndex = 2
-        Me.ucrYearSelector.Tag = "yyyy"
-        '
-        'ucrStationSelector
-        '
-        Me.ucrStationSelector.FieldName = "stationId"
-        Me.ucrStationSelector.KeyControl = True
-        Me.ucrStationSelector.Location = New System.Drawing.Point(31, 31)
-        Me.ucrStationSelector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
-        Me.ucrStationSelector.Name = "ucrStationSelector"
-        Me.ucrStationSelector.Size = New System.Drawing.Size(184, 24)
-        Me.ucrStationSelector.TabIndex = 1
-        Me.ucrStationSelector.Tag = "stationId"
         '
         'lblStationSelector
         '
@@ -1477,99 +748,770 @@ Partial Class ucrSynopticRA1
         Me.lblHour.TabIndex = 851
         Me.lblHour.Text = "Hour:"
         '
-        'btnTDCF
+        'ucrStationSelector
         '
-        Me.btnTDCF.Location = New System.Drawing.Point(598, 589)
-        Me.btnTDCF.Name = "btnTDCF"
-        Me.btnTDCF.Size = New System.Drawing.Size(60, 23)
-        Me.btnTDCF.TabIndex = 62
-        Me.btnTDCF.Tag = ""
-        Me.btnTDCF.Text = "TDCF"
-        Me.btnTDCF.UseVisualStyleBackColor = True
+        Me.ucrStationSelector.FieldName = "stationId"
+        Me.ucrStationSelector.Location = New System.Drawing.Point(31, 31)
+        Me.ucrStationSelector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
+        Me.ucrStationSelector.Name = "ucrStationSelector"
+        Me.ucrStationSelector.Size = New System.Drawing.Size(184, 24)
+        Me.ucrStationSelector.TabIndex = 852
+        Me.ucrStationSelector.Tag = "stationId"
         '
-        'ucrSynopticRA1
+        'ucrYearSlector
+        '
+        Me.ucrYearSlector.FieldName = "yyyy"
+        Me.ucrYearSlector.Location = New System.Drawing.Point(247, 31)
+        Me.ucrYearSlector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
+        Me.ucrYearSlector.Name = "ucrYearSlector"
+        Me.ucrYearSlector.Size = New System.Drawing.Size(69, 24)
+        Me.ucrYearSlector.TabIndex = 853
+        Me.ucrYearSlector.Tag = "yyyy"
+        '
+        'ucrMonthSelector
+        '
+        Me.ucrMonthSelector.FieldName = "mm"
+        Me.ucrMonthSelector.Location = New System.Drawing.Point(337, 31)
+        Me.ucrMonthSelector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
+        Me.ucrMonthSelector.Name = "ucrMonthSelector"
+        Me.ucrMonthSelector.Size = New System.Drawing.Size(100, 24)
+        Me.ucrMonthSelector.TabIndex = 854
+        Me.ucrMonthSelector.Tag = "mm"
+        '
+        'ucrDaySelector
+        '
+        Me.ucrDaySelector.FieldName = "dd"
+        Me.ucrDaySelector.Location = New System.Drawing.Point(470, 31)
+        Me.ucrDaySelector.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
+        Me.ucrDaySelector.Name = "ucrDaySelector"
+        Me.ucrDaySelector.Size = New System.Drawing.Size(51, 24)
+        Me.ucrDaySelector.TabIndex = 855
+        Me.ucrDaySelector.Tag = "dd"
+        '
+        'ucrHour
+        '
+        Me.ucrHour.FieldName = "hh"
+        Me.ucrHour.Location = New System.Drawing.Point(551, 31)
+        Me.ucrHour.Margin = New System.Windows.Forms.Padding(9, 12, 9, 12)
+        Me.ucrHour.Name = "ucrHour"
+        Me.ucrHour.Size = New System.Drawing.Size(59, 24)
+        Me.ucrHour.TabIndex = 856
+        Me.ucrHour.Tag = "hh"
+        '
+        'ucrVFPStationLevelPressure
+        '
+        Me.ucrVFPStationLevelPressure.FieldName = Nothing
+        Me.ucrVFPStationLevelPressure.IncludePeriod = True
+        Me.ucrVFPStationLevelPressure.Location = New System.Drawing.Point(156, 83)
+        Me.ucrVFPStationLevelPressure.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPStationLevelPressure.Name = "ucrVFPStationLevelPressure"
+        Me.ucrVFPStationLevelPressure.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPStationLevelPressure.TabIndex = 857
+        '
+        'ucrVFPPressureReduced
+        '
+        Me.ucrVFPPressureReduced.FieldName = Nothing
+        Me.ucrVFPPressureReduced.IncludePeriod = True
+        Me.ucrVFPPressureReduced.Location = New System.Drawing.Point(156, 107)
+        Me.ucrVFPPressureReduced.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPPressureReduced.Name = "ucrVFPPressureReduced"
+        Me.ucrVFPPressureReduced.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPPressureReduced.TabIndex = 858
+        '
+        'ucrVFP3hrPressureChange
+        '
+        Me.ucrVFP3hrPressureChange.FieldName = Nothing
+        Me.ucrVFP3hrPressureChange.IncludePeriod = True
+        Me.ucrVFP3hrPressureChange.Location = New System.Drawing.Point(156, 131)
+        Me.ucrVFP3hrPressureChange.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFP3hrPressureChange.Name = "ucrVFP3hrPressureChange"
+        Me.ucrVFP3hrPressureChange.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFP3hrPressureChange.TabIndex = 859
+        '
+        'ucrVFP3hrPressureCharacteristicNew
+        '
+        Me.ucrVFP3hrPressureCharacteristicNew.FieldName = Nothing
+        Me.ucrVFP3hrPressureCharacteristicNew.IncludePeriod = True
+        Me.ucrVFP3hrPressureCharacteristicNew.Location = New System.Drawing.Point(156, 155)
+        Me.ucrVFP3hrPressureCharacteristicNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFP3hrPressureCharacteristicNew.Name = "ucrVFP3hrPressureCharacteristicNew"
+        Me.ucrVFP3hrPressureCharacteristicNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFP3hrPressureCharacteristicNew.TabIndex = 860
+        '
+        'ucrVFP24HrPressureChangeNew
+        '
+        Me.ucrVFP24HrPressureChangeNew.FieldName = "399"
+        Me.ucrVFP24HrPressureChangeNew.IncludePeriod = True
+        Me.ucrVFP24HrPressureChangeNew.Location = New System.Drawing.Point(156, 179)
+        Me.ucrVFP24HrPressureChangeNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFP24HrPressureChangeNew.Name = "ucrVFP24HrPressureChangeNew"
+        Me.ucrVFP24HrPressureChangeNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFP24HrPressureChangeNew.TabIndex = 861
+        Me.ucrVFP24HrPressureChangeNew.Tag = "399"
+        '
+        'ucrVFPStandardPressureLevelNew
+        '
+        Me.ucrVFPStandardPressureLevelNew.FieldName = "301"
+        Me.ucrVFPStandardPressureLevelNew.IncludePeriod = True
+        Me.ucrVFPStandardPressureLevelNew.Location = New System.Drawing.Point(156, 203)
+        Me.ucrVFPStandardPressureLevelNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPStandardPressureLevelNew.Name = "ucrVFPStandardPressureLevelNew"
+        Me.ucrVFPStandardPressureLevelNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPStandardPressureLevelNew.TabIndex = 862
+        Me.ucrVFPStandardPressureLevelNew.Tag = "301"
+        '
+        'ucrVFPGeopotentialHeightNew
+        '
+        Me.ucrVFPGeopotentialHeightNew.FieldName = "185"
+        Me.ucrVFPGeopotentialHeightNew.IncludePeriod = True
+        Me.ucrVFPGeopotentialHeightNew.Location = New System.Drawing.Point(156, 227)
+        Me.ucrVFPGeopotentialHeightNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPGeopotentialHeightNew.Name = "ucrVFPGeopotentialHeightNew"
+        Me.ucrVFPGeopotentialHeightNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPGeopotentialHeightNew.TabIndex = 863
+        Me.ucrVFPGeopotentialHeightNew.Tag = "185"
+        '
+        'ucrVFPDryBulbTempNew
+        '
+        Me.ucrVFPDryBulbTempNew.FieldName = "101"
+        Me.ucrVFPDryBulbTempNew.IncludePeriod = True
+        Me.ucrVFPDryBulbTempNew.Location = New System.Drawing.Point(156, 251)
+        Me.ucrVFPDryBulbTempNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPDryBulbTempNew.Name = "ucrVFPDryBulbTempNew"
+        Me.ucrVFPDryBulbTempNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPDryBulbTempNew.TabIndex = 864
+        Me.ucrVFPDryBulbTempNew.Tag = "101"
+        '
+        'ucrVFPWetBulbTempNew
+        '
+        Me.ucrVFPWetBulbTempNew.FieldName = "102"
+        Me.ucrVFPWetBulbTempNew.IncludePeriod = True
+        Me.ucrVFPWetBulbTempNew.Location = New System.Drawing.Point(156, 275)
+        Me.ucrVFPWetBulbTempNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPWetBulbTempNew.Name = "ucrVFPWetBulbTempNew"
+        Me.ucrVFPWetBulbTempNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPWetBulbTempNew.TabIndex = 865
+        Me.ucrVFPWetBulbTempNew.Tag = "102"
+        '
+        'ucrVFPDewPointTempNew
+        '
+        Me.ucrVFPDewPointTempNew.FieldName = "103"
+        Me.ucrVFPDewPointTempNew.IncludePeriod = True
+        Me.ucrVFPDewPointTempNew.Location = New System.Drawing.Point(156, 299)
+        Me.ucrVFPDewPointTempNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPDewPointTempNew.Name = "ucrVFPDewPointTempNew"
+        Me.ucrVFPDewPointTempNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPDewPointTempNew.TabIndex = 866
+        Me.ucrVFPDewPointTempNew.Tag = "103"
+        '
+        'ucrVFPRelativeHumidityNew
+        '
+        Me.ucrVFPRelativeHumidityNew.FieldName = "105"
+        Me.ucrVFPRelativeHumidityNew.IncludePeriod = True
+        Me.ucrVFPRelativeHumidityNew.Location = New System.Drawing.Point(156, 323)
+        Me.ucrVFPRelativeHumidityNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPRelativeHumidityNew.Name = "ucrVFPRelativeHumidityNew"
+        Me.ucrVFPRelativeHumidityNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPRelativeHumidityNew.TabIndex = 867
+        Me.ucrVFPRelativeHumidityNew.Tag = "105"
+        '
+        'ucrVFPHorizontalVisibiltyNew
+        '
+        Me.ucrVFPHorizontalVisibiltyNew.FieldName = "110"
+        Me.ucrVFPHorizontalVisibiltyNew.IncludePeriod = True
+        Me.ucrVFPHorizontalVisibiltyNew.Location = New System.Drawing.Point(156, 347)
+        Me.ucrVFPHorizontalVisibiltyNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPHorizontalVisibiltyNew.Name = "ucrVFPHorizontalVisibiltyNew"
+        Me.ucrVFPHorizontalVisibiltyNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPHorizontalVisibiltyNew.TabIndex = 868
+        Me.ucrVFPHorizontalVisibiltyNew.Tag = "110"
+        '
+        'ucrVFPLowCloudHghtNew
+        '
+        Me.ucrVFPLowCloudHghtNew.FieldName = "192"
+        Me.ucrVFPLowCloudHghtNew.IncludePeriod = True
+        Me.ucrVFPLowCloudHghtNew.Location = New System.Drawing.Point(156, 371)
+        Me.ucrVFPLowCloudHghtNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPLowCloudHghtNew.Name = "ucrVFPLowCloudHghtNew"
+        Me.ucrVFPLowCloudHghtNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPLowCloudHghtNew.TabIndex = 869
+        Me.ucrVFPLowCloudHghtNew.Tag = "192"
+        '
+        'ucrVFPTotalCloudCoverNew
+        '
+        Me.ucrVFPTotalCloudCoverNew.FieldName = "114"
+        Me.ucrVFPTotalCloudCoverNew.IncludePeriod = True
+        Me.ucrVFPTotalCloudCoverNew.Location = New System.Drawing.Point(156, 395)
+        Me.ucrVFPTotalCloudCoverNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPTotalCloudCoverNew.Name = "ucrVFPTotalCloudCoverNew"
+        Me.ucrVFPTotalCloudCoverNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPTotalCloudCoverNew.TabIndex = 870
+        Me.ucrVFPTotalCloudCoverNew.Tag = "114"
+        '
+        'ucrVFPVerticalSignificanceNew
+        '
+        Me.ucrVFPVerticalSignificanceNew.FieldName = "115"
+        Me.ucrVFPVerticalSignificanceNew.IncludePeriod = True
+        Me.ucrVFPVerticalSignificanceNew.Location = New System.Drawing.Point(156, 419)
+        Me.ucrVFPVerticalSignificanceNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPVerticalSignificanceNew.Name = "ucrVFPVerticalSignificanceNew"
+        Me.ucrVFPVerticalSignificanceNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPVerticalSignificanceNew.TabIndex = 871
+        Me.ucrVFPVerticalSignificanceNew.Tag = "115"
+        '
+        'ucrVFPLowLvlCloudsAmtNew
+        '
+        Me.ucrVFPLowLvlCloudsAmtNew.FieldName = "168"
+        Me.ucrVFPLowLvlCloudsAmtNew.IncludePeriod = True
+        Me.ucrVFPLowLvlCloudsAmtNew.Location = New System.Drawing.Point(156, 443)
+        Me.ucrVFPLowLvlCloudsAmtNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPLowLvlCloudsAmtNew.Name = "ucrVFPLowLvlCloudsAmtNew"
+        Me.ucrVFPLowLvlCloudsAmtNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPLowLvlCloudsAmtNew.TabIndex = 872
+        Me.ucrVFPLowLvlCloudsAmtNew.Tag = "168"
+        '
+        'ucrVFPLowLvlCloudsTypeNew
+        '
+        Me.ucrVFPLowLvlCloudsTypeNew.FieldName = "169"
+        Me.ucrVFPLowLvlCloudsTypeNew.IncludePeriod = True
+        Me.ucrVFPLowLvlCloudsTypeNew.Location = New System.Drawing.Point(156, 467)
+        Me.ucrVFPLowLvlCloudsTypeNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPLowLvlCloudsTypeNew.Name = "ucrVFPLowLvlCloudsTypeNew"
+        Me.ucrVFPLowLvlCloudsTypeNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPLowLvlCloudsTypeNew.TabIndex = 873
+        Me.ucrVFPLowLvlCloudsTypeNew.Tag = "169"
+        '
+        'ucrVFPMediumLvlCloudsNew
+        '
+        Me.ucrVFPMediumLvlCloudsNew.FieldName = "170"
+        Me.ucrVFPMediumLvlCloudsNew.IncludePeriod = True
+        Me.ucrVFPMediumLvlCloudsNew.Location = New System.Drawing.Point(156, 491)
+        Me.ucrVFPMediumLvlCloudsNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPMediumLvlCloudsNew.Name = "ucrVFPMediumLvlCloudsNew"
+        Me.ucrVFPMediumLvlCloudsNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPMediumLvlCloudsNew.TabIndex = 874
+        Me.ucrVFPMediumLvlCloudsNew.Tag = "170"
+        '
+        'ucrVFPHighLvlCloudsTypeNew
+        '
+        Me.ucrVFPHighLvlCloudsTypeNew.FieldName = "171"
+        Me.ucrVFPHighLvlCloudsTypeNew.IncludePeriod = True
+        Me.ucrVFPHighLvlCloudsTypeNew.Location = New System.Drawing.Point(156, 515)
+        Me.ucrVFPHighLvlCloudsTypeNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPHighLvlCloudsTypeNew.Name = "ucrVFPHighLvlCloudsTypeNew"
+        Me.ucrVFPHighLvlCloudsTypeNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPHighLvlCloudsTypeNew.TabIndex = 875
+        Me.ucrVFPHighLvlCloudsTypeNew.Tag = "171"
+        '
+        'ucrVFPVerticalSignificance1New
+        '
+        Me.ucrVFPVerticalSignificance1New.FieldName = "119"
+        Me.ucrVFPVerticalSignificance1New.IncludePeriod = True
+        Me.ucrVFPVerticalSignificance1New.Location = New System.Drawing.Point(445, 83)
+        Me.ucrVFPVerticalSignificance1New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPVerticalSignificance1New.Name = "ucrVFPVerticalSignificance1New"
+        Me.ucrVFPVerticalSignificance1New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPVerticalSignificance1New.TabIndex = 876
+        Me.ucrVFPVerticalSignificance1New.Tag = "119"
+        '
+        'ucrVFPCloudAmtLvl1N1New
+        '
+        Me.ucrVFPCloudAmtLvl1N1New.FieldName = "116"
+        Me.ucrVFPCloudAmtLvl1N1New.IncludePeriod = True
+        Me.ucrVFPCloudAmtLvl1N1New.Location = New System.Drawing.Point(445, 107)
+        Me.ucrVFPCloudAmtLvl1N1New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudAmtLvl1N1New.Name = "ucrVFPCloudAmtLvl1N1New"
+        Me.ucrVFPCloudAmtLvl1N1New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudAmtLvl1N1New.TabIndex = 877
+        Me.ucrVFPCloudAmtLvl1N1New.Tag = "116"
+        '
+        'ucrVFPCloudTypeLvl1C1New
+        '
+        Me.ucrVFPCloudTypeLvl1C1New.FieldName = "117"
+        Me.ucrVFPCloudTypeLvl1C1New.IncludePeriod = True
+        Me.ucrVFPCloudTypeLvl1C1New.Location = New System.Drawing.Point(445, 131)
+        Me.ucrVFPCloudTypeLvl1C1New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudTypeLvl1C1New.Name = "ucrVFPCloudTypeLvl1C1New"
+        Me.ucrVFPCloudTypeLvl1C1New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudTypeLvl1C1New.TabIndex = 878
+        Me.ucrVFPCloudTypeLvl1C1New.Tag = "117"
+        '
+        'ucrVFPCloudHtLvl1HsHs1New
+        '
+        Me.ucrVFPCloudHtLvl1HsHs1New.FieldName = "118"
+        Me.ucrVFPCloudHtLvl1HsHs1New.IncludePeriod = True
+        Me.ucrVFPCloudHtLvl1HsHs1New.Location = New System.Drawing.Point(445, 155)
+        Me.ucrVFPCloudHtLvl1HsHs1New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudHtLvl1HsHs1New.Name = "ucrVFPCloudHtLvl1HsHs1New"
+        Me.ucrVFPCloudHtLvl1HsHs1New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudHtLvl1HsHs1New.TabIndex = 879
+        Me.ucrVFPCloudHtLvl1HsHs1New.Tag = "118"
+        '
+        'ucrVFPVerticalSignificance2New
+        '
+        Me.ucrVFPVerticalSignificance2New.FieldName = "123"
+        Me.ucrVFPVerticalSignificance2New.IncludePeriod = True
+        Me.ucrVFPVerticalSignificance2New.Location = New System.Drawing.Point(445, 179)
+        Me.ucrVFPVerticalSignificance2New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPVerticalSignificance2New.Name = "ucrVFPVerticalSignificance2New"
+        Me.ucrVFPVerticalSignificance2New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPVerticalSignificance2New.TabIndex = 880
+        Me.ucrVFPVerticalSignificance2New.Tag = "123"
+        '
+        'ucrVFPCloudAmtLvl2N2New
+        '
+        Me.ucrVFPCloudAmtLvl2N2New.FieldName = "120"
+        Me.ucrVFPCloudAmtLvl2N2New.IncludePeriod = True
+        Me.ucrVFPCloudAmtLvl2N2New.Location = New System.Drawing.Point(445, 203)
+        Me.ucrVFPCloudAmtLvl2N2New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudAmtLvl2N2New.Name = "ucrVFPCloudAmtLvl2N2New"
+        Me.ucrVFPCloudAmtLvl2N2New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudAmtLvl2N2New.TabIndex = 881
+        Me.ucrVFPCloudAmtLvl2N2New.Tag = "120"
+        '
+        'ucrVFPCloudTypeLv2C2New
+        '
+        Me.ucrVFPCloudTypeLv2C2New.FieldName = "121"
+        Me.ucrVFPCloudTypeLv2C2New.IncludePeriod = True
+        Me.ucrVFPCloudTypeLv2C2New.Location = New System.Drawing.Point(445, 227)
+        Me.ucrVFPCloudTypeLv2C2New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudTypeLv2C2New.Name = "ucrVFPCloudTypeLv2C2New"
+        Me.ucrVFPCloudTypeLv2C2New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudTypeLv2C2New.TabIndex = 882
+        Me.ucrVFPCloudTypeLv2C2New.Tag = "121"
+        '
+        'ucrVFPCloudHtLvl2H2Hs2New
+        '
+        Me.ucrVFPCloudHtLvl2H2Hs2New.FieldName = "122"
+        Me.ucrVFPCloudHtLvl2H2Hs2New.IncludePeriod = True
+        Me.ucrVFPCloudHtLvl2H2Hs2New.Location = New System.Drawing.Point(445, 251)
+        Me.ucrVFPCloudHtLvl2H2Hs2New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudHtLvl2H2Hs2New.Name = "ucrVFPCloudHtLvl2H2Hs2New"
+        Me.ucrVFPCloudHtLvl2H2Hs2New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudHtLvl2H2Hs2New.TabIndex = 883
+        Me.ucrVFPCloudHtLvl2H2Hs2New.Tag = "122"
+        '
+        'ucrVFPVerticalSignificant3New
+        '
+        Me.ucrVFPVerticalSignificant3New.FieldName = "127"
+        Me.ucrVFPVerticalSignificant3New.IncludePeriod = True
+        Me.ucrVFPVerticalSignificant3New.Location = New System.Drawing.Point(445, 274)
+        Me.ucrVFPVerticalSignificant3New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPVerticalSignificant3New.Name = "ucrVFPVerticalSignificant3New"
+        Me.ucrVFPVerticalSignificant3New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPVerticalSignificant3New.TabIndex = 884
+        Me.ucrVFPVerticalSignificant3New.Tag = "127"
+        '
+        'ucrVFPCloudAmtLvl3N3New
+        '
+        Me.ucrVFPCloudAmtLvl3N3New.FieldName = "124"
+        Me.ucrVFPCloudAmtLvl3N3New.IncludePeriod = True
+        Me.ucrVFPCloudAmtLvl3N3New.Location = New System.Drawing.Point(445, 299)
+        Me.ucrVFPCloudAmtLvl3N3New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudAmtLvl3N3New.Name = "ucrVFPCloudAmtLvl3N3New"
+        Me.ucrVFPCloudAmtLvl3N3New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudAmtLvl3N3New.TabIndex = 885
+        Me.ucrVFPCloudAmtLvl3N3New.Tag = "124"
+        '
+        'ucrVFPCloudTypeLvl3C3New
+        '
+        Me.ucrVFPCloudTypeLvl3C3New.FieldName = "125"
+        Me.ucrVFPCloudTypeLvl3C3New.IncludePeriod = True
+        Me.ucrVFPCloudTypeLvl3C3New.Location = New System.Drawing.Point(445, 323)
+        Me.ucrVFPCloudTypeLvl3C3New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudTypeLvl3C3New.Name = "ucrVFPCloudTypeLvl3C3New"
+        Me.ucrVFPCloudTypeLvl3C3New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudTypeLvl3C3New.TabIndex = 886
+        Me.ucrVFPCloudTypeLvl3C3New.Tag = "125"
+        '
+        'ucrVFPCloudHtLvlHsHs3New
+        '
+        Me.ucrVFPCloudHtLvlHsHs3New.FieldName = "126"
+        Me.ucrVFPCloudHtLvlHsHs3New.IncludePeriod = True
+        Me.ucrVFPCloudHtLvlHsHs3New.Location = New System.Drawing.Point(445, 347)
+        Me.ucrVFPCloudHtLvlHsHs3New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudHtLvlHsHs3New.Name = "ucrVFPCloudHtLvlHsHs3New"
+        Me.ucrVFPCloudHtLvlHsHs3New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudHtLvlHsHs3New.TabIndex = 887
+        Me.ucrVFPCloudHtLvlHsHs3New.Tag = "126"
+        '
+        'ucrVFPVerticalSignificance4New
+        '
+        Me.ucrVFPVerticalSignificance4New.FieldName = "131"
+        Me.ucrVFPVerticalSignificance4New.IncludePeriod = True
+        Me.ucrVFPVerticalSignificance4New.Location = New System.Drawing.Point(445, 371)
+        Me.ucrVFPVerticalSignificance4New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPVerticalSignificance4New.Name = "ucrVFPVerticalSignificance4New"
+        Me.ucrVFPVerticalSignificance4New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPVerticalSignificance4New.TabIndex = 888
+        Me.ucrVFPVerticalSignificance4New.Tag = "131"
+        '
+        'ucrVFPCloudAmtLvl4N4New
+        '
+        Me.ucrVFPCloudAmtLvl4N4New.FieldName = "128"
+        Me.ucrVFPCloudAmtLvl4N4New.IncludePeriod = True
+        Me.ucrVFPCloudAmtLvl4N4New.Location = New System.Drawing.Point(445, 395)
+        Me.ucrVFPCloudAmtLvl4N4New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudAmtLvl4N4New.Name = "ucrVFPCloudAmtLvl4N4New"
+        Me.ucrVFPCloudAmtLvl4N4New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudAmtLvl4N4New.TabIndex = 889
+        Me.ucrVFPCloudAmtLvl4N4New.Tag = "128"
+        '
+        'ucrVFPCloudTypeLvlC4New
+        '
+        Me.ucrVFPCloudTypeLvlC4New.FieldName = "129"
+        Me.ucrVFPCloudTypeLvlC4New.IncludePeriod = True
+        Me.ucrVFPCloudTypeLvlC4New.Location = New System.Drawing.Point(445, 419)
+        Me.ucrVFPCloudTypeLvlC4New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudTypeLvlC4New.Name = "ucrVFPCloudTypeLvlC4New"
+        Me.ucrVFPCloudTypeLvlC4New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudTypeLvlC4New.TabIndex = 890
+        Me.ucrVFPCloudTypeLvlC4New.Tag = "129"
+        '
+        'ucrVFPCloudHtLvl4HsHs4New
+        '
+        Me.ucrVFPCloudHtLvl4HsHs4New.FieldName = "130"
+        Me.ucrVFPCloudHtLvl4HsHs4New.IncludePeriod = True
+        Me.ucrVFPCloudHtLvl4HsHs4New.Location = New System.Drawing.Point(445, 443)
+        Me.ucrVFPCloudHtLvl4HsHs4New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPCloudHtLvl4HsHs4New.Name = "ucrVFPCloudHtLvl4HsHs4New"
+        Me.ucrVFPCloudHtLvl4HsHs4New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPCloudHtLvl4HsHs4New.TabIndex = 891
+        Me.ucrVFPCloudHtLvl4HsHs4New.Tag = "130"
+        '
+        'ucrVFPPresentWxNew
+        '
+        Me.ucrVFPPresentWxNew.FieldName = "167"
+        Me.ucrVFPPresentWxNew.IncludePeriod = True
+        Me.ucrVFPPresentWxNew.Location = New System.Drawing.Point(705, 83)
+        Me.ucrVFPPresentWxNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPPresentWxNew.Name = "ucrVFPPresentWxNew"
+        Me.ucrVFPPresentWxNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPPresentWxNew.TabIndex = 892
+        Me.ucrVFPPresentWxNew.Tag = "167"
+        '
+        'ucrVFPPastWx1New
+        '
+        Me.ucrVFPPastWx1New.FieldName = "197"
+        Me.ucrVFPPastWx1New.IncludePeriod = True
+        Me.ucrVFPPastWx1New.Location = New System.Drawing.Point(705, 107)
+        Me.ucrVFPPastWx1New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPPastWx1New.Name = "ucrVFPPastWx1New"
+        Me.ucrVFPPastWx1New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPPastWx1New.TabIndex = 893
+        Me.ucrVFPPastWx1New.Tag = "197"
+        '
+        'ucrVFPPastWx2New
+        '
+        Me.ucrVFPPastWx2New.FieldName = "193"
+        Me.ucrVFPPastWx2New.IncludePeriod = True
+        Me.ucrVFPPastWx2New.Location = New System.Drawing.Point(705, 131)
+        Me.ucrVFPPastWx2New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPPastWx2New.Name = "ucrVFPPastWx2New"
+        Me.ucrVFPPastWx2New.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPPastWx2New.TabIndex = 894
+        Me.ucrVFPPastWx2New.Tag = "193"
+        '
+        'ucrVFPTmaxNew
+        '
+        Me.ucrVFPTmaxNew.FieldName = "002"
+        Me.ucrVFPTmaxNew.IncludePeriod = True
+        Me.ucrVFPTmaxNew.Location = New System.Drawing.Point(705, 155)
+        Me.ucrVFPTmaxNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPTmaxNew.Name = "ucrVFPTmaxNew"
+        Me.ucrVFPTmaxNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPTmaxNew.TabIndex = 895
+        Me.ucrVFPTmaxNew.Tag = "002"
+        '
+        'ucrVFPTminNew
+        '
+        Me.ucrVFPTminNew.FieldName = "003"
+        Me.ucrVFPTminNew.IncludePeriod = True
+        Me.ucrVFPTminNew.Location = New System.Drawing.Point(705, 179)
+        Me.ucrVFPTminNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPTminNew.Name = "ucrVFPTminNew"
+        Me.ucrVFPTminNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPTminNew.TabIndex = 896
+        Me.ucrVFPTminNew.Tag = "003"
+        '
+        'ucrVFPGrassMinTempNew
+        '
+        Me.ucrVFPGrassMinTempNew.FieldName = "099"
+        Me.ucrVFPGrassMinTempNew.IncludePeriod = True
+        Me.ucrVFPGrassMinTempNew.Location = New System.Drawing.Point(705, 204)
+        Me.ucrVFPGrassMinTempNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPGrassMinTempNew.Name = "ucrVFPGrassMinTempNew"
+        Me.ucrVFPGrassMinTempNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPGrassMinTempNew.TabIndex = 897
+        Me.ucrVFPGrassMinTempNew.Tag = "099"
+        '
+        'ucrVFPEvaporationNew
+        '
+        Me.ucrVFPEvaporationNew.FieldName = "018"
+        Me.ucrVFPEvaporationNew.IncludePeriod = True
+        Me.ucrVFPEvaporationNew.Location = New System.Drawing.Point(705, 227)
+        Me.ucrVFPEvaporationNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPEvaporationNew.Name = "ucrVFPEvaporationNew"
+        Me.ucrVFPEvaporationNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPEvaporationNew.TabIndex = 898
+        Me.ucrVFPEvaporationNew.Tag = "018"
+        '
+        'ucrVFPSss24HrNew
+        '
+        Me.ucrVFPSss24HrNew.FieldName = "084"
+        Me.ucrVFPSss24HrNew.IncludePeriod = True
+        Me.ucrVFPSss24HrNew.Location = New System.Drawing.Point(705, 251)
+        Me.ucrVFPSss24HrNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPSss24HrNew.Name = "ucrVFPSss24HrNew"
+        Me.ucrVFPSss24HrNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPSss24HrNew.TabIndex = 899
+        Me.ucrVFPSss24HrNew.Tag = "084"
+        '
+        'ucrVFPSss1HrNew
+        '
+        Me.ucrVFPSss1HrNew.FieldName = "132"
+        Me.ucrVFPSss1HrNew.IncludePeriod = True
+        Me.ucrVFPSss1HrNew.Location = New System.Drawing.Point(705, 275)
+        Me.ucrVFPSss1HrNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPSss1HrNew.Name = "ucrVFPSss1HrNew"
+        Me.ucrVFPSss1HrNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPSss1HrNew.TabIndex = 900
+        Me.ucrVFPSss1HrNew.Tag = "132"
+        '
+        'ucrVFPPrecip24HrNew
+        '
+        Me.ucrVFPPrecip24HrNew.FieldName = "005"
+        Me.ucrVFPPrecip24HrNew.IncludePeriod = True
+        Me.ucrVFPPrecip24HrNew.Location = New System.Drawing.Point(705, 299)
+        Me.ucrVFPPrecip24HrNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPPrecip24HrNew.Name = "ucrVFPPrecip24HrNew"
+        Me.ucrVFPPrecip24HrNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPPrecip24HrNew.TabIndex = 901
+        Me.ucrVFPPrecip24HrNew.Tag = "005"
+        '
+        'ucrVFPPrecip3HrNew
+        '
+        Me.ucrVFPPrecip3HrNew.FieldName = "174"
+        Me.ucrVFPPrecip3HrNew.IncludePeriod = True
+        Me.ucrVFPPrecip3HrNew.Location = New System.Drawing.Point(705, 323)
+        Me.ucrVFPPrecip3HrNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPPrecip3HrNew.Name = "ucrVFPPrecip3HrNew"
+        Me.ucrVFPPrecip3HrNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPPrecip3HrNew.TabIndex = 902
+        Me.ucrVFPPrecip3HrNew.Tag = "174"
+        '
+        'ucrVFPWindDirectionddNew
+        '
+        Me.ucrVFPWindDirectionddNew.FieldName = "112"
+        Me.ucrVFPWindDirectionddNew.IncludePeriod = True
+        Me.ucrVFPWindDirectionddNew.Location = New System.Drawing.Point(705, 347)
+        Me.ucrVFPWindDirectionddNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPWindDirectionddNew.Name = "ucrVFPWindDirectionddNew"
+        Me.ucrVFPWindDirectionddNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPWindDirectionddNew.TabIndex = 903
+        Me.ucrVFPWindDirectionddNew.Tag = "112"
+        '
+        'ucrVFPWindSpeedfffNew
+        '
+        Me.ucrVFPWindSpeedfffNew.FieldName = "111"
+        Me.ucrVFPWindSpeedfffNew.IncludePeriod = True
+        Me.ucrVFPWindSpeedfffNew.Location = New System.Drawing.Point(705, 371)
+        Me.ucrVFPWindSpeedfffNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPWindSpeedfffNew.Name = "ucrVFPWindSpeedfffNew"
+        Me.ucrVFPWindSpeedfffNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPWindSpeedfffNew.TabIndex = 904
+        Me.ucrVFPWindSpeedfffNew.Tag = "111"
+        '
+        'ucrVFPInsolationNew
+        '
+        Me.ucrVFPInsolationNew.FieldName = "046"
+        Me.ucrVFPInsolationNew.IncludePeriod = True
+        Me.ucrVFPInsolationNew.Location = New System.Drawing.Point(705, 395)
+        Me.ucrVFPInsolationNew.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrVFPInsolationNew.Name = "ucrVFPInsolationNew"
+        Me.ucrVFPInsolationNew.Size = New System.Drawing.Size(130, 23)
+        Me.ucrVFPInsolationNew.TabIndex = 905
+        Me.ucrVFPInsolationNew.Tag = "046"
+        '
+        'ucrNavigator
+        '
+        Me.ucrNavigator.Location = New System.Drawing.Point(241, 556)
+        Me.ucrNavigator.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrNavigator.Name = "ucrNavigator"
+        Me.ucrNavigator.Size = New System.Drawing.Size(336, 25)
+        Me.ucrNavigator.TabIndex = 839
+        '
+        'uceBtnAddNew
+        '
+        Me.uceBtnAddNew.ButtonText = "Add New"
+        Me.uceBtnAddNew.Location = New System.Drawing.Point(123, 589)
+        Me.uceBtnAddNew.Name = "uceBtnAddNew"
+        Me.uceBtnAddNew.Size = New System.Drawing.Size(60, 23)
+        Me.uceBtnAddNew.TabIndex = 906
+        Me.uceBtnAddNew.Tag = "add"
+        '
+        'ucrBtnSave
+        '
+        Me.ucrBtnSave.ButtonText = "Save"
+        Me.ucrBtnSave.Location = New System.Drawing.Point(189, 589)
+        Me.ucrBtnSave.Name = "ucrBtnSave"
+        Me.ucrBtnSave.Size = New System.Drawing.Size(60, 23)
+        Me.ucrBtnSave.TabIndex = 907
+        Me.ucrBtnSave.Tag = "save"
+        '
+        'ucrBtnUpdate
+        '
+        Me.ucrBtnUpdate.ButtonText = "update"
+        Me.ucrBtnUpdate.Location = New System.Drawing.Point(256, 589)
+        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
+        Me.ucrBtnUpdate.Size = New System.Drawing.Size(60, 23)
+        Me.ucrBtnUpdate.TabIndex = 908
+        Me.ucrBtnUpdate.Tag = "update"
+        '
+        'ucrBtnDelete
+        '
+        Me.ucrBtnDelete.ButtonText = "delete"
+        Me.ucrBtnDelete.Location = New System.Drawing.Point(323, 589)
+        Me.ucrBtnDelete.Name = "ucrBtnDelete"
+        Me.ucrBtnDelete.Size = New System.Drawing.Size(60, 23)
+        Me.ucrBtnDelete.TabIndex = 909
+        Me.ucrBtnDelete.Tag = "delete"
+        '
+        'ucrBtnClear
+        '
+        Me.ucrBtnClear.ButtonText = "clear"
+        Me.ucrBtnClear.Location = New System.Drawing.Point(392, 589)
+        Me.ucrBtnClear.Name = "ucrBtnClear"
+        Me.ucrBtnClear.Size = New System.Drawing.Size(55, 20)
+        Me.ucrBtnClear.TabIndex = 910
+        Me.ucrBtnClear.Tag = "clear"
+        '
+        'ucrBtnCancel
+        '
+        Me.ucrBtnCancel.ButtonText = "cancel"
+        Me.ucrBtnCancel.Location = New System.Drawing.Point(461, 589)
+        Me.ucrBtnCancel.Name = "ucrBtnCancel"
+        Me.ucrBtnCancel.Size = New System.Drawing.Size(60, 23)
+        Me.ucrBtnCancel.TabIndex = 911
+        Me.ucrBtnCancel.Tag = "cancel"
+        '
+        'ucrBtnView
+        '
+        Me.ucrBtnView.ButtonText = "View"
+        Me.ucrBtnView.Location = New System.Drawing.Point(529, 589)
+        Me.ucrBtnView.Name = "ucrBtnView"
+        Me.ucrBtnView.Size = New System.Drawing.Size(60, 23)
+        Me.ucrBtnView.TabIndex = 912
+        '
+        'ucrBtnTDCF
+        '
+        Me.ucrBtnTDCF.ButtonText = "TDCF"
+        Me.ucrBtnTDCF.Location = New System.Drawing.Point(598, 589)
+        Me.ucrBtnTDCF.Name = "ucrBtnTDCF"
+        Me.ucrBtnTDCF.Size = New System.Drawing.Size(60, 23)
+        Me.ucrBtnTDCF.TabIndex = 913
+        '
+        'ucrBtnClose
+        '
+        Me.ucrBtnClose.ButtonText = "Close"
+        Me.ucrBtnClose.Location = New System.Drawing.Point(666, 589)
+        Me.ucrBtnClose.Name = "ucrBtnClose"
+        Me.ucrBtnClose.Size = New System.Drawing.Size(60, 23)
+        Me.ucrBtnClose.TabIndex = 914
+        Me.ucrBtnClose.Tag = "close"
+        '
+        'ucrBtnHelp
+        '
+        Me.ucrBtnHelp.ButtonText = "Help"
+        Me.ucrBtnHelp.Location = New System.Drawing.Point(733, 589)
+        Me.ucrBtnHelp.Name = "ucrBtnHelp"
+        Me.ucrBtnHelp.Size = New System.Drawing.Size(60, 23)
+        Me.ucrBtnHelp.TabIndex = 915
+        '
+        'ucrSynopticRA1New
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.Controls.Add(Me.btnTDCF)
+        Me.Controls.Add(Me.ucrBtnHelp)
+        Me.Controls.Add(Me.ucrBtnClose)
+        Me.Controls.Add(Me.ucrBtnTDCF)
+        Me.Controls.Add(Me.ucrBtnView)
+        Me.Controls.Add(Me.ucrBtnCancel)
+        Me.Controls.Add(Me.ucrBtnClear)
+        Me.Controls.Add(Me.ucrBtnDelete)
+        Me.Controls.Add(Me.ucrBtnUpdate)
+        Me.Controls.Add(Me.ucrBtnSave)
+        Me.Controls.Add(Me.uceBtnAddNew)
+        Me.Controls.Add(Me.ucrNavigator)
+        Me.Controls.Add(Me.ucrVFPInsolationNew)
+        Me.Controls.Add(Me.ucrVFPWindSpeedfffNew)
+        Me.Controls.Add(Me.ucrVFPWindDirectionddNew)
+        Me.Controls.Add(Me.ucrVFPPrecip3HrNew)
+        Me.Controls.Add(Me.ucrVFPPrecip24HrNew)
+        Me.Controls.Add(Me.ucrVFPSss1HrNew)
+        Me.Controls.Add(Me.ucrVFPSss24HrNew)
+        Me.Controls.Add(Me.ucrVFPEvaporationNew)
+        Me.Controls.Add(Me.ucrVFPGrassMinTempNew)
+        Me.Controls.Add(Me.ucrVFPTminNew)
+        Me.Controls.Add(Me.ucrVFPTmaxNew)
+        Me.Controls.Add(Me.ucrVFPPastWx2New)
+        Me.Controls.Add(Me.ucrVFPPastWx1New)
+        Me.Controls.Add(Me.ucrVFPPresentWxNew)
+        Me.Controls.Add(Me.ucrVFPCloudHtLvl4HsHs4New)
+        Me.Controls.Add(Me.ucrVFPCloudTypeLvlC4New)
+        Me.Controls.Add(Me.ucrVFPCloudAmtLvl4N4New)
+        Me.Controls.Add(Me.ucrVFPVerticalSignificance4New)
+        Me.Controls.Add(Me.ucrVFPCloudHtLvlHsHs3New)
+        Me.Controls.Add(Me.ucrVFPCloudTypeLvl3C3New)
+        Me.Controls.Add(Me.ucrVFPCloudAmtLvl3N3New)
+        Me.Controls.Add(Me.ucrVFPVerticalSignificant3New)
+        Me.Controls.Add(Me.ucrVFPCloudHtLvl2H2Hs2New)
+        Me.Controls.Add(Me.ucrVFPCloudTypeLv2C2New)
+        Me.Controls.Add(Me.ucrVFPCloudAmtLvl2N2New)
+        Me.Controls.Add(Me.ucrVFPVerticalSignificance2New)
+        Me.Controls.Add(Me.ucrVFPCloudHtLvl1HsHs1New)
+        Me.Controls.Add(Me.ucrVFPCloudTypeLvl1C1New)
+        Me.Controls.Add(Me.ucrVFPCloudAmtLvl1N1New)
+        Me.Controls.Add(Me.ucrVFPVerticalSignificance1New)
+        Me.Controls.Add(Me.ucrVFPHighLvlCloudsTypeNew)
+        Me.Controls.Add(Me.ucrVFPMediumLvlCloudsNew)
+        Me.Controls.Add(Me.ucrVFPLowLvlCloudsTypeNew)
+        Me.Controls.Add(Me.ucrVFPLowLvlCloudsAmtNew)
+        Me.Controls.Add(Me.ucrVFPVerticalSignificanceNew)
+        Me.Controls.Add(Me.ucrVFPTotalCloudCoverNew)
+        Me.Controls.Add(Me.ucrVFPLowCloudHghtNew)
+        Me.Controls.Add(Me.ucrVFPHorizontalVisibiltyNew)
+        Me.Controls.Add(Me.ucrVFPRelativeHumidityNew)
+        Me.Controls.Add(Me.ucrVFPDewPointTempNew)
+        Me.Controls.Add(Me.ucrVFPWetBulbTempNew)
+        Me.Controls.Add(Me.ucrVFPDryBulbTempNew)
+        Me.Controls.Add(Me.ucrVFPGeopotentialHeightNew)
+        Me.Controls.Add(Me.ucrVFPStandardPressureLevelNew)
+        Me.Controls.Add(Me.ucrVFP24HrPressureChangeNew)
+        Me.Controls.Add(Me.ucrVFP3hrPressureCharacteristicNew)
+        Me.Controls.Add(Me.ucrVFP3hrPressureChange)
+        Me.Controls.Add(Me.ucrVFPPressureReduced)
+        Me.Controls.Add(Me.ucrVFPStationLevelPressure)
+        Me.Controls.Add(Me.ucrHour)
+        Me.Controls.Add(Me.ucrDaySelector)
+        Me.Controls.Add(Me.ucrMonthSelector)
+        Me.Controls.Add(Me.ucrYearSlector)
+        Me.Controls.Add(Me.ucrStationSelector)
         Me.Controls.Add(Me.lblHour)
         Me.Controls.Add(Me.chkAutoFillValues)
-        Me.Controls.Add(Me.ucrDaySelector)
-        Me.Controls.Add(Me.ucrHourSelector)
-        Me.Controls.Add(Me.ucrMonthSelector)
-        Me.Controls.Add(Me.ucrYearSelector)
-        Me.Controls.Add(Me.ucrStationSelector)
         Me.Controls.Add(Me.lblStationSelector)
         Me.Controls.Add(Me.lblDay)
         Me.Controls.Add(Me.lblMonth)
         Me.Controls.Add(lblYear)
-        Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.chkRepeatEntry)
         Me.Controls.Add(Me.txtSequencer)
-        Me.Controls.Add(Me.btnView)
         Me.Controls.Add(Me.btnUpload)
-        Me.Controls.Add(Me.btnHelp)
-        Me.Controls.Add(Me.btnClear)
-        Me.Controls.Add(Me.btnSave)
-        Me.Controls.Add(Me.btnDelete)
-        Me.Controls.Add(Me.btnAddNew)
-        Me.Controls.Add(Me.btnUpdate)
-        Me.Controls.Add(Me.btnClose)
-        Me.Controls.Add(Me.ucrNavigation)
         Me.Controls.Add(Me.lblFlagThree)
         Me.Controls.Add(Me.lblValueThree)
         Me.Controls.Add(Me.lblFlagTwo)
         Me.Controls.Add(Me.lblValueTwo)
         Me.Controls.Add(Me.lblFlag)
         Me.Controls.Add(Me.lblValue)
-        Me.Controls.Add(Me.ucrVFPCloudTypeLvl3C3)
-        Me.Controls.Add(Me.ucrVFPVerticalSignificant3)
-        Me.Controls.Add(Me.ucrVFPCloudHtLvlHsHs3)
-        Me.Controls.Add(Me.ucrVFPCloudAmtLvl3N3)
-        Me.Controls.Add(Me.ucrVFPVerticalSignificance1)
-        Me.Controls.Add(Me.ucrVFPCloudAmtLvl1N1)
-        Me.Controls.Add(Me.ucrVFPCloudTypeLvl1C1)
-        Me.Controls.Add(Me.ucrVFPCloudHtLvl1HsHs1)
-        Me.Controls.Add(Me.ucrVFPVerticalSignificance2)
-        Me.Controls.Add(Me.ucrVFPCloudAmtLvl2N2)
-        Me.Controls.Add(Me.ucrVFPCloudTypeLv2C2)
-        Me.Controls.Add(Me.ucrVFPCloudHtLvl2H2Hs2)
-        Me.Controls.Add(Me.ucrVFPCloudAmtLvl4N4)
-        Me.Controls.Add(Me.ucrVFPVerticalSignificance4)
-        Me.Controls.Add(Me.ucrVFPPresentWx)
-        Me.Controls.Add(Me.ucrVFPPastWx1)
-        Me.Controls.Add(Me.ucrVFPPastWx2)
-        Me.Controls.Add(Me.ucrVFPTmax)
-        Me.Controls.Add(Me.ucrVFPTmin)
-        Me.Controls.Add(Me.ucrVFPGrassMinTemp)
-        Me.Controls.Add(Me.ucrVFPEvaporation)
-        Me.Controls.Add(Me.ucrVFPSss24Hr)
-        Me.Controls.Add(Me.ucrVFPSss1Hr)
         Me.Controls.Add(Me.ucrVFPPrecip24Hr)
-        Me.Controls.Add(Me.ucrVFPPrecip3Hr)
-        Me.Controls.Add(Me.ucrVFPWindDirectiondd)
-        Me.Controls.Add(Me.ucrVFPWindSpeedfff)
-        Me.Controls.Add(Me.ucrVFPInsolation)
-        Me.Controls.Add(Me.ucrVFPCloudHtLvl4HsHs4)
-        Me.Controls.Add(Me.ucrVFPCloudTypeLvlC4)
-        Me.Controls.Add(Me.ucrVFPPressureReduced)
-        Me.Controls.Add(Me.ucrVFP3hrPressureChange)
-        Me.Controls.Add(Me.ucrVFP3hrPressureCharacteristic)
-        Me.Controls.Add(Me.ucrVFP24HrPressureChange)
-        Me.Controls.Add(Me.ucrVFPStandardPressureLevel)
-        Me.Controls.Add(Me.ucrVFPGeopotentialHeight)
-        Me.Controls.Add(Me.ucrVFPDryBulbTemp)
-        Me.Controls.Add(Me.ucrVFPWetBulbTemp)
-        Me.Controls.Add(Me.ucrVFPDewPointTemp)
-        Me.Controls.Add(Me.ucrVFPRelativeHumidity)
-        Me.Controls.Add(Me.ucrVFPHorizontalVisibilty)
-        Me.Controls.Add(Me.ucrVFPLowCloudHght)
-        Me.Controls.Add(Me.ucrVFPTotalCloudCover)
-        Me.Controls.Add(Me.ucrVFPVerticalSignificance)
-        Me.Controls.Add(Me.ucrVFPLowLvlCloudsAmt)
-        Me.Controls.Add(Me.ucrVFPLowLvlCloudsType)
-        Me.Controls.Add(Me.ucrVFPMediumLvlClouds)
-        Me.Controls.Add(Me.ucrVFPHighLvlCloudsType)
-        Me.Controls.Add(Me.ucrVFPStationLevelPressure)
         Me.Controls.Add(Me.Val_Elem046Label)
         Me.Controls.Add(Me.Val_Elem174Label)
         Me.Controls.Add(Me.Val_Elem005Label)
@@ -1620,63 +1562,13 @@ Partial Class ucrSynopticRA1
         Me.Controls.Add(Me.Val_Elem107Label)
         Me.Controls.Add(Me.Val_Elem106Label)
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Name = "ucrSynopticRA1"
+        Me.Name = "ucrSynopticRA1New"
         Me.Size = New System.Drawing.Size(864, 659)
-        CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents ucrVFPStationLevelPressure As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPHighLvlCloudsType As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPMediumLvlClouds As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPLowLvlCloudsType As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPLowLvlCloudsAmt As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPVerticalSignificance As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPTotalCloudCover As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPLowCloudHght As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPHorizontalVisibilty As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPRelativeHumidity As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPDewPointTemp As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPWetBulbTemp As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPDryBulbTemp As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPGeopotentialHeight As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPStandardPressureLevel As ucrValueFlagPeriod
-    Friend WithEvents ucrVFP24HrPressureChange As ucrValueFlagPeriod
-    Friend WithEvents ucrVFP3hrPressureCharacteristic As ucrValueFlagPeriod
-    Friend WithEvents ucrVFP3hrPressureChange As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPPressureReduced As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudTypeLvlC4 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudHtLvl4HsHs4 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPInsolation As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPWindSpeedfff As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPWindDirectiondd As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPPrecip3Hr As ucrValueFlagPeriod
     Friend WithEvents ucrVFPPrecip24Hr As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPSss1Hr As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPSss24Hr As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPEvaporation As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPGrassMinTemp As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPTmin As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPTmax As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPPastWx2 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPPastWx1 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPPresentWx As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPVerticalSignificance4 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudAmtLvl4N4 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudHtLvl2H2Hs2 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudTypeLv2C2 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudAmtLvl2N2 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPVerticalSignificance2 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudHtLvl1HsHs1 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudTypeLvl1C1 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudAmtLvl1N1 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPVerticalSignificance1 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudAmtLvl3N3 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudHtLvlHsHs3 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPVerticalSignificant3 As ucrValueFlagPeriod
-    Friend WithEvents ucrVFPCloudTypeLvl3C3 As ucrValueFlagPeriod
     Friend WithEvents Val_Elem046Label As Label
     Friend WithEvents Val_Elem174Label As Label
     Friend WithEvents Val_Elem005Label As Label
@@ -1732,28 +1624,77 @@ Partial Class ucrSynopticRA1
     Friend WithEvents lblFlagTwo As Label
     Friend WithEvents lblValueThree As Label
     Friend WithEvents lblFlagThree As Label
-    Friend WithEvents btnCancel As Button
     Friend WithEvents chkRepeatEntry As CheckBox
     Friend WithEvents txtSequencer As TextBox
-    Friend WithEvents btnView As Button
     Friend WithEvents btnUpload As Button
-    Friend WithEvents btnHelp As Button
-    Friend WithEvents btnClear As Button
-    Friend WithEvents btnSave As Button
-    Friend WithEvents btnDelete As Button
-    Friend WithEvents btnAddNew As Button
-    Friend WithEvents btnUpdate As Button
-    Friend WithEvents btnClose As Button
-    Friend WithEvents ucrNavigation As ucrNavigation
     Friend WithEvents chkAutoFillValues As CheckBox
-    Friend WithEvents ucrDaySelector As ucrDay
-    Friend WithEvents ucrHourSelector As ucrHour
-    Friend WithEvents ucrMonthSelector As ucrMonth
-    Friend WithEvents ucrYearSelector As ucrYearSelector
-    Friend WithEvents ucrStationSelector As ucrStationSelector
     Friend WithEvents lblStationSelector As Label
     Friend WithEvents lblDay As Label
     Friend WithEvents lblMonth As Label
     Friend WithEvents lblHour As Label
-    Friend WithEvents btnTDCF As Button
+    Friend WithEvents ucrStationSelector As ucrStationSelectorNew
+    Friend WithEvents ucrYearSlector As ucrYearSelectorNew
+    Friend WithEvents ucrMonthSelector As ucrMonthSelectorNew
+    Friend WithEvents ucrDaySelector As ucrDaySelectorNew
+    Friend WithEvents ucrHour As ucrHourNew
+    Friend WithEvents ucrVFPStationLevelPressure As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPPressureReduced As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFP3hrPressureChange As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFP3hrPressureCharacteristicNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFP24HrPressureChangeNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPStandardPressureLevelNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPGeopotentialHeightNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPDryBulbTempNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPWetBulbTempNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPDewPointTempNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPRelativeHumidityNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPHorizontalVisibiltyNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPLowCloudHghtNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPTotalCloudCoverNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPVerticalSignificanceNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPLowLvlCloudsAmtNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPLowLvlCloudsTypeNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPMediumLvlCloudsNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPHighLvlCloudsTypeNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPVerticalSignificance1New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudAmtLvl1N1New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudTypeLvl1C1New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudHtLvl1HsHs1New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPVerticalSignificance2New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudAmtLvl2N2New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudTypeLv2C2New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudHtLvl2H2Hs2New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPVerticalSignificant3New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudAmtLvl3N3New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudTypeLvl3C3New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudHtLvlHsHs3New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPVerticalSignificance4New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudAmtLvl4N4New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudTypeLvlC4New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPCloudHtLvl4HsHs4New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPPresentWxNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPPastWx1New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPPastWx2New As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPTmaxNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPTminNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPGrassMinTempNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPEvaporationNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPSss24HrNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPSss1HrNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPPrecip24HrNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPPrecip3HrNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPWindDirectionddNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPWindSpeedfffNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrVFPInsolationNew As ucrValueFlagPeriodNew
+    Friend WithEvents ucrNavigator As ucrNavigator
+    Friend WithEvents uceBtnAddNew As ucrButton
+    Friend WithEvents ucrBtnSave As ucrButton
+    Friend WithEvents ucrBtnUpdate As ucrButton
+    Friend WithEvents ucrBtnDelete As ucrButton
+    Friend WithEvents ucrBtnClear As ucrButton
+    Friend WithEvents ucrBtnCancel As ucrButton
+    Friend WithEvents ucrBtnView As ucrButton
+    Friend WithEvents ucrBtnTDCF As ucrButton
+    Friend WithEvents ucrBtnClose As ucrButton
+    Friend WithEvents ucrBtnHelp As ucrButton
 End Class
